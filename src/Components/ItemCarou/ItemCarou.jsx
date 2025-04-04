@@ -25,33 +25,31 @@ const ItemCarou = ({
     } else {
       setTopicData(dataTopic);
     }
-  }, [topicName]);
+  }, [dataTopic, topicName]);
   const toastShow = (txt) => {
     toast.info(txt);
   };
   if (topicData) {
     if (checkIsTopic || search === null) {
-      if (topicData.length !== 8 && topicName === null) return;
-      else
-        return (
-          <>
-            {React.Children.toArray(
-              topicData.map((d) => (
-                <div data-aos="fade-up" className="item-container">
-                  <h2 className="title-location">{d.tag_name}</h2>
-                  <SubItemCarou
-                    data={dataLocation}
-                    topic={d.id_tag}
-                    dataReview={dataReview}
-                    search=""
-                    toastShow=""
-                    topicName={topicName}
-                  />
-                </div>
-              ))
-            )}
-          </>
-        );
+      return (
+        <>
+          {React.Children.toArray(
+            topicData.map((d) => (
+              <div data-aos="fade-up" className="item-container">
+                <h2 className="title-location">{d.tag_name}</h2>
+                <SubItemCarou
+                  data={dataLocation}
+                  topic={d.id_tag}
+                  dataReview={dataReview}
+                  search=""
+                  toastShow=""
+                  topicName={topicName}
+                />
+              </div>
+            ))
+          )}
+        </>
+      );
     } else if (topicName !== null && search !== null) {
       return (
         <>

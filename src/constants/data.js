@@ -1767,15 +1767,349 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
   },
   {
     id_location: 8,
-    center_img: img,
-    name: "My Son Sanctuary",
-    topic: "Museum",
-    slug: "my-son-sanctuary",
-    id_tag: 6,
+    center_img: "/image/cauSongHan/cauSongHan1.jpg",
+    name: "locations.cau_song_han",
+    title: "locations.cau_song_han_title",
+    title1: "locations.cau_song_han_title1",
+    topic: "Bridge",
+    slug: "cau-song-han",
+    id_tag: 2,
     suggest: 1,
     stars: 5,
-    describes:
-      "My Son Sanctuary is a UNESCO World Heritage Site located in Quang Nam Province, Vietnam. It is known for its ancient Hindu temples and towers built by the Cham civilization between the 4th and 14th centuries. The site is surrounded by lush green mountains and is a popular tourist destination for those interested in history and culture.",
+    sub_img: [
+      "/image/cauSongHan/cauSongHan1.jpg",
+      "/image/cauSongHan/cauSongHan2.jpg",
+      "/image/cauSongHan/cauSongHan3.webp",
+      "/image/cauSongHan/cauSongHan4.jpg",
+      "/image/cauSongHan/cauSongHan5.webp",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.cau_song_han_description",
+    address: "locations.cau_song_han_address",
+    address_img: "/image/cauSongHan/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Giới Thiệu Chung về Cầu Sông Hàn</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Cầu sông Hàn là cây cầu xoay đầu tiên và duy nhất tại Việt Nam, được xây dựng vào ngày 2/9/1998 và khánh thành đúng dịp kỷ niệm 25 năm giải phóng thành phố Đà Nẵng ngày 29/3/2000</span>
+<span style="background-color:transparent;color:#333333;">.</span>
+<span style="background-color:transparent;color:#000000;">&nbsp; Cầu bắc qua dòng sông Hàn thơ mộng, nối liền hai quận Hải Châu và Sơn Trà, góp phần thúc đẩy giao thông và phát triển kinh tế, du lịch của khu vực. Với chiều dài 487,7m và bề rộng 12,9m, cầu được thiết kế hiện đại, thể hiện sự sáng tạo và khát vọng vươn mình của Đà Nẵng.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Điểm đặc biệt khiến cầu sông Hàn trở thành "độc nhất vô nhị" chính là khả năng xoay 90 độ quanh trục vào ban đêm. Đây là một sáng tạo mang đậm dấu ấn kỹ thuật, cho phép tàu thuyền lớn di chuyển qua sông, đồng thời tạo nên một trải nghiệm thú vị cho khách du lịch.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Trải Nghiệm Du Lịch Độc Đáo</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Ngắm Cầu Xoay Vào Ban Đêm</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Một trong những khoảnh khắc ấn tượng nhất khi đến cầu sông Hàn là được chứng kiến sự chuyển động xoay ấn tượng của cầu. Vào khoảng&nbsp;<strong>1 giờ đến 4 giờ các ngày thứ</strong>, cầu sẽ xoay ngang để mở lối đi cho tàu thuyền.Tuy nhiên, để&nbsp; nhằm phục vụ du khách tham quan,&nbsp;<strong>vào thứ 7 và chủ nhận sẽ quay vào lúc 23 giờ đến 24 giờ.&nbsp;</strong>&nbsp;Đây không chỉ là một sự kiện giao thông mà còn là một "buổi trình diễn" đầy mê hoặc, thu hút hàng trăm lượt du khách và cả người dân địa phương đến chiêm ngưỡng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Vẻ Đẹp Lung Linh về Đêm</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Khi màn đêm buông xuống, cầu sông Hàn trở nên rực rỡ với hệ thống ánh sáng LED nhiều màu sắc, phản chiếu lấp lánh trên mặt sông. Hình ảnh cầu sông Hàn lung linh giữa dòng sông thơ mộng tạo nên một khung cảnh tuyệt đẹp, là nguồn cảm hứng bất tận cho các nhiếp ảnh gia và những ai yêu thích vẻ đẹp của Đà Nẵng.</span>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Dạo Bộ và Thưởng Thức Không Gian Yên Bình</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Cầu sông Hàn không chỉ là nơi giao thông qua lại mà còn là một điểm lý tưởng để dạo bộ và tận hưởng làn gió mát từ sông Hàn. Đứng trên cầu, bạn có thể ngắm nhìn toàn cảnh thành phố Đà Nẵng với những tòa nhà hiện đại, bến thuyền nhộn nhịp và bầu trời trong xanh.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Thông tin bổ sung&nbsp;</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3.1. Địa Điểm Tốt Nhất Để Ngắm Cầu Sông Hàn:</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Phố đi bộ ven sông:</strong>
+</span>
+<span style="background-color:transparent;color:#990000;">&nbsp;</span>
+<span style="background-color:transparent;color:#000000;">Hai bên bờ sông Hàn có những tuyến đường đi bộ tuyệt đẹp, nơi bạn có thể thư giãn, ngắm nhìn cầu và thưởng thức không khí trong lành.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Du thuyền trên sông Hàn:</strong>
+</span>
+<span style="background-color:transparent;color:#000000;">Tham gia các tour du thuyền buổi tối để ngắm cầu từ góc nhìn trên sông, kết hợp với chương trình âm nhạc và ẩm thực trên du thuyền.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Các quán cà phê ven sông:</strong>&nbsp;</span>
+<span style="background-color:transparent;color:#000000;">Một số quán cà phê nổi tiếng như Memory Lounge hoặc các quán bar trên tầng thượng khách sạn sẽ mang đến góc nhìn lý tưởng để ngắm cầu khi đêm xuống.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3.2. Chi phí tham quan và thời gian cầu xoay:</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Thời gian xoay cầu diễn ra từ khoảng&nbsp;<strong>23 giờ đến 24 giờ</strong> vào các ngày cuối tuần hoặc lễ lớn. Nếu muốn tận mắt chiêm ngưỡng, bạn nên đến sớm để chọn vị trí đẹp và thuận lợi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Chi phí: miễn phí</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3.3. Ẩm Thực Gần Cầu Sông Hàn:</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Hải sản tươi sống:</strong> Ven sông Hàn có rất nhiều quán hải sản tươi ngon, nổi tiếng với giá cả hợp lý. Các món như tôm, cua, ghẹ, và mực nướng là lựa chọn không thể bỏ qua.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Chợ Hàn:</strong> Cách cầu không xa, chợ Hàn là nơi bạn có thể thưởng thức các món ăn đặc sản như bánh xèo, mì Quảng, bún mắm và mua sắm quà lưu niệm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Kem bơ và chè:</strong>&nbsp;Dọc khu vực gần cầu, bạn có thể tìm thấy nhiều quán ăn vặt phục vụ các món kem bơ, chè thái, chè chuối… rất ngon và mát lành.</span>
+</li>
+</ul>
+<br/>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3.4. Các Điểm Du Lịch Lân Cận:</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Cầu Rồng:</strong> Chỉ cách cầu sông Hàn khoảng 1km, cầu Rồng là một biểu tượng khác của Đà Nẵng, nổi bật với "màn trình diễn" phun lửa và phun nước vào tối cuối tuần.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Công viên Asia Park:</strong> Một điểm đến vui chơi hấp dẫn, nơi bạn có thể trải nghiệm vòng quay Sun Wheel – một trong những vòng quay lớn nhất thế giới.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Biển Mỹ Khê:</strong> Chỉ mất khoảng 10 phút từ cầu sông Hàn, bãi biển Mỹ Khê với bãi cát trắng mịn và nước biển trong xanh là nơi lý tưởng để thư giãn.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Ý Nghĩa Biểu Tượng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Cầu sông Hàn không chỉ là một công trình kiến trúc mà còn mang trong mình ý nghĩa lịch sử sâu sắc. Đây là cây cầu được xây dựng từ chính đóng góp của người dân Đà Nẵng, thể hiện tinh thần đoàn kết và khát vọng phát triển của cả thành phố. Với người dân nơi đây, cầu sông Hàn là niềm tự hào, là biểu tượng cho sự đổi mới và thịnh vượng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Kinh Nghiệm Du Lịch</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Thời Gian Thích Hợp:</strong>&nbsp;Để tận hưởng trọn vẹn vẻ đẹp của cầu sông Hàn, bạn nên đến vào buổi tối khi hệ thống chiếu sáng được bật, hoặc vào khung giờ cầu xoay (khoảng 23 giờ).</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Trang Phục:</strong>&nbsp;Mang theo áo khoác nhẹ vào buổi tối vì gió từ sông có thể hơi lạnh, đặc biệt vào mùa đông.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong> ● Đừng Quên Chụp Ảnh:</strong> Cầu sông Hàn là một trong những địa điểm lý tưởng để sống ảo, đặc biệt là vào ban đêm khi ánh sáng LED tạo nên khung cảnh lung linh.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Cầu sông Hàn không chỉ là một công trình kiến trúc mà còn là biểu tượng sống động của Đà Nẵng – thành phố đáng sống và phát triển bậc nhất Việt Nam. Đến với cầu sông Hàn, bạn không chỉ được chiêm ngưỡng vẻ đẹp hiện đại mà còn cảm nhận được sự gắn kết giữa con người và thiên nhiên, giữa truyền thống và hiện đại. Đây chắc chắn sẽ là một trải nghiệm khó quên trong hành trình của bạn khi đến với Đà Nẵng!</span>
+</p>`,
+    detail_describe2: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. ハン橋の一般的な紹介</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ハン橋は、ベトナムで初めてかつ唯一の回転橋であり、1998年9月2日に建設され、2000年3月29日のダナン市解放25周年の記念日に完成しました。この橋は美しいハン川を横断し、ハイチャウ区とソンチャ区を結び、地域の交通と経済、観光の発展に寄与しています。長さ487.7メートメートル、幅12.9メートルのこの橋は、現代的なデザインで、ダナンの創造性と成長への渇望を示しています。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">特にハン川橋が「唯一無二」となる理由は、夜間に90度回転する能力です。これは技術的な印象を与える創造物であり、大型船が川を通過できるようにし、観光客にとって興味深い体験を提供します。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. 独特な観光体験</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>夜の回転橋を観賞</strong>
+</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">ハン橋に訪れた際の最も印象的な瞬間の一つは、橋の印象的な回転運動を目撃することです。毎週水曜日の午前1時から4時の間、橋は船の通行のために横に回転します。しかし、観光客のために、土曜日と日曜日には午後11時から午前0時の間に回転します。これは単なる交通イベントではなく、数百人の観光客や地元の人々を魅了する「パフォーマンス」です。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>夜の輝く美しさ</strong>
+</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">夜が訪れると、ハン橋は多彩なLED照明システムで輝き、川の水面にきらめきを反射します。ハン川の流れの中で輝くハン橋の姿は、美しい景観を生み出し、ダナンの美を愛する写真家たちにとって無限のインスピレーションの源となります。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>散歩と穏やかな空間を楽しむ</strong>
+</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">ハン橋は交通の通行点であるだけでなく、散歩やハン川からの涼しい風を楽しむのに理想的な場所でもあります。橋の上に立つと、現代的な建物、賑やかな船の港、青い空を見渡すことができます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. 追加情報</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>ハン橋を観賞するのに最適な場所:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>川沿いの歩行者専用道路:&nbsp;</strong>ハン川の両岸には美しい歩行者専用道路があり、リラックスしながら橋を眺め、清々しい空気を楽しむことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ハン川のクルーズ:&nbsp;</strong>夜のクルーズツアーに参加して、川の上から橋を眺め、音楽と料理のプログラムを楽しむことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>川沿いのカフェ:</strong> メモリーラウンジなどの有名なカフェやホテルの屋上バーは、夜に橋を観賞するのに理想的な視点を提供します。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>橋の回転時間と観光費用:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">橋の回転は、週末や大きな祝日の午後11時から午前0時の間に行われます。目の前で見るためには、早めに来て良い場所を選ぶことをお勧めします。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;&nbsp;費用: 無料</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>ハン橋近くの料理:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>新鮮な海産物:</strong> ハン川沿いには新鮮で美味しい海産物の店がたくさんあり、リーズナブルな価格で知られています。エビ、カニ、ヤドカリ、焼きイカなどは見逃せない選択肢です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ハン市場:&nbsp;</strong>橋から遠くないハン市場では、バインセオ、ミクアン、ブンマムなどの特産品を楽しんだり、お土産を買ったりできます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>アボカドアイスクリームとチェー:&nbsp;</strong>橋の近くのエリアには、アボカドアイスクリームやタイ風チェー、バナナチェーなどのスナックを提供する多くの店があります。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>近隣の観光スポット:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ドラゴン橋:</strong> ハン橋から約1キロメートルの距離にあるドラゴン橋は、週末の夜に火を吹いたり水を吹いたりする「パフォーマンス」で際立つダナンの別の象徴です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>アジアパーク:&nbsp;</strong>サンホイールという世界最大級の観覧車を体験できる魅力的な遊び場です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ミーケビーチ:&nbsp;</strong>ハン橋から約10分の距離にあるミーケビーチは、白い砂浜と透明な海水が特徴で、リラックスするのに理想的な場所です。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. 象徴の意味</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ハン橋は単なる建築物ではなく、深い歴史的意味を持っています。この橋はダナン市民の寄付によって建設され、都市全体の団結と発展への渇望を表しています。ここに住む人々にとって、ハン橋は誇りであり、革新と繁栄の象徴です。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. 旅行の経験</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>適切な時間:&nbsp;</strong>ハン橋の美しさを十分に楽しむためには、照明システムが点灯する夜や、橋が回転する時間帯（約午後11時）に訪れることをお勧めします。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>服装:&nbsp;</strong>夜は川からの風が少し寒く感じることがあるので、軽いジャケットを持参してください。特に冬には。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>写真を撮るのを忘れないでください:&nbsp;</strong>ハン橋は、特に夜にLEDの光が輝く中で、素晴らしい写真を撮るのに理想的な場所の一つです。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ハン橋は単なる建築物ではなく、ダナンの生き生きとした象徴であり、ベトナムで最も住みやすく発展する都市です。ハン橋を訪れることで、現代の美しさを鑑賞するだけでなく、人間と自然、伝統と現代の結びつきを感じることができます。これはダナンを訪れるあなたの旅の中で、間違いなく忘れられない経験となるでしょう！</span>
+</p>`,
   },
   {
     id_location: 9,

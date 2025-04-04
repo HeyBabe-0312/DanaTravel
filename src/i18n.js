@@ -12,6 +12,7 @@ i18n.use(initReactI18next).init({
           title: "Địa chỉ",
         },
         all: "Tìm kiếm",
+        no_result: "Không có kết quả tìm kiếm tương thích.",
         guide: "HƯỚNG DẪN DU LỊCH",
         suggest_title: "ĐỊA ĐIỂM ĐỀ XUẤT",
         locations: {
@@ -63,6 +64,12 @@ i18n.use(initReactI18next).init({
             "Cầu Rồng, nằm trên đường Nguyễn Văn Linh, quận Hải Châu, thành phố Đà Nẵng, là một biểu tượng nổi bật của đô thị biển miền Trung. Cây cầu hiện đại bắc qua sông Hàn, với thiết kế hình rồng vàng uốn lượn tượng trưng cho sự thịnh vượng và phát triển. Điểm độc đáo thu hút du khách chính là khả năng phun lửa và nước vào cuối tuần, mang lại trải nghiệm sống động và ấn tượng. Đây không chỉ là công trình giao thông quan trọng, mà còn là niềm tự hào của Đà Nẵng, thể hiện tinh thần mạnh mẽ và vươn tầm quốc tế.",
           cau_rong_address:
             "Đường Nguyễn Văn Linh, Phường Phước Ninh, Quận Hải Châu, TP. Đà Nẵng",
+          cau_song_han: "Cầu Sông Hàn",
+          cau_song_han_title: "Cầu Sông Hàn - Biểu tượng Đà Nẵng",
+          cau_song_han_title1: "Giới thiệu về Cầu Sông Hàn",
+          cau_song_han_description:
+            "Cầu sông Hàn, tọa lạc tại An Hải Bắc, Sơn Trà, Đà Nẵng, là cây cầu quay đầu tiên và duy nhất tại Việt Nam, được xem là biểu tượng đặc sắc của thành phố biển. Không chỉ đóng vai trò quan trọng trong giao thông, kết nối hai bờ sông Hàn, cầu còn là điểm đến hấp dẫn đối với du khách. Vào ban đêm, cầu sông Hàn quay để mở lối cho tàu thuyền qua lại, tạo nên khung cảnh độc đáo và trải nghiệm khó quên khi khám phá Đà Nẵng.",
+          cau_song_han_address: "An Hải Bắc, Quận Sơn Trà, TP. Đà Nẵng",
         },
         districts: {
           select: "Chọn địa bàn",
@@ -97,6 +104,7 @@ i18n.use(initReactI18next).init({
         },
         guide: "旅行ガイド",
         all: "検索",
+        no_result: "一致する検索結果が見つかりませんでした。",
         suggest_title: "あなたにおすすめのスポット",
         locations: {
           suoi_luong: "ルオン渓流",
@@ -147,6 +155,12 @@ i18n.use(initReactI18next).init({
             "ドラゴン橋は、ダナン市ハイチャウ区のグエン・ヴァン・リン通りに位置し、中央ベトナムの海辺の都市を象徴する壮大なランドマークです。この近代的な橋はハン川をまたぎ、黄金の龍が躍動するようなデザインで建設されました。龍の姿は、繁栄と発展の象徴としてダナンの未来を力強く映し出しています。「ドラゴン橋」の最大の魅力は、毎週末に行われる“火と水のショー”です。龍がリアルに炎を噴き上げ、水を吹き出す姿は圧巻の光景で、多くの観光客を魅了しています。この橋は単なる交通インフラにとどまらず、ダナン市の誇りであり、国際的な都市としての力強い躍進を象徴する建造物でもあります。ダナンを訪れるなら、ぜひ夜の「ドラゴン橋」で幻想的なショーを体験してください！",
           cau_rong_address:
             "ダナン市ハイチャウ区のフックニン町、グエン・ヴァン・リン通り",
+          cau_song_han: "ハン橋",
+          cau_song_han_title: "ハン橋 - ダナン市の象徴",
+          cau_song_han_title1: "ハン橋についてご紹介",
+          cau_song_han_description:
+            "ハン橋は、ダナンのソンチャ区、アンハイバクに位置するベトナムで初めてかつ唯一の回転橋であり、海の街ダナンの特異な象徴と見なされています。交通において重要な役割を果たすだけでなく、ハンの両岸を結び、観光客にとって魅力的な目的地でもあります。夜になると、ハン橋は船の通行のために回転し、ダナンを探索する際の独特な景観と忘れられない体験を生み出します。",
+          cau_song_han_address: "ダナン市、ソンチャ区、アンハイバク",
         },
         districts: {
           select: "地区を選んでください",

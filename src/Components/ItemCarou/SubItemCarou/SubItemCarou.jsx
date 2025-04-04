@@ -197,10 +197,8 @@ const SubItemCarou = ({
           : dataTopic.length
         : dataTopic.length,
     };
-    if (dataTopic.length == 0) {
-      return (
-        <div className="no-result">Sorry, we couldn't find any results.</div>
-      );
+    if (dataTopic.length === 0) {
+      return <div className="no-result">{t("no_result")}</div>;
     }
     return (
       <Slider {...settings}>
@@ -213,6 +211,7 @@ const SubItemCarou = ({
                     <img
                       src={d.center_img ? d.center_img : defaultImg}
                       className="avaLocation"
+                      alt="avaLocation"
                     />
                   </div>
                   <div className="itemInfo">
