@@ -1,0 +1,230 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.signin {
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 56, 56, 0.7);
+  z-index: 1040;
+  top: -500rem;
+}
+.signin .modal-signin {
+  position: absolute;
+  background: #d9d9d9;
+  height: -moz-max-content;
+  height: max-content;
+  width: 80%;
+  border-radius: 1rem;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+}
+.signin .modal-signin .close-btn {
+  display: inline-block;
+  width: 100%;
+}
+.signin .modal-signin .close-btn .cls-signin {
+  float: right;
+  color: var(--PrimaryColor);
+  top: 1rem;
+  right: 1rem;
+}
+.signin .modal-signin .close-btn .cls-signin:hover {
+  color: #e61818;
+  cursor: pointer;
+}
+.signin .modal-signin .logo-signin {
+  color: var(--blackColor);
+  font-weight: 600;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+.signin .modal-signin .logo-signin .icon-signin {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+  transform: translateY(5px);
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.signin .modal-signin .signin-text {
+  text-align: center;
+  justify-content: center;
+  padding: 0 10px 10px 10px;
+  margin-bottom: 10px;
+}
+.signin .modal-signin .text-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+.signin .modal-signin .text-box .input100 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 80%;
+  background: #EDEDED;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 62px;
+  margin-left: 35px;
+}
+.signin .modal-signin .text-box .input100:hover {
+  transform: scale(1.05);
+}
+.signin .modal-signin .text-box .input100::-moz-placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: var(--PrimaryColor);
+}
+.signin .modal-signin .text-box .input100::placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: var(--PrimaryColor);
+}
+.signin .modal-signin .text-box .input100:focus {
+  box-shadow: 3px 3px var(--PrimaryColor);
+  transition: all 0.4s;
+}
+.signin .modal-signin .text-box .focus-input100 {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0;
+  color: rgba(87, 184, 70, 0.8);
+}
+.signin .modal-signin .text-box .symbol-input100 {
+  font-size: 15px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  pointer-events: none;
+  color: #666;
+  color: var(--PrimaryColor);
+}
+.signin .modal-signin .text-box input {
+  outline: none;
+  border: none;
+}
+.signin .modal-signin .text-box:hover .symbol-input100 {
+  transform: scale(1.05);
+}
+.signin .modal-signin .container-login100 {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signin .modal-signin .container-login100 button {
+  outline: none;
+  border: none;
+}
+.signin .modal-signin .container-login100 .login100-form-btn {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--gradientColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.4s;
+}
+.signin .modal-signin .container-login100 .login100-form-btn:hover {
+  cursor: pointer;
+  background: var(--PrimaryColor);
+}
+
+.activeSignin {
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .signin .modal-signin .logo-signin {
+    font-size: 13px;
+  }
+  .signin .modal-signin .logo-signin .icon-signin {
+    top: 1px;
+  }
+  .signin .modal-signin .text-box .input100 {
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .signin .modal-signin .text-box .symbol-input100 {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .signin .modal-signin .text-box .input100 {
+    padding: 0 20px;
+  }
+  .signin .modal-signin .text-box .symbol-input100 {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .signin .modal-signin .logo-signin {
+    margin-bottom: 20px;
+  }
+  .signin .modal-signin .signin-text {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .signin .modal-signin {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .signin .modal-signin {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .signin .modal-signin {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .signin .modal-signin {
+    width: 30%;
+  }
+}/*# sourceMappingURL=signin.css.map */

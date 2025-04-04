@@ -1,0 +1,47 @@
+.item-container {
+  width: 80%;
+  padding: 30px 40px 40px 40px;
+  height: auto;
+  background-color: transparent;
+  margin: auto;
+}
+.item-container .title-location {
+  margin-bottom: 30px;
+  width: auto;
+  padding: 0 10px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+  .item-container {
+    width: 85%;
+    padding: 20px 30px 30px 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .item-container {
+    width: 88%;
+    padding: 17px 27px 27px 27px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item-container {
+    width: 90%;
+    padding: 15px 25px 25px 25px;
+  }
+  .item-container .title-location {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item-container {
+    width: 95%;
+    padding: 15px 25px 25px 25px;
+  }
+  .item-container .title-location {
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=itemCarou.css.map */

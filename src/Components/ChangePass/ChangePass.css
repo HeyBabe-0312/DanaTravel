@@ -1,0 +1,194 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.changePW {
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 56, 56, 0.7);
+  z-index: 1040;
+  top: -500rem;
+}
+.changePW .modal-changePW {
+  position: absolute;
+  background: #d9d9d9;
+  height: -moz-max-content;
+  height: max-content;
+  width: 80%;
+  border-radius: 1rem;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+}
+.changePW .modal-changePW .close-btn {
+  display: inline-block;
+  width: 100%;
+}
+.changePW .modal-changePW .close-btn .cls-changePW {
+  float: right;
+  color: var(--PrimaryColor);
+  top: 1rem;
+  right: 1rem;
+}
+.changePW .modal-changePW .close-btn .cls-changePW:hover {
+  color: #e61818;
+  cursor: pointer;
+}
+.changePW .modal-changePW .text-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+.changePW .modal-changePW .text-box .input100 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #666;
+  display: block;
+  width: 80%;
+  background: #EDEDED;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 62px;
+  margin-left: 35px;
+}
+.changePW .modal-changePW .text-box .input100:hover {
+  transform: scale(1.05);
+}
+.changePW .modal-changePW .text-box .input100::-moz-placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: var(--PrimaryColor);
+}
+.changePW .modal-changePW .text-box .input100::placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: var(--PrimaryColor);
+}
+.changePW .modal-changePW .text-box .input100:focus {
+  box-shadow: 3px 3px var(--PrimaryColor);
+  transition: all 0.4s;
+}
+.changePW .modal-changePW .text-box .focus-input100 {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0;
+  color: rgba(87, 184, 70, 0.8);
+}
+.changePW .modal-changePW .text-box .symbol-input100 {
+  font-size: 15px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  pointer-events: none;
+  color: #666;
+  color: var(--PrimaryColor);
+}
+.changePW .modal-changePW .text-box input {
+  outline: none;
+  border: none;
+}
+.changePW .modal-changePW .text-box:hover .symbol-input100 {
+  transform: scale(1.05);
+}
+.changePW .modal-changePW .container-login100 {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.changePW .modal-changePW .container-login100 button {
+  outline: none;
+  border: none;
+}
+.changePW .modal-changePW .container-login100 .login100-form-btn {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--gradientColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.4s;
+}
+.changePW .modal-changePW .container-login100 .login100-form-btn:hover {
+  cursor: pointer;
+  background: var(--PrimaryColor);
+}
+
+.activeChangePW {
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .changePW .modal-changePW .text-box .input100 {
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .changePW .modal-changePW .text-box .symbol-input100 {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .changePW .modal-changePW .text-box .input100 {
+    padding: 0 20px;
+  }
+  .changePW .modal-changePW .text-box .symbol-input100 {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .changePW .modal-changePW {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .changePW .modal-changePW {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .changePW .modal-changePW {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .changePW .modal-changePW {
+    width: 30%;
+  }
+}/*# sourceMappingURL=ChangePass.css.map */

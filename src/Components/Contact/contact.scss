@@ -1,0 +1,183 @@
+:root{
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%); 
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+    --cardHover: rgb(255, 255, 255);
+}
+
+.contact{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+
+    .conTitle{
+        .tittle{
+            position: relative;
+            width: max-content;
+            color: var(--textColor);
+            margin: 1rem 0;
+            font-size: 23px;
+            z-index: 2;
+
+            &::after{
+                position: absolute;
+                content: '';
+                background: var(--SecondaryColor);
+                height: 5px;
+                width: 105px;
+                right: 0;
+                bottom: 5px;
+                z-index: -1;
+            }
+        }
+    }
+
+    .conContent{
+        justify-content: center;
+        gap: 1.5rem;
+        margin-bottom: 20px;
+
+        .singleMember{
+            height: 100%;
+            display: grid;
+            // padding: 1rem;
+            border-radius: 10px;
+            align-items: center;
+            background: transparent;
+            overflow: hidden;
+            &:hover{
+                box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+            }   transition: .3s ease;
+
+            .avatar{
+                position: relative;
+                top: 10px;
+                height: 80%;
+                width: calc(height);
+                margin-left: auto;
+                margin-right: auto;
+                overflow: hidden;
+                border-radius: 50%;
+                border: 1px solid rgb(217, 217, 217);
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    transition: 1s ease;
+                }
+
+                &:hover{
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .socialInfo{
+                padding: 10px 1rem 0 1rem;
+                background: var(--gradientColor);
+                border-radius: 15px;
+                .name{
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 25px;
+                    margin-top: 5px;
+                    color: #FDFDFD;
+                    transition: .5s ease;
+                    a{
+                        display: none;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        transform: scale(1.05);
+                        a{
+                            display:inline;
+                        }
+                        a:visited{
+                            color: #FDFDFD;
+                        }
+                        a:link{
+                            color: #FDFDFD;
+                        }
+                        a:hover{
+                            color: var(--SecondaryColor);
+                        }
+                        a:link:hover{
+                            color: var(--SecondaryColor);
+                        }
+                    }
+                }
+
+                .socialIcon{
+                    text-align: center;
+                    margin: 20px 0;
+                    .iconSocial{
+                        color: #FDFDFD;
+                        margin: 0 10px;
+                        transition: .5s ease;
+                        &:hover{
+                            cursor: pointer;
+                            transform: scale(1.2);
+                        }
+                    }
+                    .fb{
+                        &:hover{
+                            color: var(--PrimaryColor);
+                        }
+                    }
+                    .yt{
+                        &:hover{
+                            color: rgb(226, 23, 23);
+                        }
+                    }
+                    .gh{
+                        &:hover{
+                            color: rgb(28, 28, 26);
+                        }
+                    }
+                    .lk{
+                        &:hover{
+                            color: var(--SecondaryColor);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//MEDIA QUERIES =============================>
+@media screen and (min-width: 500px) {
+    .tittle{
+        font-size: 1.5rem;
+        &::after{
+            width: 105px !important;
+        }
+    }
+    .conContent{
+        grid-template-columns: repeat(2,1fr);
+
+        .singleMember{
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 840px){
+    .conContent{
+        grid-template-columns: repeat(3,1fr);
+
+        .singleMember{
+            height: auto;
+        }
+    }
+}

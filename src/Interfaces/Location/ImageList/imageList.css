@@ -1,0 +1,33 @@
+.bgLocation {
+  max-width: 100%;
+  padding: 3px;
+}
+.bgLocation .avaLocation {
+  height: 420px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.bgLocation img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 2s ease;
+}
+
+@media screen and (max-width: 1000px) {
+  .bgLocation .avaLocation {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .bgLocation .avaLocation {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bgLocation .avaLocation {
+    height: 220px;
+  }
+}/*# sourceMappingURL=imageList.css.map */

@@ -1,0 +1,99 @@
+:root{
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%); 
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+.no-result{
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+}
+.bgLocations{
+    max-width: 380px;
+    padding: 3px;
+    .itemLocation{
+        width: 93%;
+        height: 100%;
+        display: grid;
+        border-radius: 25px;
+        background: var(--cardBG);
+        box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+        overflow: hidden;
+        &:hover{
+            background: var(--whiteColorDeam);
+            box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+            transition: .3s ease;
+        } 
+        .imgLocation{
+            height: 210px;
+            width: 100%;
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: 2s ease;
+            }
+    
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .itemInfo{
+            padding: 1rem;
+            max-width: 300px;
+            .titleInfo{
+                color: var(--blackColor);
+                font-size: 1.2rem;
+                font-weight: bold;
+                overflow: hidden;
+                white-space:nowrap;
+                text-overflow: ellipsis;
+            }
+            .stars{
+                .star-rv{
+                    position: relative;
+                    color: #10B5CB;
+                    top: 2px;
+                }
+            }
+        }
+    }
+}
+
+//MEDIA QUERIES =============================>
+@media screen and (max-width: 1280px) {
+    .bgLocations{
+        max-width: 380px;
+        .itemLocation{
+            width: 94%;
+            .imgLocation{
+                height: 190px;
+            }
+            .itemInfo{
+                max-width: 230px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .bgLocations{
+        max-width: 500px;
+        .itemLocation{
+            width:100%;
+            .imgLocation{
+                height: 200px;
+            }
+        }
+    }
+}

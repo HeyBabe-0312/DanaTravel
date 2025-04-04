@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>DanaTravel.</title>
+    <style>
+      .loading1{
+        -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+        animation: sk-scaleout 1s infinite ease-in-out;
+        background-color: #0ba1c0;
+        border-radius: 100%;
+        height: 6em;
+        width: 6em;
+      }
+      .container1{
+        align-items: center;
+        background-color: white;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+      }
+      @keyframes sk-scaleout {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        100%{
+          -webkit-transform: scale(1);
+          opacity: 0.5;
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="spinner" class="container1">
+      <img src="https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Image%2Fload.gif?alt=media&token=70def557-d3d5-4245-9eba-e7dcb4728b89" alt="DanaTravel" style="width: 15em;height: 15em;"/>
+    </div>
+    <div id="root">
+    </div>
+  </body>
+</html>

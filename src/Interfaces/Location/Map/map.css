@@ -1,0 +1,103 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.mapShow {
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 56, 56, 0.7);
+  z-index: 1040;
+  top: -500rem;
+}
+.mapShow .modal-mapShow {
+  position: absolute;
+  background: #d9d9d9;
+  height: -moz-max-content;
+  height: max-content;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding-top: 1rem;
+}
+.mapShow .modal-mapShow .topMap {
+  padding: 0 1rem 1rem 1rem;
+  border-bottom: 1px solid #000;
+  height: 45px;
+}
+.mapShow .modal-mapShow .topMap .titleMapLct {
+  font-size: 22px;
+  float: left;
+  max-width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.mapShow .modal-mapShow .topMap .close-btn {
+  display: inline;
+  width: 30%;
+  float: right;
+}
+.mapShow .modal-mapShow .topMap .close-btn .cls-mapShow {
+  float: right;
+  color: var(--PrimaryColor);
+  top: 1rem;
+  right: 1rem;
+}
+.mapShow .modal-mapShow .topMap .close-btn .cls-mapShow:hover {
+  color: #e61818;
+  cursor: pointer;
+}
+.mapShow .modal-mapShow .mapGG {
+  height: 85vh;
+  width: 100%;
+}
+.mapShow .modal-mapShow .mapGG .ticker .icon-lct {
+  color: var(--SecondaryColor);
+  position: relative;
+  top: -10px;
+  left: -5px;
+}
+.mapShow .modal-mapShow .mapGG .avaLocation {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.mapShow .modal-mapShow .mapGG img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 2s ease;
+}
+
+.activeMapShow {
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mapShow .modal-mapShow {
+    width: 90%;
+  }
+  .mapShow .modal-mapShow .mapGG {
+    height: 60vh;
+  }
+}/*# sourceMappingURL=map.css.map */

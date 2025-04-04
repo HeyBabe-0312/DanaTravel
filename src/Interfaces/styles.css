@@ -1,0 +1,175 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+  --cardHover: rgb(255, 255, 255);
+}
+
+.bg-locations .searchLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-locations .searchLocation .text-box {
+  position: relative;
+  width: 45%;
+}
+.bg-locations .searchLocation .text-box .auto-btn #searchInput {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--whiteColorDeam);
+  display: block;
+  width: 100%;
+  background: var(--gradientColor);
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 62px;
+}
+.bg-locations .searchLocation .text-box .auto-btn #searchInput::-moz-placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: var(--whiteColorDeam);
+}
+.bg-locations .searchLocation .text-box .auto-btn #searchInput::placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: var(--whiteColorDeam);
+}
+.bg-locations .searchLocation .text-box .auto-btn #searchInput:focus {
+  box-shadow: 3px 3px var(--whiteColorDeam);
+  transition: all 0.4s;
+}
+.bg-locations .searchLocation .text-box .auto-btn .focus-input100 {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0;
+  color: rgba(87, 184, 70, 0.8);
+}
+.bg-locations .searchLocation .text-box .auto-btn .symbol-input100 {
+  font-size: 15px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  color: #666;
+  color: var(--whiteColorDeam);
+}
+.bg-locations .searchLocation .text-box .auto-btn input {
+  outline: none;
+  border: none;
+}
+.bg-locations .noData {
+  font-weight: bold;
+  color: #666;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 5rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.bg-error {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 8rem;
+}
+.bg-error .logoError {
+  width: 30%;
+}
+.bg-error .logoError img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1240px) {
+  .bg-locations .searchLocation {
+    margin-top: 50px;
+  }
+  .bg-locations .searchLocation .text-box {
+    width: 50%;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .bg-locations .searchLocation .text-box {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-locations .searchLocation {
+    margin-top: 40px;
+  }
+  .bg-locations .searchLocation .text-box {
+    width: 60%;
+    margin-right: 20px;
+  }
+  .bg-error {
+    padding-top: 6rem;
+  }
+  .bg-error .logoError {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bg-locations .searchLocation .text-box {
+    width: 70%;
+  }
+  .bg-locations .noData {
+    padding: 3rem 1.5rem;
+  }
+  .bg-error {
+    padding-top: 6rem;
+  }
+  .bg-error .logoError {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bg-locations .searchLocation .text-box {
+    width: 80%;
+  }
+  .bg-locations .searchLocation .text-box .auto-btn #searchInput {
+    padding: 0 20px 0 20px;
+  }
+  .bg-locations .searchLocation .text-box .auto-btn .symbol-input100 {
+    display: none;
+  }
+  .bg-error {
+    padding-top: 5rem;
+  }
+  .bg-error .logoError {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bg-error {
+    padding-top: 6rem;
+  }
+  .bg-error .logoError {
+    width: 80%;
+  }
+}/*# sourceMappingURL=styles.css.map */
