@@ -15,7 +15,7 @@ const Locations = ({ dataAllLct, dataTopic, dataReview }) => {
     "Bảo tàng Điêu Khắc Chăm",
     "Bảo tàng Mỹ Thuật",
     "Bãi biển Non Nước",
-    "Biển Mỹ Khê",
+    "Bãi biển Mỹ Khê",
     "Bảo tàng Ký Ức Điêu Khắc",
     "Cầu Rồng",
     "Cầu Tình Yêu",

@@ -88,6 +88,39 @@ i18n.use(initReactI18next).init({
           bien_my_khe_description: `Bãi biển Mỹ Khê là một trong những bãi biển nổi tiếng nhất của Đà Nẵng, được Forbes bình chọn là một trong những bãi biển quyến rũ nhất hành tinh. Với bờ cát trắng mịn, nước biển trong xanh, cùng không gian thiên nhiên yên bình, Mỹ Khê thu hút hàng triệu du khách mỗi năm. Không chỉ là điểm đến lý tưởng để nghỉ dưỡng, bãi biển này còn là nơi diễn ra nhiều hoạt động thể thao dưới nước hấp dẫn và là thiên đường ẩm thực với vô số món ngon đặc sản.`,
           bien_my_khe_address:
             "Bãi biển Mỹ Khê nằm cách trung tâm thành phố Đà Nẵng khoảng 3 km về phía Đông",
+          ngu_hanh_son: "Ngũ Hành Sơn",
+          ngu_hanh_son_title: "Ngũ Hành Sơn – Tuyệt tác thiên nhiên",
+          ngu_hanh_son_title1: "Giới thiệu về Ngũ Hành Sơn",
+          ngu_hanh_son_description: `Nằm giữa lòng thành phố Đà Nẵng, Núi Ngũ Hành Sơn là một quần thể danh thắng nổi tiếng gắn liền với vẻ đẹp hùng vĩ của thiên nhiên, sự yên bình của không gian tâm linh và giá trị văn hóa lịch sử lâu đời. Đây là một trong những điểm đến hấp dẫn nhất mà bất cứ du khách nào cũng không nên bỏ lỡ khi ghé thăm thành phố biển xinh đẹp này.`,
+          ngu_hanh_son_address:
+            "81, đường Huyền Trân Công Chúa, Phường Hòa Hải, Quận Ngũ Hành Sơn, cách trung tâm thành phố Đà Nẵng khoảng 8km về phía Đông Nam",
+          nha_dao_nguoc: "Nhà Đảo Ngược",
+          nha_dao_nguoc_title: "Nhà Đảo Ngược – Thiên Đường Sống Ảo Độc Đáo",
+          nha_dao_nguoc_title1: "Giới thiệu về Nhà Đảo Ngược Đà Nẵng",
+          nha_dao_nguoc_description: `Nhà đảo ngược Đà Nẵng nằm tại 44 Hồ Xuân Hương, quận Ngũ Hành Sơn không chỉ là một điểm đến độc đáo mà còn là địa điểm check-in đầy ấn tượng với thiết kế đảo ngược thú vị. Công trình này thu hút đông đảo du khách và giới trẻ nhờ không gian sáng tạo, với mọi đồ vật và kiến trúc đều được sắp xếp lộn ngược đầy bất ngờ. Tọa lạc giữa lòng thành phố biển xinh đẹp, nơi đây còn gần các bãi biển nổi tiếng như Mỹ Khê, mang lại trải nghiệm thú vị và trọn vẹn cho hành trình khám phá Đà Nẵng.`,
+          nha_dao_nguoc_address:
+            "44 Hồ Xuân Hương, Phường Khuê Mỹ, Quận Ngũ Hành Sơn, TP. Đà Nẵng",
+          bien_non_nuoc: "Bãi biển Non Nước",
+          bien_non_nuoc_title:
+            "Bãi biển Non Nước – Viên Ngọc Xanh Giữa Lòng Đà Nẵng",
+          bien_non_nuoc_title1: "Giới thiệu về Bãi biển Non Nước",
+          bien_non_nuoc_description: `Bãi biển Non Nước là một trong những điểm đến nổi bật và hấp dẫn nhất tại thành phố Đà Nẵng. Nằm dưới chân dãy núi Ngũ Hành Sơn hùng vĩ, Biển Non Nước không chỉ thu hút du khách bởi vẻ đẹp thiên nhiên hoang sơ, mà còn bởi không gian yên bình, trong lành và các dịch vụ du lịch chất lượng cao.`,
+          bien_non_nuoc_address:
+            "Bãi biển Non Nước nằm cách trung tâm thành phố Đà Nẵng khoảng 8km về phía đông nam",
+          bt_dieu_khac: "Bảo tàng Ký Ức Điêu Khắc",
+          bt_dieu_khac_title: "Bảo tàng Ký Ức Điêu Khắc Đà Nẵng",
+          bt_dieu_khac_title1: "Giới thiệu về Bảo tàng Ký Ức Điêu Khắc",
+          bt_dieu_khac_description:
+            "Nằm tại chân núi Ngũ Hành Sơn hùng vĩ, Làng Bảo tàng Ký ức Điêu khắc Đá Mỹ Nghệ Ngũ Hành Sơn không chỉ là một địa điểm du lịch, mà còn là biểu tượng văn hóa đặc sắc của làng nghề truyền thống Việt Nam. Bảo tàng không chỉ kể câu chuyện về nghệ thuật điêu khắc mà còn là nơi lưu giữ những ký ức lịch sử, giá trị văn hóa từ hàng trăm năm qua, gắn liền với sự hình thành và phát triển của làng nghề Non Nước.",
+          bt_dieu_khac_address: "Nằm tại chân núi Ngũ Hành Sơn",
+          lang_chieu_cam_ne: "Làng Chiếu Cẩm Nê",
+          lang_chieu_cam_ne_title:
+            "Làng Chiếu Cẩm Nê – Nét Đẹp Làng Nghề Truyền Thống",
+          lang_chieu_cam_ne_title1: "Giới thiệu về Làng Chiếu Cẩm Nê",
+          lang_chieu_cam_ne_description:
+            "Làng chiếu Cẩm Nê là một trong những làng nghề truyền thống lâu đời nằm tại xã Hòa Tiến, huyện Hòa Vang, thành phố Đà Nẵng. Từ thế kỷ XV, làng đã nổi tiếng với nghề dệt chiếu thủ công mang đậm bản sắc văn hóa dân tộc. Trải qua bao thăng trầm của lịch sử, làng Cẩm Nê vẫn lưu giữ được nghệ thuật dệt chiếu tinh xảo và trở thành một điểm đến du lịch hấp dẫn, nơi du khách có thể tìm hiểu về làng nghề truyền thống và cảm nhận cái hồn mộc mạc của vùng đất miền Trung.",
+          lang_chieu_cam_ne_address:
+            "Nằm tại xã Hòa Tiến, huyện Hòa Vang, thành phố Đà Nẵng",
         },
         districts: {
           select: "Chọn địa bàn",
@@ -190,11 +223,44 @@ i18n.use(initReactI18next).init({
           chua_linh_ung_title1: "リンウング寺についてご紹介",
           chua_linh_ung_description: `ソンチャーのリンウング寺は、ダナンのソントラ半島に位置し、この美しい海辺の街を訪れる際に見逃せない精神的および観光の名所の一つです。絶好のロケーション、独特の建築、そして静かな雰囲気を持つリンウング寺は、祈りの場であるだけでなく、自然と人間の調和の素晴らしい作品でもあります。`,
           chua_linh_ung_address: "ダナン市、ソントラ、ホアンザ、ラムティニ庭園",
-          bien_my_khe: "リンウング寺",
-          bien_my_khe_title: "ソンチャーのリンウング寺",
-          bien_my_khe_title1: "リンウング寺についてご紹介",
-          bien_my_khe_description: `ソンチャーのリンウング寺は、ダナンのソントラ半島に位置し、この美しい海辺の街を訪れる際に見逃せない精神的および観光の名所の一つです。絶好のロケーション、独特の建築、そして静かな雰囲気を持つリンウング寺は、祈りの場であるだけでなく、自然と人間の調和の素晴らしい作品でもあります。`,
-          bien_my_khe_address: "ダナン市、ソントラ、ホアンザ、ラムティニ庭園",
+          bien_my_khe: "ミーケービーチ",
+          bien_my_khe_title: "ミーケービーチ",
+          bien_my_khe_title1: "ミーケービーチについてご紹介",
+          bien_my_khe_description: `ミーケービーチはダナンで最も有名なビーチの一つで、フォーブスにより「世界で最も魅力的なビーチの一つ」と評価されています。白い砂浜、透き通った海、穏やかな自然環境で、毎年何百万もの観光客を惹きつけています。休養の理想的な場所であるだけでなく、このビーチは多くの魅力的なウォーターアクティビティが行われる場所であり、美味しい地元料理が楽しめるグルメの楽園でもあります。`,
+          bien_my_khe_address:
+            "ミーケービーチはダナン市の中心から東へ約3kmの距離にあります",
+          ngu_hanh_son: "五行山:",
+          ngu_hanh_son_title: "五行山: ダナンの自然と精神の傑作",
+          ngu_hanh_son_title1: "五行山:についてご紹介",
+          ngu_hanh_son_description: `ダナン市の中心に位置する五行山は、自然の壮大な美しさ、精神的な空間の平穏、そして長い歴史的文化的価値が結びついた有名な観光地です。美しい海の街を訪れる際に、どの旅行者も見逃すべきではない魅力的なスポットの一つです。`,
+          ngu_hanh_son_address:
+            "ダナン市の中心から約8km東南に位置するホアハイ区の81番地、フエンチャン・コンチュア通り",
+          nha_dao_nguoc: "逆さまの家",
+          nha_dao_nguoc_title: "逆さまの家を探索 – 独特な夢のような場所",
+          nha_dao_nguoc_title1: "逆さまの家についてご紹介",
+          nha_dao_nguoc_description: `ダナンの建築の家は、クアンナム省ゴクハンソン区の44ホー・スアン・フオン通りに位置しており、独特なスポットであるとともに、面白い逆さまのデザインで印象的な写真スポットでもあります。この建物は、すべての家具と建築が逆さまに配置されており、訪れる人々に驚きと楽しさを提供しています。美しい海辺の都市ダナンの中心に位置し、有名なビーチ（ミーケービーチ）にも近く、ダナンの探索旅行において素晴らしい体験を提供してくれます。`,
+          nha_dao_nguoc_address:
+            "ダナン市、クアンナム省、ゴクハンソン区、44ホー・スアン・フオン通り",
+          bien_non_nuoc: "ノンヌオックビーチ",
+          bien_non_nuoc_title:
+            "ノンヌオックビーチ - ダナンの中心にある青い宝石",
+          bien_non_nuoc_title1: "ノンヌオックビーチについてご紹介",
+          bien_non_nuoc_description: `ノンヌオックビーチは、ダナン市で最も目立つ魅力的な観光地の一つです。壮大な五行山のふもとに位置し、ノンヌオックビーチは自然の美しさだけでなく、静かで清らかな空間と高品質な観光サービスでも観光客を惹きつけています。`,
+          bien_non_nuoc_address:
+            "ノンヌオックビーチは、ダナン市の中心から南東に約8キロメートルの距離にあります",
+          bt_dieu_khac: "彫刻博物館",
+          bt_dieu_khac_title: "ダナン彫刻博物館",
+          bt_dieu_khac_title1: "彫刻博物館についてご紹介",
+          bt_dieu_khac_description:
+            "壮大な五行山の麓に位置する五行山彫刻美術記念博物館は、観光地であるだけでなく、ベトナムの伝統的な職人村の独特な文化の象徴でもあります。この博物館は、彫刻芸術の物語を語るだけでなく、何世代にもわたる歴史的記憶と文化的価値を保存する場所でもあり、ノンヌック村の形成と発展に密接に関連しています。",
+          bt_dieu_khac_address: "五行山の麓に位置する",
+          lang_chieu_cam_ne: "カムネマット村",
+          lang_chieu_cam_ne_title: "カムネマット村 – 伝統的な手工芸村の美しさ",
+          lang_chieu_cam_ne_title1: "カムネマット村についてご紹介",
+          lang_chieu_cam_ne_description:
+            "カムネマット村は、ダナン市ホアヴァン区ホアティエンコミューンに位置する、長い歴史を持つ伝統的な手工芸村の一つです。15世紀から、この村は民族文化を色濃く反映した手織りのマット作りで有名でした。歴史の浮き沈みを経て、カムネ村は精巧なマット織りの技術を今も守り続け、伝統的な手工芸村を学び、ベトナム中部の素朴な雰囲気を感じることができる魅力的な観光地となっています。",
+          lang_chieu_cam_ne_address:
+            "ダナン市ホアヴァン区ホアティエンコミューンに位置する",
         },
         districts: {
           select: "地区を選んでください",

@@ -3056,7 +3056,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
   },
   {
     id_location: 11,
-    center_img: "/image/bienMyKhe/bienMyKhe1.webg",
+    center_img: "/image/bienMyKhe/bienMyKhe1.webp",
     name: "locations.bien_my_khe",
     title: "locations.bien_my_khe_title",
     title1: "locations.bien_my_khe_title1",
@@ -3301,6 +3301,1613 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <p>
 <span style="background-color:transparent;color:#000000;">Bãi biển Mỹ Khê không chỉ là điểm đến nghỉ dưỡng lý tưởng mà còn là nơi mang đến những trải nghiệm thú vị cho mọi du khách. Hãy đến và tận hưởng thiên đường biển này nhé!</span>
 </p>`,
+    detail_describe2: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. ミーケービーチの紹介</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ミーケービーチはダナンで最も有名なビーチの一つで、フォーブスにより「世界で最も魅力的なビーチの一つ」と評価されています。白い砂浜、透き通った海、穏やかな自然環境で、毎年何百万もの観光客を惹きつけています。休養の理想的な場所であるだけでなく、このビーチは多くの魅力的なウォーターアクティビティが行われる場所であり、美味しい地元料理が楽しめるグルメの楽園でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. ミーケービーチへのアクセス方法</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ミーケービーチはダナン市の中心から東へ約3kmの距離にあります。さまざまな交通手段で簡単にアクセスできます。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">2.1.&nbsp;<strong>個人車両での移動</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">個人の交通手段を利用する場合、ミーケービーチへは以下の2つの主要なルートがありま：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">ルート1（6.9km）：ダナン空港 → ディーターン通り → チャンティリー橋 → グエンヴァントゥア通り → ヴォグエンザップ通り → ミーケービーチ</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">ルート2（4.8km）：ダナン空港 → グエンヴァンリン通り → ドラゴン橋 → ヴォヴァンキエット通り → ヴォグエンザップ通り → ミーケービーチ</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">2.2.&nbsp;<strong>タクシーでの移動</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">タクシーはミーケービーチへの便利で迅速な移動手段です。ダナンでは、マイリン、ティエンサ、ヴィナサングリーンなどのタクシー会社が広く利用されています。料金は車の種類によって1kmあたり9,000〜12,000VNDです。</span>
+<br>
+<span style="background-color:transparent;color:#000000;">また、環境に優しい電動タクシー「XANH SM」を選んで、現代的でコストパフォーマンスの良い移動を楽しむこともできます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">2.3.&nbsp;<strong>サイクリングリムジンでの移動</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">サイクリングリムジンは、ダナンの街並みをゆっくりと楽しみながら移動する魅力的な選択肢です。海風を感じながら、静かなスピードで街を探索したい方に最適な交通手段です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">2.4.&nbsp;<strong>バスでの移動</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">コストを抑えたい場合は、バス1番（ダナンバスターミナル - ホイアン）を利用できます。このバスはミーケービーチの近くで停車し、ビーチに簡単にアクセスできます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. ミーケービーチを訪れる理想的な時期</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ミーケービーチは一年中美しいですが、旅行に最適な時期は3月から9月です。この時期は晴れた天気が続き、降水量が少なく、透き通った海水で泳ぎやビーチアクティビティに最適です。静かな環境を楽しみたい方は、10月から2月の間に訪れると、観光客が少なく、落ち着いた雰囲気を楽しめます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. ミーケービーチのビーチエリア</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ミーケービーチには、さまざまなニーズに対応する3つの主要なビーチエリアがあります：</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.1.&nbsp;<strong>ファムヴァンドン中央公園ビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">このビーチはファムヴァンドン公園内にあり、比較的小さなビーチですが、白い砂浜と透き通った海、穏やかな波があります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.2.&nbsp;<strong>T20 - T18ビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ミーケービーチで最も古いビーチで、ノンヌオック観光地に近いです。短い砂浜と深い海水、大きな波があり、アドレナリンを求める観光客に最適です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.3.&nbsp;<strong>ビーチ1 - 2 - 3</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">このビーチは主要なビーチエリアで、駐車場、シャワー、飲食サービス、ライフガード、清掃サービスなど、さまざまな施設が整っています。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. ミーケービーチでの楽しみ方</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;5.1.&nbsp;<strong>海の上での朝日と夕日を鑑賞</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ミーケービーチの朝日と夕日は、ロマンチックで夢幻的な景色を作り出します。写真撮影やリラックスに最適な時間帯です。</span>
+<br>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">5.2.&nbsp;<strong>インスタ映えするスポットでのチェックイン</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">白い砂浜と透き通った海、素晴らしい自然の景観が広がるミーケービーチは、写真愛好家には理想的なスポットです。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">5.3.&nbsp;<strong>海上アクティビティへの参加</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">パラセーリング：空を飛びながら海の全景を眺める体験です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">スピードボート：速さを追求するなら、この水上アクティビティを楽しめます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">サーフィン：海のスポーツが好きな方におすすめです。穏やかな波で簡単に始められます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">ジェットスキー：スピード好きな方に最適で、海の上を疾走する感覚を楽しめます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">シュノーケリング：海底の素晴らしい生態系を観察できます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. ミーケービーチで試すべき地元の特産品</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">6.1.&nbsp;<strong>卵魚のサラダ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">卵魚のまろやかな味が特徴で、エビや肉、ハーブと一緒に調理されます。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">6.2.&nbsp;<strong>ミーケービーチのバンナム</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ミーケービーチのバンナムは、米粉とエビや肉の具材で作られた独特の味わいがあります。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">6.3.&nbsp;<strong>ミーケービーチの海藻</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">特産の海藻は、健康にも良いとされ、さまざまな料理に使われます。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">6.4.&nbsp;<strong>新鮮な海産物</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ミーケービーチの海産物は常に新鮮で、ロブスター、カニ、イカ、貝類などが豊富にあります。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">6.5.&nbsp;<strong>チュイロアン麺</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">チュイロアン麺は、太い麺と濃厚なスープが特徴で、新鮮な野菜や焼き米粉と一緒に楽しめます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. ミーケービーチ観光時の注意点</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">● 安全のため、海で泳ぐ際は15m以上沖に出ないようにしましょう。また、水深5m以上の場所では泳がないようにしましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">● ライフガードの指示に従い、逆流のある場所で泳がないようにしましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">● 18度以下の気温で海水浴を避け、風邪をひかないようにしましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">● ビーチのゴミを適切に処理し、清潔を保ちましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">● クラゲに刺された場合は、海水で傷を洗い、砂をかけて毒の影響を減らしましょう。</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">ミーケービーチは、理想的な休養地であるだけでなく、訪れるすべての観光客に楽しい体験を提供する場所です。この海の楽園で素晴らしい時間をお過ごしください！</span>
+</p>`,
+  },
+  {
+    id_location: 12,
+    center_img: "/image/nguHanhSon/nguHanhSon1.jpg",
+    name: "locations.ngu_hanh_son",
+    title: "locations.ngu_hanh_son_title",
+    title1: "locations.ngu_hanh_son_title1",
+    topic: "Suggest",
+    slug: "ngu-hanh-son",
+    id_tag: 1,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nguHanhSon/nguHanhSon1.jpg",
+      "/image/nguHanhSon/nguHanhSon2.jpg",
+      "/image/nguHanhSon/nguHanhSon3.jpg",
+      "/image/nguHanhSon/nguHanhSon4.png",
+      "/image/nguHanhSon/nguHanhSon5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.ngu_hanh_son_description",
+    address: "locations.ngu_hanh_son_address",
+    address_img: "/image/nguHanhSon/location.png",
+    detail_describe: `<h2>
+<span style="color:#990000;">
+<strong>1. Vị trí và giới thiệu chung&nbsp;</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Núi Ngũ Hành Sơn tọa lạc tại số 81, đường Huyền Trân Công Chúa, phường Hòa Hải, quận Ngũ Hành Sơn, cách trung tâm thành phố Đà Nẵng khoảng 8km về phía Đông Nam. Nơi đây còn được biết đến với tên gọi "Non Nước", là quần thể gồm 5 ngọn núi đá vôi nhô lên giữa một vùng đất rộng lớn. Mỗi ngọn núi mang tên của một trong năm yếu tố ngũ hành trong triết học phương Đông: Kim, Mộc, Thủy, Hỏa, Thổ.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Quần thể Ngũ Hành Sơn không chỉ nổi bật với vẻ đẹp tự nhiên mà còn là nơi hội tụ nhiều giá trị văn hóa, lịch sử và tâm linh. Với hệ thống chùa chiền cổ kính, hang động huyền bí và làng nghề đá mỹ nghệ truyền thống, nơi đây được ví như một viên ngọc quý giữa lòng Đà Nẵng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>2. Các ngọn núi và điểm tham quan chính&nbsp;</strong>
+</span>
+</h2>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1. Ngọn Thủy Sơn</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Thủy Sơn là ngọn núi lớn nhất, cao nhất và cũng là điểm đến chính của quần thể Ngũ Hành Sơn. Đây là nơi tập trung nhiều điểm tham quan hấp dẫn và nổi tiếng, bao gồm:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chùa Tam Thai</strong>: Ngôi chùa cổ kính được xây dựng từ thời vua Minh Mạng (1825), mang đậm dấu ấn kiến trúc Phật giáo truyền thống Việt Nam. Chùa Tam Thai nằm ở độ cao 106m, giữa không gian yên bình, là nơi lý tưởng để tìm kiếm sự thanh tịnh.</span>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chùa Linh Ứng Ngũ Hành Sơn</strong>: Một trong ba ngôi chùa Linh Ứng nổi tiếng tại Đà Nẵng. Chùa nằm trên ngọn Thủy Sơn, nổi bật với không gian linh thiêng, mang đến cảm giác yên bình cho du khách.</span>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Động Huyền Không</strong>: Động Huyền Không là một trong những hang động đẹp và nổi tiếng nhất ở Ngũ Hành Sơn. Không gian bên trong hang được chiếu sáng tự nhiên từ những khe hở trên trần động, tạo nên vẻ đẹp huyền ảo và kỳ bí. Đây cũng là nơi thờ Phật và các vị thần linh, thu hút đông đảo du khách đến chiêm bái.</span>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Động Âm Phủ</strong>: Động Âm Phủ là một hang động lớn, gắn liền với những truyền thuyết về cõi âm và cõi dương. Động có không gian âm u, huyền bí, mang ý nghĩa tâm linh đặc biệt, giúp du khách suy ngẫm về nhân quả và đạo lý cuộc sống.</span>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vọng Giang Đài và Vọng Hải Đài</strong>: Đây là hai khu vực cao nhất của ngọn Thủy Sơn, nơi bạn có thể ngắm nhìn toàn cảnh thành phố Đà Nẵng, bãi biển Non Nước và dòng sông Cổ Cò thơ mộng.</span>
+<br>
+<br>&nbsp;</li>
+</ul>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2. Ngọn Kim Sơn</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngọn Kim Sơn tọa lạc gần dòng sông Cổ Cò, nổi bật với&nbsp;<strong>chùa Quan Thế Âm</strong> – nơi lưu giữ bức tượng Quan Âm bằng đá cẩm thạch tự nhiên tinh xảo. Ngọn núi này cũng nổi tiếng với động Quan Âm, nơi có khung cảnh thiên nhiên tuyệt đẹp và không gian thanh tịnh.</span>
+</p>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.3. Ngọn Mộc Sơn</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Mộc Sơn nằm cạnh ngọn Thủy Sơn, nổi bật với tảng đá cẩm thạch trắng được gọi là&nbsp;<strong>Bà Quan Âm</strong>. Đây là nơi lý tưởng để du khách khám phá thiên nhiên hoang sơ và chụp ảnh.</span>
+</p>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.4. Ngọn Hỏa Sơn (gồm Dương Hỏa Sơn và Âm Hỏa Sơn)</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Hỏa Sơn là ngọn núi kép duy nhất trong quần thể Ngũ Hành Sơn. Ngọn núi này gắn liền với nhiều câu chuyện huyền bí và có một số di tích lịch sử, bao gồm các đền thờ và tượng Phật cổ.</span>
+</p>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.5. Ngọn Thổ Sơn</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Thổ Sơn là ngọn núi thấp nhất nhưng dài nhất trong quần thể. Đây là nơi có nhiều hang động nhỏ và di tích lịch sử, bao gồm các ngôi chùa cổ kính và những tàn tích từ thời kháng chiến chống Pháp và Mỹ.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>3. Làng nghề đá mỹ nghệ Non Nước</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Dưới chân Ngũ Hành Sơn là làng nghề đá mỹ nghệ Non Nước, một trong những làng nghề truyền thống lâu đời và nổi tiếng nhất của Đà Nẵng. Được hình thành từ thế kỷ XVII, làng nghề này chuyên sản xuất các sản phẩm điêu khắc đá tinh xảo như tượng Phật, tượng Quan Âm, linh vật, đồ trang trí và đồ lưu niệm.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Khi tham quan làng nghề, du khách không chỉ được ngắm nhìn các tác phẩm nghệ thuật độc đáo mà còn có cơ hội tìm hiểu quy trình chế tác đá và mua sắm các sản phẩm thủ công về làm quà.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>4. Kinh nghiệm du lịch núi Ngũ Hành Sơn&nbsp;</strong>
+</span>
+</h2>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời gian lý tưởng&nbsp;</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Thời gian tốt nhất để tham quan là vào sáng sớm hoặc chiều muộn, khi thời tiết mát mẻ, không quá nắng nóng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu đi vào mùa hè (tháng 4 – tháng 9), hãy mang theo nón, nước uống và kem chống nắng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>Trang phục&nbsp;</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Vì phải leo núi và tham quan các hang động, bạn nên mặc trang phục thoải mái, giày thể thao để thuận tiện di chuyển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu vào chùa chiền, hãy mặc trang phục kín đáo để thể hiện sự tôn trọng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cách di chuyển&nbsp;</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Núi Ngũ Hành Sơn cách trung tâm Đà Nẵng khoảng 8km, bạn có thể di chuyển bằng xe máy, xe đạp hoặc taxi. Đường đi khá dễ dàng và có nhiều biển chỉ dẫn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu đi bằng xe máy, bạn có thể kết hợp tham quan bãi biển Non Nước gần đó.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vé tham quan&nbsp;</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Vé tham quan Ngũ Hành Sơn: Khoảng 40.000 đồng/người.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Vé tham quan động Âm Phủ: Khoảng 20.000 đồng/người.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Thang máy lên ngọn Thủy Sơn: Khoảng 15.000 đồng/người/lượt (tùy thuộc vào nhu cầu).</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>5. Kết hợp tham quan các địa điểm lân cận&nbsp;</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi biển Non Nước:</strong> Bãi biển cát trắng mịn, nước trong xanh, cách Ngũ Hành Sơn chỉ vài phút di chuyển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Phố cổ Hội An:</strong> Chỉ cách khoảng 20km, bạn có thể kết hợp tham quan Hội An trong cùng ngày.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bà Nà Hills:</strong> Một điểm đến nổi tiếng khác của Đà Nẵng, cách Ngũ Hành Sơn khoảng 40km.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Núi Ngũ Hành Sơn không chỉ là một tuyệt tác thiên nhiên mà còn là nơi lưu giữ những giá trị văn hóa, lịch sử và tâm linh sâu sắc. Với cảnh quan hùng vĩ, hệ thống chùa chiền cổ kính và hang động kỳ bí, đây là điểm đến lý tưởng cho những ai yêu thích khám phá và tìm kiếm sự yên bình trong tâm hồn. Một chuyến tham quan Ngũ Hành Sơn sẽ mang đến cho bạn những trải nghiệm khó quên về vùng đất giàu truyền thống và vẻ đẹp thiên nhiên này!</span>
+</p>`,
+    detail_describe2: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. 位置と概要</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山は、ダナン市の中心から約8km東南に位置するホアハイ区の81番地、フエンチャン・コンチュア通りにあります。ここは「ノンヌック」としても知られ、広大な土地の中にそびえる5つの石灰岩の山々からなる複合体です。それぞれの山は、東洋哲学の五行の一つである金、木、水、火、土の名前が付けられています。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山は自然の美しさだけでなく、多くの文化、歴史、精神的な価値が集まる場所でもあります。古い寺院、神秘的な洞窟、伝統的な石彫りの村があるこの場所は、ダナンの中心にある貴重な宝石のように例えられています。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. 山々と主な観光スポット</strong>
+</span>
+</h2>
+<p>
+<strong style="background-color:transparent;color:hsl(0, 0%, 0%);">2.1 水山</strong>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">水山は、五行山の中で最も大きく、高い山であり、主要な観光地です。ここには多くの魅力的で有名な観光スポットが集まっています。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">タムタイ寺：ミンマイン王時代（1825年）に建てられた古い寺院で、ベトナムの伝統的な仏教建築の特徴が色濃く残っています。タムタイ寺は106mの高さにあり、静かな空間の中で、心の平穏を求めるのに理想的な場所です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">リンウン寺：ダナンにある有名なリンウン寺の一つで、水山の上に位置し、神聖な空間が広がり、訪れる人々に平穏な感覚をもたらします。</span>
+</li><br/>
+<li>
+<span style="background-color:transparent;color:#000000;">ヒエンコック洞窟：ヒエンコック洞窟は、五行山で最も美しく有名な洞窟の一つです。洞窟の内部は、天井の隙間から自然光が差し込み、神秘的で幻想的な美しさを生み出しています。ここは仏と神々を祀る場所でもあり、多くの旅行者が参拝に訪れます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">アムフー洞窟：アムフー洞窟は大きな洞窟で、陰界と陽界に関する伝説と結びついています。洞窟は暗く神秘的な空間を持ち、特別な精神的意味を持ち、旅行者に因果関係と人生の教訓について考えさせます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">望江台と望海台：これらは水山の最も高い場所で、ダナン市全体、ノンヌックビーチ、ココ川の美しい景色を眺めることができます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<strong style="background-color:transparent;color:hsl(0, 0%, 0%);">2.2 金山</strong>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">金山はココ川の近くに位置し、精巧な大理石の観音像が保存されている観音寺が目立ちます。この山はまた、美しい自然の景色と静かな空間を持つ観音洞でも有名です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<strong style="background-color:transparent;color:hsl(0, 0%, 0%);">2.3 木山</strong>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">木山は水山の隣にあり、バクアンクアンアムと呼ばれる白い大理石の岩が特徴的です。ここは旅行者が手つかずの自然を探検し、写真を撮るのに理想的な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<strong style="background-color:transparent;color:#000000;">2.4. 火山（陽火山と陰火山を含む）</strong>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">火山は五行山の中で唯一の二重山です。この山は多くの神秘的な物語といくつかの歴史的遺跡、寺院や古い仏像を持っています。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<strong style="background-color:transparent;color:hsl(0, 0%, 0%);">2.5. 土山</strong>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">土山は五行山の中で最も低いですが、最も長い山です。ここには多くの小さな洞窟と歴史的遺跡があり、古い寺院やフランスとアメリカに対する抵抗の時代の遺跡が含まれています。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. ノンヌックの石彫りの村</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山のふもとには、ノンヌックの石彫りの村があり、ダナンで最も古くて有名な伝統的な村の一つです。17世紀から形成され、この村は仏像、観音像、守護神、装飾品、記念品などの精巧な石彫り製品を専門に製造しています。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">村を訪れると、旅行者は独特なアート作品を鑑賞するだけでなく、石の加工プロセスを学び、手作りの製品を購入する機会も得られます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. 五行山の観光体験</strong>
+</span>
+</h2>
+<ul>
+<li>
+<strong style="background-color:transparent;color:#000000;">理想的な時間</strong>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">観光に最適な時間は、朝早くまたは夕方遅く、涼しい天候の時です。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">夏（4月から9月）に訪れる場合は、帽子、水、日焼け止めを持参してください。</span>
+</p>
+<p>&nbsp;</p>
+<ul>
+<li>
+<strong style="background-color:transparent;color:#000000;">服装</strong>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">山を登り、洞窟を観光するため、快適な服装と運動靴を着用することをお勧めします。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">寺院に入る場合は、敬意を表するために控えめな服装を着用してください。</span>
+</p>
+<p>&nbsp;</p>
+<ul>
+<li>
+<strong style="background-color:transparent;color:#000000;">移動方法</strong>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山はダナンの中心から約8km離れており、バイク、自転車、タクシーで移動できます。道は比較的簡単で、多くの標識があります。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">バイクで行く場合は、近くのノンヌックビーチを観光することもできます。</span>
+</p>
+<p>&nbsp;</p>
+<ul>
+<li>
+<strong style="background-color:transparent;color:#000000;">入場料</strong>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山の入場料：約40,000ドン/人。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">アムフー洞窟の入場料：約20,000ドン/人。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">水山へのエレベーター：約15,000ドン/人/回（ニーズに応じて）。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. 近隣の観光地との組み合わせ</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">ノンヌックビーチ：白い砂浜と透明な水があり、五行山から数分の距離です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">ホイアンの古い町：約20kmの距離で、同じ日にホイアンを観光することができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">バーナヒルズ：ダナンのもう一つの有名な観光地で、五行山から約40kmの距離です。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山は自然の傑作であるだけでなく、深い文化、歴史、精神的な価値を保存する場所でもあります。壮大な景観、古い寺院のシステム、神秘的な洞窟を持つここは、探検と心の平穏を求める人々にとって理想的な目的地です。五行山の観光は、伝統と自然の美しさに富んだこの土地で忘れられない体験を提供してくれるでしょう！</span>
+</p>`,
+  },
+  {
+    id_location: 13,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Giới Thiệu Về Nhà Đảo Ngược Đà Nẵng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Nhà đảo ngược - Upside Down World Đà Nẵng chính thức mở cửa đón khách từ ngày 01/01/2018. Đây là mô hình nhà úp ngược đầu tiên xuất hiện tại Đà Nẵng, mang đến một trải nghiệm hoàn toàn mới mẻ và khác biệt. Không gian tại đây được thiết kế vô cùng sáng tạo, với những căn phòng được xây dựng theo phong cách lộn ngược, tạo cảm giác như bước vào một thế giới kỳ ảo, nơi mà mọi quy luật trọng lực dường như bị thách thức.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngay từ khi đặt chân vào ngôi nhà này, du khách sẽ bị cuốn hút bởi không gian đầy màu sắc và cách bố trí đồ nội thất hoàn toàn đảo lộn. Những chiếc giường, bàn ghế, tủ lạnh, bồn rửa chén… đều lơ lửng trên trần nhà, khiến du khách không khỏi ngạc nhiên và thích thú. Tại đây, chỉ cần tạo dáng đơn giản, bạn cũng sẽ có ngay những bức ảnh check-in độc đáo và cực kỳ ấn tượng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Vị Trí Và Cách Di Chuyển Đến Nhà Đảo Ngược Đà Nẵng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Nhà đảo ngược Đà Nẵng tọa lạc tại số 44 Hồ Xuân Hương, phường Khuê Mỹ, quận Ngũ Hành Sơn, thành phố Đà Nẵng. Với vị trí thuận lợi, chỉ cách trung tâm thành phố khoảng 5km, du khách có thể dễ dàng di chuyển đến đây trong vòng 7 – 10 phút bằng nhiều phương tiện khác nhau như xe máy, taxi, grab hoặc xe đạp.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn thích sự chủ động và muốn khám phá Đà Nẵng theo cách riêng, thì thuê một chiếc xe máy sẽ là lựa chọn lý tưởng. Giá thuê xe máy ở Đà Nẵng cũng rất hợp lý, dao động từ 100.000 – 150.000 VNĐ/ngày. Còn nếu đi cùng gia đình hoặc nhóm bạn đông người, bạn có thể chọn taxi hoặc dịch vụ xe đưa đón để di chuyển thuận tiện hơn.</span>
+</p>
+<h2>&nbsp;</h2>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Giá Vé Tham Quan Nhà Đảo Ngược Đà Nẵng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Giá vé tham quan nhà đảo ngược Đà Nẵng được niêm yết như sau:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Người lớn: 130.000 VNĐ/vé</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em cao từ 0,9 – 1,3m: 70.000 VNĐ/vé</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ dưới 0,9m: miễn phí</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Với mức giá này, du khách sẽ được thoải mái khám phá không gian đảo ngược đầy thú vị, trải nghiệm cảm giác mới lạ và ghi lại những khoảnh khắc check-in độc đáo mà không nơi nào có được.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Trải Nghiệm Không Gian Độc Đáo Tại Nhà Đảo Ngược Đà Nẵng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Bước chân vào nhà đảo ngược, du khách sẽ được chiêm ngưỡng một không gian sáng tạo vượt xa trí tưởng tượng. Các phòng được thiết kế theo hai kiểu chính: phòng nghiêng 90 độ và phòng đảo ngược 180 độ. Có tổng cộng 10 căn phòng, trong đó có 7 phòng mô phỏng các không gian quen thuộc như phòng khách, phòng ngủ, phòng bếp, nhà vệ sinh, phòng giặt đồ… nhưng tất cả đều bị đảo ngược, mang đến cảm giác như đang sống trong một thế giới song song.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Mỗi căn phòng lại có một chủ đề và phong cách trang trí riêng biệt. Nếu bạn yêu thích sự ngọt ngào và lãng mạn, thì căn phòng màu hồng pastel với phong cách Hàn Quốc sẽ là nơi lý tưởng để chụp ảnh. Ngược lại, nếu bạn muốn trải nghiệm không gian mang phong cách vintage, thì các căn phòng trang trí theo xu hướng hoài cổ chắc chắn sẽ làm bạn thích thú.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngoài ra, nhà đảo ngược Đà Nẵng còn có căn phòng được thiết kế theo cảm hứng từ bộ truyện tranh Doraemon, với hai tông màu chủ đạo là vàng và xanh dương. Đây là không gian đặc biệt thu hút các em nhỏ và những ai là fan hâm mộ của chú mèo máy thông minh này.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Check-in Độc Đáo Tại Nhà Đảo Ngược Đà Nẵng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Không chỉ là nơi tham quan thú vị, nhà đảo ngược còn là địa điểm lý tưởng cho những tín đồ đam mê chụp ảnh. Mỗi góc trong ngôi nhà đều được thiết kế chỉn chu, đảm bảo du khách có thể thoải mái tạo dáng và sở hữu những bức ảnh độc đáo. Khi chụp ảnh tại đây, bạn có thể thử những tư thế “phi logic” như giả vờ đang lơ lửng trên trần nhà, hay “bước đi” trên tường để tạo hiệu ứng thị giác thú vị.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Bên cạnh đó, du khách có thể kết hợp tham quan nhiều địa điểm du lịch nổi tiếng khác gần nhà đảo ngược như cầu Rồng, cầu sông Hàn, cầu tình yêu hay bãi biển Mỹ Khê. Sau khi khám phá xong, bạn cũng đừng quên thưởng thức các món ăn đặc sản Đà Nẵng như bánh xèo, mì Quảng hay hải sản tươi sống tại những quán ăn ven biển.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. Lưu Ý Khi Tham Quan Nhà Đảo Ngược Đà Nẵng</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Để có trải nghiệm tốt nhất tại nhà đảo ngược, du khách nên lưu ý một số điểm sau:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">・Chọn trang phục sáng màu để bức ảnh thêm nổi bật và hài hòa với không gian rực rỡ của ngôi nhà.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Mang theo giày thể thao hoặc dép mềm để dễ dàng di chuyển và tạo dáng thoải mái.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Hạn chế mang theo quá nhiều đồ đạc cá nhân vì không gian trong nhà không quá rộng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Nếu đi vào cuối tuần hoặc dịp lễ, bạn nên đến sớm để tránh đông đúc và có thời gian tham quan thoải mái hơn.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Nhà đảo ngược Đà Nẵng không chỉ mang đến những trải nghiệm mới mẻ mà còn là nơi giúp bạn ghi lại những khoảnh khắc ấn tượng khi du lịch tại thành phố biển xinh đẹp này. Nếu có dịp ghé thăm Đà Nẵng, đừng bỏ lỡ cơ hội khám phá ngôi nhà thú vị này và tận hưởng những giây phút vui vẻ bên gia đình, bạn bè!</span>
+</p>`,
+    detail_describe2: `<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. ダナンの建築の家についての紹介</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">建築の家（Upside Down World）は、2018年1月1日に正式にオープンしました。これはダナンで初めて登場した逆さまの家で、全く新しい、そして異なる体験を提供します。ここの空間は非常に創造的にデザインされており、逆さまのスタイルで建てられた部屋が、重力の法則が挑戦されたような不思議な世界を感じさせます。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">この家に足を踏み入れると、色とりどりの空間に驚かされ、全ての家具が逆さまに配置されていることにワクワクすることでしょう。ベッド、椅子、冷蔵庫、シンクなど、すべてが天井に浮かび上がっており、訪れる人々にとって新鮮でユニークな体験となります。ここでは、シンプルなポーズを取るだけで、他では見ることのできない、印象的な写真を撮ることができます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. 建築の家へのアクセス方法</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ダナンの建築の家は、ダナン市、ゴクハンソン区、クエミー通り44番地にあります。市の中心から約5kmの距離にあり、バイク、タクシー、グラブ、または自転車で7～10分で簡単にアクセスできます。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">ダナンを自分のペースで探索したい場合、バイクをレンタルするのが理想的です。ダナンではバイクのレンタル料金は非常にリーズナブルで、1日あたり100,000〜150,000VND程度です。家族や大人数で訪れる場合は、タクシーやシャトルサービスを選んで移動すると便利です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. 建築の家の入場料金</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">建築の家の入場料金は以下の通りです：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人：130,000VND/チケット</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">身長0.9m〜1.3mの子供：70,000VND/チケット</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">0.9m未満の子供：無料</span>
+<br>
+<span style="background-color:transparent;color:#000000;">この価格で、訪問者はユニークな逆さまの空間を自由に探索し、新しい体験を楽しむことができます。</span>
+<br>&nbsp;</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. 建築の家での独特な体験</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;建築の家に足を踏み入れると、想像を超える創造的な空間を目にします。部屋は主に二つのスタイルでデザインされており、90度傾いた部屋と180度逆さまの部屋があります。全部で10室があり、そのうち7室はリビングルーム、寝室、キッチン、トイレ、洗濯室などの一般的な空間が模擬されており、すべてが逆さまになっています。これらは、まるで並行世界に生きているような感覚を与えてくれます。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">各部屋はそれぞれ独自のテーマと装飾スタイルを持っています。甘くロマンチックなものが好きな方には、韓国風のピンクパステル色の部屋が理想的です。逆に、ビンテージスタイルの空間を体験したい方には、ノスタルジックな装飾が施された部屋がきっとお気に入りになります。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">また、建築の家には、ドラえもんの漫画をインスパイアした部屋もあり、黄色と青の2つのメインカラーが使われています。この空間は特に子供たちやドラえもんのファンに魅力的です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. 建築の家でのユニークなチェックイン</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">建築の家は単なる観光地ではなく、写真愛好家にとって理想的な場所でもあります。家の各コーナーは、訪れる人々がユニークなポーズを取って印象的な写真を撮れるように丁寧にデザインされています。ここでは、逆さまに浮かんでいるようなポーズや、壁を歩いているようなポーズを試して、面白い視覚効果を生み出すことができます。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">また、建築の家を訪れた後は、近隣の有名な観光地（ドラゴン橋、ハン川橋、愛の橋、ミーケービーチなど）もぜひ訪れてみてください。観光を終えた後は、ダナンの名物料理（バンセオ、ミー・クアン、海産物など）を海辺のレストランで楽しむことをお勧めします。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. 建築の家を訪れる際の注意点</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">建築の家での体験を最大限に楽しむために、以下の点に留意してください：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">・明るい色の服を選ぶと、家の色鮮やかな空間と調和し、写真がより引き立ちます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・動きやすい運動靴や柔らかいサンダルを持参し、快適にポーズを取れるようにしましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・あまり多くの個人の荷物を持参しないようにしましょう。家の中の空間は広くありません。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・週末や祝日に訪れる場合は、混雑を避けるために早めに訪れることをお勧めします。</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">建築の家は、ダナンの美しい海の街で印象的な瞬間を記録できる場所です。ダナンを訪れる際には、このユニークな家を探索し、家族や友達と楽しい時間を過ごすことをお忘れなく！</span>
+</p>`,
+  },
+  {
+    id_location: 14,
+    center_img: "/image/bienNonNuoc/bienNonNuoc1.jpg",
+    name: "locations.bien_non_nuoc",
+    title: "locations.bien_non_nuoc_title",
+    title1: "locations.bien_non_nuoc_title1",
+    topic: "Beach",
+    slug: "bien-non-nuoc",
+    id_tag: 4,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/bienNonNuoc/bienNonNuoc1.jpg",
+      "/image/bienNonNuoc/bienNonNuoc2.jpg",
+      "/image/bienNonNuoc/bienNonNuoc3.jpg",
+      "/image/bienNonNuoc/bienNonNuoc4.jpg",
+      "/image/bienNonNuoc/bienNonNuoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.bien_non_nuoc_description",
+    address: "locations.bien_non_nuoc_address",
+    address_img: "/image/bienNonNuoc/location.png",
+    detail_describe: `<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Vị trí và đặc điểm nổi bật</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi biển Non Nước nằm cách trung tâm thành phố Đà Nẵng khoảng 8km về phía đông nam. Với bờ cát trắng mịn trải dài hơn 5km, bãi biển này được bao quanh bởi hàng dừa xanh mát và làn nước biển trong xanh, tạo nên một bức tranh thiên nhiên tuyệt mỹ. Sự kết hợp giữa núi Ngũ Hành Sơn và biển Non Nước đã tạo nên một khung cảnh hài hòa, lý tưởng cho những ai yêu thích sự yên tĩnh, thư thái.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi biểnNon Nước từng được tạp chí Forbes bình chọn là một trong những bãi biển đẹp nhất hành tinh nhờ sự hoang sơ, sạch sẽ và bầu không khí thoáng đãng, dễ chịu. Đây là nơi lý tưởng để tránh xa sự ồn ào, xô bồ của cuộc sống thành thị.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Hoạt động thú vị tại bãi biển Non Nước</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Đến với bãi biển Non Nước, du khách không chỉ được thư giãn trên bãi biển mà còn có cơ hội tham gia nhiều hoạt động thú vị như:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tắm biển và nghỉ dưỡng:</strong> Làn nước trong xanh, sạch sẽ và sóng nhẹ rất thích hợp cho các hoạt động bơi lội và thư giãn bên bờ biển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chèo thuyền kayak và lướt sóng:</strong> Đây là những hoạt động thể thao biển phổ biến, mang lại cảm giác thú vị cho những ai yêu thích sự mạo hiểm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thưởng thức hải sản tươi ngon:</strong> Gần bãi biển có nhiều nhà hàng và quán ăn phục vụ các món hải sản tươi sống, đậm đà hương vị miền biển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tham quan Ngũ Hành Sơn:</strong> Ngay gần biển là danh thắng Ngũ Hành Sơn, nơi du khách có thể khám phá các hang động kỳ bí, chiêm ngưỡng cảnh quan từ trên cao và tìm hiểu về văn hóa tâm linh.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Lý do nên chọn bãi biển Non Nước</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Phong cảnh tuyệt đẹp:</strong> Bãi biển Non Nước có vẻ đẹp hoang sơ, hài hòa giữa biển và núi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Không gian yên bình:</strong> Đây là nơi lý tưởng để nghỉ ngơi và thư giãn, đặc biệt phù hợp với những người muốn thoát khỏi nhịp sống hối hả của đô thị.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Dịch vụ chất lượng:</strong> Các khu nghỉ dưỡng, khách sạn gần bãi biển đều được đầu tư hiện đại, mang đến trải nghiệm thoải mái nhất cho du khách.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Lưu ý khi tham quan bãi biển Non Nước</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">・Du khách nên chuẩn bị kem chống nắng, nón và đồ bơi phù hợp.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Hãy giữ gìn vệ sinh môi trường biển, không xả rác bừa bãi để bảo vệ vẻ đẹp tự nhiên của bãi tắm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Nếu tham gia các hoạt động dưới nước, hãy tuân thủ quy định an toàn và nên có sự hướng dẫn từ người có kinh nghiệm.</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi biển Non Nước Đà Nẵng là một điểm đến không thể bỏ qua khi bạn đến với mảnh đất miền Trung xinh đẹp. Với vẻ đẹp hoang sơ, không gian yên bình và nhiều hoạt động thú vị, nơi đây hứa hẹn sẽ mang lại cho bạn những trải nghiệm khó quên. Hãy đến và cảm nhận sự tuyệt vời của biểnNon Nước – viên ngọc quý của thành phố biển Đà Nẵng!</span>
+</p>`,
+    detail_describe2: `<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. 位置と特徴</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ノンヌオックビーチは、ダナン市の中心から南東に約8キロメートルの距離にあります。5キロメートル以上にわたって広がる白い砂浜は、青々としたヤシの木と透き通った海水に囲まれ、素晴らしい自然の絵画を作り出しています。五行山と</span>
+<span style="background-color:transparent;color:#000000;">ノンヌオックビーチの組み合わせは、静けさとリラックスを愛する人々にとって理想的な調和の取れた風景を作り出しています。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ノンヌオックビーチは、自然の美しさ、清潔さ、爽やかで快適な雰囲気のおかげで、フォーブス誌によって世界で最も美しいビーチの一つに選ばれました。ここは、都市の喧騒から離れるのに理想的な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. ノンヌックビーチでの楽しいアクティビティ</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ノンヌオックビーチに訪れると、観光客はビーチでリラックスするだけでなく、次のような多くの楽しいアクティビティに参加する機会があります：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">海水浴とリゾート：透き通った清潔な水と穏やかな波は、泳ぎやビーチでのリラックスに非常に適しています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">カヤックとサーフィン：これらは人気のあるビーチスポーツで、冒険を愛する人々に刺激を与えます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">新鮮な海産物を楽しむ：ビーチの近くには、新鮮な海の味を提供するレストランや食堂がたくさんあります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">五行山を訪れる：ビーチのすぐ近くには、神秘的な洞窟を探索し、高い場所からの景観を楽しみ、精神文化について学ぶことができる五行山があります。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>3.</strong>
+</span>
+<span style="background-color:transparent;color:#990000;">
+<strong>ノンヌオックビーチを選ぶ理由</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">美しい風景：ビーチは、海と山の間の調和の取れた自然の美しさを持っています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">静かな空間：ここは、特に都市の忙しい生活から逃れたい人々にとって、休息とリラックスに理想的な場所です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">高品質なサービス：ビーチの近くにあるリゾートやホテルは、現代的に投資されており、観光客に最も快適な体験を提供します。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>4.&nbsp;</strong>
+</span>
+<span style="background-color:transparent;color:#990000;">
+<strong>ノンヌオックビーチを訪れる際の注意点</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">観光客は、日焼け止め、帽子、適切な水着を準備するべきです。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">ビーチの環境を清潔に保ち、ゴミを捨てないようにして、ビーチの自然の美しさを守りましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">水中アクティビティに参加する場合は、安全規則を守り、経験豊富な人からの指導を受けることをお勧めします。</span>
+</li>
+</ul>
+<br/>
+<p>
+<span style="background-color:transparent;color:#000000;">ノンヌオックビーチは、美しい中部の土地を訪れる際に見逃せない観光地です。自然の美しさ、静かな空間、そして多くの楽しいアクティビティを持つこの場所は、あなたに忘れられない体験を提供することを約束します。</span>
+<span style="background-color:#ffffff;color:#000000;">ノンヌオック</span>
+<span style="background-color:transparent;color:#000000;">ビーチビーチの素晴らしさを感じに来てください - ダナンの海の宝石です！</span>
+</p>`,
+  },
+  {
+    id_location: 15,
+    center_img: "/image/btDieuKhac/btDieuKhac1.webp",
+    name: "locations.bt_dieu_khac",
+    title: "locations.bt_dieu_khac_title",
+    title1: "locations.bt_dieu_khac_title1",
+    topic: "Museum",
+    slug: "bt-dieu-khac",
+    id_tag: 6,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/btDieuKhac/btDieuKhac1.webp",
+      "/image/btDieuKhac/btDieuKhac2.webp",
+      "/image/btDieuKhac/btDieuKhac3.webp",
+      "/image/btDieuKhac/btDieuKhac4.webp",
+      "/image/btDieuKhac/btDieuKhac5.webp",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.bt_dieu_khac_description",
+    address: "locations.bt_dieu_khac_address",
+    address_img: "/image/btDieuKhac/location.png",
+    detail_describe: `<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Lịch sử hình thành và ý nghĩa</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bắt nguồn từ thế kỷ 16, làng nghề đá mỹ nghệ Non Nước đã trở thành một phần không thể thiếu trong đời sống văn hóa và kinh tế của vùng Đà Nẵng. Nghề điêu khắc đá được truyền từ đời này sang đời khác, mỗi thế hệ đều mang trong mình niềm đam mê sáng tạo và sự cống hiến. Sự hình thành của bảo tàng là bước tiến lớn trong việc bảo tồn, giới thiệu, và phát huy giá trị của làng nghề. Bảo tàng không chỉ là nơi để người dân địa phương tự hào, mà còn là địa điểm lý tưởng để du khách tìm hiểu sâu hơn về một làng nghề với lịch sử phong phú.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Kiến trúc và không gian trưng bày</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Làng Bảo tàng Ký ức Điêu khắc Đá Mỹ Nghệ được thiết kế hài hòa giữa yếu tố hiện đại và truyền thống, tạo nên không gian lý tưởng để chiêm ngưỡng nghệ thuật. Khu vực trưng bày được chia thành nhiều không gian độc đáo: từ phòng triển lãm nội thất, khu vực ngoài trời đến khu vực chuyên biệt trưng bày các tác phẩm điêu khắc đá cổ và hiện đại. Mỗi góc nhỏ trong bảo tàng đều là một câu chuyện về lịch sử, kỹ thuật, và tình yêu với nghệ thuật.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu vực ngoài trời đặc biệt thu hút khách bởi những công trình điêu khắc hòa quyện với thiên nhiên, tạo ra một không gian mở, gần gũi. Những phiến đá cẩm thạch được chế tác công phu mang lại sự kết nối giữa nghệ thuật và môi trường.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Những điểm đặc sắc thu hút du khách</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Điểm nổi bật của bảo tàng chính là những bộ sưu tập nghệ thuật độc đáo, từ các tác phẩm điêu khắc Chămpa cổ kính, những công trình đá mang dấu ấn lịch sử, đến các tác phẩm hiện đại đầy sáng tạo. Những chi tiết chạm khắc tinh xảo trên từng sản phẩm khiến bất cứ ai cũng không khỏi kinh ngạc trước sự tỉ mỉ và công phu của các nghệ nhân.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngoài ra, bảo tàng còn giới thiệu những dụng cụ truyền thống như các loại đục, búa, và bàn xoay gốm đã từng đồng hành cùng người thợ qua bao thế hệ. Đặc biệt, khu vực trưng bày các sản phẩm mang tính biểu tượng, như tượng Phật, tượng thần, và các mô hình tàu thuyền, đem lại cái nhìn sâu sắc về ứng dụng nghệ thuật điêu khắc trong đời sống.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Trải nghiệm thú vị dành cho du khách</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bảo tàng không chỉ là nơi thưởng ngoạn mà còn mang đến những trải nghiệm hấp dẫn. Du khách có cơ hội tham gia vào các hoạt động như:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thử tài điêu khắc:&nbsp;</strong>Trực tiếp cầm dụng cụ và tự tay khắc những nét đầu tiên trên đá dưới sự hướng dẫn của các nghệ nhân.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Xem trình diễn nghệ thuật:</strong> Những màn trình diễn chạm khắc ngay tại bảo tàng giúp du khách hiểu rõ hơn về quy trình tạo nên một tác phẩm điêu khắc.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mua sắm sản phẩm đá mỹ nghệ:</strong> Các món đồ lưu niệm tinh xảo mang đậm nét văn hóa là món quà ý nghĩa dành cho người thân và bạn bè.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Khám phá văn hóa truyền thống:</strong> Thông qua những câu chuyện, hiện vật và hoạt động tại bảo tàng, du khách sẽ thấy được mối liên kết chặt chẽ giữa nghệ thuật và văn hóa bản địa.</span>
+</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Hướng dẫn tham quan &amp; lưu ý</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Địa chỉ:&nbsp;</strong>Làng Bảo tàng Ký ức Điêu khắc Đá Mỹ Nghệ, Đường Trường Sa, Ngũ Hành Sơn, Đà Nẵng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời gian mở cửa:&nbsp;</strong>Từ 8h00 - 18h00 hàng ngày, phù hợp cho cả khách tham quan lẫn các nhóm nghiên cứu.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cách di chuyển:</strong> Du khách có thể đến bảo tàng bằng phương tiện cá nhân, xe bus du lịch, hoặc taxi từ trung tâm Đà Nẵng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời điểm lý tưởng:</strong> Để có những bức ảnh đẹp nhất và cảm nhận không khí mát mẻ, nên ghé thăm vào sáng sớm hoặc chiều muộn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Lưu ý đặc biệt:</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Luôn tuân thủ các quy định của bảo tàng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Tránh va chạm vào các tác phẩm để bảo vệ giá trị nghệ thuật.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Mang theo mũ, nước uống nếu tham quan vào mùa hè.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Làng Bảo tàng Ký ức Điêu khắc Đá Mỹ Nghệ Ngũ Hành Sơn là nơi hội tụ giữa quá khứ và hiện tại, giữa tinh thần sáng tạo và sự trường tồn của một làng nghề truyền thống. Đây không chỉ là một điểm đến mà còn là nơi để du khách cảm nhận sâu sắc giá trị văn hóa và nghệ thuật Việt Nam. Hãy để chuyến tham quan đến bảo tàng trở thành một hành trình khám phá và trải nghiệm đầy ý nghĩa, để mỗi du khách có thêm niềm tự hào về nét tinh hoa của dân tộc mình.</span>
+</p>`,
+    detail_describe2: `<p>
+<span style="background-color:transparent;color:#980000;">
+<strong>1. 成り立ちと意義</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">16世紀に起源を持つノンヌックの美術石工村は、ダナン地域の文化と経済生活に欠かせない存在となっています。石の彫刻の技術は世代から世代へと受け継がれ、各世代は創造的な情熱と献身を持っています。博物館の設立は、職人村の価値を保存し、紹介し、発揮するための大きな進展です。この博物館は、地元の人々が誇りに思う場所であるだけでなく、豊かな歴史を持つ職人村について深く学ぶための理想的な場所でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#980000;">
+<strong>2. 建築と展示スペース</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山彫刻美術記念博物館は、現代と伝統の要素が調和したデザインで、芸術を鑑賞するための理想的な空間を作り出しています。展示エリアは、インテリア展示室、屋外エリア、古代および現代の石彫作品を専門に展示するエリアなど、さまざまな独特な空間に分かれています。博物館の小さな隅々には、歴史、技術、芸術への愛に関する物語があります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">屋外エリアは、自然と調和した彫刻作品によって特に訪問者を惹きつけ、オープンで親しみやすい空間を生み出しています。精巧に加工された大理石の石は、芸術と環境とのつながりを提供します。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#980000;">
+<strong>3. 訪問者を惹きつける特長</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">博物館のハイライトは、古代チャンパの彫刻作品、歴史的な印を持つ石の建物、創造的な現代作品など、独特な芸術コレクションです。各製品に施された精巧な彫刻のディテールは、職人の細部へのこだわりと手間に驚かせます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">さらに、博物館では、かつて職人と共にあった伝統的な道具（各種の彫刻刀、ハンマー、陶器の回転台など）も紹介されています。特に、仏像、神像、船の模型など、象徴的な製品を展示するエリアは、日常生活における彫刻芸術の応用についての深い洞察を提供します。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#980000;">
+<strong>4. 訪問者向けの魅力的な体験</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">博物館は、鑑賞の場であるだけでなく、魅力的な体験を提供します。訪問者は以下のような活動に参加する機会があります：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>彫刻体験：</strong>職人の指導の下、道具を手に取り、石に最初の線を彫る体験。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>アートパフォーマンスの観覧</strong>：博物館内での彫刻パフォーマンスは、彫刻作品がどのように作られるかをより深く理解する助けとなります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>美術石工製品の購入：</strong>文化的な特徴を持つ精巧なお土産は、家族や友人への意味のある贈り物です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>伝統文化の探求：</strong>博物館での物語、遺物、活動を通じて、訪問者は芸術と地域文化との密接なつながりを感じることができます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#980000;">
+<strong>5. 見学ガイドと注意事項</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>住所：</strong>五行山彫刻美術記念博物館、トゥオンサ通り、五行山、ダナン。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>開館時間：</strong>毎日8:00〜18:00、観光客や研究グループに適しています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>移動方法：</strong>訪問者は、個人の交通手段、観光バス、またはダナン中心部からのタクシーで博物館にアクセスできます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>理想的な訪問時期</strong>：美しい写真を撮り、涼しい雰囲気を感じるためには、早朝または夕方に訪れることをお勧めします。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>特別な注意事項：</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">博物館の規則を常に遵守してください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">作品に触れないようにして、芸術的価値を保護してください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">夏に訪れる際は、帽子や飲み物を持参してください。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">五行山彫刻美術記念博物館は、過去と現在、創造的な精神と伝統的な職人村の存続が交差する場所です。これは単なる訪問地ではなく、訪問者がベトナムの文化と芸術の価値を深く感じる場所でもあります。博物館への訪問を、探求と意味のある体験の旅にし、すべての訪問者が自国の精髄に対する誇りを感じられるようにしましょう。</span>
+</p>`,
+  },
+  {
+    id_location: 16,
+    center_img: "/image/langChieuCamNe/langChieuCamNe1.jpg",
+    name: "locations.lang_chieu_cam_ne",
+    title: "locations.lang_chieu_cam_ne_title",
+    title1: "locations.lang_chieu_cam_ne_title1",
+    topic: "Village",
+    slug: "lang-chieu-cam-ne",
+    id_tag: 9,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/langChieuCamNe/langChieuCamNe1.jpg",
+      "/image/langChieuCamNe/langChieuCamNe2.webp",
+      "/image/langChieuCamNe/langChieuCamNe3.webp",
+      "/image/langChieuCamNe/langChieuCamNe4.jpg",
+      "/image/langChieuCamNe/langChieuCamNe5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.lang_chieu_cam_ne_description",
+    address: "locations.lang_chieu_cam_ne_address",
+    address_img: "/image/langChieuCamNe/location.png",
+    detail_describe: `<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Vị trí và lịch sử hình thành</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Làng Cẩm Nê cách trung tâm thành phố Đà Nẵng khoảng 14km về phía tây nam. Nằm bên dòng sông Cẩm Lệ hiền hòa, làng chiếu này được bao bọc bởi khung cảnh yên bình của làng quê Việt Nam, với đồng lúa, sông nước và những mái nhà tranh đơn sơ.</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Nghề dệt chiếu ở Cẩm Nê đã có lịch sử hơn 500 năm, được truyền từ đời này qua đời khác. Chiếu Cẩm Nê từng là sản phẩm "tiến cung" dưới thời nhà Nguyễn bởi sự tinh xảo, độc đáo và chất lượng cao. Chiếu của làng không chỉ đơn thuần là vật dụng sinh hoạt mà còn mang đậm dấu ấn văn hóa, gắn bó sâu sắc với đời sống tinh thần của người dân miền Trung.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Đặc điểm nổi bật của chiếu Cẩm Nê</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Chiếu Cẩm Nê nổi tiếng với sự bền chắc, mịn màng và hoa văn tinh tế. Điều làm nên sự khác biệt của chiếu nơi đây là:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Nguyên liệu tự nhiên:</strong> Chiếu được làm từ cói và lác - những loại cây mọc tự nhiên ở các vùng đất bùn ven sông Cẩm Lệ. Nguyên liệu sau khi thu hoạch được phơi khô, nhuộm màu và xử lý kỹ lưỡng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hoa văn độc đáo:</strong> Chiếu Cẩm Nê thường có hoa văn truyền thống như hình rồng, phượng, hoa lá, thể hiện sự khéo léo và sáng tạo của người thợ. Các họa tiết không chỉ đẹp mà còn mang ý nghĩa phong thủy, cầu may mắn và hạnh phúc.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chất lượng vượt trội:</strong> Chiếu mềm mại, thoáng mát vào mùa hè, ấm áp vào mùa đông, rất phù hợp với khí hậu miền Trung. Độ bền cao và màu sắc khó phai là những ưu điểm nổi bật của chiếu Cẩm Nê.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Trải nghiệm thú vị khi đến làng chiếu Cẩm Nê</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Đến thăm làng chiếu Cẩm Nê, du khách không chỉ được ngắm nhìn những chiếc chiếu tuyệt đẹp mà còn có cơ hội trải nghiệm văn hóa làng nghề truyền thống:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tìm hiểu quy trình làm chiếu:</strong> Bạn sẽ được tận mắt chứng kiến các công đoạn từ nhuộm màu, phơi nguyên liệu đến dệt chiếu. Mỗi công đoạn đều đòi hỏi sự tỉ mỉ và khéo léo của người thợ thủ công.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thử dệt chiếu:</strong> Du khách có thể tự tay thử dệt một chiếc chiếu dưới sự hướng dẫn của các nghệ nhân làng nghề. Đây là một trải nghiệm thú vị, giúp bạn hiểu thêm về sự kỳ công và tâm huyết của người dân nơi đây.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tham quan và chụp ảnh:</strong> Không gian yên bình của làng quê, với hình ảnh những người thợ cần mẫn bên khung dệt, sẽ mang đến cho bạn những bức ảnh đẹp và đáng nhớ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mua chiếu làm quà:</strong> Những chiếc chiếu Cẩm Nê đẹp mắt, chất lượng cao là món quà ý nghĩa để mang về tặng người thân và bạn bè.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Giá trị văn hóa và ý nghĩa của làng nghề</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Làng chiếu Cẩm Nê không chỉ là nơi sản xuất chiếu mà còn là biểu tượng của sự cần cù, sáng tạo và gìn giữ văn hóa truyền thống. Dưới sức ép của quá trình hiện đại hóa và sự cạnh tranh của các sản phẩm công nghiệp, làng nghề vẫn kiên trì giữ vững bản sắc và truyền nghề cho thế hệ sau. Chiếu Cẩm Nê là minh chứng sống động cho lòng yêu nghề và sự gắn bó với đất mẹ của người dân Đà Nẵng.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Lưu ý khi tham quan làng chiếu Cẩm Nê</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">・Du khách nên ghé thăm làng vào buổi sáng để tận mắt chứng kiến quá trình làm chiếu của các nghệ nhân.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Hãy tôn trọng không gian làng quê, giữ gìn vệ sinh môi trường và không làm ảnh hưởng đến cuộc sống của người dân địa phương.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・Nếu muốn mua chiếu về làm quà, bạn nên hỏi giá trước và chọn các sản phẩm phù hợp với nhu cầu của mình.</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Làng chiếu Cẩm Nê là một điểm đến không thể bỏ qua khi ghé thăm Đà Nẵng, đặc biệt đối với những ai yêu thích khám phá văn hóa và làng nghề truyền thống. Với vẻ đẹp mộc mạc, yên bình và những giá trị văn hóa lâu đời, Cẩm Nê hứa hẹn sẽ mang lại cho du khách những trải nghiệm đáng nhớ và sâu sắc về một miền quê Việt Nam đầy tình người và nghệ thuật. Hãy đến và cảm nhận sự đặc biệt của làng chiếu Cẩm Nê – một "viên ngọc" văn hóa giữa lòng Đà Nẵng!</span>
+</p>`,
+    detail_describe2: `<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>1. 場所と歴史的形成</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">カムネ村は、ダナン中心部から南西に約14km離れた場所にあります。穏やかなカムレ川沿いに位置し、この村は田んぼや川、素朴なわらぶき屋根の家々に囲まれた、静かで平和なベトナムの田舎の風景の中にあります。</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">カムネ村のマット織りは500年以上の歴史があり、世代を超えて受け継がれてきました。カムネのマットは、その繊細さ、独自性、そして高い品質のため、阮朝時代に「王宮献上品」として使われました。この村で作られたマットは、生活用品としてだけでなく、文化の象徴としても、ベトナム中部の人々の精神的生活と深く結びついています。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>2.カムネマットの特徴</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">カムネ　マットは、その耐久性、滑らかさ、そして精巧な模様で有名です。ここで作られるマットの違いを生み出しているのは以下の点です：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>自然素材：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">マットは、カムレ川沿いの湿地に自然に生えるイグサやラッキョウ草を原料に作られています。収穫後、これらの素材は乾燥させ、染色され、慎重に処理されます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>独特な模様：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">カムネ　マットは、龍、鳳凰、草花といった伝統的な模様が特徴です。これらの模様は職人の器用さと創造性を表し、美しいだけでなく、風水的な意味を持ち、幸運や幸福を祈るものとされています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>優れた品質：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">マットは夏は涼しく、冬は暖かいという特徴があり、中部の気候に非常に適しています。その高い耐久性と色褪せにくさが、カムネ　マットの際立った利点となっています。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>3. カムネマット村での魅力的な体験</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">カムネ　マット村を訪れると、美しいマットを鑑賞するだけでなく、伝統的な手工芸文化を体験することができます：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>マット作りの工程を学ぶ：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">原料の染色、乾燥からマット織りまでの工程を目の当たりにすることができます。どの工程も、職人の細やかで器用な技術が必要です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>マット織り体験：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">職人の指導のもと、自分でマットを織る体験ができます。この体験を通して、カムネ村の人々の努力と情熱をより深く理解することができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>観光と写真撮影：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">静かで穏やかな田舎の風景や、織り機に向かう職人たちの姿が、素晴らしい写真を撮る機会を提供してくれます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>お土産にマットを購入：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">美しく高品質のカムネ・マッマットは、大切な人への贈り物として最適です。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>4. 文化的価値と村の意義</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">カムネ・マット村は、単なるマットの生産地ではなく、勤勉さ、創造性、そして伝統文化の保存の象徴でもあります。現代化の波や工業製品の競争の圧力の中で、この村はその独自性を守り続け、次世代に技術を伝えています。カムネ・マットは、ダナンの人々の職業への愛と故郷への深い結びつきを象徴する生きた証です。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>5. カムネ・マット村を訪れる際の注意点</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">・村の職人たちの作業を見学するために、午前中に訪れることをお勧めします。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・村の静かな環境を尊重し、ゴミを持ち帰るなど、環境を保護するよう心がけましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">・お土産としてマットを購入する場合、事前に価格を確認し、自分のニーズに合った製品を選びましょう。</span>
+</li>
+</ul>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">カムネマット村は、ダナンを訪れた際に見逃せない観光地の一つです。特に、文化や伝統工芸の探求に興味がある方にとって、素朴で平和な美しさ、そして長い文化的価値を持つこの村は、忘れられない深い体験をもたらしてくれるでしょう。</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ぜひ訪れてみてください。カムネ　マット村の特別さを感じ取り、ダナンの文化の「宝石」ともいえるこの村の魅力を味わってください！</span>
+</p>`,
+  },
+  {
+    id_location: 17,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
+    detail_describe2: ``,
+  },
+  {
+    id_location: 18,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
+    detail_describe2: ``,
+  },
+  {
+    id_location: 19,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
+    detail_describe2: ``,
+  },
+  {
+    id_location: 20,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
+    detail_describe2: ``,
+  },
+  {
+    id_location: 21,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
+    detail_describe2: ``,
+  },
+  {
+    id_location: 22,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
+    detail_describe2: ``,
+  },
+  {
+    id_location: 23,
+    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+    name: "locations.nha_dao_nguoc",
+    title: "locations.nha_dao_nguoc_title",
+    title1: "locations.nha_dao_nguoc_title1",
+    topic: "Other",
+    slug: "nha-dao-nguoc",
+    id_tag: 10,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
+      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.nha_dao_nguoc_description",
+    address: "locations.nha_dao_nguoc_address",
+    address_img: "/image/nhaDaoNguoc/location.png",
+    detail_describe: ``,
     detail_describe2: ``,
   },
 ];
