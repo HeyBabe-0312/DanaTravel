@@ -23,6 +23,7 @@ const data = [
     relate: [2, 3, 4, 5, 6],
     describes: "locations.suoi_luong_description",
     address: "locations.suoi_luong_address",
+    district: "LienChieu",
     address_img: "/image/suoiLuong/location.png",
     detail_describe: `<h2 style="color: #980000">1. Thời gian hoạt động và giá vé</h2>
     <br/>
@@ -226,6 +227,7 @@ const data = [
     describes: "locations.nam_o_description",
     address: "locations.nam_o_address",
     address_img: "/image/namO/location.png",
+    district: "SonTra",
     detail_describe: `<h2 style="color: #980000">1. Rạn Nam Ô ở đâu?</h2>
     <br/>
     <p>&ensp;&ensp;Rạn Nam Ô là một trong những điểm đến hấp dẫn của thành phố Đà Nẵng, nổi bật với vẻ đẹp tự nhiên hoang sơ và bãi biển trong xanh. Đây là một bãi rạn nằm trong làng biển Nam Ô cách trung tâm thành phố Đà Nẵng khoảng 17 km về phía Tây Bắc, thuộc phường Hòa Hiệp Bắc, quận Liên Chiểu. Rạn Nam Ô có diện tích khoảng 2 ha bao gồm hai rạn là Rạn Cả và Rạn con. </p>
@@ -308,6 +310,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     describes: "locations.cho_han_description",
     address: "locations.cho_han_address",
     address_img: "/image/choHan/location.png",
+    district: "HaiChau",
     detail_describe: `<h2 style="color: #980000">1. Cách đi đến Chợ Hàn Đà Nẵng</h2>
     <br/>
     <p>&ensp;&ensp;Chợ Hàn Đà Nẵng nằm tại 119 đường Trần Phú, phường Hải Châu 1, quận Hải Châu, thành phố Đà Nẵng, gần khu vực trung tâm thành phố và cách cầu Rồng chưa đến 2km. Chợ Hàn tiếp giáp với 4 con phố chính là Bạch Đằng, Trần Phú, Nguyễn Văn Linh và Hùng Vương, nên đường xá và phương tiện giao thông ở đây rất thuận tiện. Du khách có thể lựa chọn các phương tiện sau để đi đến Chợ Hàn:</p>
@@ -486,6 +489,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     describes: "locations.cho_con_description",
     address: "locations.cho_con_address",
     address_img: "/image/choCon/location.png",
+    district: "HaiChau",
     detail_describe: `<p>
 <span style="background-color:transparent;color:#990000;">
 <strong>1. Phương tiện di chuyển&nbsp;</strong>
@@ -794,6 +798,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     describes: "locations.bt_cham_description",
     address: "locations.bt_cham_address",
     address_img: "/image/btCham/location.png",
+    district: "HaiChau",
     detail_describe: `<h2>
 <span style="background-color:transparent;color:#980000;">
 <strong>1. Địa chỉ Bảo tàng Điêu khắc Chăm Đà Nẵng</strong>
@@ -1146,6 +1151,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     describes: "locations.bt_myThuat_description",
     address: "locations.bt_myThuat_address",
     address_img: "/image/btMyThuat/location.png",
+    district: "HaiChau",
     detail_describe: `<p>
 <span style="background-color:transparent;color:#990000;">
 <strong>1.Bảo tàng Mỹ thuật Đà Nẵng ở đâu?</strong>
@@ -1410,6 +1416,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     describes: "locations.cau_rong_description",
     address: "locations.cau_rong_address",
     address_img: "/image/cauRong/location.png",
+    district: "HaiChau",
     detail_describe: `<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>1. Địa chỉ cầu Rồng Đà Nẵng nằm ở đâu?</strong>
@@ -1788,6 +1795,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     relate: [1, 2, 3, 4, 5],
     describes: "locations.cau_song_han_description",
     address: "locations.cau_song_han_address",
+    district: "SonTra",
     address_img: "/image/cauSongHan/location.png",
     detail_describe: `<h2>
 <span style="background-color:transparent;color:#990000;">
@@ -2134,6 +2142,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     relate: [1, 2, 3, 4, 5],
     describes: "locations.bd_son_tra_description",
     address: "locations.bd_son_tra_address",
+    district: "SonTra",
     address_img: "/image/bdSonTra/location.png",
     detail_describe: `<h2>
 <span style="background-color:transparent;color:#990000;">
@@ -2819,6 +2828,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     relate: [1, 2, 3, 4, 5],
     describes: "locations.chua_linh_ung_description",
     address: "locations.chua_linh_ung_address",
+    district: "SonTra",
     address_img: "/image/chuaLinhUng/location.png",
     detail_describe: `<h2>
 <span style="color:#990000;">
@@ -3073,6 +3083,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
       "/image/bienMyKhe/bienMyKhe5.webp",
     ],
     relate: [1, 2, 3, 4, 5],
+    district: "NguHanhSon",
     describes: "locations.bien_my_khe_description",
     address: "locations.bien_my_khe_address",
     address_img: "/image/bienMyKhe/location.png",
@@ -3519,6 +3530,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
       "/image/nguHanhSon/nguHanhSon5.jpg",
     ],
     relate: [1, 2, 3, 4, 5],
+    district: "NguHanhSon",
     describes: "locations.ngu_hanh_son_description",
     address: "locations.ngu_hanh_son_address",
     address_img: "/image/nguHanhSon/location.png",
@@ -3884,6 +3896,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
       "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
       "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
     ],
+    district: "NguHanhSon",
     relate: [1, 2, 3, 4, 5],
     describes: "locations.nha_dao_nguoc_description",
     address: "locations.nha_dao_nguoc_address",
@@ -4117,6 +4130,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     relate: [1, 2, 3, 4, 5],
     describes: "locations.bien_non_nuoc_description",
     address: "locations.bien_non_nuoc_address",
+    district: "NguHanhSon",
     address_img: "/image/bienNonNuoc/location.png",
     detail_describe: `<h3>
 <span style="background-color:transparent;color:#990000;">
@@ -4197,11 +4211,11 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <p>
 <span style="background-color:transparent;color:#000000;">Bãi biển Non Nước Đà Nẵng là một điểm đến không thể bỏ qua khi bạn đến với mảnh đất miền Trung xinh đẹp. Với vẻ đẹp hoang sơ, không gian yên bình và nhiều hoạt động thú vị, nơi đây hứa hẹn sẽ mang lại cho bạn những trải nghiệm khó quên. Hãy đến và cảm nhận sự tuyệt vời của biểnNon Nước – viên ngọc quý của thành phố biển Đà Nẵng!</span>
 </p>`,
-    detail_describe2: `<p>
+    detail_describe2: `<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>1. 位置と特徴</strong>
 </span>
-</p>
+</h2>
 <p>
 <span style="background-color:transparent;color:#000000;">ノンヌオックビーチは、ダナン市の中心から南東に約8キロメートルの距離にあります。5キロメートル以上にわたって広がる白い砂浜は、青々としたヤシの木と透き通った海水に囲まれ、素晴らしい自然の絵画を作り出しています。五行山と</span>
 <span style="background-color:transparent;color:#000000;">ノンヌオックビーチの組み合わせは、静けさとリラックスを愛する人々にとって理想的な調和の取れた風景を作り出しています。</span>
@@ -4211,11 +4225,11 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <span style="background-color:transparent;color:#000000;">ノンヌオックビーチは、自然の美しさ、清潔さ、爽やかで快適な雰囲気のおかげで、フォーブス誌によって世界で最も美しいビーチの一つに選ばれました。ここは、都市の喧騒から離れるのに理想的な場所です。</span>
 </p>
 <p>&nbsp;</p>
-<p>
+<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>2. ノンヌックビーチでの楽しいアクティビティ</strong>
 </span>
-</p>
+</h2>
 <p>
 <span style="background-color:transparent;color:#000000;">ノンヌオックビーチに訪れると、観光客はビーチでリラックスするだけでなく、次のような多くの楽しいアクティビティに参加する機会があります：</span>
 </p>
@@ -4234,14 +4248,14 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 </li>
 </ul>
 <p>&nbsp;</p>
-<p>
+<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>3.</strong>
 </span>
 <span style="background-color:transparent;color:#990000;">
 <strong>ノンヌオックビーチを選ぶ理由</strong>
 </span>
-</p>
+</h2>
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">美しい風景：ビーチは、海と山の間の調和の取れた自然の美しさを持っています。</span>
@@ -4254,14 +4268,14 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 </li>
 </ul>
 <p>&nbsp;</p>
-<p>
+<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>4.&nbsp;</strong>
 </span>
 <span style="background-color:transparent;color:#990000;">
 <strong>ノンヌオックビーチを訪れる際の注意点</strong>
 </span>
-</p>
+</h2>
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">観光客は、日焼け止め、帽子、適切な水着を準備するべきです。</span>
@@ -4276,7 +4290,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <br/>
 <p>
 <span style="background-color:transparent;color:#000000;">ノンヌオックビーチは、美しい中部の土地を訪れる際に見逃せない観光地です。自然の美しさ、静かな空間、そして多くの楽しいアクティビティを持つこの場所は、あなたに忘れられない体験を提供することを約束します。</span>
-<span style="background-color:#ffffff;color:#000000;">ノンヌオック</span>
+<span style="color:#000000;">ノンヌオック</span>
 <span style="background-color:transparent;color:#000000;">ビーチビーチの素晴らしさを感じに来てください - ダナンの海の宝石です！</span>
 </p>`,
   },
@@ -4301,6 +4315,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     relate: [1, 2, 3, 4, 5],
     describes: "locations.bt_dieu_khac_description",
     address: "locations.bt_dieu_khac_address",
+    district: "NguHanhSon",
     address_img: "/image/btDieuKhac/location.png",
     detail_describe: `<h3>
 <span style="background-color:transparent;color:#990000;">
@@ -4519,6 +4534,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     slug: "lang-chieu-cam-ne",
     id_tag: 9,
     stars: 5,
+    district: "HoaVang",
     suggest: 1,
     sub_img: [
       "/image/langChieuCamNe/langChieuCamNe1.jpg",
@@ -4745,6 +4761,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     slug: "nui-than-tai",
     id_tag: 1,
     stars: 5,
+    district: "HoaVang",
     suggest: 1,
     sub_img: [
       "/image/nuiThanTai/nuiThanTai1.jpg",
@@ -5157,6 +5174,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     id_tag: 7,
     stars: 5,
     suggest: 1,
+    district: "HoaVang",
     sub_img: [
       "/image/suoiHoa/suoiHoa1.jpg",
       "/image/suoiHoa/suoiHoa2.jpg",
@@ -6549,6 +6567,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     title1: "locations.suoi_mo_title1",
     topic: "Stream",
     slug: "suoi-mo",
+    district: "HoaVang",
     id_tag: 7,
     stars: 5,
     suggest: 1,
@@ -6897,6 +6916,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
     title: "locations.ba_na_title",
     title1: "locations.ba_na_title1",
     topic: "Suggest",
+    district: "HoaVang",
     slug: "ba-na-hills",
     id_tag: 1,
     stars: 5,
@@ -7960,78 +7980,784 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
   },
   {
     id_location: 21,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
-    topic: "Other",
-    slug: "nha-dao-nguoc",
-    id_tag: 10,
+    center_img: "/image/cauTinhYeu/cauTinhYeu2.jpg",
+    name: "locations.cau_tinh_yeu",
+    title: "locations.cau_tinh_yeu_title",
+    title1: "locations.cau_tinh_yeu_title1",
+    topic: "Bridge",
+    slug: "cau-tinh-yeu",
+    id_tag: 2,
     stars: 5,
     suggest: 1,
+    district: "SonTra",
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/cauTinhYeu/cauTinhYeu2.jpg",
+      "/image/cauTinhYeu/cauTinhYeu1.webp",
+      "/image/cauTinhYeu/cauTinhYeu3.jpg",
+      "/image/cauTinhYeu/cauTinhYeu4.jpg",
+      "/image/cauTinhYeu/cauTinhYeu5.jpg",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.cau_tinh_yeu_description",
+    address: "locations.cau_tinh_yeu_address",
+    address_img: "/image/cauTinhYeu/location.png",
+    detail_describe: `<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Cầu Tình Yêu Đà Nẵng Ở Đâu?</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Tọa lạc tại bờ Đông của sông Hàn, trên đường Trần Hưng Đạo, quận Sơn Trà, Cầu Tình Yêu nằm ngay giữa hai cây cầu nổi tiếng là cầu Rồng và cầu Sông Hàn. Đây là một vị trí đắc địa giúp du khách có thể ngắm nhìn toàn cảnh thành phố Đà Nẵng hiện đại và dòng sông Hàn thơ mộng.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Được khánh thành vào năm 2015, cây cầu nhanh chóng trở thành điểm đến hấp dẫn, đặc biệt là với những ai đang tìm kiếm một không gian lãng mạn và yên bình giữa lòng thành phố nhộn nhịp. Cầu Tình Yêu được lấy cảm hứng từ những cây cầu tình yêu nổi tiếng trên thế giới như Pont des Arts (Pháp) hay Ponte Milvio (Ý), nơi các cặp đôi có thể treo những ổ khóa tình yêu như một lời nguyện ước về tình cảm bền chặt, vĩnh cửu.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Khám Phá Vẻ Đẹp Của Cầu Tình Yêu Đà Nẵng</strong>
+</span>
+</h3>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 Thiết Kế Độc Đáo Của Cây Cầu</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Cầu Tình Yêu được thiết kế theo hình vòng cung mềm mại, dài khoảng 68m, tạo nên dáng vẻ duyên dáng giữa dòng sông Hàn. Mặt cầu được lát gỗ cao cấp, lan can được làm bằng kim loại vững chắc, đủ để treo hàng trăm chiếc ổ khóa tình yêu của các cặp đôi.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Sự kết hợp giữa chất liệu hiện đại và phong cách thiết kế tinh tế tạo nên một không gian vừa lãng mạn, vừa nghệ thuật. Khi dạo bước trên cầu, du khách sẽ cảm nhận được sự ấm áp từ sàn gỗ, sự chắc chắn của những chiếc lan can đầy ắp ổ khóa, cùng với không gian thơ mộng bao quanh.</span>
+</p>
+<h4>&nbsp;</h4>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 Vẻ Đẹp Lung Linh Huyền Ảo Của Cầu Về Đêm</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu ban ngày Cầu Tình Yêu đã mang một vẻ đẹp thơ mộng thì khi màn đêm buông xuống, nơi đây trở nên huyền ảo hơn bao giờ hết. Những chiếc đèn lồng hình trái tim đỏ rực được bố trí dọc theo cầu, phát sáng rực rỡ, tạo nên một không gian lãng mạn khó cưỡng. Ánh sáng từ những chiếc đèn lồng phản chiếu xuống mặt nước, hòa cùng sắc màu lung linh từ cầu Rồng và cầu Sông Hàn, tạo nên một bức tranh rực rỡ của thành phố về đêm.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Gần Cầu Tình Yêu còn có du thuyền Hạnh Phúc, nơi bạn có thể trải nghiệm một buổi tối thư giãn, nhâm nhi ly rượu vang và ngắm nhìn thành phố lung linh từ giữa lòng sông Hàn. Đây chắc chắn sẽ là một trải nghiệm đáng nhớ trong hành trình khám phá Đà Nẵng.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Cầu Tình Yêu Đà Nẵng – Dấu Ấn Tình Yêu Của Biết Bao Cặp Đôi</strong>
+</span>
+</h3>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 Những Ổ Khóa Tình Yêu Không Có Chìa</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Một trong những điểm đặc biệt nhất của Cầu Tình Yêu là những ổ khóa tình yêu đầy màu sắc được treo chặt trên lan can cầu. Lấy cảm hứng từ phong tục treo ổ khóa tình yêu ở các cây cầu nổi tiếng thế giới, các cặp đôi khi đến đây thường khắc tên mình lên ổ khóa, gắn chặt vào thành cầu và vứt chìa xuống dòng sông Hàn, tượng trưng cho tình yêu vĩnh cửu, không thể chia cắt.</span>
+</p>
+<h4>&nbsp;</h4>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 Những Cột Đèn Lồng Hình Trái Tim – Biểu Tượng Của Tình Yêu</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Không chỉ có những ổ khóa tình yêu, cầu còn được trang trí bằng hàng loạt cột đèn lồng hình trái tim đỏ rực, tượng trưng cho tình yêu mãnh liệt và sự chung thủy. Vào buổi tối, khi ánh đèn thắp sáng, cả cây cầu như khoác lên mình một chiếc áo lộng lẫy, thu hút hàng trăm lượt du khách ghé thăm mỗi ngày.</span>
+</p>
+<h4>&nbsp;</h4>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3&nbsp; Tượng Cá Chép Hóa Rồng – Tượng Trưng Cho May Mắn, Thịnh Vượng</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngay bên cạnh Cầu Tình Yêu là tượng cá chép hóa rồng – một biểu tượng đầy ý nghĩa trong văn hóa Á Đông. Cá chép hóa rồng không chỉ mang lại sự may mắn, thịnh vượng mà còn thể hiện sức mạnh vượt qua thử thách, sự kiên trì và bền bỉ. Tượng cá chép được thiết kế hướng ra dòng sông, như một lời chúc phúc cho tình yêu mạnh mẽ, lâu bền của những đôi lứa đặt chân đến đây.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Cầu Tình Yêu Đà Nẵng không chỉ là một địa điểm tham quan, mà còn là nơi chứng kiến những câu chuyện tình yêu đẹp, nơi các cặp đôi cùng nhau ghi dấu những kỷ niệm khó quên. Đây cũng là một điểm nhấn trong bức tranh du lịch Đà Nẵng – một thành phố trẻ trung, hiện đại nhưng vẫn mang trong mình nét lãng mạn, thơ mộng riêng biệt.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Chuyến tham quan Cầu Tình Yêu sẽ mang đến cho bạn một góc nhìn khác về Đà Nẵng – không chỉ là một thành phố năng động mà còn chứa đựng nhiều giá trị truyền thống và những không gian tuyệt đẹp dành cho tình yêu. Còn chần chờ gì nữa mà không rủ ngay người thương hoặc nhóm bạn thân cùng lên kế hoạch cho chuyến khám phá đầy ý nghĩa này!</span>
+</p>`,
+    detail_describe2: `<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>1. ダナン愛の桟橋はどこにあるの？</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の桟橋は、ハン川の東岸に位置し、ソンチャ区のチャンフンダオ通りにあります。この桟橋は、ダナンを象徴する有名なドラゴンブリッジ（竜橋）とハン川橋の間に位置しており、観光客がモダンな都市ダナンや詩的なハン川の風景を楽しむのに最適なロケーションです。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">2015年に竣工したこの桟橋は、すぐに人気の観光地となりました。特に、賑やかな都市の中でロマンチックで穏やかな空間を求めている人々にとって魅力的な場所です。愛の桟橋は、フランスの「ポンデザール」やイタリアの「ポンテ・ミルヴィオ」など、世界的に有名な愛の橋にインスパイアされて設計されました。ここではカップルが愛の南京錠を掛け、愛の永続性と深い絆を願うことができます。</span>
+</p>
+<h3 style="text-align:justify;">&nbsp;</h3>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>2. ダナン愛の桟橋の美しさを探る</strong>
+</span>
+</h3>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 桟橋のユニークなデザイン</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の桟橋は、優美なアーチ型のデザインで、全長約68メートル。ハン川の流れの中でエレガントな姿を見せています。桟橋の床は高品質の木材で敷かれ、手すりは頑丈な金属で作られており、カップルたちが何百もの愛の南京錠を掛けるスペースを提供しています。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モダンな素材と洗練されたデザインの組み合わせにより、ロマンチックで芸術的な空間が生まれています。桟橋を歩いていると、木の暖かさや、愛の南京錠でいっぱいの手すりの堅固さ、そして周囲の詩的な雰囲気を感じることができます。</span>
+</p>
+<h4 style="text-align:justify;">&nbsp;</h4>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 夜の幻想的な美しさ</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">昼間の愛の桟橋は詩的な美しさを持っていますが、夜になるとさらに幻想的な雰囲気に包まれます。桟橋には、真っ赤なハート型のランタンが並んでおり、鮮やかに輝いてロマンチックな空間を演出します。ランタンの光は水面に反射し、ドラゴンブリッジやハン川橋の色とりどりのライトと相まって、夜のダナンの輝く風景を描き出します。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の桟橋の近くには「幸せクルーズ」というクルーズ船もあり、夜のひとときを楽しむことができます。ワインを片手にリラックスしながら、ハン川の中央から輝く都市の景色を眺める体験は、ダナンの旅で忘れられない思い出となることでしょう。</span>
+</p>
+<h3 style="text-align:justify;">&nbsp;</h3>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>3. ダナン愛の桟橋 - 数多くのカップルの愛の象徴</strong>
+</span>
+</h3>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 鍵のない愛の南京錠</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の桟橋の最も特徴的なポイントの一つは、色とりどりの愛の南京錠が手すりいっぱいに掛けられていることです。世界の有名な愛の橋の習慣にインスパイアされ、ここを訪れるカップルたちは自分たちの名前を南京錠に刻み、桟橋に固定して鍵をハン川に投げ込みます。これは、永遠で分かれることのない愛を象徴しています。</span>
+</p>
+<h4 style="text-align:justify;">&nbsp;</h4>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 ハート型ランタン - 愛の象徴</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の南京錠だけでなく、桟橋には赤いハート型のランタンが並んでおり、情熱的な愛と忠誠心を象徴しています。夜になるとランタンが輝き、桟橋全体がきらびやかな姿に包まれます。これにより、毎晩何百もの観光客が訪れる魅力的なスポットとなっています。</span>
+</p>
+<h4 style="text-align:justify;">&nbsp;</h4>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3 鯉の登竜像 - 幸運と繁栄の象徴</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の桟橋のすぐ隣には、「鯉の登竜像」があります。この像は、アジア文化における重要なシンボルであり、幸運や繁栄をもたらすとされます。また、試練を乗り越える力や忍耐、そして不屈の精神を象徴しています。鯉の登竜像はハン川に向かって設置されており、ここを訪れるカップルたちの強く永続する愛を祝福しているかのようです。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ダナン愛の桟橋は、単なる観光地ではなく、美しい愛の物語が繰り広げられる場所でもあります。カップルたちが忘れられない思い出を刻む場所であり、ダナン観光の中で際立った存在です。この若々しくモダンな都市には、独特のロマンチックで詩的な魅力が詰まっています。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">愛の桟橋を訪れることで、ダナンの別の一面を垣間見ることができるでしょう。それは、活気ある都市であるだけでなく、伝統的な価値観や愛に満ちた美しい空間を持つ都市です。さあ、大切な人や親しい友達と一緒に、この特別な場所への旅を計画してみませんか？</span>
+</p>`,
   },
   {
     id_location: 22,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
-    topic: "Other",
-    slug: "nha-dao-nguoc",
-    id_tag: 10,
-    stars: 5,
+    center_img: "/image/cayDa/cayDa1.jpeg",
+    name: "locations.cay_da",
+    title: "locations.cay_da_title",
+    title1: "locations.cay_da_title1",
+    topic: "Mountain",
+    slug: "cay-da-nghin-nam",
+    id_tag: 3,
+    stars: 4.8,
     suggest: 1,
+    district: "SonTra",
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/cayDa/cayDa1.jpeg",
+      "/image/cayDa/cayDa2.jpg",
+      "/image/cayDa/cayDa3.jpg",
+      "/image/cayDa/cayDa4.jpg",
+      "/image/cayDa/cayDa5.webp",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.cay_da_description",
+    address: "locations.cay_da_address",
+    address_img: "/image/cayDa/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Cách Di Chuyển Đến Cây Đa Ngàn Năm</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Di chuyển đến cây đa</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Cây Đa Ngàn Năm nằm trên bán đảo Sơn Trà, một trong những khu vực nổi tiếng với cảnh quan thiên nhiên hoang sơ của Đà Nẵng. Vị trí này cách trung tâm thành phố khoảng 10km và là điểm đến lý tưởng dành cho những ai muốn tận hưởng không khí trong lành, hòa mình vào thiên nhiên rộng lớn. Đường đi đến cây đa uốn lượn qua những cung đèo xanh mát và rừng già, tạo nên hành trình vừa thú vị vừa thư giãn.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cách đơn giản nhất để đến cây đa</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Du khách có thể lựa chọn đi bằng xe máy hoặc ô tô cá nhân để đến Cây Đa Ngàn Năm. Xe máy là phương tiện được nhiều người yêu thích bởi sự linh hoạt và cơ hội khám phá những cung đường nhỏ quanh co trên bán đảo Sơn Trà. Ngoài ra, nếu bạn muốn tận hưởng chuyến đi mà không phải lo lắng về việc điều khiển phương tiện, có thể đặt tour du lịch từ các công ty uy tín tại Đà Nẵng để được hướng dẫn chi tiết.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Di chuyển tới Đà Nẵng thế nào?</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Trước khi đến được bán đảo Sơn Trà, bạn cần có mặt tại Đà Nẵng. Đây là một trong những thành phố du lịch hàng đầu Việt Nam, với hệ thống giao thông hiện đại và thuận tiện:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bằng đường hàng không:&nbsp;</strong>Sân bay Quốc tế Đà Nẵng kết nối với hầu hết các thành phố lớn ở Việt Nam cũng như các điểm đến quốc tế. Hành khách có thể lựa chọn nhiều hãng bay với mức giá cạnh tranh.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bằng xe buýt hoặc xe khách:&nbsp;</strong>Đây là phương tiện tiết kiệm chi phí dành cho những ai yêu thích hành trình khám phá dọc các cung đường.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bằng tàu hỏa</strong>: Nhà ga Đà Nẵng nằm ngay trung tâm thành phố, rất thuận tiện cho việc di chuyển. Đi tàu hỏa cũng là trải nghiệm thú vị để ngắm nhìn khung cảnh đẹp qua những cung đường miền Trung.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Nguồn Gốc Cây Đa Ngàn Năm Bán Đảo Sơn Trà</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Cây Đa Ngàn Năm được coi là "cây di sản" của Việt Nam, với tuổi đời ước tính hơn 1.000 năm. Cây đa nổi bật với vẻ đẹp uy nghiêm, bộ rễ khổng lồ bám sâu vào lòng đất, và tán lá xanh mát che phủ một khoảng không rộng lớn. Địa danh này không chỉ là biểu tượng cho sức sống mãnh liệt của thiên nhiên mà còn gắn liền với những câu chuyện truyền thuyết kỳ thú. Những câu chuyện ấy đã tô điểm thêm sức hút đặc biệt cho cây đa trong lòng du khách.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Nên Đến Thăm Cây Đa Ngàn Năm Vào Thời Điểm Nào?</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Để có một chuyến đi trọn vẹn, bạn nên đến thăm Cây Đa Ngàn Năm vào khoảng thời gian từ tháng 3 đến tháng 8. Lúc này, thời tiết Đà Nẵng khô ráo, trong xanh, rất thuận lợi cho việc di chuyển cũng như khám phá bán đảo Sơn Trà. Đây cũng là mùa lý tưởng để tận hưởng thiên nhiên rực rỡ, ghi lại những khoảnh khắc đáng nhớ bên cây di sản kỳ vĩ.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Những Trải Nghiệm Thú Vị Khi Ghé Thăm Cây Đa Ngàn Năm</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.1 Chiêm Ngưỡng Cây Di Sản Hùng Vĩ</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Đứng dưới bóng cây đa cổ thụ, bạn sẽ cảm nhận được sự nhỏ bé của mình trước thiên nhiên kỳ vĩ. Với thân cây đồ sộ và tán lá rộng lớn xòe ra như một chiếc ô khổng lồ, cây đa là minh chứng rõ nét cho sức sống trường tồn. Đây cũng là nơi lý tưởng để du khách chụp ảnh, lưu giữ những kỷ niệm đặc biệt.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.2 Nghỉ Ngơi Dưới Gốc Cây Đa</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Gốc cây đa là nơi lý tưởng để bạn thư giãn sau hành trình khám phá. Dưới bóng râm mát lành, cùng tiếng chim hót líu lo, bạn sẽ cảm thấy như được hòa mình vào sự yên bình của thiên nhiên.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.3 Tận Hưởng Không Gian Xanh, Sạch</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu vực xung quanh cây đa được bảo vệ nghiêm ngặt, giữ nguyên vẻ đẹp hoang sơ vốn có. Địa điểm này rất phù hợp để bạn "reset" tâm trạng, tránh xa khói bụi và xô bồ của cuộc sống thường ngày.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.4 Khám Phá Rừng Rậm Đa Dạng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Hành trình đến Cây Đa Ngàn Năm là cơ hội để khám phá khu rừng nguyên sinh đa dạng của bán đảo Sơn Trà, nơi có hệ động thực vật phong phú và nhiều loài sinh vật quý hiếm. Đây cũng là dịp để bạn tận hưởng trọn vẹn không khí trong lành, mát mẻ của khu rừng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Những Địa Điểm Du Lịch Gần Cây Đa Ngàn Năm</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chùa Linh Ứng</strong>: Một trong ba ngôi chùa Linh Ứng nổi tiếng của Đà Nẵng, nơi có tượng Phật Quan Âm cao nhất Việt Nam, mang lại cảm giác thanh tịnh và bình yên.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đỉnh Bàn Cờ</strong>: Một trong những điểm ngắm cảnh tuyệt đẹp ở bán đảo Sơn Trà, nơi bạn có thể chiêm ngưỡng toàn cảnh thành phố Đà Nẵng từ trên cao.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Biển Tiên Sa</strong>: Bãi biển trong xanh, yên bình, nằm ngay dưới chân bán đảo Sơn Trà, là điểm nghỉ ngơi lý tưởng sau chuyến tham quan.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Bụt</strong>: Nơi đây thu hút du khách với bờ biển thoai thoải, làn nước trong xanh và nhiều hoạt động thể thao dưới nước hấp dẫn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Đá Đen</strong>: Bãi đá độc đáo với những tảng đá đen bóng mịn, hòa quyện cùng làn nước biển xanh biếc, tạo nên bức tranh thiên nhiên tuyệt đẹp.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bảo Tàng Đồng Đình</strong>: Nơi lưu giữ các di sản văn hóa độc đáo, cho bạn cái nhìn sâu sắc hơn về lịch sử và văn hóa vùng đất Đà Nẵng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Cây Đa Ngàn Năm Đà Nẵng không chỉ là địa điểm du lịch thiên nhiên độc đáo mà còn mang ý nghĩa lịch sử và văn hóa sâu sắc. Đây là nơi bạn có thể hòa mình vào thiên nhiên, khám phá vẻ đẹp hùng vĩ và tận hưởng những khoảnh khắc thư thái. Nếu bạn đang lên kế hoạch cho chuyến đi đến Đà Nẵng, đừng bỏ lỡ cơ hội ghé thăm "cây di sản" đặc biệt này!</span>
+</p>`,
+    detail_describe2: `<h2 style="text-align:justify;">
+<span style="color:#980000;">
+<strong>&nbsp;1. 千年のバニヤンツリーへのアクセス方法&nbsp;</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="color:#000000;">
+<strong>バニヤンツリーへの移動&nbsp;</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="color:#000000;">千年のバニヤンツリーは、ダナンの原始的な自然景観で有名なソンチャ半島にあります。この場所は市中心部から約10km離れており、新鮮な空気を楽しみ、広大な自然に身を浸したい人々にとって理想的な目的地です。バニヤンツリーへの道は、緑の山道や古い森を曲がりくねって進み、興味深くリラックスした旅を提供します。</span>
+</p>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="color:#000000;">&nbsp;<strong>バニヤンツリーへの最も簡単なアクセス方法 観光客は、バニヤンツリーに行くためにバイクや自家用車を選ぶことができます。</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="color:#000000;">バイクは、ソンチャ半島の曲がりくねった小道を探索する機会があるため、多くの人に好まれる交通手段です。また、運転の心配をせずに旅行を楽しみたい場合は、ダナンの信頼できる旅行会社からツアーを予約して詳細なガイドを受けることができます。</span>
+</p>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="color:#000000;">
+<strong>ダナンへの移動方法は？</strong>&nbsp;</span>
+</p>
+<p style="text-align:justify;">
+<span style="color:#000000;">ソンチャ半島に到達する前に、ダナンに到着する必要があります。これはベトナムの主要な観光都市の一つで、現代的で便利な交通システムを備えています。</span>
+</p>
+<ul>
+<li>
+<span style="color:#000000;">
+<strong>&nbsp;航空路線：</strong>ダナン国際空港は、ベトナムのほとんどの主要都市や国際的な目的地と接続しています。乗客は競争力のある価格で多くの航空会社を選択できます。</span>
+</li>
+<li>
+<span style="color:#000000;">&nbsp;<strong>バスまたは長距離バス：</strong>これは、沿道の探検を楽しむ人々にとってコストを抑えた交通手段です。</span>
+</li>
+<li>
+<span style="color:#000000;">
+<strong>&nbsp;鉄道：</strong>ダナン駅は市の中心部にあり、移動に非常に便利です。鉄道での移動は、中部の美しい風景を楽しむための楽しい体験でもあります。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="color:#980000;">
+<strong>&nbsp;2. ソンチャ半島の千年のバニヤンツリーの起源&nbsp;</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="color:#000000;">千年のバニヤンツリーは、ベトナムの「遺産の木」と見なされており、その年齢は1,000年以上と推定されています。このバニヤンツリーは、威厳のある美しさと、地面に深く根を張る巨大な根、広大な空間を覆う緑の葉の冠で際立っています。この場所は、自然の強い生命力の象徴であるだけでなく、魅力的な伝説の物語とも結びついています。それらの物語は、観光客の心の中でバニヤンツリーに特別な魅力を添えています。</span>
+</p>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="color:#434343;">&nbsp;</span>
+<span style="color:#980000;">
+<strong>3. 千年のバニヤンツリーを訪れるのに最適な時期は？</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="color:#000000;">&nbsp;充実した旅行をするためには、3月から8月の間に千年のバニヤンツリーを訪れることをお勧めします。この時期、ダナンの天候は乾燥していて青空が広がり、移動やソンチャ半島の探索に非常に適しています。また、これは自然の美しさを楽しみ、壮大な遺産の木のそばで特別な瞬間を記録するのに理想的な季節でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="color:#434343;">&nbsp;</span>
+<span style="color:#980000;">
+<strong>4. 千年のバニヤンツリーを訪れる際の興味深い体験&nbsp;</strong>
+</span>
+</h2>
+<h3 style="text-align:justify;">
+<span style="color:#000000;">
+<strong>4.1 壮大な遺産の木を鑑賞する</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="color:#000000;">&nbsp;古いバニヤンツリーの影に立つと、あなたは壮大な自然の前で自分の小ささを感じるでしょう。巨大な幹と広がる葉の冠は、まるで巨大な傘のように広がり、永遠の生命力の明確な証拠です。ここは観光客が写真を撮り、特別な思い出を残すのに理想的な場所でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="color:#000000;">&nbsp;<strong>4.2 バニヤンツリーの根元で休息する</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="color:#000000;">&nbsp;バニヤンツリーの根元は、探検の旅の後にリラックスするのに最適な場所です。涼しい日陰の下で、さえずる鳥の声と共に、自然の静けさに身を浸すことができます。</span>
+</p>
+<p>&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="color:#000000;">
+<strong>&nbsp;4.3 清潔で緑豊かな空間を楽しむ</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="color:#000000;">&nbsp;バニヤンツリーの周辺は厳重に保護されており、元の原始的な美しさが保たれています。この場所は、心のリセットを図り、日常生活の喧騒やほこりから離れるのに非常に適しています。</span>
+</p>
+<p>&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="color:#000000;">
+<strong>&nbsp;4.4 多様な熱帯雨林を探索する&nbsp;</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="color:#000000;">千年のバニヤンツリーへの旅は、ソンチャ半島の多様な原生林を探索する機会です。そこには豊富な動植物と多くの珍しい生物が生息しています。また、ここは新鮮で涼しい森の空気を十分に楽しむ機会でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="color:#980000;">
+<strong>&nbsp;5. 千年のバニヤンツリーの近くの観光スポット</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;リンウング寺：</strong>ダナンの有名なリンウング寺の一つで、ベトナムで最も高い観音菩薩像があり、静けさと平和をもたらします。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バンコーの頂上：</strong>ソンチャ半島で美しい景色を楽しむことができるスポットの一つで、上からダナン市全体を眺めることができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;ティエンサビーチ：</strong>ソンチャ半島のすぐ下にある、青く静かなビーチで、観光の後の理想的な休息地です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;バイブット：</strong>ここは、緩やかなビーチと透明な水、魅力的な水中スポーツのアクティビティで観光客を惹きつけています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>ダブラックビーチ：</strong>滑らかな黒い岩が特徴的なユニークなビーチで、青い海と調和し、美しい自然の絵画を作り出しています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>ドンディン博物館：</strong>独特の文化遺産を保存している場所で、ダナン地域の歴史と文化についての深い洞察を提供します。&nbsp;</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ダナンの千年のバニヤンツリーは、独特の自然観光地であるだけでなく、深い歴史的および文化的な意味も持っています。ここは、自然に身を浸し、壮大な美しさを探索し、リラックスした瞬間を楽しむことができる場所です。ダナンへの旅行を計画しているなら、この特別な「遺産の木」を訪れる機会をお見逃しなく！</span>
+</p>`,
   },
   {
     id_location: 23,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
+    center_img: "/image/caChep/caChep2.webp",
+    name: "locations.ca_chep",
+    title: "locations.ca_chep_title",
+    title1: "locations.ca_chep_title1",
     topic: "Other",
-    slug: "nha-dao-nguoc",
+    slug: "ca-chep",
+    district: "SonTra",
     id_tag: 10,
     stars: 5,
     suggest: 1,
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/caChep/caChep2.webp",
+      "/image/caChep/caChep1.webp",
+      "/image/caChep/caChep3.jpg",
+      "/image/caChep/caChep4.webp",
+      "/image/caChep/caChep5.webp",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.ca_chep_description",
+    address: "locations.ca_chep_address",
+    address_img: "/image/caChep/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Tìm Hiểu Tượng Cá Chép Hóa Rồng Đà Nẵng Ở Đâu?</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>1.1 Vị trí tượng cá chép hóa rồng – biểu tượng du lịch Đà Nẵng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Tọa lạc bên bờ Đông sông Hàn, ngay khu vực cầu Tình Yêu, Tượng Cá Chép Hóa Rồng được xem là một trong những biểu tượng mới của thành phố Đà Nẵng. Được đặt trong không gian mở với hướng nhìn ra sông Hàn thơ mộng, bức tượng không chỉ mang giá trị nghệ thuật mà còn là điểm nhấn tạo nên nét đặc trưng của đô thị hiện đại.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Đây là địa điểm thu hút rất đông du khách đến tham quan, đặc biệt là vào buổi tối khi ánh đèn lung linh phản chiếu trên mặt nước, tạo nên khung cảnh vô cùng lãng mạn.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>1.2 Cách di chuyển đến tượng cá chép hóa rồng Đà Nẵng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Việc di chuyển đến tượng cá chép hóa rồng rất thuận tiện. Du khách có thể lựa chọn một số phương tiện như:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Xe máy hoặc ô tô cá nhân</strong>: Nếu tự túc, bạn có thể đi từ trung tâm thành phố theo đường Võ Văn Kiệt, sau đó rẽ vào Trần Hưng Đạo để đến địa điểm này.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Taxi, xe công nghệ</strong>: Đây là phương án tiện lợi cho những ai không muốn tự lái xe. Chỉ mất khoảng 5 – 10 phút từ trung tâm Đà Nẵng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đi bộ hoặc xe đạp</strong>: Nếu đang ở khu vực ven sông Hàn, bạn có thể đi bộ hoặc đạp xe đến đây, tận hưởng bầu không khí trong lành và ngắm cảnh thành phố.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Khám Phá Những Điều Thú Vị Về Biểu Tượng Cá Chép Hóa Rồng Đà Nẵng</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 Ý nghĩa tượng cá chép hóa rồng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Truyền thuyết về cá chép vượt Vũ Môn hóa rồng đã ăn sâu vào tiềm thức người Á Đông, tượng trưng cho sự nỗ lực không ngừng nghỉ để vươn lên trong cuộc sống. Tượng Cá Chép Hóa Rồng ở Đà Nẵng cũng mang ý nghĩa này, thể hiện khát vọng phát triển mạnh mẽ của thành phố bên sông Hàn.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Bức tượng là sự kết hợp hài hòa giữa hai hình ảnh biểu tượng:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cá chép</strong> – loài vật gắn liền với sự kiên trì, may mắn và thành công.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Rồng</strong> – loài vật linh thiêng tượng trưng cho quyền uy, thịnh vượng và sự phát triển.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 Thiết kế độc đáo của tượng cá chép hóa rồng phun nước Đà Nẵng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Tượng được chế tác từ đá cẩm thạch trắng nguyên khối, cao 7,5m và nặng gần 200 tấn. Đây là tác phẩm do các nghệ nhân làng đá Non Nước Đà Nẵng chế tác, mang phong cách điêu khắc tinh xảo.</span>
+</p><br/>
+<p>
+<span style="background-color:transparent;color:#000000;">Một số điểm độc đáo trong thiết kế:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Phần đầu rồng</strong> được lấy cảm hứng từ kiến trúc thời Lý, thể hiện vẻ uy nghiêm, mạnh mẽ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thân cá chép</strong> được chạm khắc vảy tỉ mỉ, tạo nên sự chân thực và sinh động.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hệ thống phun nước</strong> từ miệng rồng tạo nên hiệu ứng đẹp mắt, nhất là khi kết hợp với ánh sáng về đêm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đế tượng</strong> là hình ảnh sóng nước, tượng trưng cho sự giao hòa giữa trời – đất – biển cả.</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Với lối thiết kế công phu và ý nghĩa sâu sắc, tượng Cá Chép Hóa Rồng không chỉ là một công trình nghệ thuật mà còn là điểm đến thu hút đông đảo du khách check-in.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Tham Quan Tượng Cá Chép Hóa Rồng Đà Nẵng Có Mất Phí Không?</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Tin vui cho du khách là việc tham quan Tượng Cá Chép Hóa Rồng hoàn toàn miễn phí. Bạn có thể ghé thăm bất cứ lúc nào trong ngày, nhưng thời điểm lý tưởng nhất là vào sáng sớm hoặc buổi tối để tận hưởng không gian thoáng đãng và ngắm nhìn tượng lung linh dưới ánh đèn.</span>
+</p><br/>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngoài ra, khu vực xung quanh cũng có nhiều điểm đến hấp dẫn như:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cầu Tình Yêu</strong> – nơi lưu giữ những chiếc khóa tình yêu lãng mạn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cầu Rồng</strong> – địa danh nổi tiếng với màn phun lửa vào cuối tuần.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chợ đêm Sơn Trà</strong> – thiên đường ẩm thực với vô số món ngon Đà Nẵng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Tượng Cá Chép Hóa Rồng không chỉ là một điểm check-in đẹp mà còn mang ý nghĩa sâu sắc về sự kiên trì và thịnh vượng. Đây là biểu tượng gắn liền với văn hóa và sự phát triển của thành phố Đà Nẵng. Nếu bạn có cơ hội ghé thăm thành phố đáng sống này, đừng quên đến chiêm ngưỡng vẻ đẹp của bức tượng và tận hưởng bầu không khí trong lành bên dòng sông Hàn thơ mộng.</span>
+</p>`,
+    detail_describe2: `<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>1. ダナン・鯉の登竜像の場所を探ろう</strong>
+</span>
+</h2>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>1.1 鯉の登竜像の位置 – ダナン観光の象徴</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">鯉の登竜像は、ハン川の東岸、愛の桟橋の近くに位置しています。この像は、ダナンの新しい象徴の一つとして注目されており、ハン川に向かって開放的な空間に設置されています。詩的なハン川を見渡せるロケーションにあり、芸術的価値を持つだけでなく、モダンな都市景観を際立たせるポイントにもなっています。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">特に夜になると、像の周りに灯る光が水面に反射し、ロマンチックな雰囲気を醸し出すため、多くの観光客が訪れる人気スポットとなっています。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>1.2 鯉の登竜像へのアクセス方法</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">鯉の登竜像への移動は非常に便利です。以下のような方法があります：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バイクまたは自家用車</strong>：自力で移動する場合、市内中心部からボーヴァンキエット通りを経由し、チャンフンダオ通りに曲がると目的地に到着します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>タクシーまたは配車アプリ</strong>：自分で運転したくない人には便利な選択肢です。ダナン市内中心部から約5～10分で到着します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>徒歩または自転車</strong>：ハン川沿いのエリアに滞在している場合、徒歩や自転車で訪れることも可能です。新鮮な空気を楽しみながら街の風景を眺めることができます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>2. ダナン・鯉の登竜像の魅力を探る</strong>
+</span>
+</h2>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 鯉の登竜像の意味</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">アジア文化において、「鯉が滝を登って龍になる」という伝説は、努力と忍耐を象徴しています。この物語は多くの人々の心に深く刻まれており、鯉の登竜像もこの精神を象徴しています。ダナンの鯉の登竜像は、ハン川に面した都市の力強い発展への願いと、未来への希望を表現しています。</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">この像は、以下の2つの象徴的なイメージを組み合わせたものです：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>鯉</strong>：忍耐、幸運、成功を象徴する存在。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>龍</strong>：神聖な存在であり、権威、繁栄、発展を象徴。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 鯉の登竜像のユニークなデザイン</strong>
+</span>
+</h3>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">この像は、白い大理石を使用して作られ、高さ7.5メートル、重さ約200トンにも及びます。ダナンの有名なノンヌオック石工村の職人たちによって作られたもので、非常に精巧な彫刻が施されています。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">デザインの特徴：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>龍の頭部</strong>：リー王朝時代の建築様式に着想を得ており、威厳と力強さを表現。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>鯉の体</strong>：細かい鱗模様が彫刻され、リアルで生き生きとした印象を与える。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>水を噴き出す仕掛け</strong>：龍の口から水が噴き出す仕組みがあり、特に夜間にはライトアップと組み合わさり、幻想的な光景を演出。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>台座の波のデザイン</strong>：天地と海の調和を象徴。</span>
+</li>
+</ul>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">このように、鯉の登竜像は、芸術的な美しさと深い意味合いを兼ね備えた建造物であり、観光客にとっては必見のチェックインスポットとなっています。</span>
+</p>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>3. ダナン・鯉の登竜像の見学は無料？</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">嬉しいことに、鯉の登竜像の見学は完全に無料です。昼夜問わず訪れることができますが、最もおすすめの時間帯は早朝または夜間です。朝の爽やかな空気や、夜のライトアップされた幻想的な景色を楽しむことができます。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">さらに、像の周辺には以下のような魅力的なスポットもあります：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>愛の桟橋</strong>：ロマンチックな愛の南京錠が掛けられた場所。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ドラゴン橋</strong>：週末の夜に火を噴くことで有名なランドマーク。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ソンチャ夜市</strong>：ダナン料理を楽しめるグルメスポット。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">鯉の登竜像は、観光スポットとして美しいだけでなく、努力と繁栄を象徴する深い意味を持っています。この像は、ダナンの文化や発展を象徴する存在であり、訪れる人々に感動を与えます。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ダナンを訪れる際には、ぜひ鯉の登竜像を見に行き、その美しさと意味を体感してください。また、ホイアンの古い街並みやソンチャ半島、バーナーヒルズなどの他の名所と組み合わせて、より充実した旅を楽しんでみてはいかがでしょうか？</span>
+</p>`,
   },
 ];
 

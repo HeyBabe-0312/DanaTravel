@@ -10,14 +10,12 @@ import { MdOutlineVerticalAlignBottom } from "react-icons/md";
 import { SiYourtraveldottv } from "react-icons/si";
 import Autocomplete from "@mui/material/Autocomplete";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 import { useTranslation } from "react-i18next";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
   const { t } = useTranslation();
-  const [imgAva, setImgAva] = useState("");
   const linkTo = useNavigate();
   const options = [
     "Bán Đảo Sơn Trà",
@@ -44,49 +42,27 @@ const Home = () => {
     "Suối Mơ",
     "Làng Chiếu Cẩm Nê",
   ];
-  const [district, setDistricts] = useState("None");
-  const [topic, setTopic] = useState("None");
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
   const goToLct = async () => {
-    if (imgAva !== "") {
-      try {
-        const a = await axios.post("https://minhhnh.tech/", imgAva);
-        if (a.data.Error) {
-          const filterSearch = document.getElementById("searchHome").value;
-          const filterTopic = document.getElementById("topics").value;
-          if (filterSearch !== "" && filterTopic !== "None") {
-            linkTo(
-              "/locations?Search=" + filterSearch + "&Topic=" + filterTopic
-            );
-          } else if (filterSearch === "" && filterTopic !== "None") {
-            linkTo("/locations?Topic=" + filterTopic);
-          } else if (filterSearch !== "" && filterTopic === "None") {
-            linkTo("/locations?Search=" + filterSearch);
-          } else {
-            linkTo("/locations");
-          }
-        } else if (a.data.data.classname) {
-          linkTo("/locations?Search=" + a.data.data.classname);
-        }
-      } catch (e) {
-        console.log(e);
-      }
-    } else {
-      const filterSearch = document.getElementById("searchHome").value;
-      const filterTopic = document.getElementById("topics").value;
-      if (filterSearch !== "" && filterTopic !== "None") {
-        linkTo("/locations?Search=" + filterSearch + "&Topic=" + filterTopic);
-      } else if (filterSearch === "" && filterTopic !== "None") {
-        linkTo("/locations?Topic=" + filterTopic);
-      } else if (filterSearch !== "" && filterTopic === "None") {
-        linkTo("/locations?Search=" + filterSearch);
-      } else {
-        linkTo("/locations");
-      }
+    const filterSearch = document.getElementById("searchHome")?.value;
+    const filterDistrict = document.getElementById("district")?.value;
+    const filterTopic = document.getElementById("topics")?.value;
+    let query = [];
+
+    if (filterSearch !== "") {
+      query.push("Search=" + encodeURIComponent(filterSearch));
     }
-    setImgAva("");
+    if (filterTopic !== "None") {
+      query.push("Topic=" + encodeURIComponent(filterTopic));
+    }
+    if (filterDistrict !== "None") {
+      query.push("District=" + encodeURIComponent(filterDistrict));
+    }
+
+    const queryString = query.length > 0 ? "?" + query.join("&") : "";
+    linkTo("/locations" + queryString);
   };
 
   const _handlerEnter = (e) => {
@@ -105,7 +81,7 @@ const Home = () => {
             Da Nang Travel
           </span>
           <h1 data-aos="fade-up" className="homeTitle">
-            Search your Holiday
+            {t("holiday")}
           </h1>
         </div>
 
@@ -132,42 +108,26 @@ const Home = () => {
           <div className="priceInput">
             <div className="label_total flex">
               <label htmlFor="price">Search by districts:</label>
-              <h3 className="total">{district}</h3>
             </div>
             <div className="input flex dropdown-text">
-              <select
-                name="district"
-                id="topics"
-                onChange={(e) => {
-                  setDistricts(e.target.value);
-                }}
-              >
+              <select name="district" id="district">
                 <option value="None">{t("districts.select")}</option>
-                <option value="Hai Chau">{t("districts.haiChau")}</option>
-                <option value="Son Tra">{t("districts.sonTra")}</option>
-                <option value="Ngu Hanh Son">
-                  {t("districts.nguHanhSon")}
-                </option>
-                <option value="Lien Chieu">{t("districts.lienChieu")}</option>
-                <option value="Cam Le">{t("districts.camLe")}</option>
-                <option value="Hoa Vang">{t("districts.hoaVang")}</option>
-                <option value="Thanh Khe">{t("districts.thanhKhe")}</option>
+                <option value="HaiChau">{t("districts.haiChau")}</option>
+                <option value="SonTra">{t("districts.sonTra")}</option>
+                <option value="NguHanhSon">{t("districts.nguHanhSon")}</option>
+                <option value="LienChieu">{t("districts.lienChieu")}</option>
+                <option value="CamLe">{t("districts.camLe")}</option>
+                <option value="HoaVang">{t("districts.hoaVang")}</option>
+                <option value="ThanhKhe">{t("districts.thanhKhe")}</option>
               </select>
             </div>
           </div>
           <div className="priceInput">
             <div className="label_total flex">
               <label htmlFor="price">Search by topic:</label>
-              <h3 className="total">{topic}</h3>
             </div>
             <div className="input flex dropdown-text">
-              <select
-                name="topic"
-                id="topics"
-                onChange={(e) => {
-                  setTopic(e.target.value);
-                }}
-              >
+              <select name="topic" id="topics">
                 <option value="None">{t("topics.select")}</option>
                 <option value="Suggest">{t("topics.suggest")}</option>
                 <option value="Bridge">{t("topics.bridge")}</option>
@@ -185,7 +145,7 @@ const Home = () => {
 
           <div className="searchOptions flex" onClick={goToLct}>
             <HiFilter className="icon" />
-            <span>SEARCH</span>
+            <span>{t("all")}</span>
           </div>
         </div>
 

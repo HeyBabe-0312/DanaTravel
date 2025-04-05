@@ -130,7 +130,7 @@ const Main = ({ allDataLct, topic }) => {
     <section className="main container section" id="destinations">
       <div className="secTitle">
         <h3 data-aos="fade-right" className="title">
-          Most visited destinations
+          {t("home_title1")}
         </h3>
       </div>
 
@@ -172,7 +172,7 @@ const Main = ({ allDataLct, topic }) => {
                     </div>
                     <a href={`./location/${slug}`}>
                       <button className="btn flex">
-                        DETAILS{" "}
+                        {t("detail")}{" "}
                         <HiOutlineClipboardCheck
                           className="icon"
                           style={{ position: "relative", top: "-1px" }}
@@ -186,7 +186,9 @@ const Main = ({ allDataLct, topic }) => {
           )}
       </div>
       <div data-aos="fade-up" data-aos-duration="500" className="btn-more">
-        <a href="/locations">Show more</a>
+        <a href="/locations" style={{ fontWeight: "bold" }}>
+          {t("more")}
+        </a>
       </div>
     </section>
   );

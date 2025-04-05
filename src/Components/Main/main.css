@@ -1,7 +1,11 @@
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
-  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
@@ -29,9 +33,9 @@
   content: "";
   background: var(--SecondaryColor);
   height: 5px;
-  width: 120px;
+  width: 80px;
   right: 0;
-  bottom: 5px;
+  bottom: 2px;
   z-index: -1;
 }
 .main .secContent {
@@ -105,8 +109,8 @@
   line-height: 27px;
   text-align: justify;
   max-width: 110px;
-  color: #F1F1F1;
-  background: #A3A3A3;
+  color: #f1f1f1;
+  background: #a3a3a3;
   padding: 4px 10px;
   border-radius: 10px;
 }
@@ -117,7 +121,7 @@
   width: 25px;
   height: 25px;
   position: relative;
-  color: #10B5CB;
+  color: #10b5cb;
   top: 2px;
 }
 .main .secContent .singleDestination .cardInfo .desc {
@@ -127,6 +131,7 @@
   font-size: 13.5px;
   color: var(--textColor);
   font-weight: 500;
+  max-height: 102px;
   min-width: 0;
 }
 .main .secContent .singleDestination .cardInfo .btn {
@@ -152,7 +157,7 @@
   cursor: pointer;
 }
 .main .btn-more a {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 @media screen and (max-width: 360px) {
@@ -168,7 +173,7 @@
     font-size: 1.5rem;
   }
   .main .secTitle .title::after {
-    width: 155px !important;
+    width: 80px !important;
   }
   .main .secContent {
     grid-template-columns: repeat(2, 1fr);
@@ -177,7 +182,7 @@
     height: auto;
   }
   .main .secContent .singleDestination .cardInfo .desc {
-    max-height: 107px;
+    max-height: 102px;
   }
   .main .secContent .singleDestination .cardInfo .fees .topic {
     font-size: 15px;

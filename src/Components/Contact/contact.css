@@ -1,7 +1,11 @@
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
-  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
@@ -32,9 +36,9 @@
   content: "";
   background: var(--SecondaryColor);
   height: 5px;
-  width: 105px;
+  width: 115px;
   right: 0;
-  bottom: 5px;
+  bottom: 2px;
   z-index: -1;
 }
 .contact .conContent {
@@ -85,7 +89,7 @@
   font-weight: 600;
   font-size: 25px;
   margin-top: 5px;
-  color: #FDFDFD;
+  color: #fdfdfd;
   transition: 0.5s ease;
 }
 .contact .conContent .singleMember .socialInfo .name a {
@@ -99,10 +103,10 @@
   display: inline;
 }
 .contact .conContent .singleMember .socialInfo .name:hover a:visited {
-  color: #FDFDFD;
+  color: #fdfdfd;
 }
 .contact .conContent .singleMember .socialInfo .name:hover a:link {
-  color: #FDFDFD;
+  color: #fdfdfd;
 }
 .contact .conContent .singleMember .socialInfo .name:hover a:hover {
   color: var(--SecondaryColor);
@@ -115,7 +119,7 @@
   margin: 20px 0;
 }
 .contact .conContent .singleMember .socialInfo .socialIcon .iconSocial {
-  color: #FDFDFD;
+  color: #fdfdfd;
   margin: 0 10px;
   transition: 0.5s ease;
 }
@@ -125,6 +129,9 @@
 }
 .contact .conContent .singleMember .socialInfo .socialIcon .fb:hover {
   color: var(--PrimaryColor);
+}
+.contact .conContent .singleMember .socialInfo .socialIcon .gm:hover {
+  color: rgb(226, 23, 23);
 }
 .contact .conContent .singleMember .socialInfo .socialIcon .yt:hover {
   color: rgb(226, 23, 23);

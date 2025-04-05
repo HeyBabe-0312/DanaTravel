@@ -12,6 +12,7 @@ const ItemCarou = ({
   checkIsTopic,
   search,
   topicName,
+  districtName,
 }) => {
   const [topicData, setTopicData] = useState(null);
   useEffect(() => {
@@ -30,7 +31,7 @@ const ItemCarou = ({
     toast.info(txt);
   };
   if (topicData) {
-    if (checkIsTopic || search === null) {
+    if (checkIsTopic && districtName === null) {
       return (
         <>
           {React.Children.toArray(
@@ -41,8 +42,9 @@ const ItemCarou = ({
                   data={dataLocation}
                   topic={d.id_tag}
                   dataReview={dataReview}
-                  search=""
+                  search={null}
                   toastShow=""
+                  districtName={null}
                   topicName={topicName}
                 />
               </div>
@@ -62,6 +64,24 @@ const ItemCarou = ({
               search={search}
               toastShow={toastShow}
               topicName={topicName}
+              districtName={null}
+            />
+          </div>
+        </>
+      );
+    } else if (topicName !== null && districtName !== null) {
+      return (
+        <>
+          <div data-aos="fade-up" className="item-container">
+            <h2 className="title-location"></h2>
+            <SubItemCarou
+              data={dataLocation}
+              topic={dataTopic}
+              dataReview={dataReview}
+              search={null}
+              toastShow={toastShow}
+              topicName={topicName}
+              districtName={districtName}
             />
           </div>
         </>
@@ -73,11 +93,12 @@ const ItemCarou = ({
             <h2 className="title-location"></h2>
             <SubItemCarou
               data={dataLocation}
-              topic=""
+              topic={dataTopic}
               dataReview={dataReview}
               search={search}
               toastShow={toastShow}
-              topicName=""
+              topicName={null}
+              districtName={districtName}
             />
           </div>
         </>

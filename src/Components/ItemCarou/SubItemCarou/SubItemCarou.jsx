@@ -10,10 +10,10 @@ import { useTranslation } from "react-i18next";
 const SubItemCarou = ({
   data,
   topic,
-  dataReview,
   search,
   toastShow,
   topicName,
+  districtName,
 }) => {
   const { t } = useTranslation();
   const [width, setWidth] = useState(window.innerWidth);
@@ -130,37 +130,68 @@ const SubItemCarou = ({
   }, [width]);
   useEffect(() => {
     var newArray = null;
-    if (search === "") {
+    if (search === null && districtName === null && topicName !== null) {
+      console.log("a;");
+      newArray = data?.filter(function (el) {
+        return parseInt(el.id_tag) === parseInt(topic);
+      });
+      setDataTopic(newArray);
+    } else if (search !== null && (topicName !== "" || districtName !== "")) {
+      console.log("b;" + search);
+      var topicFilter1 = topic?.filter(function (el) {
+        return el.tag_name.toString().indexOf(topicName) === 0;
+      });
+      var searchFilter1 = data.filter(function (el) {
+        return (
+          el.name.toString().toUpperCase().indexOf(search?.toUpperCase()) > -1
+        );
+      });
+      var searchTopic1 = searchFilter1.filter(function (el) {
+        return parseInt(el.id_tag) === parseInt(topicFilter1[0].id_tag);
+      });
+      newArray = searchTopic1?.filter(function (el) {
+        return el.district.toString().indexOf(districtName) === 0;
+      });
+      setDataTopic(newArray);
+    } else if (districtName !== null && topicName !== null) {
+      console.log("c");
+      var topicFilter2 = topic?.filter(function (el) {
+        return el.tag_name.toString().indexOf(topicName) === 0;
+      });
+      var searchTopic2 = data?.filter(function (el) {
+        return parseInt(el.id_tag) === parseInt(topicFilter2[0].id_tag);
+      });
+      newArray = searchTopic2?.filter(function (el) {
+        return el.district.toString().indexOf(districtName) === 0;
+      });
+      setDataTopic(newArray);
+    } else if (districtName !== null) {
+      console.log(search);
+      newArray = data.filter(function (el) {
+        return el.district.toString().indexOf(districtName) === 0;
+      });
+      setDataTopic(newArray);
+    } else if (search) {
+      console.log("d");
+      newArray = data.filter(function (el) {
+        return (
+          el.name.toString().toUpperCase().indexOf(search.toUpperCase()) > -1
+        );
+      });
+      setDataTopic(newArray);
+    } else {
+      console.log("e");
       newArray = data.filter(function (el) {
         return parseInt(el.id_tag) === parseInt(topic);
       });
       setDataTopic(newArray);
-    } else if (search !== "" && topicName !== "") {
-      var topicFilter = topic.filter(function (el) {
-        return el.tag_name.toString().indexOf(topicName) === 0;
-      });
-      var searchFilter = data.filter(function (el) {
-        return (
-          el.name.toString().toUpperCase().indexOf(search.toUpperCase()) > -1
-        );
-      });
-      newArray = searchFilter.filter(function (el) {
-        return parseInt(el.id_tag) === parseInt(topicFilter[0].id_tag);
-      });
-      setDataTopic(newArray);
-    } else {
-      newArray = data.filter(function (el) {
-        return (
-          el.name.toString().toUpperCase().indexOf(search.toUpperCase()) > -1
-        );
-      });
-      setDataTopic(newArray);
     }
+
     if (toastShow !== "") {
-      if (newArray.length != 0) toastShow(newArray.length + " results found");
+      if (newArray.length !== 0) toastShow(newArray.length + " results found");
       else toastShow("No result found");
     }
-  }, [search, topicName]);
+  }, [data, districtName, search, toastShow, topic, topicName]);
 
   const sortStar = (a, b) => {
     return b.stars - a.stars;

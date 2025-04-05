@@ -37,6 +37,7 @@ const Locations = ({ dataAllLct, dataTopic, dataReview }) => {
   const search = useLocation().search;
   const name = new URLSearchParams(search).get("Search");
   const topicName = new URLSearchParams(search).get("Topic");
+  const districtName = new URLSearchParams(search).get("District");
 
   useEffect(() => {
     if (name === null) setCheckIsTopic(true);
@@ -90,6 +91,7 @@ const Locations = ({ dataAllLct, dataTopic, dataReview }) => {
           checkIsTopic={checkIsTopic}
           search={name}
           topicName={topicName}
+          districtName={districtName}
         />
       </section>
     );

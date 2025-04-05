@@ -42,12 +42,12 @@ const Navbar = () => {
             <ul className="navLists flex">
               <li className="navItem">
                 <a href="/" className="navLink">
-                  Home
+                  {t("home")}
                 </a>
               </li>
               <li className="navItem">
                 <a href="/locations" className="navLink">
-                  Locations
+                  {t("loca")}
                 </a>
               </li>
               <li className="navItem">
