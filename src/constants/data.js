@@ -4,7 +4,7 @@ const img =
 const data = [
   {
     id_location: 1,
-    center_img: "/image/suoiLuong/suoiLuong1.jpg",
+    center_img: "/image/suoiLuong/suoiluong1.jpg",
     name: "locations.suoi_luong",
     title: "locations.suoi_luong_title",
     title1: "locations.suoi_luong_title1",
@@ -14,11 +14,11 @@ const data = [
     slug: "suoi-luong",
     id_tag: 7,
     sub_img: [
-      "/image/suoiLuong/suoiLuong1.jpg",
-      "/image/suoiLuong/suoiLuong2.webp",
-      "/image/suoiLuong/suoiLuong3.webp",
-      "/image/suoiLuong/suoiLuong4.webp",
-      "/image/suoiLuong/suoiLuong5.webp",
+      "/image/suoiLuong/suoiluong1.jpg",
+      "/image/suoiLuong/suoiluong2.webp",
+      "/image/suoiLuong/suoiluong3.webp",
+      "/image/suoiLuong/suoiluong4.webp",
+      "/image/suoiLuong/suoiluong5.webp",
     ],
     relate: [2, 3, 4, 5, 6],
     describes: "locations.suoi_luong_description",
@@ -1415,6 +1415,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <strong>1. Địa chỉ cầu Rồng Đà Nẵng nằm ở đâu?</strong>
 </span>
 </h2>
+<br/>
 <p>
 <span style="background-color:transparent;color:#000000;">Cầu Rồng nằm trên tuyến đường Nguyễn Văn Linh, thuộc phường Phước Ninh, quận Hải Châu, Đà Nẵng. Đây là cây cầu nối liền trung tâm thành phố với bãi biển Mỹ Khê – một trong những bãi biển đẹp nhất hành tinh. Từ cầu Rồng, du khách có thể dễ dàng di chuyển đến nhiều điểm du lịch nổi tiếng khác như Bán đảo Sơn Trà, Ngũ Hành Sơn hay Phố cổ Hội An.</span>
 </p>
@@ -1428,6 +1429,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <strong>2. Cách di chuyển đến cầu Rồng</strong>
 </span>
 </h2>
+<br/>
 <b>
 <span style="background-color:transparent;">
 <strong>Từ Hội An đến cầu Rồng</strong>
@@ -1464,7 +1466,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <span style="background-color:transparent;color:#990000;">
 <strong>3. Thiết kế độc đáo của cầu Rồng Đà Nẵng</strong>
 </span>
-</h2>
+</h2><br/>
 <p>
 <span style="background-color:transparent;color:#000000;">Cầu Rồng có tổng chiều dài 666m, rộng 37,5m, gồm 6 làn xe và 2 lối dành riêng cho người đi bộ. Điểm đặc biệt của cây cầu là phần thân rồng dài 268m được thiết kế bằng thép uốn lượn mềm mại, mô phỏng hình dáng rồng thời Lý đang vươn mình ra biển lớn.</span>
 </p>
@@ -1477,7 +1479,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <span style="background-color:transparent;color:#990000;">
 <strong>4. Trải nghiệm màn phun lửa, phun nước ngoạn mục</strong>
 </span>
-</h2>
+</h2><br/>
 <p>
 <span style="background-color:transparent;color:#000000;">Cầu Rồng Đà Nẵng đẹp nhất vào buổi tối, khi mà hơn 2.500 điểm đèn LED nhiều màu sắc được bật sáng.</span>
 </p>
@@ -1506,11 +1508,11 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <span style="background-color:transparent;color:#000000;">Những màn trình diễn này thu hút đông đảo người dân và khách du lịch, tạo nên khung cảnh vô cùng ngoạn mục bên dòng sông Hàn.</span>
 </p>
 <p>&nbsp;</p>
-<h3>
+<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>5. Địa điểm lý tưởng để ngắm cầu Rồng</strong>
 </span>
-</h3>
+</h2><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
@@ -1534,11 +1536,11 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 </li>
 </ul>
 <p>&nbsp;</p>
-<h3>
+<h2>
 <span style="background-color:transparent;color:#990000;">
 <strong>6. Những địa điểm du lịch gần cầu Rồng</strong>
 </span>
-</h3>
+</h2><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
@@ -1562,7 +1564,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <span style="background-color:transparent;color:#990000;">
 <strong>7. Kinh nghiệm tham quan cầu Rồng Đà Nẵng</strong>
 </span>
-</h2>
+</h2><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
@@ -2113,22 +2115,1200 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
   },
   {
     id_location: 9,
-    center_img: img,
-    name: "Hoi An Ancient Town",
-    topic: "Museum",
-    slug: "hoi-an-ancient-town",
-    id_tag: 6,
+    center_img: "/image/bdSonTra/bdSonTra1.jpg",
+    name: "locations.bd_son_tra",
+    title: "locations.bd_son_tra_title",
+    title1: "locations.bd_son_tra_title1",
+    topic: "Suggest",
+    slug: "ban-dao-son-tra",
+    id_tag: 1,
     stars: 5,
     suggest: 1,
-    describes:
-      "Hoi An Ancient Town is a UNESCO World Heritage Site located in Quang Nam Province, Vietnam. It is known for its well-preserved ancient architecture, traditional wooden houses, and vibrant culture. The town is famous for its lantern festivals, local cuisine, and unique blend of Vietnamese, Chinese, and Japanese influences.",
+    sub_img: [
+      "/image/bdSonTra/bdSonTra1.jpg",
+      "/image/bdSonTra/bdSonTra2.jpg",
+      "/image/bdSonTra/bdSonTra3.jpg",
+      "/image/bdSonTra/bdSonTra4.jpg",
+      "/image/bdSonTra/bdSonTra5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.bd_son_tra_description",
+    address: "locations.bd_son_tra_address",
+    address_img: "/image/bdSonTra/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Đôi nét về bán đảo Sơn Trà</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Bán đảo Sơn Trà nằm cách trung tâm thành phố Đà Nẵng khoảng 10km về phía Đông Bắc, với diện tích hơn 4.400ha và độ cao trung bình 693m so với mực nước biển. Đây là khu bảo tồn thiên nhiên quan trọng, sở hữu hệ sinh thái phong phú với nhiều loài động thực vật quý hiếm. Bán đảo không chỉ nổi bật với những bãi biển hoang sơ như Bãi Bụt, Bãi Rạng, Bãi Đá Đen mà còn có những địa danh linh thiêng như Chùa Linh Ứng với tượng Phật Quan Âm cao nhất Việt Nam.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Với vẻ đẹp nguyên sơ và khí hậu trong lành, Sơn Trà là điểm đến lý tưởng cho các hoạt động du lịch sinh thái, leo núi, tắm biển, và thưởng thức hải sản tươi ngon. Ngoài ra, từ trên đỉnh Sơn Trà, du khách có thể chiêm ngưỡng toàn cảnh thành phố Đà Nẵng, cầu Rồng, cầu sông Hàn và bãi biển Mỹ Khê tuyệt đẹp. Chính vì thế, nơi đây luôn nằm trong danh sách những điểm đến không thể bỏ lỡ khi du lịch Đà Nẵng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Thời điểm phù hợp để đi du lịch bán đảo Sơn Trà</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;">Bán đảo Sơn Trà có khí hậu nhiệt đới gió mùa với hai mùa rõ rệt là mùa khô và mùa mưa. Để có chuyến tham quan tuyệt vời nhất, bạn nên lựa chọn thời điểm phù hợp:</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa khô (tháng 3 - tháng 9)</strong>: Đây là thời gian lý tưởng nhất để khám phá bán đảo Sơn Trà. Thời tiết khô ráo, nắng đẹp, biển trong xanh và rất thích hợp cho các hoạt động du lịch như leo núi, tắm biển, chụp ảnh và khám phá thiên nhiên.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa mưa (tháng 10 - tháng 2)</strong>: Thời gian này thường có mưa lớn, đường lên bán đảo có thể trơn trượt, gây nguy hiểm cho việc di chuyển. Nếu bạn đến vào mùa này, hãy cân nhắc theo dõi dự báo thời tiết trước khi đi.</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Thời gian đẹp nhất trong ngày để tham quan Sơn Trà là vào sáng sớm hoặc chiều muộn. Bình minh và hoàng hôn trên bán đảo đều mang đến khung cảnh tuyệt đẹp, rất thích hợp để ngắm cảnh và chụp ảnh.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Các địa điểm tham quan nổi bật trên Bán đảo Sơn Trà&nbsp;</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1. Chùa Linh Ứng Sơn Trà</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng là một trong ba ngôi chùa Linh Ứng nổi tiếng ở Đà Nẵng, sở hữu tượng Phật Quan Thế Âm cao 67m – lớn nhất Việt Nam. Từ chùa, bạn có thể phóng tầm mắt ngắm nhìn toàn cảnh thành phố và biển Đông tuyệt đẹp.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2. Cây Đa Ngàn Năm</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Cây đa Sơn Trà có tuổi đời hơn 1.000 năm, với hệ thống rễ khổng lồ tạo nên một khung cảnh hùng vĩ. Đây là điểm dừng chân lý tưởng để tận hưởng không khí trong lành giữa rừng xanh.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3. Đỉnh Bàn Cờ</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Được mệnh danh là "nóc nhà" của Đà Nẵng, Đỉnh Bàn Cờ mang đến tầm nhìn toàn cảnh tuyệt đẹp của thành phố. Trên đỉnh có bức tượng Đế Thích đang suy tư bên bàn cờ, tạo nên nét đặc trưng độc đáo.</span>
+</p>
+<h4>&nbsp;</h4>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.4. Bãi Bụt – Bãi Rạng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi Bụt và Bãi Rạng là hai bãi biển nổi tiếng với làn nước trong xanh, bãi cát trắng mịn và những rặng san hô tuyệt đẹp. Đây là địa điểm lý tưởng để tắm biển, lặn ngắm san hô và thư giãn.</span>
+</p>
+<h4>&nbsp;</h4>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.5. Mắt thần Đông Dương – Radar Sơn Trà</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Trạm radar này được xây dựng từ thời chiến tranh, có vị trí chiến lược quan trọng và hiện vẫn đang được sử dụng để giám sát không phận. Đến đây, du khách có thể tận hưởng cảnh đẹp ngoạn mục từ độ cao hơn 600m so với mực nước biển.</span>
+</p>
+<h3>&nbsp;</h3>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Cách di chuyển đến Bán đảo Sơn Trà&nbsp;</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Xe máy</strong>: Phương tiện phổ biến nhất để khám phá Sơn Trà. Bạn có thể thuê xe máy với giá khoảng 120.000 – 150.000 VNĐ/ngày và tự do di chuyển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ô tô, taxi</strong>: Nếu đi theo nhóm hoặc gia đình, bạn có thể thuê ô tô hoặc đi taxi để đảm bảo an toàn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tour du lịch</strong>: Nếu không muốn tự lên kế hoạch, bạn có thể đặt tour tham quan Sơn Trà với hướng dẫn viên chuyên nghiệp.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Lưu ý khi tham quan Bán đảo Sơn Trà</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">Chuẩn bị đồ ăn, nước uống vì một số điểm trên Sơn Trà không có nhiều quán ăn.</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Mang theo kem chống nắng, mũ nón để bảo vệ da khỏi ánh nắng mặt trời.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Luôn đi cẩn thận trên các đoạn đường dốc và quanh co.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Giữ gìn vệ sinh môi trường, không xả rác bừa bãi để bảo vệ hệ sinh thái Sơn Trà.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. Top các điểm tham quan tại Bán đảo Sơn Trà</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Bán đảo Sơn Trà là một kho tàng du lịch với vô số điểm tham quan hấp dẫn. Nếu bạn không có nhiều thời gian, hãy ưu tiên ghé thăm những địa điểm nổi bật dưới đây:</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.1&nbsp; Đỉnh Bàn Cờ</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nằm ở độ cao 700m so với mực nước biển, Đỉnh Bàn Cờ là một trong những địa điểm không thể bỏ lỡ khi đến Sơn Trà. Tương truyền, nơi đây từng là bàn cờ của hai vị tiên ông. Một ngày, khi một tiên nữ bay xuống tắm ở bãi biển gần đó, một vị tiên ông vì mải ngắm nhìn mà bị đối thủ đánh bại. Kể từ đó, nơi này trở thành điểm đến hấp dẫn với du khách yêu thích phong cảnh núi non hùng vĩ và thích săn mây vào buổi sáng sớm.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.2 Cây Đa Ngàn Năm</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bán đảo Sơn Trà nổi tiếng với hệ sinh thái phong phú và đặc biệt là cây đa ngàn năm tuổi. Cây có chu vi thân lên đến 10m, với 26 rễ phụ tỏa rộng, tạo thành một khung cảnh huyền bí như trong cổ tích. Đây là điểm dừng chân lý tưởng cho những ai yêu thiên nhiên và muốn tìm hiểu về hệ sinh thái rừng nguyên sinh Sơn Trà.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.3&nbsp; Hải Đăng Sơn Trà</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Hải đăng Sơn Trà được xây dựng từ thời Pháp thuộc vào những năm 1950 và là một trong những ngọn hải đăng cổ đẹp nhất Việt Nam. Nằm ở độ cao 223m so với mực nước biển, từ đây du khách có thể phóng tầm mắt ra toàn cảnh đại dương bao la, tận hưởng những khoảnh khắc hoàng hôn lãng mạn và check-in với những bức ảnh tuyệt đẹp.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.4 Ghềnh Bàng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Ghềnh Bàng là một trong những điểm đến hoang sơ và ít người biết đến ở Sơn Trà. Để đến được đây, du khách phải vượt qua quãng đường trekking dài khoảng 1km qua những con dốc và rừng cây rậm rạp. Nhưng phần thưởng xứng đáng cho chuyến hành trình này chính là khung cảnh tuyệt đẹp của biển xanh, những bãi đá lớn nhỏ xếp chồng lên nhau và không gian yên bình tuyệt đối.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.5 Hồ Xanh</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Hồ Xanh là một hồ nước tự nhiên tuyệt đẹp nằm giữa bán đảo Sơn Trà. Nước hồ quanh năm trong xanh và được bao quanh bởi những tán cây xanh mướt. Vào mùa cỏ lau, nơi đây trở thành điểm check-in thơ mộng thu hút nhiều du khách. Nếu yêu thích sự yên bình và muốn có những bức ảnh đẹp, Hồ Xanh là điểm đến lý tưởng dành cho bạn.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.6 Khu du lịch sinh thái Tiên Sa</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Tiên Sa là khu du lịch sinh thái lý tưởng cho những ai muốn hòa mình vào thiên nhiên. Tại đây, du khách có thể tham gia nhiều hoạt động thú vị như cắm trại qua đêm, chèo thuyền, lặn ngắm san hô, hoặc đơn giản là thư giãn bên bờ biển. Khu du lịch cũng có hệ thống phòng nghỉ tiện nghi với view biển tuyệt đẹp.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.7&nbsp; Chùa Linh Ứng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng Sơn Trà là một trong ba ngôi chùa Linh Ứng nổi tiếng tại Đà Nẵng. Ngôi chùa này tọa lạc ở độ cao 693m so với mực nước biển và là nơi đặt tượng Phật Quan Thế Âm cao 67m - bức tượng cao nhất Việt Nam. Từ đây, du khách có thể chiêm ngưỡng toàn cảnh thành phố Đà Nẵng và tận hưởng không gian thanh tịnh, yên bình.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.8 Trạm Rada 29</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Trạm Rada 29 hay còn gọi là "mắt thần Đông Dương", nằm ở độ cao 621m so với mực nước biển. Đây là nơi kiểm soát vùng trời Vịnh Bắc Bộ, Lào và Campuchia. Đến đây, du khách có thể tham quan khu vực trạm radar, sân bay trực thăng cũ và ngắm nhìn toàn cảnh đại dương từ trên cao.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. Trải nghiệm vui chơi hấp dẫn tại Bán đảo Sơn Trà</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.1 Tắm biển</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bán đảo Sơn Trà có nhiều bãi tắm tuyệt đẹp, trong đó phải kể đến:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Bụt</strong>: Một bãi biển tuyệt đẹp với làn nước trong xanh và cát trắng mịn, rất thích hợp để cắm trại, lặn biển, lướt ván.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Tiên Sa</strong>: Gắn liền với truyền thuyết tiên nữ giáng trần, nơi đây có không gian yên tĩnh, hoang sơ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Đá Đen</strong>: Nổi bật với những tảng đá màu đen xếp chồng lên nhau tạo thành cảnh quan độc đáo.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Nam</strong>: Được đánh giá là một trong những bãi biển đẹp nhất Sơn Trà, nổi bật với hệ sinh thái san hô đa dạng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bãi Bắc</strong>: Nếu đến đây vào tháng 10 - 11 âm lịch, bạn sẽ được chiêm ngưỡng thảm rong biển xanh mướt.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.2&nbsp; Lặn ngắm san hô</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Sơn Trà sở hữu những rạn san hô đẹp và phong phú bậc nhất Đà Nẵng. Du khách có thể tham gia tour lặn biển để khám phá hệ sinh thái biển đầy màu sắc dưới làn nước trong vắt.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.3&nbsp; Khám phá hệ động thực vật phong phú</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Sơn Trà không chỉ có cảnh đẹp mà còn là nơi bảo tồn nhiều loài động vật quý hiếm như voọc chà vá chân nâu, chồn bạc má, mèo rừng... Một chuyến trekking xuyên rừng sẽ giúp bạn khám phá hệ sinh thái đa dạng này.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.4&nbsp; Chinh phục dù lượn</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn yêu thích các trò chơi mạo hiểm, dù lượn trên bán đảo Sơn Trà là trải nghiệm không thể bỏ lỡ. Từ độ cao 600m, bạn sẽ được tận hưởng cảm giác bay lượn trên bầu trời và ngắm nhìn toàn cảnh thành phố từ trên cao.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.5 Trekking Mũi Nghê</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Mũi Nghê là địa điểm lý tưởng để ngắm bình minh và cắm trại qua đêm. Để đến được đây, du khách phải trekking qua những cung đường rừng khá thử thách nhưng cảnh đẹp hoang sơ tại Mũi Nghê chắc chắn sẽ khiến bạn không hối tiếc.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>8. Chiêu đãi vị giác với ẩm thực Sơn Trà</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.1 Hải sản tươi ngon</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Sơn Trà có nguồn hải sản phong phú và tươi ngon. Du khách có thể thưởng thức các món ăn đặc sản như tôm hùm, ghẹ hấp, mực nướng hoặc tham quan chợ hải sản để chọn mua đồ tươi sống.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.2&nbsp; Sản vật núi rừng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngoài hải sản, Sơn Trà còn có các sản vật núi rừng độc đáo như rau rừng, thịt thú rừng được chế biến thành nhiều món ăn hấp dẫn.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.3&nbsp; Rượu dừa</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Rượu dừa Sơn Trà là một đặc sản được nhiều du khách mua về làm quà. Loại rượu này có vị ngọt thanh, dịu nhẹ, rất dễ uống và mang hương vị đặc trưng của vùng biển Đà Nẵng.</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Bán đảo Sơn Trà không chỉ có cảnh quan tuyệt đẹp mà còn là thiên đường của những trải nghiệm thú vị. Nếu bạn đang có kế hoạch du lịch Đà Nẵng, đừng quên dành thời gian khám phá nơi này nhé!</span>
+</p>`,
+    detail_describe2: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. ソンチャ半島の魅力</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島は、ダナン市中心部から約10km北東に位置し、総面積4,400ヘクタール以上、標高は平均693mに達します。この半島は、貴重な動植物が生息する重要な自然保護区であり、豊かな生態系を誇ります。また、ソンチャ半島には、手つかずの美しいビーチとして知られる バイブット、バイラン、バイダーデン などが点在し、さらには ベトナム最大の観音像を擁するリンウン寺 のような神聖なスポットも存在します。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">手つかずの大自然と清らかな空気に包まれたこの半島は、エコツーリズム、トレッキング、ビーチアクティビティ、新鮮なシーフードを堪能するのに最適な場所です。さらに、ソンチャ半島 の頂上からは、ダナンの壮大なパノラマビューが広がり、ドラゴン橋、ハン川橋、ミーケービーチ などの名所を一望できます。そのため、ダナンを訪れる際には絶対に見逃せない観光地の一つとなっています。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. ソンチャ半島観光に最適な時期</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島 は、熱帯モンスーン気候に属し、乾季と雨季の二つの明確なシーズンがあります。快適で思い出に残る旅を楽しむために、最適な時期を選びましょう。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>乾季（3月～9月）：</strong>この期間は ソンチャ半島 を訪れるのに最も理想的な時期です。天候は晴れ渡り、乾燥しており、美しい青い海が広がります。ハイキング、ビーチアクティビティ、写真撮影、自然探索など、あらゆる観光体験に最適です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>雨季（10月～2月）：</strong>この時期は降水量が多く、特に半島へ続く道が滑りやすくなるため、移動には注意が必要です。もしこの期間に訪れる場合は、事前に天気予報を確認し、安全なプランを立てることをおすすめします。</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">また、ソンチャ半島 を訪れるのに最も美しい時間帯は、早朝または夕方 です。朝焼けや夕暮れ時の景色は息をのむほど美しく、観光や写真撮影にぴったりの瞬間を提供してくれます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. ソンチャ半島の魅力的な観光スポット</strong>
+</span>
+</h2>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1. ソンチャ半島のリンウン寺</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">リンウン寺 は、ダナンにある三大リンウン寺の一つであり、高さ67メートルの観音菩薩像 を擁するベトナム最大の仏教寺院です。ここからは、ダナン市街と青く広がる東海の絶景を一望できます。</span>
+</p><br/>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2.古い長寿の木バンヤン</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島の千年樹 は、樹齢1000年以上の神秘的な巨木で、その壮大な根の広がりが圧倒的な自然美を生み出しています。緑豊かな森の中で、新鮮な空気を吸いながらリフレッシュできる絶好のスポットです。</span>
+</p><br/>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3.バンコー峰</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">「ダナンの屋根」と称される バンコー山頂 では、息をのむような絶景が広がります。頂上には、思索にふける帝釈天（Đế Thích） の像が囲碁盤の前に座っており、神秘的な雰囲気を醸し出しています。</span>
+</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.4. バイブット &amp; バイラン</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">バイブット と バイラン は、エメラルドグリーンの海と白砂のビーチが美しい、ソンチャ半島を代表するリゾートスポットです。ここでは、シュノーケリングでサンゴ礁を探検 したり、穏やかな波に揺られながらリラックスすることができます。</span>
+</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.5. インドシナの「神の目」 – ソンチャ半島のレーダーステーション</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">戦時中に建設されたレーダーステーション は、現在も重要な戦略的監視施設として機能しています。標高600メートルの地点からは、ソンチャ半島の壮大な風景を楽しむことができ、訪れる人々を魅了します。</span>
+</p>
+<h3>&nbsp;</h3>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. ソンチャ半島へのアクセス方法</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;バイク:&nbsp;</strong>ソンチャ半島を探索する最も人気のある移動手段 です。バイクは1日あたり 120,000～150,000　ベトナムドン でレンタルでき、自由自在に観光スポットを巡ることができます。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;車・タクシー：</strong>家族連れやグループでの旅行には、レンタカーやタクシー を利用すると、安全で快適な移動が可能です。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>ツアー：</strong>計画を立てるのが面倒な方には、ソンチャ半島観光ツアーが最適 です。プロのガイドが同行し、半島の魅力を存分に紹介してくれます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. ソンチャ半島観光の注意点</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>飲食物を持参する：</strong> 一部のエリアには飲食店が少ないため、軽食や飲み物を準備 すると安心です。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>日焼け対策を忘れずに：</strong>日差しが強い日が多いため、日焼け止めや帽子を持参 し、しっかり紫外線対策をしましょう。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>安全運転を心掛ける：</strong>ソンチャ半島には急勾配や曲がりくねった道 が多いため、運転には十分注意が必要です。</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>環境を守る：</strong>ソンチャ半島は貴重な自然保護区でもあります。ゴミを持ち帰り、自然環境を大切にしましょう。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. ソンチャ半島の必見スポット</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島 は数多くの魅力的な観光スポットを誇る「大自然の宝庫」です。時間が限られている方は、以下のハイライトを優先して訪れてみてください！</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.1&nbsp;バンコー峰</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">標高700m に位置するこの場所は、まるで雲の上に浮かぶような幻想的な景色を楽しめる名所です。伝説によると、かつて仙人たちがここで囲碁を打っていたとされ、ある日、一人の仙人が海辺で水浴びする仙女に見とれてしまい、対局に敗れました。それ以来、この場所は「バンコー（囲碁の盤）」と呼ばれ、早朝の雲海を眺める絶好のスポットとなっています。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.2&nbsp;古い長寿の木バンヤン</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島の原生林を象徴する神秘の大樹。この木は樹齢 1,000年以上、幹の周囲は約10m にも達し、26本の巨大な気根が地面に伸びています。その荘厳な姿はまるで神話の世界に迷い込んだかのよう。大自然のパワーを感じたい方にぴったりのスポットです。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.3 ソンチャ灯台</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">1950年代のフランス統治時代に建設されたベトナム最古級の灯台 のひとつ。標高223m にあり、眼下には壮大な海のパノラマが広がります。特に夕暮れ時には、ロマンチックな景色が広がり、美しい写真を撮るのに絶好のロケーションです。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.4 ゲンバン岩礁</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">手つかずの自然が残る「隠れた秘境」。ここへ行くには約1km のトレッキングが必要ですが、その先にはエメラルドブルーの海と、長い年月をかけて風化した奇岩群が広がる静寂な楽園が待っています。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.5ホーサン湖</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">「ソンチャ半島のエメラルドグリーン」 と称される美しい湖。透明度の高い湖面が青空を映し出し、周囲には豊かな緑が広がります。特に、すすきが揺れる季節には幻想的な風景が広がり、フォトスポットとしても大人気です。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.6 ティエンサ観光エリア</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島で エコツーリズムを楽しむならここ！ キャンプ、カヤック、シュノーケリング、または静かな海辺でリラックスするのに最適です。設備の整ったバンガローもあり、美しい海を眺めながら贅沢な時間を過ごせます。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.7 リンウン寺</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ダナンの三大リンウン寺のひとつで、標高693m に位置します。ここには 高さ67mの観音菩薩像 がそびえ立ち、ベトナム最大 を誇ります。海と街を一望できる絶景スポットとしても人気があり、心を落ち着ける静寂な空間が広がります。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.8 レーダー29基地</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">「インドシナの神の目」と呼ばれるこの場所は、標高621m にあり、かつてベトナム戦争時に戦略的拠点として使用されていました。現在でも防空監視の要所であり、訪れると旧ヘリポートや軍事施設の名残 を見ることができます。また、ここからのオーシャンビューは息をのむ美しさです。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. ソンチャ半島での魅力的なアクティビティ体験</strong>
+</span>
+</h3>
+<h2>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;7.1 楽園のようなビーチでの海水浴</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島には、まるで絵画のように美しい<strong>ビーチ</strong> が数多く点在しています。その中でも特におすすめのスポットはこちら：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ブットビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">エメラルドブルーの海と、さらさらとした純白の砂浜が広がる極上のビーチ。キャンプ、シュノーケリング、サーフィンなどのアクティビティを楽しむのに最適です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ティエンサビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">「仙女が天から舞い降りた」という伝説が残る神秘的なビーチ。静かで手つかずの自然が広がる、まさに隠れた楽園です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ブラックストーンビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">黒々とした奇岩が重なり合う幻想的な風景 が魅力的なスポット。他のビーチとは一味違う、神秘的な雰囲気を楽しめます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ナムビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島で最も美しいビーチの一つとされ、特に 色鮮やかなサンゴ礁 が広がるエリアとして知られています。シュノーケリングには最適！</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バックビーチ</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">旧暦の10月から11月に訪れると、一面に広がる緑の海藻のじゅうたん を見ることができます。自然の神秘を感じられる絶景スポット。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.2 サンゴ礁ダイビング</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島は、ダナンでも トップクラスの美しいサンゴ礁 を誇るエリア。透明度の高い海の中で、カラフルなサンゴや熱帯魚たちと出会えるシュノーケリング・ダイビングツアーにぜひ参加してみてください！</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.3 貴重な動植物との出会い</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島は、単なる観光地ではなく 大自然の宝庫。ここでは、ベトナム固有の希少動物 たちが生息しています。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>レッドシャンクドゥクラングール</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">「森の貴婦人」とも称される、世界でも貴重な絶滅危惧種のサル。運が良ければ、木々の間を跳び回る姿を見られるかも！</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>シルバーバックマングース</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">銀色の背中を持つ珍しいマングース。森の中でその姿を見つけたらラッキー！</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ジャングルキャット</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島に生息する野生の猫。神秘的な夜の森でひっそりと暮らしています。</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">トレッキングをしながら、これらの貴重な動植物たちの生息地を探検してみましょう！</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.4 パラグライダーで空中散歩</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">スリル満点のアクティビティに挑戦したい方へ！ ソンチャ半島の標高600mの地点から、ダナンの街や海を一望できる パラグライダー体験 は忘れられない思い出になること間違いなし！</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">空から見下ろす広大な景色、吹き抜ける爽やかな風、そして自由に羽ばたく感覚…。この感動をぜひ体験してください！</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.5 ムイゲーでのトレッキング &amp; キャンプ</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ムイゲー は、ソンチャ半島で最も美しい日の出を望める秘境のひとつ。ここへ行くには、大自然の中を抜けるトレッキングコース を進む必要があります。険しい道のりですが、その先には 息を呑むほどの絶景 が広がっています。</span>
+</p>
+<h3>&nbsp;</h3>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>8. ソンチャ半島で味覚を満たす美食の旅</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;8.1 新鮮な海産物</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島は、その豊富で新鮮な海産物で有名です。観光客は、ロブスター、蒸しガニ、焼きイカなどの地元の特産料理を堪能できるほか、魚市場を訪れて、新鮮な魚介類をその場で選んで購入することもできます。海の香りが漂う、まさに 海の恵み を満喫できるスポットです。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.2 山の恵み</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">海産物だけでなく、ソンチャ半島には山の恵みも豊富にあります。山菜や野生の獣肉は、地元で人気の食材であり、それらを使った料理はどれも ユニークで美味 です。特に、地元の食材を活かした野趣あふれる料理は、一度食べたら忘れられない味となることでしょう。</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.3 ココナッツ酒</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島の特産品の一つである ココナッツ酒 は、多くの観光客に人気のお土産です。このお酒は、まろやかな甘さと穏やかな風味 が特徴で、非常に飲みやすく、ダナンの海の香りが感じられる味わいです。もしこの地を訪れたなら、是非一度味わってみてください。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャ半島はその絶景だけでなく、心に残る素晴らしい食体験が待っています。ダナンへの旅行を計画しているなら、ぜひこの素晴らしい場所を探索する時間を忘れずに取ってください！</span>
+</p>`,
+  },
+  {
+    id_location: 10,
+    center_img: "/image/chuaLinhUng/chuaLinhUng1.jpg",
+    name: "locations.chua_linh_ung",
+    title: "locations.chua_linh_ung_title",
+    title1: "locations.chua_linh_ung_title1",
+    topic: "Pagoda",
+    slug: "chua-linh-ung",
+    id_tag: 5,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/chuaLinhUng/chuaLinhUng1.jpg",
+      "/image/chuaLinhUng/chuaLinhUng2.jpg",
+      "/image/chuaLinhUng/chuaLinhUng3.jpeg",
+      "/image/chuaLinhUng/chuaLinhUng4.jpg",
+      "/image/chuaLinhUng/chuaLinhUng5.jpg",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.chua_linh_ung_description",
+    address: "locations.chua_linh_ung_address",
+    address_img: "/image/chuaLinhUng/location.png",
+    detail_describe: `<h2>
+<span style="color:#990000;">
+<strong>1. Vị trí địa lý và lịch sử&nbsp; Chùa Linh Ứng Sơn Trà</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngôi chùa tọa lạc trên một ngọn đồi cao khoảng 693m so với mực nước biển, lưng tựa vào núi, mặt hướng ra biển Đông. Từ đây, bạn có thể chiêm ngưỡng toàn cảnh thành phố Đà Nẵng, bãi biển Mỹ Khê xinh đẹp, cũng như cảm nhận không khí trong lành, yên bình của thiên nhiên.</span>
+</p><br/>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng Sơn Trà được khởi công xây dựng vào năm 2004 và khánh thành vào năm 2010, trở thành một trong ba ngôi chùa Linh Ứng nổi tiếng của Đà Nẵng, bên cạnh chùa Linh Ứng Ngũ Hành Sơn và chùa Linh Ứng Bà Nà. Mỗi ngôi chùa đều mang một dấu ấn riêng biệt, nhưng chùa Linh Ứng Sơn Trà được xem là lớn nhất, đẹp nhất và có ý nghĩa tâm linh đặc biệt.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>2. Những điểm đặc sắc của Chùa Linh Ứng Sơn Trà</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 Tượng phật Quan Âm cao nhất Việt Nam</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Một trong những biểu tượng nổi bật nhất của chùa Linh Ứng Sơn Trà là tượng Phật Quan Âm cao 67m – tượng Phật Quan Âm cao nhất Việt Nam. Tượng đứng uy nghi trên một đài sen, nhìn ra biển Đông, mang vẻ đẹp thanh thoát và bình an. Bên trong tượng có 17 tầng, mỗi tầng đều đặt các bức tượng Phật nhỏ với hình dáng, tư thế khác nhau, tạo nên một không gian tâm linh độc đáo.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Tượng Quan Âm không chỉ là biểu tượng của lòng từ bi, mà theo truyền thuyết, còn được xem như "lá chắn" bảo vệ người dân Đà Nẵng khỏi thiên tai và bão biển, mang lại sự bình yên và thịnh vượng cho vùng đất này.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 Kiến trúc độc đáo&nbsp;</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng Sơn Trà được xây dựng theo phong cách kiến trúc hiện đại kết hợp với truyền thống Á Đông. Khuôn viên chùa rộng lớn với nhiều công trình như chính điện, tháp chuông, khu vườn Lâm Tỳ Ni và các tượng Phật, La Hán được điêu khắc tinh xảo. Điểm nhấn của chùa là chính điện rộng rãi, nơi thờ tượng Phật Thích Ca Mâu Ni, Quan Thế Âm Bồ Tát và Tam Tạng Phật.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.3 Vườn Lâm Tỳ Ni</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu vườn Lâm Tỳ Ni tại chùa Linh Ứng Sơn Trà là một không gian xanh mát, nơi đặt các bức tượng La Hán với nhiều dáng vẻ khác nhau, tạo cảm giác như lạc vào một thế giới tâm linh thanh tịnh, bình yên. Đây là nơi lý tưởng để bạn dạo bước, thư giãn và cảm nhận sự an yên trong tâm hồn.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.4 Tầm nhìn toàn cảnh Thành phố và biển Đông</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Với vị trí trên cao, từ chùa Linh Ứng, bạn có thể ngắm nhìn toàn cảnh thành phố Đà Nẵng, từ những cây cầu nổi tiếng như cầu Rồng, cầu sông Hàn đến bãi biển Mỹ Khê xanh ngắt. Đặc biệt, vào lúc hoàng hôn hoặc bình minh, khung cảnh nơi đây đẹp như một bức tranh thủy mặc, khiến bất cứ ai cũng phải say lòng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>3. Hoạt động tâm linh và trải nghiệm du lịch&nbsp;</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 Cầu nguyện và Lễ&nbsp; Phật</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng Sơn Trà là một địa điểm tâm linh linh thiêng, nơi người dân địa phương và du khách thường đến để cầu nguyện bình an, sức khỏe và may mắn. Vào các dịp lễ lớn như Phật Đản, Vu Lan, Tết Nguyên Đán, chùa thường tổ chức nhiều nghi lễ trang nghiêm, thu hút đông đảo phật tử và du khách từ khắp nơi.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 Tham quan và chụp ảnh&nbsp;</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nhờ vào cảnh quan tuyệt đẹp và kiến trúc độc đáo, chùa Linh Ứng Sơn Trà là địa điểm lý tưởng để chụp ảnh lưu niệm. Đừng quên mang theo máy ảnh hoặc điện thoại để ghi lại những khoảnh khắc tuyệt vời tại đây.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3 Hòa mình vào thiên nhiên&nbsp;</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Không chỉ là nơi tâm linh, chùa Linh Ứng còn là điểm du lịch sinh thái lý tưởng. Bạn có thể tận hưởng bầu không khí trong lành, lắng nghe tiếng sóng biển vỗ rì rào và tiếng chim hót líu lo giữa không gian thanh tịnh.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>4. Kinh nghiệm du lịch Chùa Linh Ứng Sơn Trà</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời gian lý tưởng:</strong> Thời gian tốt nhất để ghé thăm chùa là vào sáng sớm hoặc chiều muộn, khi thời tiết mát mẻ và cảnh quan đẹp nhất. Nếu đến vào buổi sáng, bạn có thể kết hợp tham quan các điểm khác trên bán đảo Sơn Trà như đỉnh Bàn Cờ, cây đa ngàn năm hoặc bãi Rạng.</span>
+
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Trang phục:</strong> Vì đây là nơi tâm linh, hãy mặc trang phục lịch sự, kín đáo để thể hiện sự tôn trọng. Bạn nên mang giày thoải mái để thuận tiện cho việc di chuyển.</span>
+
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Di chuyển:</strong> Chùa Linh Ứng Sơn Trà cách trung tâm thành phố Đà Nẵng khoảng 10km. Bạn có thể di chuyển bằng xe máy, ô tô hoặc taxi. Đường lên chùa khá dễ đi, nhưng nếu tự lái xe máy, hãy cẩn thận vì có vài đoạn đường dốc.</span>
+
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ẩm thực gần chùa:</strong> Sau khi tham quan, bạn có thể thưởng thức các món hải sản tươi ngon tại các nhà hàng ven biển gần đó hoặc ghé các quán ăn đặc sản Đà Nẵng như mì Quảng, bánh tráng cuốn thịt heo.</span>
+
+<br>&nbsp;</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng Sơn Trà không chỉ là một địa điểm du lịch nổi tiếng mà còn là nơi để bạn tìm lại sự bình yên trong tâm hồn, hòa mình vào thiên nhiên và cảm nhận những giá trị văn hóa, tâm linh sâu sắc. Nếu có dịp đến Đà Nẵng, đừng quên ghé thăm ngôi chùa tuyệt đẹp này để tận hưởng không gian thanh tịnh và chiêm ngưỡng vẻ đẹp kỳ diệu của vùng đất Sơn Trà. Đây chắc chắn sẽ là một trải nghiệm khó quên trong hành trình khám phá thành phố biển Đà Nẵng của bạn!</span>
+</p>`,
+    detail_describe2: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. ソンチャーのリンウング寺の地理的位置と歴史</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">この寺は海面から約693メートルの高さの丘の上に位置し、山に背を向け、東海を見渡しています。ここからは、ダナン市全体、美しいミーケビーチを一望でき、自然の清々しい静けさを感じることができます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺は2004年に建設が始まり、2010年に完成し、ダナンの有名なリンウング寺の一つとなりました。リンウング五行山寺やリンウングバーナ寺と並んで、各寺はそれぞれ独自の印象を持っていますが、ソンチャーのリンウング寺は最大、最も美しく、特別な精神的意味を持つと見なされています。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2.ソンチャーのリンウング寺の特長</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 ベトナムで最も高い観音像</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺の最も目立つシンボルの一つは、高さ67メートルの観音像です。これはベトナムで最も高い観音像であり、威厳を持って蓮の台座の上に立ち、東海を見つめています。その美しさは清らかで平和です。像の内部には17層があり、各層には異なる形やポーズの小さな仏像が配置されており、独特の精神的空間を作り出しています。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">観音像は慈悲の象徴であるだけでなく、伝説によれば、ダナンの人々を自然災害や海の嵐から守る「盾」としても見なされています。この地に平和と繁栄をもたらします。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 独特の建築</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺は、現代的な建築スタイルと東洋の伝統を組み合わせて建設されています。広大な寺院の敷地には、本堂、鐘楼、ラムティニ庭園、精巧に彫刻された仏像や羅漢像などの多くの建物があります。寺のハイライトは広々とした本堂で、そこには釈迦牟尼仏、観世音菩薩、三蔵仏が祀られています。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.3 ラムティニ庭園</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺のラムティニ庭園は、緑豊かな空間で、さまざまな姿の羅漢像が置かれており、静かで平和な精神的な世界に迷い込んだような感覚を与えます。ここは散歩し、リラックスし、心の安らぎを感じるのに理想的な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.4 ダナン市と東海のパノラマビュー</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">高い位置にあるため、ソンチャーのリンウング寺からはダナン市全体を見渡すことができ、ドラゴン橋やハン川橋などの有名な橋から、青いミーケビーチまでを一望できます。特に、夕暮れや日の出の時、ここは水墨画のように美しく、誰もが心を奪われることでしょう。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. 精神的な活動と観光体験</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 祈りと仏教祭</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺は神聖な精神的な場所であり、地元の人々や観光客が平和、健康、幸運を祈るために訪れる場所です。仏誕祭、ヴラン祭、旧正月などの大きな祭りの際には、寺では多くの厳かな儀式が行われ、多くの信者や観光客が集まります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 見学と写真撮影</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">美しい風景と独特の建築のおかげで、ソンチャーのリンウング寺は記念写真を撮るのに理想的な場所です。素晴らしい瞬間を記録するために、カメラやスマートフォンを持参することを忘れないでください。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3 自然との調和</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺は精神的な場所であるだけでなく、理想的なエコツーリズムのスポットでもあります。清々しい空気を楽しみ、波の音や静かな空間の中でさえずる鳥の声を聞くことができます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. ソンチャーのリンウング寺の観光体験</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>理想的な訪問時間：</strong>寺を訪れるのに最適な時間は、朝早くまたは夕方遅く、気候が涼しく、景観が最も美しいときです。朝に訪れる場合は、バンコーの頂上や千年の木、ランビーチなど、ソントラ半島の他の名所を訪れることもできます。</span>
+</p><br/>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>服装：</strong>これは精神的な場所であるため、敬意を表すために礼儀正しく、控えめな服装を着用してください。移動が楽になるように、快適な靴を履くことをお勧めします。</span>
+</p><br/>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>移動手段：</strong>ソンチャーのリンウング寺はダナン市の中心から約10キロメートルです。バイク、車、タクシーで移動できます。寺までの道は比較的簡単ですが、自転車を運転する場合は、急な坂道に注意してください。</span>
+</p><br/>
+<p>
+<span style="background-color:transparent;color:#000000;">寺の近くの食事：見学後、新鮮な海鮮料理を近くの海辺のレストランで楽しんだり、ダナンの特産品であるクァンヌードルや豚肉の生春巻きなどを味わうことができます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ソンチャーのリンウング寺は有名な観光地であるだけでなく、心の平和を取り戻し、自然と調和し、深い文化的および精神的な価値を感じる場所でもあります。ダナンに訪れる機会があれば、この美しい寺を訪れて、静かな空間を楽しみ、ソントラの素晴らしい美しさを堪能してください。これは、ダナンの海辺の街を探求する旅の中で忘れられない体験になることでしょう！</span>
+</p>`,
+  },
+  {
+    id_location: 11,
+    center_img: "/image/bienMyKhe/bienMyKhe1.webg",
+    name: "locations.bien_my_khe",
+    title: "locations.bien_my_khe_title",
+    title1: "locations.bien_my_khe_title1",
+    topic: "Beach",
+    slug: "bien-my-khe",
+    id_tag: 4,
+    stars: 5,
+    suggest: 1,
+    sub_img: [
+      "/image/bienMyKhe/bienMyKhe1.webp",
+      "/image/bienMyKhe/bienMyKhe2.webp",
+      "/image/bienMyKhe/bienMyKhe3.webp",
+      "/image/bienMyKhe/bienMyKhe4.webp",
+      "/image/bienMyKhe/bienMyKhe5.webp",
+    ],
+    relate: [1, 2, 3, 4, 5],
+    describes: "locations.bien_my_khe_description",
+    address: "locations.bien_my_khe_address",
+    address_img: "/image/bienMyKhe/location.png",
+    detail_describe: `<h2>
+<span style="color:#990000;">
+<strong>1. Địa điểm và cách di chuyển đến bãi biển Mỹ Khê</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi biển Mỹ Khê nằm cách trung tâm thành phố Đà Nẵng khoảng 3 km về phía Đông. Du khách có thể dễ dàng di chuyển đến đây bằng nhiều phương tiện khác nhau.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.1. Di chuyển bằng phương tiện cá nhân</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn sử dụng phương tiện cá nhân, có hai tuyến đường chính để đến biển Mỹ Khê:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tuyến đường 1 (6,9 km):</strong> Sân bay Đà Nẵng → Đường Duy Tân → Cầu Trần Thị Lý → Đường Nguyễn Văn Thoại → Đường Võ Nguyên Giáp → Biển Mỹ Khê.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tuyến đường 2 (4,8 km):</strong> Sân bay Đà Nẵng → Nguyễn Văn Linh → Cầu Rồng → Võ Văn Kiệt → Võ Nguyên Giáp → Biển Mỹ Khê.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.2. Di chuyển bằng taxi</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Taxi là phương tiện thuận tiện và nhanh chóng để đến biển Mỹ Khê. Các hãng taxi phổ biến như Mai Linh, Tiên Sa, Vinasun Green đều hoạt động rộng rãi tại Đà Nẵng. Giá cước dao động từ&nbsp;<strong>9.000 – 12.000 VNĐ/km</strong> tùy vào loại xe 4 chỗ hay 7 chỗ.</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngoài ra, du khách có thể lựa chọn taxi XANH SM - hãng taxi điện thân thiện với môi trường để có trải nghiệm di chuyển hiện đại và tiết kiệm chi phí.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.3. Di chuyển bằng xích lô</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Xích lô là lựa chọn thú vị nếu bạn muốn vừa di chuyển vừa tận hưởng cảnh sắc thành phố Đà Nẵng. Đây là phương tiện thích hợp cho những ai muốn khám phá phố phường với tốc độ chậm rãi, tận hưởng gió biển mát lành.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.4. Di chuyển bằng xe buýt</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu muốn tiết kiệm chi phí, du khách có thể chọn xe buýt tuyến số&nbsp;<strong>1 (Bến xe Đà Nẵng - Hội An)</strong>. Xe buýt này dừng ngay gần biển Mỹ Khê, giúp bạn dễ dàng tiếp cận bãi biển.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>2. Thời điểm lý tưởng để du lịch bãi biển Mỹ Khê</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi biển Mỹ Khê đẹp quanh năm, nhưng thời gian lý tưởng nhất để du lịch là từ&nbsp;<strong>tháng 3 đến tháng 9</strong>. Lúc này, thời tiết nắng đẹp, ít mưa, nước biển trong xanh, thích hợp cho các hoạt động bơi lội và vui chơi trên biển. Nếu bạn muốn tận hưởng không gian yên tĩnh hơn, hãy đến Mỹ Khê vào khoảng&nbsp;<strong>tháng 10 đến tháng 2</strong>, khi lượng du khách không quá đông.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>3. Các bãi tắm tại bãi biển Mỹ Khê</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Mỹ Khê có ba khu vực bãi tắm chính, phù hợp với từng nhu cầu khác nhau:</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>3.1. Bãi tắm Công viên Trung tâm Phạm Văn Đồng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi tắm này nằm trong khuôn viên công viên Phạm Văn Đồng, khá nhỏ nhưng có cát trắng mịn, nước biển trong xanh và sóng êm.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>3.2. Bãi tắm T20 - T18</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Là bãi tắm lâu đời nhất tại Mỹ Khê, gần khu du lịch Non Nước. Nơi đây có bờ cát ngắn, nước biển sâu, sóng lớn, phù hợp với du khách yêu thích cảm giác mạnh.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>3.3. Bãi tắm 1 - 2 - 3</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Đây là bãi tắm chính, được quy hoạch bài bản với đầy đủ dịch vụ tiện ích như:&nbsp;<strong>gửi xe, tắm nước ngọt, dịch vụ ăn uống, cứu hộ, vệ sinh môi trường</strong>.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>4. Những hoạt động vui chơi tại bãi biển Mỹ Khê</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;">
+<strong>4.1. Ngắm bình minh và hoàng hôn trên biển</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Khoảnh khắc bình minh và hoàng hôn trên biển Mỹ Khê tạo nên khung cảnh lãng mạn và thơ mộng, là thời điểm lý tưởng để chụp ảnh, thư giãn.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;">
+<strong>4.2. Check-in sống ảo</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Với bãi cát trắng, nước biển trong xanh và khung cảnh thiên nhiên tuyệt đẹp, Mỹ Khê là điểm đến lý tưởng cho những tín đồ đam mê chụp ảnh.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;">
+<strong>4.3. Tham gia các trò chơi trên biển</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Dù lượn</strong>: Trải nghiệm cảm giác bay lượn trên bầu trời, ngắm nhìn toàn cảnh biển từ trên cao.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ca nô kéo phao</strong>: Thử thách bản thân với trò chơi tốc độ cao trên mặt nước.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Lướt ván</strong>: Phù hợp cho những ai yêu thích thể thao biển, sóng nhẹ giúp bạn dễ dàng làm quen với bộ môn này.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mô tô nước</strong>: Dành cho những tín đồ tốc độ, bạn sẽ được trải nghiệm cảm giác phóng hết ga trên mặt biển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Lặn ngắm san hô</strong>: Chiêm ngưỡng vẻ đẹp rực rỡ của hệ sinh thái dưới đáy biển.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>5. Đặc sản nên thưởng thức khi đến biển Mỹ Khê</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5.1. Gỏi trứng cá chuồn</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Món ăn độc đáo với vị bùi béo của trứng cá chuồn, kết hợp cùng tôm, thịt và rau thơm.</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5.2. Bánh nậm Mỹ Khê</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bánh nậm ở Mỹ Khê có hương vị đặc trưng, được làm từ bột gạo và nhân tôm thịt.</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5.3. Rong biển Mỹ Khê</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Loại rong biển đặc sản có thể chế biến thành nhiều món ngon, đồng thời còn có tác dụng tốt cho sức khỏe.</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5.4. Hải sản tươi sống</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Hải sản tại Mỹ Khê luôn tươi ngon, từ tôm hùm, ghẹ, cua, mực đến các loại ốc hấp dẫn.</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5.5. Mì Quảng Túy Loan</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Mì Quảng nổi tiếng với sợi mì dày, nước dùng đậm đà, ăn kèm rau sống và bánh tráng nướng.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="color:#990000;">
+<strong>6. Một số lưu ý khi du lịch biển Mỹ Khê</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Không bơi xa quá&nbsp;<strong>15m</strong> hoặc vùng nước sâu hơn&nbsp;<strong>5m</strong> để đảm bảo an toàn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Luôn tuân thủ hướng dẫn của lực lượng cứu hộ, tránh bơi vào vùng nước có dòng chảy ngược.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Không tắm biển khi trời lạnh dưới&nbsp;<strong>18 độ C</strong> để tránh cảm lạnh.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Giữ gìn vệ sinh bãi biển, không xả rác bừa bãi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu bị sứa cắn, rửa vết thương bằng nước biển và phủ cát lên để hạn chế tác động của nọc độc.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Bãi biển Mỹ Khê không chỉ là điểm đến nghỉ dưỡng lý tưởng mà còn là nơi mang đến những trải nghiệm thú vị cho mọi du khách. Hãy đến và tận hưởng thiên đường biển này nhé!</span>
+</p>`,
+    detail_describe2: ``,
   },
 ];
 
 const topicData = [
   {
     id_tag: 1,
-    tag_name: "Sugggest",
+    tag_name: "Suggest",
   },
   {
     id_tag: 2,

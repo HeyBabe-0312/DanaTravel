@@ -70,6 +70,24 @@ i18n.use(initReactI18next).init({
           cau_song_han_description:
             "Cầu sông Hàn, tọa lạc tại An Hải Bắc, Sơn Trà, Đà Nẵng, là cây cầu quay đầu tiên và duy nhất tại Việt Nam, được xem là biểu tượng đặc sắc của thành phố biển. Không chỉ đóng vai trò quan trọng trong giao thông, kết nối hai bờ sông Hàn, cầu còn là điểm đến hấp dẫn đối với du khách. Vào ban đêm, cầu sông Hàn quay để mở lối cho tàu thuyền qua lại, tạo nên khung cảnh độc đáo và trải nghiệm khó quên khi khám phá Đà Nẵng.",
           cau_song_han_address: "An Hải Bắc, Quận Sơn Trà, TP. Đà Nẵng",
+          bd_son_tra: "Bán đảo Sơn Trà",
+          bd_son_tra_title: "Khám phá Bán đảo Sơn Trà",
+          bd_son_tra_title1: "Giới thiệu về Bán đảo Sơn Trà",
+          bd_son_tra_description: `Bán đảo Sơn Trà là một trong những địa điểm du lịch nổi tiếng và hấp dẫn nhất tại Đà Nẵng, được ví như "lá phổi xanh" của thành phố. Với cảnh quan thiên nhiên hùng vĩ, những bãi biển tuyệt đẹp và hệ sinh thái đa dạng, nơi đây không chỉ thu hút khách du lịch mà còn là điểm đến lý tưởng cho những ai yêu thích khám phá thiên nhiên. Bán đảo Sơn Trà còn mang trong mình những giá trị văn hóa, lịch sử sâu sắc, góp phần tạo nên nét đặc trưng của Đà Nẵng. Hãy cùng tìm hiểu chi tiết hơn về bán đảo tuyệt vời này qua bài viết dưới đây!`,
+          bd_son_tra_address:
+            "Bán đảo Sơn Trà nằm cách trung tâm thành phố Đà Nẵng khoảng 10km về phía Đông Bắc",
+          chua_linh_ung: "Chùa Linh Ứng",
+          chua_linh_ung_title: "Khám phá Chùa Linh Ứng Sơn Trà",
+          chua_linh_ung_title1: "Giới thiệu về Chùa Linh Ứng",
+          chua_linh_ung_description: `Chùa Linh Ứng Sơn Trà, tọa lạc tại bán đảo Sơn Trà, Đà Nẵng, là một trong những điểm đến tâm linh và du lịch nổi tiếng không thể bỏ qua khi bạn ghé thăm thành phố biển xinh đẹp này. Với vị trí đắc địa, kiến trúc độc đáo và bầu không khí thanh tịnh, chùa Linh Ứng không chỉ là nơi linh thiêng để cầu nguyện mà còn là một tuyệt tác giao hòa giữa thiên nhiên và con người.`,
+          chua_linh_ung_address:
+            "Vườn Lâm Tỳ Ni, Hoàng Sa, Thọ Quang, Quận Sơn Trà, TP. Đà Nẵng",
+          bien_my_khe: "Bãi biển Mỹ Khê",
+          bien_my_khe_title: "Thiên đường nghỉ dưỡng Bãi biển Mỹ Khê",
+          bien_my_khe_title1: "Giới thiệu về Bãi biển Mỹ Khê",
+          bien_my_khe_description: `Bãi biển Mỹ Khê là một trong những bãi biển nổi tiếng nhất của Đà Nẵng, được Forbes bình chọn là một trong những bãi biển quyến rũ nhất hành tinh. Với bờ cát trắng mịn, nước biển trong xanh, cùng không gian thiên nhiên yên bình, Mỹ Khê thu hút hàng triệu du khách mỗi năm. Không chỉ là điểm đến lý tưởng để nghỉ dưỡng, bãi biển này còn là nơi diễn ra nhiều hoạt động thể thao dưới nước hấp dẫn và là thiên đường ẩm thực với vô số món ngon đặc sản.`,
+          bien_my_khe_address:
+            "Bãi biển Mỹ Khê nằm cách trung tâm thành phố Đà Nẵng khoảng 3 km về phía Đông",
         },
         districts: {
           select: "Chọn địa bàn",
@@ -161,6 +179,22 @@ i18n.use(initReactI18next).init({
           cau_song_han_description:
             "ハン橋は、ダナンのソンチャ区、アンハイバクに位置するベトナムで初めてかつ唯一の回転橋であり、海の街ダナンの特異な象徴と見なされています。交通において重要な役割を果たすだけでなく、ハンの両岸を結び、観光客にとって魅力的な目的地でもあります。夜になると、ハン橋は船の通行のために回転し、ダナンを探索する際の独特な景観と忘れられない体験を生み出します。",
           cau_song_han_address: "ダナン市、ソンチャ区、アンハイバク",
+          bd_son_tra: "ソンチャ半島",
+          bd_son_tra_title: "ソンチャ半島を探検",
+          bd_son_tra_title1: "ソンチャ半島についてご紹介",
+          bd_son_tra_description:
+            "ソンチャ半島は、ダナンで最も有名で魅力的な観光地の一つであり、「街の緑の肺」とも称されています。壮大な自然景観、息をのむほど美しいビーチ、多様な生態系を誇るこの地は、観光客を魅了するだけでなく、自然探索を愛する人々にとっても理想的な目的地です。さらに、ソンチャ半島は、深い歴史や文化的価値を秘めており、ダナンの独自の魅力を形作る要素の一つでもあります。この素晴らしい半島について、詳しくご紹介していきましょう！",
+          bd_son_tra_address: "ソンチャ半島は、ダナン市中心部から約10km北東",
+          chua_linh_ung: "リンウング寺",
+          chua_linh_ung_title: "ソンチャーのリンウング寺",
+          chua_linh_ung_title1: "リンウング寺についてご紹介",
+          chua_linh_ung_description: `ソンチャーのリンウング寺は、ダナンのソントラ半島に位置し、この美しい海辺の街を訪れる際に見逃せない精神的および観光の名所の一つです。絶好のロケーション、独特の建築、そして静かな雰囲気を持つリンウング寺は、祈りの場であるだけでなく、自然と人間の調和の素晴らしい作品でもあります。`,
+          chua_linh_ung_address: "ダナン市、ソントラ、ホアンザ、ラムティニ庭園",
+          bien_my_khe: "リンウング寺",
+          bien_my_khe_title: "ソンチャーのリンウング寺",
+          bien_my_khe_title1: "リンウング寺についてご紹介",
+          bien_my_khe_description: `ソンチャーのリンウング寺は、ダナンのソントラ半島に位置し、この美しい海辺の街を訪れる際に見逃せない精神的および観光の名所の一つです。絶好のロケーション、独特の建築、そして静かな雰囲気を持つリンウング寺は、祈りの場であるだけでなく、自然と人間の調和の素晴らしい作品でもあります。`,
+          bien_my_khe_address: "ダナン市、ソントラ、ホアンザ、ラムティニ庭園",
         },
         districts: {
           select: "地区を選んでください",
