@@ -504,10 +504,10 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 </p>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">1.1 Thuê xe máy tự lái: Với ưu điểm tiện dụng, giá thành rẻ, dịch vụ cho thuê xe phổ biến… đây là phương tiện được nhiều du khách lựa chọn khi ghé Đà Nẵng.</span>
-</p>
+</p><br/>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">1.2 Đặt xe ôm công nghệ: Xe ôm công nghệ là phương tiện vô cùng phổ biến hiện nay, du khách có thể dễ dàng gọi xe bằng ứng dụng, có thể sử dụng các hình thức thanh toán không cần tiền mặt.&nbsp;</span>
-</p>
+</p><br/>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">1.3 Taxi: Để phục vụ nhu cầu đi lại của du khách, có đến 8 hãng taxi ở Đà Nẵng, du khách có thể gọi xe bất kỳ lúc nào.</span>
 </p>
@@ -519,7 +519,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 </p>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">Chợ Cồn bắt đầu hoạt động vào lúc 7h00 và đóng cửa vào lúc 19h30 hằng ngày. Thời điểm lý tưởng để tham quan chợ là vào buổi sáng, khi chợ tấp nập người mua kẻ bán.&nbsp;&nbsp;</span>
-</p>
+</p><br/>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">
 <strong>Lý do nên đến tham quan chợ Cồn</strong>
@@ -527,13 +527,13 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 </p>
 <ul>
 <li>
-<span style="background-color:transparent;color:#000000;">Trải nghiệm văn hóa địa phương: Đây là nơi du khách có thể hòa mình vào nhịp sống của người dân địa phương, cảm nhận nét văn hóa đặc trưng của Đà Nẵng.</span>
+<span style="background-color:transparent;color:#000000;">・Trải nghiệm văn hóa địa phương: Đây là nơi du khách có thể hòa mình vào nhịp sống của người dân địa phương, cảm nhận nét văn hóa đặc trưng của Đà Nẵng.</span>
 </li>
 <li>
-<span style="background-color:transparent;color:#000000;">Thưởng thức ẩm thực phong phú: Chợ là nơi du khách có thể thưởng thức đa dạng các món ăn ngon từ khắp nơi trên đất nước.</span>
+<span style="background-color:transparent;color:#000000;">・Thưởng thức ẩm thực phong phú: Chợ là nơi du khách có thể thưởng thức đa dạng các món ăn ngon từ khắp nơi trên đất nước.</span>
 </li>
 <li>
-<span style="background-color:transparent;color:#000000;">Hàng hóa đa dạng, phong phú: Tại chợ Cồn, bạn có thể tìm thấy mọi thứ từ thực phẩm tươi sống, đặc sản địa phương cho đến quần áo, đồ lưu niệm,... Đây là nơi lý tưởng để khách du lịch mua sắm quà cho người thân và bạn bè.&nbsp;</span>
+<span style="background-color:transparent;color:#000000;">・Hàng hóa đa dạng, phong phú: Tại chợ Cồn, bạn có thể tìm thấy mọi thứ từ thực phẩm tươi sống, đặc sản địa phương cho đến quần áo, đồ lưu niệm,... Đây là nơi lý tưởng để khách du lịch mua sắm quà cho người thân và bạn bè.&nbsp;</span>
 </li>
 </ul>
 <p>&nbsp;</p>
@@ -545,7 +545,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Cá khô</strong>
+<strong>・Cá khô</strong>
 </span>
 </li>
 </ul>
@@ -556,51 +556,51 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Mực rim</strong>
+<strong>・Mực rim</strong>
 </span>
 </li>
 </ul>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">Mực rim là 1 trong những đặc sản được rất được yêu thích tại chợ Cồn Đà Nẵng. Mực được ướp gia vị chua chua ngọt ngọt, có đủ kích cỡ to, nhỏ được xé sợi và đóng hũ hoặc mua theo cân. Đây cũng là một lựa chọn tuyệt vời khi mua về làm quà cho gia đình và bạn bè</span>
 </p>
-<ul>
+<ul><br/>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Mực một nắng</strong>
+<strong>・Mực một nắng</strong>
 </span>
 </li>
 </ul>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">Mực có vị thơm đặc trưng, sợi dẻo dai. Mực sau khi phơi qua 1 lần nắng vẫn giữ được độ ngọt đậm mà chắc hẳn ai đã nếm qua một lần sẽ rất khó quên được hương vị. Có nhiều cách để chế biến mực một nắng như tẩm ớt chua ngọt, chiên nước mắm, nướng than,…</span>
 </p>
-<ul>
+<ul><br/>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Chả bò</strong>
+<strong>・Chả bò</strong>
 </span>
 </li>
 </ul>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">Nói đến đặc sản chợ Cồn Đà Nẵng thì chắc chắn không thể thiếu được món chả bò. Thịt bò có màu hồng đặc trưng, được nghiền nhuyễn trộn cùng các gia vị tỏi, tiêu,… và bên ngoài được bọc bằng lá chuối tươi. Sau đấy chả được mang đi hấp chín, để nguội và cắt ra thành từng miếng phù hợp với nhu cầu mà khách cần mua.&nbsp;</span>
 </p>
-<ul>
+<ul><br/>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Tré</strong>
+<strong>・Tré</strong>
 </span>
 </li>
 </ul>
 <p style="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">Tré là một món nem đặc sản của Đà Nẵng. Tré gồm tai heo, da heo, các phần bì của heo, cùng thịt bò, tỏi, nước mắm, ớt được ướp cùng nem thính và bọc trong lá chuối và lá ổi. Hương vị của tré vô cùng đậm đà và chuẩn vị miền Trung.</span>
-</p>
+</p><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Mắm nêm, mắm ruốc</strong>
+<strong>・Mắm nêm, mắm ruốc</strong>
 </span>
 </li>
 </ul>
-<p style="text-align:justify;">
+<p style・="text-align:justify;">
 <span style="background-color:transparent;color:#000000;">Đây là một loại đặc sản không thể thiếu trong bữa cơm hằng ngày của người dân Đà Nẵng. Mắm được làm từ ruốc (tôm nhỏ) hoặc cá nhỏ, có mùi thơm dịu và không bị gắt như mắm tôm. Mắm này thường dùng để chấm các món cuốn, nêm vào nước dùng lẩu hoặc canh. Rất dễ để tìm mua các loại mắm này khi đến với chợ Cồn Đà Nẵng.</span>
 </p>
 <p>&nbsp;</p>
@@ -612,23 +612,23 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <ul>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Mặc cả:</strong> Mặc cả là điều bình thường ở chợ. Hãy thoải mái mặc cả để có được mức giá tốt nhất cho các mặt hàng bạn mua.</span>
+<strong>・Mặc cả:</strong> Mặc cả là điều bình thường ở chợ. Hãy thoải mái mặc cả để có được mức giá tốt nhất cho các mặt hàng bạn mua.</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Tiền mặt:</strong>&nbsp; Hầu hết các quầy hàng ở chợ chỉ chấp nhận thanh toán bằng tiền mặt. Hãy mang theo tiền mặt để tránh gặp bất tiện.</span>
+<strong>・Tiền mặt:</strong>&nbsp; Hầu hết các quầy hàng ở chợ chỉ chấp nhận thanh toán bằng tiền mặt. Hãy mang theo tiền mặt để tránh gặp bất tiện.</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Giữ gìn tài sản cẩn thận:&nbsp;</strong>&nbsp;Chợ Cồn là một nơi đông đúc, vì vậy hãy cẩn thận với tài sản cá nhân của bạn.</span>
+<strong>・Giữ gìn tài sản cẩn thận:&nbsp;</strong>&nbsp;Chợ Cồn là một nơi đông đúc, vì vậy hãy cẩn thận với tài sản cá nhân của bạn.</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Trang phục phù hợp:&nbsp;</strong>&nbsp;Nên mặc trang phục thoải mái và phù hợp với thời tiết khi đến chợ.</span>
+<strong>・Trang phục phù hợp:&nbsp;</strong>&nbsp;Nên mặc trang phục thoải mái và phù hợp với thời tiết khi đến chợ.</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#000000;">
-<strong>Khi di chuyển đến chợ bạn nên chú ý tuân thủ luật giao thông đường bộ.&nbsp;</strong>Nếu bạn đi xe máy hoặc xe đạp, bạn nên cẩn thận vì khu vực xung quanh chợ thường khá đông đúc.</span>
+<strong>・Khi di chuyển đến chợ bạn nên chú ý tuân thủ luật giao thông đường bộ.&nbsp;</strong>Nếu bạn đi xe máy hoặc xe đạp, bạn nên cẩn thận vì khu vực xung quanh chợ thường khá đông đúc.</span>
 </li>
 </ul>
 <p>&nbsp;</p>
@@ -646,11 +646,11 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <p>
 <span style="background-color:transparent;color:#000000;">
 <strong>1.1 自転車のレンタル：</strong>便利で安価なレンタルサービスが一般的で、多くの観光客がダナンを訪れる際に選ぶ交通手段です。</span>
-</p>
+</p><br/>
 <p>
 <span style="background-color:transparent;color:#000000;">
 <strong>1.2 テクノロジーを利用したバイクタクシーの予約：</strong>現在非常に一般的な交通手段で、観光客はアプリで簡単にタクシーを呼ぶことができ、現金不要の支払い方法も利用できます。</span>
-</p>
+</p><br/>
 <p>
 <span style="background-color:transparent;color:#000000;">
 <strong>1.3 タクシー：</strong>観光客の移動ニーズに応えるため、ダナンには8つのタクシー会社があり、観光客はいつでもタクシーを呼ぶことができます。</span>
@@ -664,15 +664,18 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <strong>コーン市場の開店・閉店時間</strong>
 <p>
 <span style="background-color:transparent;color:#000000;">コーン市場は毎日7時00分に開店し、19時30分に閉店します。市場を訪れるのに最適な時間は、買い物客で賑わう朝です。</span>
+</p><br/>
+</p>
+<strong>コン市場を観光する理由</strong>
+<p>
+<p>
+<span style="background-color:transparent;color:#000000;">・地元文化の体験：ここは観光客が地元の人々の生活リズムに溶け込み、ダナンの特徴的な文化を感じることができる場所です。</span>
 </p>
 <p>
-<span style="background-color:transparent;color:#000000;">地元文化の体験：ここは観光客が地元の人々の生活リズムに溶け込み、ダナンの特徴的な文化を感じることができる場所です。</span>
+<span style="background-color:transparent;color:#000000;">・豊富な料理の試食：市場は観光客が全国各地の美味しい料理を楽しむことができる場所です。</span>
 </p>
 <p>
-<span style="background-color:transparent;color:#000000;">豊富な料理の試食：市場は観光客が全国各地の美味しい料理を楽しむことができる場所です。</span>
-</p>
-<p>
-<span style="background-color:transparent;color:#000000;">多様で豊富な商品：コーン市場では、新鮮な食材や地元の特産品から衣類、土産物まで、あらゆるものを見つけることができます。これは観光客が家族や友人へのお土産を購入するのに理想的な場所です。</span>
+<span style="background-color:transparent;color:#000000;">・多様で豊富な商品：コーン市場では、新鮮な食材や地元の特産品から衣類、土産物まで、あらゆるものを見つけることができます。これは観光客が家族や友人へのお土産を購入するのに理想的な場所です。</span>
 </p>
 <p>&nbsp;</p>
 <p>
@@ -683,57 +686,57 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>干し魚</strong>
+<strong>・干し魚</strong>
 </span>
 </li>
 </ul>
 <p>
 <span style="background-color:transparent;color:#000000;">海産物は海岸沿いの各省の特産品として欠かせないもので、干し海産物を選ぶことは素晴らしい提案です。最も人気のある干し海産物は干し魚で、その美味しさで知られ、包装や輸送も比較的簡単です。干し魚や他の干し海産物は、自由に選べる量で手頃な価格で販売されています。</span>
-</p>
+</p><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>イカの甘辛煮</strong>
+<strong>・イカの甘辛煮</strong>
 </span>
 </li>
 </ul>
 <p>
 <span style="background-color:transparent;color:#000000;">イカの甘辛煮は、ダナンのコーン市場で非常に人気のある特産品の一つです。イカは甘酸っぱいスパイスでマリネされ、大小さまざまなサイズがあり、細切りにされて瓶詰めまたは計量販売されています。これは家族や友人へのお土産に最適な選択肢です。</span>
-</p>
+</p><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>一夜干しのイカ</strong>
+<strong>・一夜干しのイカ</strong>
 </span>
 </li>
 </ul>
 <p>
 <span style="background-color:transparent;color:#000000;">イカは特有の香りがあり、弾力があります。一度日干しされたイカは、濃厚な甘さを保ち、一度味わったら忘れられない風味です。一夜干しのイカは、甘辛い唐辛子で味付けしたり、魚醤で揚げたり、炭火で焼いたりするなど、さまざまな調理法があります。</span>
-</p>
+</p><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>牛肉のチャー</strong>
+<strong>・牛肉のチャー</strong>
 </span>
 </li>
 </ul>
 <p>
 <span style="background-color:transparent;color:#000000;">ダナンのコーン市場の特産品として、牛肉のチャーは欠かせません。牛肉は特有のピンク色で、細かく挽かれ、ニンニクや胡椒などのスパイスと混ぜられ、外側は新鮮なバナナの葉で包まれています。その後、チャーは蒸されて冷やされ、顧客のニーズに合わせて適切なサイズに切り分けられます。</span>
-</p>
+</p><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>トレ</strong>
+<strong>・トレ</strong>
 </span>
 </li>
 </ul>
 <p>
 <span style="background-color:transparent;color:#000000;">トレはダナンの特産のネムです。トレは豚の耳、豚の皮、豚の肉、牛肉、ニンニク、魚醤、唐辛子を混ぜ、ネムの粉と一緒にバナナの葉とグァバの葉で包まれています。トレの味は非常に濃厚で、中部の風味がしっかりと感じられます。</span>
-</p>
+</p><br/>
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>ナムネム、ナムルク</strong>
+<strong>・ナムネム、ナムルク</strong>
 </span>
 </li>
 </ul>
@@ -749,32 +752,32 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
 <ul>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>値段交渉：</strong>
+<strong>・値段交渉：</strong>
 </span>
 <span style="background-color:transparent;color:#000000;">市場では値段交渉は普通のことです。購入する商品に対して最良の価格を得るために、気軽に値段交渉をしてください。</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>現金：</strong>
+<strong>・現金：</strong>
 </span>
 <span style="background-color:transparent;color:#000000;">市場のほとんどの店舗は現金のみの支払いを受け付けています。不便を避けるために、現金を持参してください。</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>財産をしっかりと管理する：</strong>
+<strong>・財産をしっかりと管理する：</strong>
 </span>
 <span style="background-color:transparent;color:#000000;">コーン市場は混雑しているため、個人の財産に注意してください。</span>
 </li>
 <li>
 <span style="background-color:transparent;color:#990000;">
-<strong>適切な服装：</strong>
+<strong>・適切な服装：</strong>
 </span>
 <span style="background-color:transparent;color:#000000;">市場に行く際は、快適で天候に合った服装を着用することをお勧めします。</span>
 </li>
 <li>
-<span style="background-color:transparent;color:#000000;">市場に移動する際は、交通ルールを守るように注意してください。バイクや自転車で移動する場合は、市場周辺が非常に混雑しているため、注意が必要です。</span>
+<span style="background-color:transparent;color:#000000;">・市場に移動する際は、交通ルールを守るように注意してください。バイクや自転車で移動する場合は、市場周辺が非常に混雑しているため、注意が必要です。</span>
 </li>
-</ul>
+</ul><br/>
 <p>
 <span style="background-color:transparent;color:#000000;">コーン市場は買い物に理想的な場所であるだけでなく、ダナンの独特な文化の目的地でもあります。この美しい海の街の特産品を探求し、興味深い体験をするために、旅行の際にはぜひコーン市場を訪れてください！</span>
 </p>`,
