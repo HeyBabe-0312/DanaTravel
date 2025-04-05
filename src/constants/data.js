@@ -229,7 +229,7 @@ const data = [
     describes: "locations.nam_o_description",
     address: "locations.nam_o_address",
     address_img: "/image/namO/location.png",
-    district: "SonTra",
+    district: "LienChieu",
     detail_describe: `<h2 style="color: #980000">1. Rạn Nam Ô ở đâu?</h2>
     <br/>
     <p>&ensp;&ensp;Rạn Nam Ô là một trong những điểm đến hấp dẫn của thành phố Đà Nẵng, nổi bật với vẻ đẹp tự nhiên hoang sơ và bãi biển trong xanh. Đây là một bãi rạn nằm trong làng biển Nam Ô cách trung tâm thành phố Đà Nẵng khoảng 17 km về phía Tây Bắc, thuộc phường Hòa Hiệp Bắc, quận Liên Chiểu. Rạn Nam Ô có diện tích khoảng 2 ha bao gồm hai rạn là Rạn Cả và Rạn con. </p>
@@ -4541,7 +4541,7 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
   },
   {
     id_location: 16,
-    center_img: "/image/langChieuCamNe/langChieuCamNe1.jpg",
+    center_img: "/image/langChieuCamNe/langChieuCamNe3.webp",
     name: "locations.lang_chieu_cam_ne",
     title: "locations.lang_chieu_cam_ne_title",
     title1: "locations.lang_chieu_cam_ne_title1",
