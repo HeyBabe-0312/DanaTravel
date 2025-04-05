@@ -28,7 +28,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   };
   const handleCopyTextFromParagraph = (paragraph) => {
     const cb = navigator.clipboard;
-    cb.writeText(paragraph).then(() => alert("Address copied in clipboard"));
+    cb.writeText(paragraph).then(() => alert(t("copy")));
   };
 
   let { id } = useParams();
