@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./contact.css";
 import hieu from "../../assets/images/hieu.jpg";
-import tram from "../../assets/images/avaDefault.jpg";
+import tram from "../../assets/images/tram.jpg";
 import khanh from "../../assets/images/khanh.jpg";
 import { BsFacebook, BsGithub } from "react-icons/bs";
 import { CgMoreO } from "react-icons/cg";
@@ -83,12 +83,12 @@ const Contact = () => {
             <div className="name">Bui Thi Bich Tram</div>
             <div className="socialIcon">
               <a
-                href="https://www.facebook.com/luuvan.nghia.90"
+                href="https://www.facebook.com/profile.php?id=100014178876119&rdid=ZNa2UE2Se73TwCih&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Csr1ees6u%2F#"
                 target="_blank"
               >
                 <BsFacebook size={30} className="iconSocial fb" />
               </a>
-              <a href="mailto:abc@gmail.com?subject=Hello&body=I%20want%20to%20connect%20with%20you.">
+              <a href="mailto:tram060804@gmail.com?subject=Hello&body=I%20want%20to%20connect%20with%20you.">
                 <SiGmail size={30} className="iconSocial gm" />
               </a>
               <a href="#" target="_blank">

@@ -117,7 +117,7 @@ const Main = ({ allDataLct, topic }) => {
     var findTopic = topic.filter(function (el) {
       return el.id_tag.toString().indexOf(id) === 0;
     });
-    return findTopic[0].tag_name.toUpperCase();
+    return t(findTopic[0].tag_title).toUpperCase();
   };
   const sortSuggest = (a, b) => {
     return b.suggest - a.suggest;

@@ -35,6 +35,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const [dataLocation, setDataLocation] = useState(null);
   const [dataRelative, setDataRelative] = useState(null);
   const [topic, setTopic] = useState("");
+  const [topicName, setTopicName] = useState("");
 
   useEffect(() => {
     var newArray = dataAllLct.filter(function (el) {
@@ -49,6 +50,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
       return el.id_tag.toString().indexOf(newArray[0].id_tag) === 0;
     });
     setTopic(findTopic[0].tag_name);
+    setTopicName(findTopic[0].tag_title);
   }, [dataAllLct, dataTopic, id]);
 
   const roundStar = (s) => {
@@ -168,7 +170,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
           <div className="titleLink">
             <a href="/locations">{t("all")}</a>
             <MdOutlineNavigateNext className="icon-next" />
-            <a href={`/locations?Topic=${topic}`}>{topic}</a>
+            <a href={`/locations?Topic=${topic}`}>{t(topicName)}</a>
             <MdOutlineNavigateNext className="icon-next" />
             <a href="/">{t(dataLocation[0].name)}</a>
           </div>
@@ -185,7 +187,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                     </div>
                     <div className="fees flex">
                       <div className="topic">
-                        <p>{topic.toUpperCase()}</p>
+                        <p>{t(topicName).toUpperCase()}</p>
                       </div>
                       <div className="stars">
                         {showStars(dataLocation[0].stars)} [

@@ -5,12 +5,14 @@ import "./styles.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import Autocomplete from "@mui/material/Autocomplete";
+import { useTranslation } from "react-i18next";
 
 const Locations = ({ dataAllLct, dataTopic, dataReview }) => {
+  const { t, i18n } = useTranslation();
   const [checkIsTopic, setCheckIsTopic] = useState(true);
   const linkTo = useNavigate();
   const options = [
-    "Bán Đảo Sơn Trà",
+    "Bán đảo Sơn Trà",
     "Bà Nà Hills",
     "Bảo tàng Điêu Khắc Chăm",
     "Bảo tàng Mỹ Thuật",
@@ -33,6 +35,31 @@ const Locations = ({ dataAllLct, dataTopic, dataReview }) => {
     "Suối Hoa",
     "Suối Mơ",
     "Làng Chiếu Cẩm Nê",
+  ];
+  const options2 = [
+    "ソンチャ半島",
+    "バーナーヒルズ",
+    "チャム彫刻博物館",
+    "美術博物館",
+    "ノンヌオックビーチ",
+    "ミーケービーチ",
+    "彫刻博物館",
+    "ドラゴン橋",
+    "愛の桟橋",
+    "ハン橋",
+    "コン市場",
+    "ハン市場",
+    "リンウング寺",
+    "千年のバニヤンツリー",
+    "鯉の登竜像",
+    "ルオン渓流",
+    "逆さまの家",
+    "五行山",
+    "NUI THAN TAI ホットスプリングパーク",
+    "ナムオー礁",
+    "ホア渓流",
+    "モー渓流",
+    "カムネマット村",
   ];
   const search = useLocation().search;
   const name = new URLSearchParams(search).get("Search");
@@ -65,13 +92,13 @@ const Locations = ({ dataAllLct, dataTopic, dataReview }) => {
         <div className="searchLocation">
           <Autocomplete
             className="text-box"
-            options={options}
+            options={i18n.language === "vi" ? options : options2}
             renderInput={(params) => (
               <div ref={params.InputProps.ref} className="auto-btn">
                 <input
                   {...params.inputProps}
                   type="search"
-                  placeholder="Where to go?"
+                  placeholder={t("placeholder2")}
                   onKeyDown={_handlerEnter}
                   id="searchInput"
                   autoComplete="off"

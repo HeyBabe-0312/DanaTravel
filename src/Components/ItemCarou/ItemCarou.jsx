@@ -4,6 +4,7 @@ import "./itemCarou.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { toast } from "react-toastify";
+import { useTranslation } from "react-i18next";
 
 const ItemCarou = ({
   dataLocation,
@@ -14,6 +15,7 @@ const ItemCarou = ({
   topicName,
   districtName,
 }) => {
+  const { t } = useTranslation();
   const [topicData, setTopicData] = useState(null);
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -37,7 +39,7 @@ const ItemCarou = ({
           {React.Children.toArray(
             topicData.map((d) => (
               <div data-aos="fade-up" className="item-container">
-                <h2 className="title-location">{d.tag_name}</h2>
+                <h2 className="title-location">{t(d.tag_title)}</h2>
                 <SubItemCarou
                   data={dataLocation}
                   topic={d.id_tag}
@@ -50,6 +52,23 @@ const ItemCarou = ({
               </div>
             ))
           )}
+        </>
+      );
+    } else if (search !== null && topicName !== null && districtName !== null) {
+      return (
+        <>
+          <div data-aos="fade-up" className="item-container">
+            <h2 className="title-location"></h2>
+            <SubItemCarou
+              data={dataLocation}
+              topic={dataTopic}
+              dataReview={dataReview}
+              search={search}
+              toastShow={toastShow}
+              topicName={topicName}
+              districtName={districtName}
+            />
+          </div>
         </>
       );
     } else if (topicName !== null && search !== null) {

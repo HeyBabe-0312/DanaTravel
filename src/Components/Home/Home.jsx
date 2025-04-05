@@ -15,15 +15,15 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const linkTo = useNavigate();
   const options = [
-    "Bán Đảo Sơn Trà",
+    "Bán đảo Sơn Trà",
     "Bà Nà Hills",
     "Bảo tàng Điêu Khắc Chăm",
     "Bảo tàng Mỹ Thuật",
     "Bãi biển Non Nước",
-    "Biển Mỹ Khê",
+    "Bãi biển Mỹ Khê",
     "Bảo tàng Ký Ức Điêu Khắc",
     "Cầu Rồng",
     "Cầu Tình Yêu",
@@ -41,6 +41,31 @@ const Home = () => {
     "Suối Hoa",
     "Suối Mơ",
     "Làng Chiếu Cẩm Nê",
+  ];
+  const options2 = [
+    "ソンチャ半島",
+    "バーナーヒルズ",
+    "チャム彫刻博物館",
+    "美術博物館",
+    "ノンヌオックビーチ",
+    "ミーケービーチ",
+    "彫刻博物館",
+    "ドラゴン橋",
+    "愛の桟橋",
+    "ハン橋",
+    "コン市場",
+    "ハン市場",
+    "リンウング寺",
+    "千年のバニヤンツリー",
+    "鯉の登竜像",
+    "ルオン渓流",
+    "逆さまの家",
+    "五行山",
+    "NUI THAN TAI ホットスプリングパーク",
+    "ナムオー礁",
+    "ホア渓流",
+    "モー渓流",
+    "カムネマット村",
   ];
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -88,17 +113,17 @@ const Home = () => {
         <div data-aos="fade-up" className="cardDiv grid">
           <Autocomplete
             className="text-box"
-            options={options}
+            options={i18n.language === "vi" ? options : options2}
             renderInput={(params) => (
               <div ref={params.InputProps.ref} id="destinationInput">
-                <label htmlFor="city">Search your destination:</label>
+                <label htmlFor="city">{t("destination")}</label>
                 <div className="input flex">
                   <input
                     type="search"
                     {...params.inputProps}
                     onKeyDown={_handlerEnter}
                     id="searchHome"
-                    placeholder="Enter name here..."
+                    placeholder={t("placeholder")}
                   ></input>
                   <GrLocation className="icon" />
                 </div>
@@ -107,7 +132,7 @@ const Home = () => {
           />
           <div className="priceInput">
             <div className="label_total flex">
-              <label htmlFor="price">Search by districts:</label>
+              <label htmlFor="price">{t("district")}</label>
             </div>
             <div className="input flex dropdown-text">
               <select name="district" id="district">
@@ -124,7 +149,7 @@ const Home = () => {
           </div>
           <div className="priceInput">
             <div className="label_total flex">
-              <label htmlFor="price">Search by topic:</label>
+              <label htmlFor="price">{t("topic")}</label>
             </div>
             <div className="input flex dropdown-text">
               <select name="topic" id="topics">
