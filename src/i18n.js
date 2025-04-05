@@ -121,6 +121,32 @@ i18n.use(initReactI18next).init({
             "Làng chiếu Cẩm Nê là một trong những làng nghề truyền thống lâu đời nằm tại xã Hòa Tiến, huyện Hòa Vang, thành phố Đà Nẵng. Từ thế kỷ XV, làng đã nổi tiếng với nghề dệt chiếu thủ công mang đậm bản sắc văn hóa dân tộc. Trải qua bao thăng trầm của lịch sử, làng Cẩm Nê vẫn lưu giữ được nghệ thuật dệt chiếu tinh xảo và trở thành một điểm đến du lịch hấp dẫn, nơi du khách có thể tìm hiểu về làng nghề truyền thống và cảm nhận cái hồn mộc mạc của vùng đất miền Trung.",
           lang_chieu_cam_ne_address:
             "Nằm tại xã Hòa Tiến, huyện Hòa Vang, thành phố Đà Nẵng",
+          nui_than_tai: "Khu Du Lịch Núi Thần Tài",
+          nui_than_tai_title:
+            "Suối Khoáng Nóng Thần Tài – Thiên Đường Nghỉ Dưỡng",
+          nui_than_tai_title1: "Giới thiệu về Khu Du Lịch Núi Thần Tài",
+          nui_than_tai_description: `Suối Khoáng Nóng Thần Tài là một trong những điểm du lịch nghỉ dưỡng nổi bật nhất tại Đà Nẵng. Với sự kết hợp độc đáo giữa thiên nhiên hoang sơ và các dịch vụ hiện đại, nơi đây mang đến một trải nghiệm tuyệt vời cho mọi lứa tuổi. Nằm giữa núi rừng xanh mướt, Suối Khoáng Nóng Thần Tài được xem là "liều thuốc" hoàn hảo để thư giãn và tái tạo năng lượng, giúp du khách tận hưởng khoảnh khắc nghỉ ngơi trọn vẹn. Không chỉ là nơi giúp bạn tìm lại sự thư thái, suối khoáng nóng còn mang đến nhiều lợi ích về sức khỏe, khiến nơi đây trở thành điểm đến lý tưởng cho cả gia đình và nhóm bạn.`,
+          nui_than_tai_address:
+            "Nằm tại xã Hòa Phú, huyện Hòa Vang, cách trung tâm Đà Nẵng khoảng 30km về phía Tây Nam",
+          suoi_hoa: "Suối Hoa",
+          suoi_hoa_title: "Khu Du Lịch Sinh Thái Suối Hoa",
+          suoi_hoa_title1: "Giới thiệu về Suối Hoa",
+          suoi_hoa_description: `Khu du lịch sinh thái Suối Hoa không chỉ đơn thuần là một điểm đến tham quan, mà còn là một hành trình tìm về với những giá trị nguyên sơ của thiên nhiên, một bản giao hưởng xanh mát xoa dịu tâm hồn giữa nhịp sống hối hả của Đà Nẵng. Nơi đây, vẻ đẹp hùng vĩ của núi non hòa quyện cùng sự mềm mại, uyển chuyển của dòng suối, tạo nên một bức tranh thủy mặc sống động và đầy quyến rũ.`,
+          suoi_hoa_address:
+            "Nằm ở vùng ngoại ô phía Tây của thành phố Đà Nẵng, thuộc địa phận huyện Hòa Vang",
+          suoi_mo: "Suối Mơ",
+          suoi_mo_title: "Suối Mơ – Thiên Đường Giữa Núi Rừng Xanh Mát",
+          suoi_mo_title1: "Giới thiệu về Suối Mơ",
+          suoi_mo_description: `Suối Mơ là một trong những điểm đến nổi bật của Đà Nẵng, thu hút du khách bởi vẻ đẹp nguyên sơ, kỳ vĩ và thơ mộng. Giữa những ngày hè oi ả, nơi đây trở thành điểm dừng chân lý tưởng để tận hưởng bầu không khí trong lành, lắng nghe tiếng suối róc rách và hòa mình vào khung cảnh thiên nhiên yên bình. Nếu bạn đang tìm kiếm một địa điểm tránh xa sự xô bồ của phố thị để thư giãn và nạp lại năng lượng, Suối Mơ chính là lựa chọn hoàn hảo.`,
+          suoi_mo_address:
+            "Nằm tại xã Hòa Ninh, huyện Hòa Vang, cách trung tâm thành phố Đà Nẵng khoảng 20km về phía Tây Bắc",
+          ba_na: "Bà Nà Hills",
+          ba_na_title:
+            "Bà Nà Hills – Nơi Giao Thoa Giữa Vẻ Đẹp Thiên Nhiên và Kiến Trúc Kỳ Vĩ",
+          ba_na_title1: "Giới thiệu về Bà Nà Hills",
+          ba_na_description: `Bà Nà Hills, điểm đến đầy sức quyến rũ được mệnh danh là “nơi giao thoa giữa trời và đất”, là một trong những biểu tượng của thành phố Đà Nẵng. Đây không chỉ là một điểm nghỉ dưỡng mà còn là hành trình để khám phá vẻ đẹp thiên nhiên kết hợp hoàn hảo với sự kỳ công của con người. Được bao phủ bởi khung cảnh núi rừng hùng vĩ, khí hậu dễ chịu và những công trình kiến trúc độc đáo, Bà Nà Hills mang đến trải nghiệm không nơi nào sánh được. Tại đây, du khách như lạc vào một thế giới khác, nơi mọi áp lực và bộn bề của cuộc sống thường nhật dường như tan biến.`,
+          ba_na_address:
+            "Tọa lạc tại xã Hòa Ninh, huyện Hòa Vang, nằm cách trung tâm Đà Nẵng khoảng 25km về phía Tây Nam",
         },
         districts: {
           select: "Chọn địa bàn",
@@ -261,6 +287,32 @@ i18n.use(initReactI18next).init({
             "カムネマット村は、ダナン市ホアヴァン区ホアティエンコミューンに位置する、長い歴史を持つ伝統的な手工芸村の一つです。15世紀から、この村は民族文化を色濃く反映した手織りのマット作りで有名でした。歴史の浮き沈みを経て、カムネ村は精巧なマット織りの技術を今も守り続け、伝統的な手工芸村を学び、ベトナム中部の素朴な雰囲気を感じることができる魅力的な観光地となっています。",
           lang_chieu_cam_ne_address:
             "ダナン市ホアヴァン区ホアティエンコミューンに位置する",
+          nui_than_tai: "NUI THAN TAI ホットスプリングパーク",
+          nui_than_tai_title:
+            "NUI THAN TAI ホットスプリングパーク - リラックスと体験の楽園",
+          nui_than_tai_title1:
+            "NUI THAN TAI ホットスプリングパークについてご紹介",
+          nui_than_tai_description: `NUI THAN TAI ホットスプリングパークは、ダナンで最も注目すべきリゾート地の一つです。手つかずの自然と現代的なサービスが見事に融合し、すべての年齢層の旅行者に素晴らしい体験を提供しています。緑豊かな山々の中に位置し、NUI THAN TAI ホットスプリングパークは、リラックスとエネルギー回復に最適な「薬」のような場所とされています。ここでは、忙しい都市生活から解放され、自然の中でリラックスしたひとときを過ごすことができます。また、温泉は健康にも良い影響を与えるため、家族や友人との訪問に最適なスポットです。`,
+          nui_than_tai_address:
+            "ダナン市ホアヴァン区ホアフー村に位置しており、ダナン市中心部から約30km南西にあります",
+          suoi_hoa: "ホア渓流",
+          suoi_hoa_title: "ホア渓流エコツーリズム",
+          suoi_hoa_title1: "ホア渓流についてご紹介",
+          suoi_hoa_description: `ホア渓流エコツーリズム地は、単なる観光地にとどまらず、自然の原始的な価値を感じる旅の始まりであり、ダナンの忙しい日常生活の中で心を癒す緑の交響曲です。ここでは、壮大な山々の美しさが、流れる川のやわらかさと調和し、生き生きとした美しい水墨画のような景観が広がります。`,
+          suoi_hoa_address:
+            "ダナン市の西部に位置するホアヴァン区の郊外にあります",
+          suoi_mo: "モー渓流",
+          suoi_mo_title: "モー渓流 – 緑豊かな山林の中の楽園",
+          suoi_mo_title1: "モー渓流についてご紹介",
+          suoi_mo_description: `モー渓流はダナンの注目すべき観光地の一つで、手つかずの壮大で詩的な美しさで訪れる人々を魅了します。暑い夏の日には、ここは新鮮な空気を楽しみ、小川のせせらぎを聞きながら、穏やかな自然の風景の中に身を浸すのに理想的な場所となります。都会の喧騒から離れてリラックスし、エネルギーを取り戻したい方には、モー渓流は完璧な選択肢です。`,
+          suoi_mo_address:
+            "ホアニン村、ホアヴァン郡に位置し、ダナン市中心部から約20キロメートル北西にあります",
+          ba_na: "バーナーヒルズ",
+          ba_na_title: "バーナーヒルズ – 自然の美しさと壮大な建築の交差点",
+          ba_na_title1: "バーナーヒルズについてご紹介",
+          ba_na_description: `バーナーヒルズは、「天と地が交わる場所」と称され、ダナン市の象徴的な観光地の一つであり、魅力に満ちた場所です。ここはただのリゾート地ではなく、人間の巧妙さと自然の美しさが完璧に融合した場所として探索の旅を提供します。壮大な山々に囲まれ、快適な気候と独特な建築物に包まれたバーナーヒルズは、他のどこにもない体験を提供してくれます。ここでは、日常の忙しさやストレスが消え去り、まるで異世界に迷い込んだかのような感覚を味わえます。`,
+          ba_na_address:
+            "ダナン市の中心部から南西に約25kmの位置にあるホアニン村、ホアヴァン区にあります。",
         },
         districts: {
           select: "地区を選んでください",

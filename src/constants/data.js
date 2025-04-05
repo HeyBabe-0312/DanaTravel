@@ -4737,103 +4737,3226 @@ Nửa phần ghềnh đá Nam Ô nhoài ra biển, sóng biển xâm thực lâu
   },
   {
     id_location: 17,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
-    topic: "Other",
-    slug: "nha-dao-nguoc",
-    id_tag: 10,
+    center_img: "/image/nuiThanTai/nuiThanTai1.jpg",
+    name: "locations.nui_than_tai",
+    title: "locations.nui_than_tai_title",
+    title1: "locations.nui_than_tai_title1",
+    topic: "Suggest",
+    slug: "nui-than-tai",
+    id_tag: 1,
     stars: 5,
     suggest: 1,
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/nuiThanTai/nuiThanTai1.jpg",
+      "/image/nuiThanTai/nuiThanTai2.webp",
+      "/image/nuiThanTai/nuiThanTai3.jpg",
+      "/image/nuiThanTai/nuiThanTai4.jpg",
+      "/image/nuiThanTai/nuiThanTai5.png",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.nui_than_tai_description",
+    address: "locations.nui_than_tai_address",
+    address_img: "/image/nuiThanTai/location.png",
+    detail_describe: `<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Tổng quan về khu du lịch suối khoáng nóng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu du lịch Suối Khoáng Nóng Thần Tài được xây dựng trên khu vực có nguồn khoáng nóng tự nhiên quý giá, kết hợp với các dịch vụ tiện ích hiện đại như công viên nước, khu tắm khoáng và hệ thống spa cao cấp. Các dịch vụ tại đây không chỉ giúp du khách thư giãn mà còn mang lại lợi ích sức khỏe tuyệt vời. Đặc biệt, cảnh sắc thiên nhiên xung quanh được bảo tồn nguyên vẹn, tạo nên không gian trong lành, thoáng đãng, giúp du khách tách rời khỏi nhịp sống đô thị và hòa mình vào thiên nhiên.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Lợi ích của suối khoáng nóng đối với sức khỏe</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối khoáng nóng tự nhiên chứa nhiều khoáng chất quý, mang lại những lợi ích đáng kể cho sức khỏe:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cải thiện tuần hoàn máu:</strong> Nước khoáng nóng giúp giãn nở mạch máu, thúc đẩy lưu thông máu tốt hơn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giảm căng thẳng, mệt mỏi:</strong> Nhiệt độ ấm áp giúp cơ thể thư giãn, giảm đau nhức cơ bắp và cải thiện giấc ngủ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tốt cho da:</strong> Khoáng chất trong nước suối giúp làm sạch da, loại bỏ độc tố và dưỡng ẩm tự nhiên.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tăng cường miễn dịch:</strong> Việc tắm suối khoáng thường xuyên có thể giúp tăng cường hệ miễn dịch, phòng tránh bệnh tật.</span>
+</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Thông tin chung về Suối Khoáng Nóng Thần Tài</strong>
+</span>
+</h3>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 Địa chỉ và vị trí địa lý</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối Khoáng Nóng Thần Tài tọa lạc tại xã Hòa Phú, huyện Hòa Vang, cách trung tâm Đà Nẵng khoảng 30km về phía Tây Nam. Khu du lịch nằm trong khu vực núi rừng Bà Nà, tạo nên khí hậu mát mẻ quanh năm, lý tưởng cho các hoạt động nghỉ dưỡng.</span>
+</p>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 Hướng dẫn đường đi chi tiết</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Để đến Suối Khoáng Nóng Thần Tài, du khách có thể lựa chọn các phương tiện di chuyển như xe máy, ô tô hoặc taxi. Đường đi cụ thể như sau:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Xuất phát từ trung tâm Đà Nẵng, đi theo hướng Quốc lộ 14G.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Tiếp tục di chuyển về phía Tây Nam khoảng 30km là đến khu du lịch.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Đường đi khá thuận tiện, có biển chỉ dẫn rõ ràng nên rất dễ dàng tìm đến.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Hoạt động vui chơi và trải nghiệm tại Suối Khoáng Nóng Thần Tài</strong>
+</span>
+</h3>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.1. Ngâm mình trong suối khoáng nóng tự nhiên</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Hồ nước khoáng nóng ngoài trời là nơi lý tưởng để thư giãn. Du khách sẽ được ngâm mình trong dòng nước giàu khoáng chất, giúp giảm mệt mỏi và tái tạo năng lượng. Cảm giác được thả mình trong làn nước ấm áp giữa khung cảnh thiên nhiên tươi đẹp chắc chắn sẽ là một trải nghiệm khó quên.</span>
+</p>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.2. Tắm bùn khoáng và tắm Onsen Nhật Bản</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Bên cạnh tắm khoáng nóng truyền thống, du khách còn có thể trải nghiệm tắm bùn khoáng hoặc tắm Onsen theo phong cách Nhật Bản. Đây là những liệu pháp giúp thanh lọc cơ thể, làm đẹp da và thư giãn tối đa.</span>
+</p>
+<p>&nbsp;</p>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.3. Công viên nước và các trò chơi giải trí</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu công viên nước tại Suối Khoáng Nóng Thần Tài cung cấp nhiều trò chơi hấp dẫn như trượt nước, bể tạo sóng, sông lười… Đây là địa điểm lý tưởng để cả trẻ em và người lớn cùng vui chơi, tận hưởng những giây phút sảng khoái.</span>
+</p>
+<h4>&nbsp;</h4>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.4. Khám phá núi rừng và cảnh quan thiên nhiên</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu vực xung quanh suối khoáng nóng có những con đường mòn giữa rừng, thích hợp cho các hoạt động đi bộ, ngắm cảnh và tận hưởng không khí trong lành. Du khách có thể tổ chức các buổi dã ngoại, chụp ảnh check-in giữa khung cảnh thiên nhiên hùng vĩ.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Giá vé tham quan và các dịch vụ tại Suối Khoáng Nóng Thần Tài</strong>
+</span>
+</h3>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.1. Giá vé vào cổng</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Người lớn: Khoảng 400.000 VNĐ/người.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em: Khoảng 200.000 VNĐ/trẻ em.</span>
+</li>
+</ul>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.2. Các gói dịch vụ</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Gói tắm khoáng nóng cơ bản.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Gói tắm bùn khoáng cao cấp.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Gói tắm Onsen theo phong cách Nhật Bản.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Các dịch vụ spa, massage thư giãn.</span>
+</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. Những lưu ý khi du lịch Suối Khoáng Nóng Thần Tài</strong>
+</span>
+</h3>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.1 Thời điểm lý tưởng để tham quan</strong>
+</span>
+</h4>
+<p>
+<span style="background-color:transparent;color:#000000;">Tháng 3 đến tháng 9 là thời điểm lý tưởng nhất để tham quan Suối Khoáng Nóng Thần Tài. Lúc này, thời tiết khô ráo, thuận lợi cho các hoạt động ngoài trời và tắm khoáng nóng.</span>
+</p>
+<h4>&nbsp;</h4>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.2 Những vật dụng nên mang theo</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Quần áo bơi và khăn tắm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Kem chống nắng, mũ và kính râm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Dép chống trơn để dễ dàng di chuyển.</span>
+</li>
+</ul>
+<h4>&nbsp;</h4>
+<h4>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.3 Lưu ý khi sử dụng suối khoáng nóng</strong>
+</span>
+</h4>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Không nên tắm khoáng nóng quá lâu để tránh bị mất nước.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em và người cao tuổi nên tắm trong thời gian ngắn, tránh ngâm quá lâu trong nước nóng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Uống đủ nước để tránh mất nước khi tắm khoáng.</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối Khoáng Nóng Thần Tài không chỉ là điểm đến nghỉ dưỡng tuyệt vời mà còn mang đến nhiều trải nghiệm độc đáo. Nếu bạn đang tìm kiếm một địa điểm thư giãn kết hợp vui chơi giải trí, đây chắc chắn là một lựa chọn không thể bỏ qua!</span>
+</p>`,
+    detail_describe2: `<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. 温泉リゾートの概要</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;NUI THAN TAI ホットスプリングパークは、貴重な自然の温泉源を活用し、最新の便利なサービスを提供しています。ここには水遊び公園、温泉浴場、高級スパなど、リラクゼーションと健康に役立つ施設が完備されています。周囲の自然の景観は保護されており、清々しく広々とした空間が広がっています。都市の喧騒から離れて、心身ともにリフレッシュできる場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. 温泉の健康効果</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;NUI THAN TAI ホットスプリングパークの温泉には、体に良い多くのミネラルが含まれており、以下の健康効果があります：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>血行の改善</strong>：温泉の熱水が血管を広げ、血液循環を促進します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ストレス解消と疲労回復</strong>：心地よい温かさが体をリラックスさせ、筋肉の痛みを和らげ、良質な睡眠を促進します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>肌に良い効果</strong>：温泉のミネラル成分が肌を清潔にし、毒素を取り除き、自然に保湿します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>免疫力の向上</strong>：温泉に頻繁に入ることで免疫力が強化され、病気を予防します。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. NUI THAN TAI ホットスプリングパークの基本情報</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">3.1&nbsp;<strong>住所と地理的位置</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">NUI THAN TAI ホットスプリングパークは、ダナン市ホアヴァン区ホアフー村に位置しており、ダナン市中心部から約30km南西にあります。このリゾート地は、バナ山の広大な森林エリアに囲まれており、年間を通じて涼しい気候が保たれているため、リゾート活動に最適な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">3.2&nbsp;<strong>アクセス方法</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">NUI THAN TAI ホットスプリングパークに行くには、バイク、車、タクシーなどの交通手段を選ぶことができます。具体的な道順は以下の通りです：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">ダナン市中心部から出発し、国道14Gを進みます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">約30km南西に向かって進むと、NUI THAN TAI ホットスプリングパークに到着します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">道は非常に便利で、標識も明確に表示されているため、簡単に目的地にたどり着けます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. NUI THAN TAI ホットスプリングパークでのアクティビティと体験</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.1&nbsp;<strong>天然温泉に浸かる</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">屋外の温泉プールは、リラックスするのに最適な場所です。旅行者は、豊富なミネラルを含んだ温泉水に浸かり、疲れを癒し、エネルギーを回復することができます。美しい自然の中で温かい水に身を委ねる感覚は、忘れられない体験となるでしょう。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.2&nbsp;<strong>泥温泉と日本式温泉</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">伝統的な温泉の他に、旅行者は泥温泉や日本式の温泉（温泉浴）も体験できます。これらの療法は、体を浄化し、美肌を作り、心身ともにリラックスさせる効果があります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.3&nbsp;<strong>水遊び公園とアミューズメント</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">NUI THAN TAI ホットスプリングパークの水遊び公園には、ウォータースライダー、波のプール、流れるプールなど、さまざまな楽しいアトラクションがあります。子供も大人も一緒に楽しみ、爽快なひとときを過ごすのに最適な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">4.4&nbsp;<strong>森林探険と自然景観の探索</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">温泉周辺には、森の中を歩けるトレイルがあり、ウォーキングや観光、清新な空気を楽しむのに最適です。旅行者はピクニックをしたり、雄大な自然を背景に写真を撮ったりすることができます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. 入場料とサービス</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>入場料</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人：400,000VND/人</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子供：200,000VND/人</span>
+<br>
+<br>&nbsp;</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>サービスパッケージ</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">基本の温泉パッケージ</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">高級泥温泉パッケージ</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">日本式温泉パッケージ</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">スパ・マッサージサービス</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. 旅行の際の注意点</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.1 理想的な訪問時期</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">3月から9月がNUI THAN TAI ホットスプリングパークを訪れる最適な時期です。天気が乾燥しており、屋外活動や温泉入浴にぴったりの時期です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.2 持参する物</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">水着とタオル</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">日焼け止め、帽子、サングラス</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">滑り止めのサンダル</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.3 温泉利用時の注意</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">長時間の温泉入浴を避け、脱水症状を防ぎましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子供や高齢者は短時間で温泉に入るようにしましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">温泉浴の際は十分に水分補給を行いましょう。</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">NUI THAN TAI ホットスプリングパークは、素晴らしいリラクゼーションのスポットであるだけでなく、ユニークな体験も提供しています。リラックスしながら楽しむ場所を探しているなら、ここは絶対に見逃せない選択肢です！</span>
+</p>`,
   },
   {
     id_location: 18,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
-    topic: "Other",
-    slug: "nha-dao-nguoc",
-    id_tag: 10,
+    center_img: "/image/suoiHoa/suoiHoa1.jpg",
+    name: "locations.suoi_hoa",
+    title: "locations.suoi_hoa_title",
+    title1: "locations.suoi_hoa_title1",
+    topic: "Stream",
+    slug: "suoi-hoa",
+    id_tag: 7,
     stars: 5,
     suggest: 1,
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/suoiHoa/suoiHoa1.jpg",
+      "/image/suoiHoa/suoiHoa2.jpg",
+      "/image/suoiHoa/suoiHoa3.jpg",
+      "/image/suoiHoa/suoiHoa4.jpg",
+      "/image/suoiHoa/suoiHoa5.jpg",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.suoi_hoa_description",
+    address: "locations.suoi_hoa_address",
+    address_img: "/image/suoiHoa/location.png",
+    detail_describe: `<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Giới thiệu chung về Khu du lịch sinh thái Suối Hoa: Bản Giao Hưởng Xanh Giữa Lòng Phố Thị</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.1 Vẻ đẹp thiên nhiên, không gian xanh mát và bầu không khí trong lành:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Ngay khi đặt chân đến Suối Hoa, du khách sẽ cảm nhận được sự khác biệt rõ rệt. Không gian bao trùm là một màu xanh tươi mát của những tán cây cổ thụ, những thảm thực vật phong phú vươn mình đón ánh nắng. Bầu không khí trong lành, tinh khiết, không chút khói bụi hay ồn ào của phố thị, mang đến cảm giác thư thái và dễ chịu đến lạ kỳ. Tiếng chim hót líu lo, tiếng ve kêu râm ran hòa cùng tiếng suối chảy róc rách tạo nên một bản nhạc du dương của tự nhiên, giúp du khách quên đi mọi lo toan, muộn phiền.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.2&nbsp; Điểm nhấn đặc trưng của Suối Hoa so với các địa điểm du lịch khác tại Đà Nẵng:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Trong khi Đà Nẵng nổi tiếng với những bãi biển trải dài cát trắng, những cây cầu hiện đại lung linh và một thành phố năng động, Suối Hoa mang đến một trải nghiệm hoàn toàn khác biệt:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Sự nguyên sơ và hoang dã:</strong> Khác với những khu du lịch được đầu tư xây dựng hiện đại, Suối Hoa giữ được nét tự nhiên vốn có, ít có sự can thiệp của con người, mang đến cảm giác khám phá và phiêu lưu thực thụ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Sự đa dạng của hệ sinh thái:</strong> Nơi đây không chỉ có suối và thác mà còn có rừng cây, thảm cỏ, và là nơi sinh sống của nhiều loài động thực vật, tạo nên một hệ sinh thái phong phú và đáng khám phá.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giá trị văn hóa bản địa sâu sắc:</strong> Suối Hoa không chỉ là một điểm đến thiên nhiên mà còn là nơi lưu giữ và quảng bá những giá trị văn hóa truyền thống của đồng bào Cơ Tu, một nét đặc trưng mà ít địa điểm du lịch khác ở Đà Nẵng có được.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Sự kết hợp hài hòa giữa khám phá và thư giãn:</strong> Du khách có thể vừa tham gia các hoạt động mạo hiểm như trekking, khám phá thác nước, vừa có thể thư giãn tắm suối, dã ngoại trong không gian yên bình.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1.3&nbsp; Lý do nên chọn Suối Hoa làm điểm đến khi du lịch Đà Nẵng:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Trải nghiệm đa dạng:</strong> Suối Hoa đáp ứng nhu cầu của nhiều đối tượng du khách, từ những người yêu thích khám phá thiên nhiên, mạo hiểm đến những người muốn tìm kiếm sự bình yên và thư giãn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Gần gũi với thiên nhiên:</strong> Đây là cơ hội tuyệt vời để tạm rời xa cuộc sống đô thị ồn ào, hòa mình vào thiên nhiên tươi đẹp, hít thở bầu không khí trong lành và tái tạo năng lượng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Khám phá văn hóa độc đáo:</strong> Du khách có cơ hội tìm hiểu về phong tục tập quán, kiến trúc và ẩm thực đặc sắc của người Cơ Tu, làm phong phú thêm trải nghiệm du lịch.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Địa điểm lý tưởng cho gia đình và bạn bè:</strong> Với không gian rộng rãi và nhiều hoạt động phù hợp, Suối Hoa là nơi lý tưởng để tổ chức các buổi dã ngoại, cắm trại, team building, tạo nên những kỷ niệm đáng nhớ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giá cả hợp lý:</strong> So với nhiều khu du lịch khác, Suối Hoa thường có mức giá vé và dịch vụ khá phải chăng, phù hợp với nhiều đối tượng du khách.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Dễ dàng di chuyển:</strong> Vị trí không quá xa trung tâm thành phố giúp du khách dễ dàng di chuyển đến Suối Hoa bằng nhiều phương tiện khác nhau.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Địa chỉ và hướng dẫn di chuyển đến Suối Hoa: Vượt Qua Cánh Cổng Xanh</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.1 Vị trí cụ thể của khu du lịch Suối Hoa:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Để hình dung rõ hơn, Khu du lịch sinh thái Suối Hoa nằm ở vùng ngoại ô phía Tây của thành phố Đà Nẵng, thuộc địa phận huyện Hòa Vang. Vị trí này khá gần với khu vực Bà Nà Hills nổi tiếng, tạo điều kiện thuận lợi cho du khách kết hợp tham quan cả hai địa điểm trong một ngày hoặc một chuyến đi. Thôn Phú Túc, xã Hòa Phú, nơi Suối Hoa tọa lạc, vẫn giữ được những nét thanh bình, yên ả của một vùng quê, tách biệt với sự náo nhiệt của trung tâm thành phố.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.2 Các phương tiện có thể sử dụng để đến Suối Hoa:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Xe máy: Người bạn đồng hành lý tưởng cho những tâm hồn tự do:</strong> Với xe máy, bạn có thể chủ động hoàn toàn về thời gian và lịch trình, dễ dàng dừng chân ngắm cảnh trên đường đi và tận hưởng trọn vẹn vẻ đẹp của vùng ngoại ô Đà Nẵng. Đường đi đến Suối Hoa khá đẹp và dễ đi, tuy nhiên bạn cần chú ý tốc độ và an toàn khi di chuyển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ô tô cá nhân/xe tự lái: Sự lựa chọn thoải mái cho gia đình và nhóm bạn:</strong> Ô tô mang đến sự tiện nghi và thoải mái, đặc biệt khi đi cùng gia đình có trẻ nhỏ hoặc mang theo nhiều đồ dùng cho dã ngoại và cắm trại. Đường đi khá rộng rãi và có biển chỉ dẫn rõ ràng. Tại khu du lịch cũng có khu vực đỗ xe dành cho ô tô.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Taxi/Xe công nghệ: Nhanh chóng và tiện lợi:</strong> Đây là lựa chọn phù hợp cho những ai không muốn tự lái hoặc không quen đường. Bạn có thể dễ dàng đặt taxi hoặc xe công nghệ thông qua các ứng dụng trên điện thoại. Tuy nhiên, chi phí có thể cao hơn so với việc tự di chuyển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tour du lịch: Giải pháp trọn gói và thư giãn:</strong> Các tour du lịch đến Suối Hoa thường bao gồm xe đưa đón, vé tham quan, hướng dẫn viên và các bữa ăn (tùy thuộc vào gói tour). Đây là lựa chọn lý tưởng cho những du khách muốn có một chuyến đi thoải mái, không cần lo lắng về việc di chuyển và lịch trình. Bạn có thể tìm thấy nhiều công ty du lịch tại Đà Nẵng cung cấp các tour này.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.3 Hướng dẫn đường đi chi tiết từ trung tâm thành phố Đà Nẵng:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hướng 1 (Đi theo đường DT602 - cung đường quen thuộc):</strong>
+</span>
+<br>
+<br>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Bắt đầu từ các quận trung tâm như Hải Châu, Thanh Khê, bạn hãy di chuyển theo hướng Tây, tìm đường đến các trục đường lớn như 2 Tháng 9, Nguyễn Văn Linh hoặc đường 3 Tháng 2.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Tiếp tục di chuyển về hướng cầu vượt Hòa Cầm (nằm ở phía Tây thành phố).</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Sau khi qua cầu vượt Hòa Cầm, hãy chú ý biển chỉ dẫn và rẽ phải vào đường DT602 (đường Bà Nà - Suối Mơ). Đây là con đường chính dẫn đến khu vực Bà Nà và Suối Hoa.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Từ đây, bạn chỉ cần đi thẳng theo đường DT602 khoảng 20-25km. Cung đường này khá đẹp, hai bên đường là những cánh đồng, vườn cây xanh mát.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Hãy chú ý các biển chỉ dẫn màu nâu có ghi "Khu du lịch sinh thái Suối Hoa" nằm bên tay phải. Khi thấy biển báo, bạn hãy rẽ vào con đường nhỏ hơn và đi thêm một đoạn ngắn là sẽ đến cổng khu du lịch.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hướng 2 (Đi theo đường tránh Nam Hải Vân - lựa chọn cho xe lớn hoặc tránh kẹt xe):</strong>
+</span>
+<br>
+<br>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu bạn di chuyển bằng ô tô lớn hoặc muốn tránh giao thông đông đúc trong nội thành, bạn có thể chọn đi theo đường Nguyễn Tất Thành nối dài về hướng Bắc (hướng đi Huế).</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Sau khi đi qua khu vực cảng Tiên Sa, hãy chú ý biển chỉ dẫn và rẽ trái vào đường tránh Nam Hải Vân. Đây là một con đường rộng và thoáng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Đi thẳng theo đường tránh Nam Hải Vân một đoạn, sau đó bạn sẽ thấy biển chỉ dẫn rẽ vào đường DT602 (thường sẽ có biển chỉ Bà Nà Hills). Hãy rẽ theo hướng đó.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Tiếp tục di chuyển theo đường DT602 như hướng dẫn ở trên cho đến khi thấy biển báo Khu du lịch sinh thái Suối Hoa.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>2.4 Lời khuyên nhỏ:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Trước khi đi, hãy kiểm tra kỹ xe của bạn, đặc biệt là lốp, phanh và xăng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu đi xe máy, hãy đội mũ bảo hiểm đạt chuẩn và đi đúng tốc độ cho phép.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nên mang theo bản đồ giấy hoặc sử dụng các ứng dụng bản đồ trực tuyến trên điện thoại để được hướng dẫn chi tiết và cập nhật tình hình giao thông.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu đi vào cuối tuần hoặc các dịp lễ, lượng khách có thể đông, bạn nên xuất phát sớm để tránh kẹt xe và có thời gian tham quan thoải mái hơn.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Thời điểm lý tưởng để du lịch Suối Hoa: Gặp Gỡ Thiên Nhiên Vào Khoảnh Khắc Đẹp Nhất</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 Thời tiết tại Suối Hoa trong các mùa trong năm:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa khô (tháng 3 đến tháng 9):</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đầu mùa khô (tháng 3 - tháng 5):</strong> Thời tiết mát mẻ, dễ chịu, nắng nhẹ, rất thích hợp cho các hoạt động dã ngoại, trekking và khám phá thiên nhiên. Cây cối xanh tươi, hoa nở rộ, tạo nên khung cảnh đẹp mắt.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giữa mùa khô (tháng 6 - tháng 8):</strong> Thời tiết nắng nóng gay gắt, nhiệt độ có thể lên cao. Tuy nhiên, khu vực Suối Hoa vẫn khá mát mẻ nhờ có cây xanh và dòng suối. Đây là thời điểm lý tưởng để tắm suối và giải nhiệt.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cuối mùa khô (tháng 9):</strong> Thời tiết bắt đầu có sự chuyển giao, có thể xuất hiện những cơn mưa rào bất chợt vào buổi chiều. Nhiệt độ vẫn còn khá cao nhưng đã dịu bớt.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa mưa (tháng 10 đến tháng 2 năm sau):</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đầu mùa mưa (tháng 10 - tháng 11):</strong> Mưa nhiều, có thể kéo dài, ảnh hưởng đến các hoạt động ngoài trời. Đường đi có thể trơn trượt và nguy hiểm. Tuy nhiên, thác nước vào thời điểm này thường rất hùng vĩ và đầy nước.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giữa mùa mưa (tháng 12 - tháng 1):</strong> Thời tiết lạnh hơn, có thể có những đợt rét kéo dài. Mưa vẫn tiếp diễn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cuối mùa mưa (tháng 2):</strong> Mưa bắt đầu giảm dần, thời tiết ấm áp hơn, cây cối đâm chồi nảy lộc, mang đến một sức sống mới.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 Khoảng thời gian lý tưởng để tham quan, tránh mưa và có trải nghiệm tốt nhất (mở rộng):</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Từ tháng 4 đến tháng 8:</strong> Đây thực sự là "mùa vàng" để khám phá Suối Hoa.</span>
+<br>
+<br>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời tiết ổn định:</strong> Ít mưa, nắng đẹp, thuận lợi cho mọi hoạt động vui chơi, khám phá và dã ngoại.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Nhiệt độ dễ chịu (trừ tháng 6-7 có thể hơi nóng):</strong> Bạn có thể thoải mái tham gia các hoạt động ngoài trời mà không lo bị quá nóng hay bị ướt mưa.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cảnh quan tươi đẹp nhất:</strong> Cây cối xanh tốt, hoa lá rực rỡ, dòng suối trong veo, tạo nên những khung hình tuyệt đẹp.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thích hợp cho cả gia đình và nhóm bạn:</strong> Mọi lứa tuổi đều có thể tận hưởng trọn vẹn vẻ đẹp và các hoạt động tại Suối Hoa trong thời gian này.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Lưu ý về các thời điểm khác:</strong>
+</span>
+<br>
+<br>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tháng 9 - tháng 11:</strong> Nếu bạn muốn ngắm nhìn thác nước hùng vĩ với lượng nước đổ lớn nhất, đây là thời điểm phù hợp. Tuy nhiên, bạn cần chuẩn bị sẵn sàng cho những cơn mưa bất chợt và đảm bảo an toàn khi di chuyển.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tháng 12 - tháng 2:</strong> Thời tiết có thể lạnh và ẩm ướt, không thực sự lý tưởng cho các hoạt động ngoài trời. Tuy nhiên, nếu bạn thích không khí yên tĩnh và vắng vẻ, đây có thể là một lựa chọn.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3 Lời khuyên:</strong> Nên kiểm tra dự báo thời tiết trước khi đi để có sự chuẩn bị tốt nhất. Nếu bạn có kế hoạch cắm trại qua đêm, hãy chọn những ngày thời tiết khô ráo và ổn định.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Giá vé tham quan và dịch vụ tại Suối Hoa: Chi Phí Cho Một Chuyến Đi Trọn Vẹn</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.1 Giờ mở cửa của khu du lịch (cập nhật thông tin):</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Để có thông tin chính xác nhất về giờ mở cửa, bạn nên truy cập trang web chính thức của Khu du lịch sinh thái Suối Hoa (nếu có) hoặc liên hệ trực tiếp qua số điện thoại. Thông thường, các khu du lịch sinh thái hoạt động từ khoảng&nbsp;<strong>7:00 hoặc 8:00 sáng đến 17:00 hoặc 18:00 chiều</strong>. Giờ mở cửa có thể thay đổi tùy theo mùa hoặc các dịp đặc biệt.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.2 Giá vé tham quan đối với người lớn, trẻ em, các dịch vụ đi kèm (ước tính và lưu ý):</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giá vé tham quan:</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Người lớn:</strong> Mức giá có thể dao động từ&nbsp;<strong>30.000 VNĐ đến 50.000 VNĐ/người</strong>.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Trẻ em:</strong> Thường có chính sách giảm giá cho trẻ em dưới một độ tuổi (ví dụ: dưới 6 tuổi) hoặc chiều cao (ví dụ: dưới 1m2). Giá vé cho trẻ em có thể khoảng&nbsp;<strong>15.000 VNĐ đến 25.000 VNĐ/người</strong> hoặc miễn phí.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Người cao tuổi và người có thẻ ưu đãi:</strong> Có thể có chính sách giảm giá đặc biệt, bạn nên mang theo giấy tờ tùy thân để được hưởng ưu đãi.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Các dịch vụ đi kèm (ước tính):</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thuê chòi nghỉ:</strong> Giá thuê có thể từ&nbsp;<strong>100.000 VNĐ đến 500.000 VNĐ/chòi</strong> tùy thuộc vào kích thước, vị trí và tiện nghi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thuê lều trại:</strong> Giá thuê lều (thường bao gồm cả vị trí cắm trại) có thể từ&nbsp;<strong>50.000 VNĐ đến 200.000 VNĐ/lều</strong> tùy thuộc vào kích thước và loại lều.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thuê dụng cụ dã ngoại (bếp nướng, than,...):</strong> Khoảng&nbsp;<strong>50.000 VNĐ đến 100.000 VNĐ/lượt</strong>.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thuê phao tắm, áo phao:</strong> Khoảng&nbsp;<strong>10.000 VNĐ đến 20.000 VNĐ/lượt</strong>.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Gửi xe:</strong> Phí gửi xe máy khoảng&nbsp;<strong>5.000 VNĐ - 10.000 VNĐ/xe</strong>, ô tô khoảng&nbsp;<strong>20.000 VNĐ - 30.000 VNĐ/xe</strong>.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.3 Các chi phí phát sinh nếu du khách muốn tham gia các hoạt động khác:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tham gia trò chơi dân gian:</strong> Một số trò chơi có thể có phí tham gia nhỏ, ví dụ như bắn nỏ, đập niêu (khoảng&nbsp;<strong>10.000 VNĐ - 20.000 VNĐ/lượt chơi</strong>).</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Câu cá:</strong> Có thể có phí thuê cần câu và tính phí theo số lượng cá câu được.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cưỡi ngựa:</strong> Chi phí có thể tính theo thời gian hoặc quãng đường.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ăn uống tại nhà hàng/quán ăn:</strong> Chi phí tùy thuộc vào thực đơn và số lượng người. Bạn có thể tham khảo trước menu và giá cả.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mua quà lưu niệm:</strong> Tại khu du lịch có thể có các gian hàng bán đồ lưu niệm, đặc sản địa phương.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.4 Lời khuyên:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Nên chuẩn bị sẵn tiền mặt để thanh toán các dịch vụ, đặc biệt là các dịch vụ nhỏ lẻ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Hỏi rõ giá cả trước khi sử dụng bất kỳ dịch vụ nào.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Nếu đi theo nhóm đông người, bạn có thể cân nhắc thuê chòi để có không gian riêng tư và tiết kiệm chi phí.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Một số khu du lịch có thể có các gói dịch vụ combo bao gồm vé tham quan và một số dịch vụ khác, bạn có thể tham khảo để có lựa chọn tiết kiệm nhất.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Các địa điểm tham quan nổi bật tại Suối Hoa: Nơi Vẻ Đẹp Thiên Nhiên Bung Tỏa</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.1 Thác Rù Rì và Thác Hạ: Bản Hùng Ca và Nét Dịu Dàng Của Nước:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thác Rù Rì:</strong> Đúng như tên gọi, thác Rù Rì mang trong mình âm thanh mạnh mẽ, dữ dội của dòng nước đổ từ trên cao xuống, tạo thành những bọt tung trắng xóa. Khung cảnh hùng vĩ, tráng lệ của thác nước giữa rừng cây xanh mướt chắc chắn sẽ khiến bạn choáng ngợp. Đây là địa điểm lý tưởng để cảm nhận sức mạnh của thiên nhiên và chụp những bức ảnh ấn tượng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thác Hạ:</strong> Trái ngược với sự mạnh mẽ của thác Rù Rì, thác Hạ lại mang vẻ đẹp hiền hòa, dịu dàng hơn. Dòng nước chảy nhẹ nhàng qua những tầng đá tự nhiên, tạo thành những hồ nước nhỏ trong xanh như ngọc bích. Du khách có thể dễ dàng tiếp cận và ngâm mình thư giãn trong làn nước mát lạnh, tận hưởng cảm giác thư thái và hòa mình vào thiên nhiên. Khu vực quanh thác Hạ thường có nhiều bóng cây, là nơi lý tưởng để nghỉ ngơi và tổ chức picnic nhỏ.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.2 Hồ Mục Đồng: Thế Giới Vui Nhộn Dành Cho Trẻ Thơ:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Hồ Mục Đồng là một điểm nhấn đặc biệt của Suối Hoa, được thiết kế như một khu vui chơi dưới nước thu nhỏ, rất an toàn và phù hợp với trẻ em. Hồ có mực nước nông, trong xanh, với nhiều phao bơi và các trò chơi nước đơn giản, ngộ nghĩnh. Đây là nơi lý tưởng để các bé thỏa sức vẫy vùng, vui đùa trong làn nước mát, trong khi phụ huynh có thể yên tâm thư giãn và quan sát. Khu vực xung quanh hồ thường có những hàng cây xanh rợp bóng mát và ghế ngồi, tạo không gian thoải mái cho cả gia đình.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.3 Nhà Rông: Chứng Nhân Văn Hóa Cơ Tu Độc Đáo:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Nhà Rông tại Suối Hoa không chỉ là một công trình kiến trúc độc đáo mà còn là biểu tượng văn hóa của đồng bào Cơ Tu. Với mái nhà cao vút, được làm từ các vật liệu tự nhiên như gỗ, tre, nứa, nhà Rông thể hiện sự khéo léo và tinh tế trong nghệ thuật xây dựng truyền thống. Bên trong nhà Rông thường được trang trí bằng những hoa văn chạm khắc tinh xảo, kể về lịch sử, phong tục và đời sống của người Cơ Tu. Du khách có thể tham quan, tìm hiểu về kiến trúc đặc trưng này và có cơ hội giao lưu, trò chuyện với người dân địa phương để hiểu thêm về văn hóa của họ. Vào các dịp lễ hội, nhà Rông thường là trung tâm diễn ra các hoạt động văn hóa, nghệ thuật truyền thống.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.4 Cầu treo: Điểm Check-in Lãng Mạn Giữa Khung Cảnh Nên Thơ:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Cây cầu treo bắc qua dòng suối tại Suối Hoa không chỉ có chức năng kết nối các khu vực mà còn là một điểm check-in vô cùng nổi bật và được nhiều du khách yêu thích. Đứng trên cầu, bạn có thể phóng tầm mắt ngắm nhìn toàn cảnh thiên nhiên tươi đẹp xung quanh, với dòng suối uốn lượn, những hàng cây xanh mướt và không khí trong lành. Cảm giác bồng bềnh khi bước đi trên cầu treo cũng là một trải nghiệm thú vị. Đặc biệt vào những buổi sáng sớm hoặc chiều tà, khi ánh nắng vàng dịu nhẹ chiếu xuống, khung cảnh nơi đây trở nên vô cùng lãng mạn và thơ mộng, là background tuyệt vời cho những bức ảnh kỷ niệm.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>5.5 Các điểm tham quan khác:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thác Tóc Tiên:</strong> Một thác nước nhỏ nhắn, duyên dáng ẩn mình giữa rừng cây. Dòng nước đổ xuống mềm mại như mái tóc dài của nàng tiên, tạo nên một khung cảnh thanh bình và tĩnh lặng. Đường đi đến thác Tóc Tiên có thể hơi nhỏ và dốc, nhưng vẻ đẹp của nó chắc chắn sẽ làm bạn cảm thấy xứng đáng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thác Thiên Thai:</strong> Mang một vẻ đẹp hoang sơ và bí ẩn hơn. Thác Thiên Thai thường ít người biết đến hơn, thích hợp cho những du khách thích khám phá những địa điểm yên tĩnh và chưa được khai thác nhiều. Đường đi đến thác có thể khó khăn hơn, bạn nên hỏi người dân địa phương hoặc nhân viên khu du lịch để được hướng dẫn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hồ Bồng Lai:</strong> Một hồ nước nhỏ nằm sâu trong khu du lịch, được bao quanh bởi những hàng cây cổ thụ rợp bóng mát. Mặt hồ phẳng lặng như một tấm gương, phản chiếu cảnh vật xung quanh, tạo nên một không gian yên bình và thư thái tuyệt đối. Đây là nơi lý tưởng để bạn dừng chân nghỉ ngơi, tận hưởng sự tĩnh lặng của thiên nhiên và thả hồn vào cảnh vật.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. Các hoạt động vui chơi, giải trí tại Suối Hoa: Trải Nghiệm Đa Dạng Giữa Thiên Nhiên</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.1 Tắm suối và tận hưởng không khí thiên nhiên:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Một trong những hoạt động được yêu thích nhất tại Suối Hoa chính là tắm suối. Dòng nước mát lạnh, trong veo chảy từ thượng nguồn sẽ giúp bạn xua tan mọi mệt mỏi và nóng bức của ngày hè. Bạn có thể lựa chọn những khu vực suối có mực nước phù hợp với mình, từ những vũng nước nông cho trẻ em đến những đoạn suối sâu hơn cho người lớn. Ngâm mình trong làn nước mát, lắng nghe tiếng suối chảy róc rách và hít thở bầu không khí trong lành là một trải nghiệm thư giãn tuyệt vời. Hãy chú ý chọn những khu vực an toàn để tắm và luôn giám sát trẻ em.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.2 Dã ngoại, cắm trại, tổ chức team building:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Dã ngoại (Picnic):</strong> Suối Hoa có nhiều khu vực bằng phẳng, rợp bóng cây xanh, lý tưởng để tổ chức các buổi picnic cùng gia đình và bạn bè. Bạn có thể chuẩn bị đồ ăn, thức uống mang theo hoặc thuê chòi để có không gian riêng tư hơn. Cùng nhau thưởng thức bữa ăn giữa thiên nhiên, trò chuyện và vui đùa sẽ là những khoảnh khắc đáng nhớ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cắm trại:</strong> Nếu bạn muốn trải nghiệm cảm giác gần gũi hơn với thiên nhiên và tận hưởng không khí trong lành của núi rừng về đêm, cắm trại tại Suối Hoa là một lựa chọn tuyệt vời. Khu du lịch thường có những khu vực được quy hoạch riêng cho việc cắm trại, đảm bảo an toàn và tiện nghi cơ bản. Bạn có thể thuê lều hoặc tự mang theo lều trại. Đốt lửa trại, nướng đồ ăn và ngắm sao trời sẽ là những trải nghiệm khó quên.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tổ chức team building:</strong> Với không gian rộng rãi, cảnh quan thiên nhiên tươi đẹp và không khí trong lành, Suối Hoa là địa điểm lý tưởng để tổ chức các hoạt động team building cho công ty hoặc nhóm bạn. Bạn có thể tổ chức các trò chơi vận động, các thử thách khám phá thiên nhiên để tăng cường tinh thần đồng đội và sự gắn kết giữa các thành viên.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.3 Tham gia các trò chơi dân gian:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Khu du lịch Suối Hoa thường tổ chức hoặc có sẵn các trò chơi dân gian truyền thống, mang đến những giây phút thư giãn và vui vẻ, đồng thời giúp du khách hiểu thêm về văn hóa địa phương:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bắn nỏ:</strong> Thử tài thiện xạ với cây nỏ, một loại vũ khí truyền thống của người dân tộc thiểu số.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đập niêu:</strong> Một trò chơi quen thuộc trong các lễ hội, đòi hỏi sự khéo léo và chính xác để đập vỡ chiếc niêu treo trên cao.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đi cà kheo:</strong> Rèn luyện sự thăng bằng và khéo léo khi bước đi trên những đôi cà kheo cao lênh khênh.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Câu cá:</strong> Thư giãn bên bờ suối và thử vận may với hoạt động câu cá.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cưỡi ngựa:</strong> Trải nghiệm cảm giác phiêu du trên lưng ngựa, khám phá cảnh quan xung quanh khu du lịch.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Nhảy sạp (nếu có):</strong> Hòa mình vào điệu múa sạp truyền thống của người dân tộc, một hoạt động văn hóa đặc sắc và vui nhộn.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>6.4 Thưởng thức các lễ hội và văn hóa của người Cơ Tu (nếu trùng dịp):</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn có dịp ghé thăm Suối Hoa vào các dịp lễ hội truyền thống của người Cơ Tu, bạn sẽ được chứng kiến những nét văn hóa độc đáo và đặc sắc:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Xem các điệu múa truyền thống:</strong> Những điệu múa uyển chuyển, nhịp nhàng, thể hiện đời sống và phong tục tập quán của người Cơ Tu.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Nghe tiếng cồng chiêng:</strong> Âm thanh vang vọng của cồng chiêng, một loại nhạc cụ linh thiêng trong văn hóa của người dân tộc thiểu số.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tham gia các nghi lễ truyền thống:</strong> Tìm hiểu về các nghi lễ độc đáo và ý nghĩa trong đời sống tinh thần của người Cơ Tu.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thưởng thức ẩm thực đặc sản trong không khí lễ hội:</strong> Cơ hội nếm thử những món ăn truyền thống được chuẩn bị đặc biệt cho các dịp lễ.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. Đặc sản và ẩm thực tại Suối Hoa: Hương Vị Núi Rừng Đậm Đà</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.1 Các món ăn đặc trưng:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cơm lam:</strong> Gạo nếp nương thơm dẻo được ngâm kỹ, trộn với chút muối và nước cốt dừa (tùy nơi), sau đó nhồi vào ống tre non và nướng trên than hồng. Khi ăn, ống tre được chẻ ra, lộ ra phần cơm thơm lừng, dẻo quánh, mang hương vị đặc trưng của tre và khói.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Gà đồi nướng:</strong> Gà được nuôi thả tự nhiên trên đồi, thịt chắc, thơm và ít mỡ. Gà thường được tẩm ướp gia vị đơn giản như muối, tiêu, ớt, sả, sau đó nướng trên than hoa cho đến khi da vàng giòn, thịt bên trong vẫn giữ được độ ẩm và ngọt tự nhiên.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cá suối:</strong> Các loại cá nhỏ được bắt từ các dòng suối tự nhiên trong khu vực, thịt thơm ngon và ngọt. Cá suối có thể được chế biến thành nhiều món như nướng trui, chiên giòn, nấu canh chua với lá giang, mang đến hương vị tươi ngon của núi rừng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ốc xào sả ớt:</strong> Các loại ốc suối hoặc ốc núi được xào cùng sả, ớt và các gia vị khác, tạo nên món ăn cay nồng, thơm lừng, rất thích hợp để nhâm nhi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Rau rừng:</strong> Các loại rau dại mọc tự nhiên trong rừng như rau dớn, rau sắng, măng rừng... được chế biến thành các món luộc, xào, nộm, mang hương vị đặc trưng của núi rừng, vừa lạ miệng vừa bổ dưỡng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>7.2 Thưởng thức rượu cần và ẩm thực dân dã của đồng bào miền núi:</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Đến Suối Hoa, bạn không chỉ được thưởng thức các món ăn đặc sản mà còn có cơ hội trải nghiệm văn hóa ẩm thực độc đáo của đồng bào Cơ Tu. Rượu cần là một loại đồ uống truyền thống được ủ từ các loại ngũ cốc lên men, có hương vị đặc trưng và thường được uống chung trong các dịp lễ hội hoặc khi có khách quý. Cùng nhau quây quần bên ché rượu cần, thưởng thức những món ăn dân dã do chính người dân địa phương chế biến sẽ là một trải nghiệm văn hóa đáng nhớ.</span>
+</p>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:#990000;">
+<strong>8. Một số lưu ý khi du lịch Suối Hoa: Chuẩn Bị Cho Hành Trình Khám Phá Hoàn Hảo</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.1 Những vật dụng cần chuẩn bị khi tham quan khu sinh thái:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bình đựng nước cá nhân:</strong> Để đảm bảo đủ nước uống trong quá trình tham quan và giảm thiểu rác thải nhựa.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đồ ăn nhẹ:</strong> Bánh, trái cây, snack để bổ sung năng lượng khi cần thiết.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bản đồ khu du lịch (nếu có):</strong> Để dễ dàng định hướng và khám phá các địa điểm.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Máy quay phim (nếu có):</strong> Để ghi lại những thước phim sống động về chuyến đi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Pin dự phòng cho điện thoại và máy ảnh.</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Túi đựng rác cá nhân:</strong> Để mang theo rác thải của mình và góp phần bảo vệ môi trường.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Một chiếc áo khoác mỏng:</strong> Phòng trường hợp thời tiết thay đổi hoặc khi ở gần thác nước có thể hơi lạnh.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>8.2 Một số lưu ý về thời tiết, trang phục, an toàn khi vui chơi:</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời tiết:</strong> Luôn cập nhật dự báo thời tiết trước khi đi. Nếu có mưa hoặc dự báo thời tiết xấu, bạn nên cân nhắc lại kế hoạch tham quan để đảm bảo an toàn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Trang phục:</strong> Chọn trang phục thoải mái, rộng rãi, dễ vận động và nhanh khô. Ưu tiên các loại vải thấm hút mồ hôi tốt. Nếu có kế hoạch tắm suối, hãy mang theo đồ bơi phù hợp.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giày dép:</strong> Giày thể thao hoặc giày leo núi có độ bám tốt là lựa chọn tốt nhất, đặc biệt khi bạn có ý định khám phá các thác nước và đường mòn. Tránh đi dép lê hoặc giày cao gót.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>An toàn khi tắm suối:</strong> Chỉ tắm ở những khu vực được phép và có biển báo an toàn. Không nhảy cầu hoặc trèo lên các tảng đá trơn trượt. Luôn để mắt đến trẻ em khi chúng vui chơi dưới nước.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>An toàn khi di chuyển:</strong> Cẩn thận khi đi bộ trên các địa hình dốc, trơn trượt. Tuân thủ các biển báo và hướng dẫn của khu du lịch.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bảo vệ môi trường:</strong> Không vứt rác bừa bãi, không gây ô nhiễm nguồn nước, không chặt phá cây cối và không làm hại đến động vật hoang dã. Hãy chung tay giữ gìn vẻ đẹp tự nhiên của Suối Hoa.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Tôn trọng văn hóa địa phương:</strong> Nếu bạn có cơ hội giao tiếp với người dân địa phương, hãy thể hiện sự tôn trọng đối với văn hóa và phong tục tập quán của họ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mang theo đủ nước uống:</strong> Đặc biệt khi tham gia các hoạt động ngoài trời như trekking.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Sử dụng kem chống nắng và các biện pháp bảo vệ da khác:</strong> Để tránh bị cháy nắng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thông báo cho nhân viên khu du lịch nếu bạn gặp bất kỳ vấn đề gì.</strong>
+</span>
+</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:#000000;">Với sự chuẩn bị kỹ lưỡng và tinh thần khám phá, chuyến đi đến Khu du lịch sinh thái Suối Hoa chắc chắn sẽ mang đến cho bạn những trải nghiệm tuyệt vời và những kỷ niệm khó quên về vẻ đẹp thiên nhiên và văn hóa độc đáo của vùng đất Đà Nẵng.</span>
+</p>`,
+    detail_describe2: `<p style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>１．ホア渓</strong>
+</span>
+<span style="background-color:transparent;color:#990000;">
+<strong>流エコツーリズムの紹介：都市の中の緑の交響曲</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">1.1&nbsp;<strong>自然の美しさ、涼しい空間、そして清らかな空気</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ホア渓流に足を踏み入れると、すぐにその違いを感じることでしょう。ここは古木の木々や豊かな植物が広がり、陽光を浴びて成長しています。空気は清浄で、都市の喧騒や汚れは一切なく、奇妙なほどにリラックスできる空間が広がります。鳥のさえずりや蝉の声、そして流れる川の音が一体となり、自然のメロディーを奏で、旅行者は日々の悩みやストレスを忘れることができます。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">1.2&nbsp;<strong>ホア渓流がダナンの他の観光地と異なる特徴</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ダナンが長い白砂のビーチや美しい現代的な橋、活気あふれる都市で知られている一方で、ホア渓流は全く異なる体験を提供します：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>原始的で野生的な魅力</strong>: 現代的な開発が進む観光地とは異なり、ホア渓流は自然そのままの姿を保ち、人の手が少ないため、真の探険と冒険の感覚を提供します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>多様な生態系</strong>: ここには川や滝だけでなく、森の中の草原や多くの動植物が共存しており、豊かな生態系を探索することができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>深い文化的価値</strong>: ホア渓流は自然の魅力だけでなく、少数民族コトゥ族の伝統的な文化も体験できる場所で、これはダナンの他の観光地ではなかなか得られない貴重な体験です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>探索とリラックスの調和</strong>: 旅行者はトレッキングや滝の探索などのアドベンチャー活動と、温泉でリラックスしたり、平和な空間でピクニックを楽しむことができるため、心身ともにリフレッシュできます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">1.3&nbsp;<strong>ホア渓流をダナンで訪れるべき理由</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>多様な体験</strong>: ホア渓流は、自然探険や冒険を求める人々から、平穏とリラックスを求める人々まで、さまざまな旅行者のニーズに応えます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>自然との親密な接触</strong>: ここは、都市の喧騒を離れて美しい自然に身を委ね、清らかな空気を吸い、エネルギーを再生する素晴らしい機会です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ユニークな文化探訪</strong>: コトゥ族の風習や建築、食文化を学ぶことができ、旅行体験が豊かになります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>家族や友達に最適な場所</strong>: 広大な空間と多くの活動があるため、ホア渓流はピクニックやキャンプ、チームビルディングに理想的な場所で、思い出に残る瞬間を作り出すことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>適正な価格</strong>: 他の観光地と比較して、ホア渓流は比較的リーズナブルな料金で、さまざまな旅行者に合ったサービスを提供しています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>アクセスの良さ</strong>: 市街地から遠くなく、さまざまな交通手段でホア渓流に簡単にアクセスできます</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. ホア渓流への行き方：緑の扉を越えて</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">2.1&nbsp;<strong>ホア渓流の位置</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ホア渓流エコツーリズム地は、ダナン市の西部に位置するホアヴァン区の郊外にあり、この場所は有名なバナヒルズの近くにあります。そのため、旅行者は両方の観光地を一日に訪れることも可能です。ホアフー村のフートゥック地域は、ダナン市中心部の喧騒から離れ、静かな田園風景を残す、穏やかな地域です。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">2.2&nbsp;<strong>ホア渓流へのアクセス方法</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バイク</strong>: 自由な心を持つ人にぴったり: バイクなら、時間やスケジュールを自分で調整でき、途中で景色を楽しみながら、ダナン郊外の美しい風景を満喫できます。道はきれいで走りやすいですが、安全運転には注意が必要です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>自家用車/レンタカー</strong>: 家族やグループに最適な選択: 自家用車は、特に小さな子供がいる家族や、キャンプやピクニックに必要な荷物を運ぶのに便利です。道は広く、案内板もしっかりとあります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>タクシー/配車サービス</strong>: 迅速で便利: 自分で運転したくない人や道を知らない人には、タクシーや配車サービスが最適です。スマホアプリで簡単に呼べますが、費用は自分で運転するより高くなります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ツアー</strong>: パッケージでリラックス: ホア渓流行きのツアーには、送迎、入場券、ガイド、食事などが含まれることが多いので、計画に悩むことなく楽に旅行できます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">2.3&nbsp;<strong>ダナン市中心部からの詳細な道案内</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ルート1（DT602道路を利用）</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ダナン市中心部（ハイチャウ区、タンケ区）から、西方向に進み、2月9日通り、グエンバンリン通り、または3月2日通りを通って進みます。</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">そのままホアカム高架橋を越え、左側に「DT602」道路（バナ - ホアモー）への標識に従って右折します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">DT602道路を直進し、20〜25kmほど進むと、右手に「ホア渓流エコツーリズム」の看板が見えます。看板が見えたら、小道に入って少し進むと、観光地の入口に到着します。</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ルート2（南ハイヴァン回避道路）</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">大きな車や混雑を避けたい場合、グエンタットタン通りを北方向に進んで、ティエンサ港を越え、南ハイヴァン回避道路に左折します。その後、DT602道路に沿って進みます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">2.4&nbsp;<strong>小さなアドバイス</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">出発前に車両の点検を行い、タイヤやブレーキ、ガソリンの確認を忘れずに。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">バイクを利用する場合は、安全ヘルメットを着用し、速度制限を守りましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">週末や祝日には観光客が多いため、早めに出発し、余裕をもって観光を楽しんでください。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>3. ホア渓流での理想的な観光時期: 美しい瞬間に出会う自然との調和</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 年間のホア渓流の天候：</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;乾季（3月〜9月）：</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>乾季の初め（3月〜5月）：</strong>爽やかで心地よい気候、穏やかな日差しが続き、ハイキングや自然探検に最適な時期です。緑豊かな木々や咲き誇る花々が美しい風景を作り出します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>乾季の中旬（6月〜8月）：</strong>厳しい暑さが続き、気温が高くなることがありますが、ホア渓流のエリアは緑と清流のおかげで比較的涼しいです。この時期は渓流での水遊びや暑さを癒すには最適です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>乾季の終わり（9月）：</strong>天候が少しずつ変わり始め、午後に突然のスコールが降ることがあります。気温は依然として高いものの、少しずつ和らいでいきます。</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>雨季（10月〜翌年2月）：</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>雨季の初め（10月〜11月）：</strong>頻繁に雨が降り、長期間続くことがあります。屋外活動には影響がありますが、この時期は滝の水量が増し、その迫力を楽しむことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;雨季の中旬（12月〜1月）：</strong>気温が低く、寒冷期が続きます。引き続き雨が降り続くことがあります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>雨季の終わり（2月）：</strong>雨が次第に収まり、温暖な気候に戻ります。木々は新たに芽吹き、生命力が感じられます。</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 観光に最適な時期、雨を避け、最高の体験を得るために：</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>4月〜8月：これはホア渓流の探訪における「黄金の季節」です。</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>天候が安定し</strong>ており、雨が少なく、日差しが美しく、あらゆるアウトドア活動や探索、ピクニックに適しています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>温暖で快適な気温（ただし6月〜7月はやや暑くなることがあります）</strong>。天候に左右されることなくアウトドア活動を楽しむことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>自然の美しい景観：</strong>青々とした木々、色鮮やかな花々、透明な水流が美しい光景を作り出します。</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>家族や友達と一緒に楽しむのに最適：</strong>すべての年齢層がホア渓流の美しさとアクティビティを心から楽しめます。</span>
+</li>
+</ul>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>その他の時期に関する注意点：</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>9月〜11月：</strong>迫力のある滝を見たいなら、この時期が最適です。ただし、突然の雨に備え、安全に移動することをお勧めします。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>12月〜2月：</strong>寒さと湿気が続き、屋外活動には適していません。しかし、静かな空気と静寂を楽しむことができるので、静かな場所を好む方には向いています。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.3 アドバイス：</strong>最良の準備をするために、出発前に天気予報を確認してください。夜間キャンプを予定している場合、晴れた安定した日を選ぶと良いでしょう。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. ホア渓流の入場料とサービス： 完璧な旅のための費用</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.1 観光地の営業時間（最新情報）：</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">営業時間に関する正確な情報は、ホア渓流エコツーリズムエリアの公式ウェブサイトを確認するか、直接電話でお問い合わせいただくことをお勧めします。通常、エコツーリズムエリアは<strong>午前7時または8時から午後5時または6時まで</strong>営業しています。営業時間は季節や特別な日程に応じて変更されることがあります。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.2 入場料（大人、子供、サービス料金の目安）：</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>入場料：</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>大人：</strong>1人<strong>30,000VND〜50,000VND</strong>程度。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>子供：</strong>6歳以下や身長1m2以下の子供には割引料金が適用され、約<strong>15,000VND〜25,000VND</strong>、または無料の場合もあります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>高齢者および優待カードをお持ちの方：</strong>特別割引が適用される場合がありますので、身分証明書をご持参ください。</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>追加サービス料金（目安）：</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>休憩小屋のレンタル：</strong>100,000VND〜500,000VND（大きさ、場所、設備により異なります）。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>テントのレンタル：</strong>50,000VND〜200,000VND（サイズやタイプによって異なります）。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>アウトドア用品のレンタル（バーベキューセット、炭など）：</strong>50,000VND〜100,000VND。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>浮き輪やライフジャケットのレンタル：</strong>10,000VND〜20,000VND。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>駐車場料金：</strong>バイクは5,000VND〜10,000VND、車は20,000VND〜30,000VND。</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.3 その他の活動に参加する際の追加料金：</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>民間遊び：</strong>弓矢や壺割りなどの遊びに参加する場合、小額の料金が必要です（約10,000VND〜20,000VND）。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>釣り：</strong>釣り竿のレンタル料金や、釣った魚の料金が発生する場合があります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>乗馬：</strong>時間や距離に応じた料金が発生する場合があります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>レストラン・食堂での飲食：</strong>メニューや人数に応じて料金が異なります。事前にメニューと価格を確認することをお勧めします。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>お土産の購入：</strong>観光地内には地元の特産品を扱うお土産屋があります。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.4 アドバイス：</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">サービス料金を支払う前に、特に小額のサービスについては事前に料金を確認しておくと良いでしょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">大人数で訪れる場合は、プライベート空間を確保し、費用を節約するために小屋をレンタルすることを検討してください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">一部の観光地では、入場料といくつかのサービスが含まれたコンボパッケージがある場合もあります。最もお得な選択肢を見つけるために参考にしてください。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>5. ホア渓流の見どころ：自然美が広がる場所</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>5.1 ルーリ滝とハ滝：水の力強さと優美さの交響曲</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ルーリ滝：</strong>その名の通り、ルーリ滝は、高いところから流れ落ちる水の力強い音が特徴です。白く泡立つ水流が壮大で荘厳な景観を作り出し、周囲の緑の森と共に圧倒的な美しさを放ちます。この場所は、自然の力強さを感じながら、印象的な写真を撮るのに最適です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ハ滝：</strong>ルーリ滝の力強さに対して、ハ滝は穏やかで優雅な美しさを持っています。水は自然の岩を越えて、クリスタルクリアな小さな湖を作り出します。訪れる人々はその水に浸かり、リラックスしたひとときを楽しむことができ、周囲の木々の陰でピクニックをするのにも理想的な場所です。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>5.2 目の世界：子どもたちのための楽しい楽園</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">目の世界は、ホア渓流の特別なポイントであり、水遊びの小さなテーマパークとして設計されています。浅く透明な水で、浮き輪や簡単な水遊びができる施設が整っており、子どもたちにとっては思いっきり遊べる場所です。周囲には木陰の椅子もあり、家族全員がくつろげる空間です。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>5.3 ロンの家：コー・トゥ族の独自の文化の証</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ホア渓流のロンの家は、ただの建築物ではなく、コー・トゥ族の文化の象徴でもあります。屋根は高く、木や竹などの自然素材で作られ、伝統的な建築技術の巧みさを示しています。中には、コー・トゥ族の歴史や習慣を描いた精緻な彫刻が施されています。観光客は、この独特な建築様式を見学し、地元の人々との交流を通じて彼らの文化を学ぶことができます。祭りの時期には、ロンの家は伝統的な文化活動の中心地となります。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>5.4 吊り橋：夢のような風景の中でのロマンティックなチェックインスポット</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ホア渓流を渡る吊り橋は、ただの移動手段ではなく、訪れる人々にとっては魅力的なチェックインスポットでもあります。橋の上からは、流れる川、緑に囲まれた木々、澄んだ空気の中で美しい自然の景色を一望できます。特に、朝や夕方の柔らかな陽光の下で、この場所はロマンチックで幻想的な雰囲気を楽しむことができ、素敵な記念写真を撮るのに最適です。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>5.5 その他の観光地</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>タオックティエン滝：</strong>小さくて可憐な滝で、森の中にひっそりと隠れています。水は長い髪のように柔らかく流れ、穏やかな静けさが感じられます。道は少し狭くて急ですが、その美しさは訪れる価値があります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ティエンタイ滝：</strong>もっと原始的で神秘的な美しさを持つティエンタイ滝は、あまり知られていないため、静かな場所を探す旅行者には最適です。道は少し難しいこともありますので、地元の人々や観光地のスタッフに聞いてみると良いでしょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ボンライ湖：</strong>大きな木々に囲まれた静かな湖で、水面は鏡のように周囲の景色を反射し、完全な静けさと安らぎを提供します。ここは、休憩し、自然の静けさを享受するのに理想的な場所です。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>6. ホア渓流でのアクティビティ：自然の中での多様な体験</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>6.1 川遊びと自然の空気を楽しむ</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ホア渓流で最も人気のあるアクティビティの一つは、川遊びです。冷たく澄んだ水が流れ、夏の暑さを吹き飛ばしてくれます。子供向けの浅いエリアや、大人向けの深いエリアなど、さまざまな場所があります。水に浸かりながら、川の音を聞き、清々しい空気を吸い込むことができ、最高のリラックス体験となります。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>6.2 ピクニック、キャンプ、チームビルディング</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ピクニック：</strong>ホア渓流には広い平地があり、木陰でピクニックを楽しむのに最適な場所です。食べ物や飲み物を持参するか、地元の小屋を借りて、自然の中でのんびり過ごすことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>キャンプ：</strong>自然の中で夜を過ごし、空気の新鮮さを感じたいなら、ホア渓流でのキャンプは素晴らしい選択です。キャンプエリアは整備され、安全で快適な環境が提供されます。焚き火を囲んで食事を楽しみ、星空を眺めることができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>チームビルディング：</strong>広大なスペースと美しい景観の中で、チームビルディング活動を行うのにも最適な場所です。ゲームや自然探検の挑戦を通じて、チームの結束を深めることができます。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>6.3 伝統的な民俗ゲームに参加</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ホア渓流では、地元の伝統的な民俗ゲームを楽しむことができ、リラックスしながら地元の文化を学ぶことができます。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>弓矢:&nbsp;</strong>少数民族の伝統的な武器である弓矢を使って、射撃の腕を試してみてください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ニュー割り:&nbsp;</strong>祭りでよく見られる遊びで、高く吊るされたニュー（焼き物の容器）を割るための器用さと正確さが求められます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>カケオ（竹馬）:&nbsp;</strong>高い竹馬に乗って、バランスと器用さを養いながら歩いてみましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>釣り:&nbsp;</strong>渓流のほとりでリラックスしながら、釣りに挑戦して運試しをしてみてください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>乗馬:&nbsp;</strong>馬の背に揺られながら、観光地の周囲の景色を探索する感覚を楽しんでください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>サップ踊り（ある場合）:&nbsp;</strong>少数民族の伝統的なサップ踊りに参加し、ユニークで楽しい文化的な活動を体験してみましょう。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>6.4 祭りとコ・トゥ族の文化を楽しむ（祭りの期間に訪れる場合）</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">もしも、コ・トゥ族の伝統的な祭りの期間にホア渓流を訪れることができれば、あなたはその独自で魅力的な文化に触れることができます。以下はその一部です：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>伝統舞踊を観る：</strong>優雅でリズミカルな舞踊は、コ・トゥ族の生活様式や習慣を表現しています。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ゴングの音を聴く：</strong>ゴングの響きは、この少数民族の文化において神聖な楽器として重要な役割を果たしています。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>伝統的な儀式に参加する：</strong>コ・トゥ族の精神的な生活における独特で意味深い儀式について学びます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>祭りの雰囲気の中で郷土料理を楽しむ：</strong>祭りの特別な機会に準備された伝統的な料理を味わうことができます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. ホア渓流の特産品と料理：山の香りが漂う豊かな味わい&nbsp;</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>7.1 特徴的な料理</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>コムラム：</strong>しっかりと浸したもち米を、少しの塩とココナッツミルク（地域による）と混ぜ、竹の若い筒に詰めて炭火で焼きます。食べるとき、竹の筒を割ると、香ばしい香りが漂い、もち米が弾力とともに、竹や煙の風味を感じさせます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>&nbsp;山の鶏の炭火焼き：</strong>自然の中で育った山鶏は肉が引き締まり、香り高く、脂肪が少ないです。シンプルな調味料（塩、胡椒、唐辛子、レモングラス）で下味を付け、炭火で焼き上げると、皮はパリッと、肉はジューシーで自然の甘みを保ちます。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>渓流の魚：</strong>この地域の自然の流れから採取した小魚は、香り豊かで甘みがあります。魚は焼いたり、揚げたり、酸っぱいスープにしたりして、山の新鮮な味を楽しむことができます。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>レモングラスと唐辛子で炒めたカタツムリ：</strong>渓流や山のカタツムリをレモングラス、唐辛子、その他の香辛料で炒めた料理で、辛く香り高く、非常に風味豊かです。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>山菜：</strong>山で自生するワラビやサンザシ、山の竹の子などは、煮たり、炒めたり、和え物にしたりして、山の風味を楽しむことができます。独特で栄養豊富な味わいです。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>7.2 ケーの酒と山の民の素朴な料理を楽しむ&nbsp;</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ホア渓流では、特産料理を楽しむだけでなく、コ・トゥ族の独特な食文化を体験することもできます。ケーの酒は、発酵した穀物から作られる伝統的な飲み物で、特徴的な味わいを持ち、祭りの場や大切な客人が来た時に共に飲まれることが多いです。みんなでケーの酒の壺を囲み、地元の人々が作った素朴な料理を共に楽しむことは、忘れられない文化的な体験となるでしょう。</span>
+</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#990000;">
+<strong>8. ホア渓流を訪れる際の注意点: 完璧な探索のための準備</strong>
+</span>
+</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>8.1 観光に必要な持ち物: 個人用水筒</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">観光中に十分な水分補給を確保し、プラスチックゴミの削減に役立ちます。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>軽食：</strong>必要に応じてエネルギー補給できるように、お菓子や果物、スナックを持参します。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>観光地の地図（あれば）：</strong>目的地を簡単に見つけ、探索をスムーズに進めるために役立ちます。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>カメラ（あれば）：</strong>旅行の素晴らしい瞬間を記録するために必要です。 携帯電話やカメラの予備バッテリー。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>個人用ゴミ袋：</strong>自分のゴミを持ち帰り、環境保護に貢献します。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>薄手のジャケット：</strong>天候が変わったり、滝の近くで少し冷える場合に備えて。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>8.2 天候、服装、安全に関する注意点: 天候</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>旅行前に天気予報</strong>を確認しましょう。雨が降る可能性がある場合や悪天候が予想される場合は、安全のために観光計画を再考してください。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>服装：</strong>快適で動きやすく、速乾性のある服を選びます。汗を吸収する素材を優先しましょう。もし渓流で泳ぐ予定がある場合は、適切な水着を持参してください。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>靴：</strong>スポーツシューズや登山靴が最適です、特に滝やトレイルを探索する予定がある場合は滑りにくいものを選びましょう。サンダルやハイヒールは避けてください。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>渓流での安全：</strong>許可された場所でのみ泳ぎ、安全標識があるところで遊びましょう。橋から飛び込んだり、滑りやすい岩に登ったりしないようにしましょう。子供たちが水中で遊ぶ時は常に目を離さないようにしましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>移動時の安全：</strong>急勾配や滑りやすい場所では慎重に歩き、観光地の指示に従いましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>環境保護：</strong>ゴミを散らかさず、水源を汚染せず、木を切ったり、野生動物に害を与えないようにしましょう。ホア渓流の自然美を守るために協力しましょう。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>地元文化への尊重：</strong>地元の人々と交流する機会があれば、彼らの文化や習慣に対する敬意を示しましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>十分な水分を持参：</strong>特にトレッキングなどの屋外活動を行う場合は、水分補給を忘れずに。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>日焼け止めを使用し、肌を保護するための対策を講じる：</strong>日焼けを避けるために必要です。&nbsp;</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>何か問題が発生した場合は、観光地のスタッフに知らせましょう。</strong>
+</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">十分な準備と探求の精神があれば、ホア渓流のエコツーリズムエリアへの旅は、素晴らしい体験と、ダナンの美しい自然と独特な文化に関する忘れられない思い出をもたらしてくれることでしょう。</span>
+</p>`,
   },
   {
     id_location: 19,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
-    topic: "Other",
-    slug: "nha-dao-nguoc",
-    id_tag: 10,
+    center_img: "/image/suoiMo/suoiMo1.jpg",
+    name: "locations.suoi_mo",
+    title: "locations.suoi_mo_title",
+    title1: "locations.suoi_mo_title1",
+    topic: "Stream",
+    slug: "suoi-mo",
+    id_tag: 7,
     stars: 5,
     suggest: 1,
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/suoiMo/suoiMo1.jpg",
+      "/image/suoiMo/suoiMo2.jpg",
+      "/image/suoiMo/suoiMo3.webp",
+      "/image/suoiMo/suoiMo4.jpg",
+      "/image/suoiMo/suoiMo5.webp",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.suoi_mo_description",
+    address: "locations.suoi_mo_address",
+    address_img: "/image/suoiMo/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Vẻ đẹp hoang sơ và thơ mộng của Suối Mơ</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối Mơ được ví như một bức tranh thiên nhiên sống động, với dòng nước xanh biếc phản chiếu ánh nắng mặt trời lấp lánh. Những thác nước trắng xóa đổ xuống từ độ cao vừa phải, len lỏi qua những tảng đá lớn nhỏ, tạo nên một bản hòa ca của thiên nhiên. Bên cạnh đó, hệ thực vật phong phú với những hàng cây xanh mát, hoa cỏ tươi tốt càng tô điểm thêm vẻ đẹp bình yên, khiến du khách có cảm giác như lạc vào chốn thần tiên giữa đời thực.</span>
+</p>
+<h3>&nbsp;</h3>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Khởi nguồn và ý nghĩa tên gọi “Suối Mơ”</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Cái tên "Suối Mơ" gợi lên cảm giác nhẹ nhàng, bay bổng, như một giấc mơ giữa thiên nhiên trong lành. Theo người dân địa phương, dòng suối này bắt nguồn từ những mạch nước ngầm trên đỉnh núi Bà Nà, chảy hiền hòa quanh năm. Nước suối trong vắt, mát lạnh, kết hợp cùng phong cảnh hữu tình tạo nên một khung cảnh đẹp như tranh vẽ, khiến bất cứ ai đặt chân đến cũng ngỡ như đang lạc vào một giấc mơ ngọt ngào.</span>
+</p>
+<h2>&nbsp;</h2>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Thông tin chung về Suối Mơ Đà Nẵng</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 Địa chỉ và vị trí địa lý</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối Mơ nằm tại xã Hòa Ninh, huyện Hòa Vang, cách trung tâm thành phố Đà Nẵng khoảng 20km về phía Tây Bắc. Khu du lịch Suối Mơ tọa lạc ngay dưới chân núi Bà Nà, nơi có khí hậu trong lành, mát mẻ quanh năm, thích hợp cho các chuyến du lịch nghỉ dưỡng, dã ngoại.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 Hướng dẫn đường đi chi tiết</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Du khách có thể dễ dàng di chuyển đến Suối Mơ bằng nhiều phương tiện khác nhau như xe máy, ô tô hoặc taxi. Đường đi khá thuận tiện và không mất quá nhiều thời gian:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Xuất phát từ trung tâm Đà Nẵng, đi theo đường Điện Biên Phủ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Qua cầu vượt Ngã Ba Huế, tiếp tục đi thẳng theo hướng quốc lộ 1A.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Khi đến ngã rẽ có biển chỉ dẫn "Bà Nà – Suối Mơ", rẽ vào đường Hoàng Văn Thái và đi theo chỉ dẫn khoảng 15km là đến nơi.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn muốn tận hưởng hành trình một cách thư thái hơn, có thể lựa chọn dịch vụ taxi hoặc xe du lịch để đảm bảo an toàn và tiết kiệm thời gian.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Hoạt động vui chơi tại Suối Mơ</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.1 Tận hưởng dòng nước trong xanh</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối Mơ sở hữu những hồ nước tự nhiên xanh biếc, là điểm đến lý tưởng để du khách thỏa sức bơi lội, ngâm mình trong làn nước mát lạnh. Cảm giác để những làn nước nhẹ nhàng ôm trọn cơ thể giữa không gian thiên nhiên sẽ giúp bạn xua tan mọi căng thẳng, mệt mỏi.</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.2 Chiêm ngưỡng cảnh sắc thiên nhiên tuyệt đẹp</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Không chỉ có hồ nước trong veo, Suối Mơ còn có những con đường mòn rợp bóng cây, những thác nước nhỏ đổ xuống từ vách đá, tạo nên một bức tranh thiên nhiên đầy màu sắc. Đặc biệt, Thác Gieo – một trong những điểm nhấn của khu du lịch, với làn nước đổ trắng xóa giữa khung cảnh xanh ngát, chắc chắn sẽ khiến bạn xiêu lòng.</span>
+</p>
+<h3>
+<span style="background-color:transparent;color:#000000;">
+<strong>4.3 Thưởng thức đặc sản núi rừng</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Sau khi vui chơi thỏa thích, du khách có thể ghé các quán ăn địa phương để thưởng thức những món đặc sản như gà nướng, cá suối, rau rừng, hay thịt thú rừng nướng thơm lừng. Những món ăn này không chỉ ngon mà còn mang đậm hương vị của núi rừng, đem đến trải nghiệm ẩm thực khó quên.</span>
+</p>
+<h2>&nbsp;</h2>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Giá vé tham quan và dịch vụ tại Suối Mơ</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Giá vé tham quan Suối Mơ khá hợp lý, phù hợp với nhiều đối tượng du khách:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Vé vào cổng:&nbsp;<strong>70.000 VNĐ/người lớn</strong> |&nbsp;<strong>40.000 VNĐ/trẻ em</strong>.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Vé tham gia các dịch vụ vui chơi khác:</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Trượt nước, nhà phao liên hoàn:&nbsp;<strong>45.000 VNĐ</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Ô tô nước:&nbsp;<strong>70.000 – 140.000 VNĐ</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Bong bóng nước:&nbsp;<strong>90.000 – 120.000 VNĐ</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Đạp xe:&nbsp;<strong>70.000 – 100.000 VNĐ</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Xích lô:&nbsp;<strong>50.000 – 70.000 VNĐ</strong>
+</span>
+</li>
+</ul>
+</li>
+</ul>
+<h2>&nbsp;</h2>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. Những lưu ý khi du lịch Suối Mơ</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Để có một chuyến đi trọn vẹn, du khách nên lưu ý một số điều sau:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời điểm lý tưởng</strong>: Từ tháng 3 đến tháng 8, thời tiết khô ráo, mát mẻ, thích hợp cho các hoạt động ngoài trời.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chuẩn bị trang phục phù hợp</strong>: Nên mang theo quần áo thoải mái, đồ bơi và dép chống trơn trượt để di chuyển an toàn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giữ gìn vệ sinh</strong>: Không xả rác bừa bãi, bảo vệ môi trường thiên nhiên trong lành.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đảm bảo an toàn</strong>: Khi bơi lội tại những khu vực nước sâu, hãy luôn mặc áo phao để tránh rủi ro.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Suối Mơ Đà Nẵng không chỉ là điểm đến lý tưởng để thư giãn mà còn là nơi để khám phá vẻ đẹp thiên nhiên tuyệt mỹ. Hãy lên kế hoạch ngay để tận hưởng một chuyến du lịch đáng nhớ bên người thân và bạn bè!</span>
+</p>`,
+    detail_describe2: `<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>1. モー渓流の手つかずで詩的な美しさ</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モー渓流は、陽光を反射する青々とした水流が特徴的で、生き生きとした自然の絵画のようだと言われています。白い滝が適度な高さから流れ落ち、大きな岩や小さな石の間を流れ、自然の交響曲を奏でます。また、豊かな植生があり、涼しげな木々や鮮やかな花々が穏やかな美しさをさらに引き立て、訪れる人々にまるで現実の中の天国に迷い込んだような感覚を与えます。</span>
+</p>
+<h3 style="text-align:justify;">&nbsp;</h3>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>2.「モー渓流」という名前の由来と意味</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">「モー渓流」という名前は、軽やかで夢のような感覚を呼び起こし、清らかな自然の中での夢のような時間を思わせます。地元の人々によると、この小川はバーナー山（Bà Nà）の山頂から湧き出る地下水から始まり、一年中穏やかに流れています。透明で冷たい水と魅力的な景観が組み合わさり、絵画のような風景を作り出し、訪れる人が誰でも甘い夢の中に迷い込んだような気分にさせます。</span>
+</p>
+<h3 style="text-align:justify;">&nbsp;</h3>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>3. モー渓流に関する基本情報</strong>
+</span>
+</h2>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.1 住所と地理的位置</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モー渓流は、ホアニン村、ホアヴァン郡に位置し、ダナン市中心部から約20キロメートル北西にあります。この観光地はバーナー山のふもとにあり、年間を通じて涼しく新鮮な気候に恵まれ、休暇やピクニックに最適です。</span>
+</p>
+<h4 style="text-align:justify;">&nbsp;</h4>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>3.2 行き方の詳細ガイド</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モー渓流には、バイク、車、タクシーなどさまざまな交通手段で簡単にアクセスできます。道は便利で、移動時間もそれほどかかりません。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">ダナン市中心部から出発し、ディエンビエンフー通りを進みます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">フエ交差点高架橋を渡り、国道1Aを直進します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">「バーナー – モー渓流」の標識がある交差点に到達したら、ホアンヴァンタイ通りに曲がり、案内に従って約15キロメートル進むと到着します。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">ゆったりとした旅を楽しみたい場合は、タクシーや観光用車両を利用して、安全で時間を節約することをお勧めします。</span>
+</p>
+<h3 style="text-align:justify;">&nbsp;</h3>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>4. モー渓流でのアクティビティ</strong>
+</span>
+</h2>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.1 透き通った水を楽しむ</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モー渓流には、自然の青緑色の池があり、泳いだり、冷たい水に浸かったりして楽しむのに理想的な場所です。自然の中で水に包まれる感覚は、ストレスや疲れをすべて取り除いてくれるでしょう。</span>
+</p>
+<h4 style="text-align:justify;">&nbsp;</h4>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.2 美しい自然の景色を堪能する</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">澄んだ池だけでなく、モー渓流には木陰に覆われた小道や、岩壁から流れ落ちる小さな滝など、色彩豊かな自然の風景があります。特に、観光地のハイライトであるタクジエウ滝は、緑豊かな風景の中で白く輝く水が流れ落ちる様子が印象的で、訪れる人々を魅了します。</span>
+</p>
+<h4 style="text-align:justify;">&nbsp;</h4>
+<h4 style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">
+<strong>4.3 山の特産料理を味わう</strong>
+</span>
+</h4>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">遊びを楽しんだ後は、地元のレストランで焼き鳥、川魚、山菜、または香ばしい焼き野生肉などの特産料理を味わえます。これらの料理は美味しいだけでなく、山の風味が豊かで、忘れられない食の体験を提供します。</span>
+</p>
+<h3 style="text-align:justify;">&nbsp;</h3>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>5. モー渓流の入場料とサービス料金</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モー渓流の入場料やサービス料金は非常にリーズナブルで、幅広い訪問者に適しています。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>入場料:</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人:&nbsp;<strong>70,000 VND</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子ども:&nbsp;<strong>40,000 VND</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>その他のアクティビティ料金:</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">ウォータースライダー、インフレータブルハウス:&nbsp;<strong>45,000 VND</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">水上車:&nbsp;<strong>70,000～140,000 VND</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">ウォーターバブル:&nbsp;<strong>90,000～120,000 VND</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">サイクリング:&nbsp;<strong>70,000～100,000 VND</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">シクロ（人力車）:&nbsp;<strong>50,000～70,000 VND</strong>
+</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2 style="text-align:justify;">
+<span style="background-color:transparent;color:#980000;">
+<strong>6. モー渓流旅行の注意事項</strong>
+</span>
+</h2>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">充実した旅行をするために、次の点に注意してください：</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>理想的な訪問時期:</strong> 3月から8月までの乾季で、アウトドア活動に最適な涼しく安定した天気が続きます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>適切な服装:</strong> 快適な服装、水着、滑り止め付きのサンダルを持参することをお勧めします。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>環境保護:</strong> ゴミを捨てず、清潔な自然環境を守りましょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>安全確保:</strong> 深い水域で泳ぐ際は、必ずライフジャケットを着用してリスクを避けましょう。</span>
+</li>
+</ul>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">
+<span style="background-color:transparent;color:#000000;">モー渓流は、リラックスするのに理想的な場所であるだけでなく、壮大な自然の美しさを探求する場でもあります。ぜひ計画を立てて、家族や友人と一緒に忘れられない旅行を楽しみましょう！</span>
+</p>`,
   },
   {
     id_location: 20,
-    center_img: "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-    name: "locations.nha_dao_nguoc",
-    title: "locations.nha_dao_nguoc_title",
-    title1: "locations.nha_dao_nguoc_title1",
-    topic: "Other",
-    slug: "nha-dao-nguoc",
-    id_tag: 10,
+    center_img: "/image/baNa/baNa1.webp",
+    name: "locations.ba_na",
+    title: "locations.ba_na_title",
+    title1: "locations.ba_na_title1",
+    topic: "Suggest",
+    slug: "ba-na-hills",
+    id_tag: 1,
     stars: 5,
     suggest: 1,
     sub_img: [
-      "/image/nhaDaoNguoc/nhaDaoNguoc1.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc2.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc3.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc4.jpg",
-      "/image/nhaDaoNguoc/nhaDaoNguoc5.jpg",
+      "/image/baNa/baNa1.webp",
+      "/image/baNa/baNa2.png",
+      "/image/baNa/baNa3.png",
+      "/image/baNa/baNa4.png",
+      "/image/baNa/baNa5.png",
     ],
     relate: [1, 2, 3, 4, 5],
-    describes: "locations.nha_dao_nguoc_description",
-    address: "locations.nha_dao_nguoc_address",
-    address_img: "/image/nhaDaoNguoc/location.png",
-    detail_describe: ``,
-    detail_describe2: ``,
+    describes: "locations.ba_na_description",
+    address: "locations.ba_na_address",
+    address_img: "/image/baNa/location.png",
+    detail_describe: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. Bà Nà Hills ở đâu?</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Bà Nà Hills tọa lạc tại xã Hòa Ninh, huyện Hòa Vang, nằm cách trung tâm Đà Nẵng khoảng 25km về phía Tây Nam. Với độ cao 1.487m so với mực nước biển, nơi đây được bao phủ bởi không khí trong lành, mát mẻ quanh năm, cùng tầm nhìn bao quát cả thành phố Đà Nẵng và vùng duyên hải miền Trung xinh đẹp. Đây là một vị trí chiến lược, vừa thuận tiện để di chuyển, vừa đủ xa để tách biệt khỏi sự ồn ào náo nhiệt.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. Giới thiệu khu du lịch Sun World Ba Na Hills</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Sun World Ba Na Hills là khu du lịch hàng đầu tại Việt Nam, nơi giao thoa giữa nét đẹp thiên nhiên hoang sơ và kiến trúc hiện đại đầy sáng tạo. Được mệnh danh là "kỳ quan giữa núi rừng", khu du lịch này mang lại cho du khách một hành trình khám phá đầy bất ngờ.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Khi đến Bà Nà Hills, bạn sẽ cảm nhận được vẻ đẹp ngoạn mục của núi rừng xanh mướt, bầu trời xanh trong và không gian yên bình. Thời tiết nơi đây như một “bản giao hưởng” của thiên nhiên khi bạn có thể trải nghiệm bốn mùa trong một ngày: buổi sáng se lạnh của mùa xuân, trưa nắng nhẹ của mùa hè, chiều dịu mát của mùa thu, và tối thoảng gió lành như mùa đông.</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. Các điểm tham quan nổi bật</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cầu Vàng:</strong> Điểm nhấn kiến trúc đẳng cấp thế giới với hai bàn tay khổng lồ nâng đỡ lối đi giữa mây trời. Đây là nơi lý tưởng để check-in và tận hưởng vẻ đẹp của thiên nhiên từ trên cao.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Fantasy Park:&nbsp;</strong>Công viên giải trí trong nhà hiện đại với hàng loạt trò chơi từ thư giãn đến mạo hiểm, phù hợp cho cả gia đình và các bạn trẻ.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vườn hoa Le Jardin D'Amour:&nbsp;</strong>Khu vườn đầy sắc hoa với lối thiết kế mang đậm phong cách châu Âu cổ điển, chia làm nhiều chủ đề độc đáo, mỗi góc nhỏ đều là một điểm chụp ảnh tuyệt vời.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hầm rượu Debay:&nbsp;</strong>Hầm rượu cổ kính được xây dựng bởi người Pháp từ thập niên 1920, nơi lưu giữ những loại rượu vang tuyệt hảo và mang đến không gian trải nghiệm ấn tượng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chùa Linh Ứng:&nbsp;</strong>Ngôi chùa thanh tịnh tọa lạc giữa không gian thiên nhiên tĩnh lặng, là nơi để bạn tìm đến sự bình an trong tâm hồn.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. Du lịch Bà Nà Hills mùa nào đẹp nhất?</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Phân tích thời tiết theo mùa</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa xuân (tháng 1 – tháng 3):&nbsp;</strong>Khí hậu se lạnh, cảnh sắc tươi mới và không khí trong lành, phù hợp để thưởng ngoạn cảnh vật và chụp ảnh.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa hè (tháng 4 – tháng 8):&nbsp;</strong>Thời tiết mát mẻ hơn so với khu vực đồng bằng, thích hợp cho các hoạt động ngoài trời. Đây là thời điểm lý tưởng nhất để du lịch.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa thu (tháng 9 – tháng 11):&nbsp;</strong>Lá cây chuyển màu vàng óng, tạo nên một khung cảnh lãng mạn, thích hợp cho những ai yêu thiên nhiên.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Mùa đông (tháng 12):&nbsp;</strong>Không gian chìm trong sương mù, mang đến một cảm giác huyền bí và mới lạ, đặc biệt với những ai thích trải nghiệm cái lạnh của núi rừng.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. Hướng dẫn cách đi đến Sun World Bà Nà Hills</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Các phương tiện di chuyển</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Xe buýt:&nbsp;</strong>Đây là phương tiện tiết kiệm chi phí, với nhiều tuyến xe đưa đón từ trung tâm Đà Nẵng đến chân núi Bà Nà.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thuê xe riêng:&nbsp;</strong>Nếu bạn đi theo nhóm, việc thuê xe riêng sẽ thuận tiện và linh hoạt hơn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cáp treo:</strong> Hệ thống cáp treo của Bà Nà Hills đã đạt nhiều kỷ lục thế giới, không chỉ là phương tiện di chuyển mà còn là hành trình để ngắm cảnh tuyệt đẹp từ trên cao.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. Trải nghiệm tàu hỏa leo núi</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hành trình tàu hỏa leo núi</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Tàu hỏa leo núi là một trải nghiệm độc đáo, đưa du khách qua những khu vực phong cảnh như vườn hoa Le Jardin D'Amour, hầm rượu Debay và các địa danh tuyệt đẹp khác. Đây là cách thú vị để khám phá thêm nhiều góc nhìn mới về Bà Nà Hills.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thông tin thời gian vận hành và giá vé</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời gian hoạt động:&nbsp;</strong>Từ 7:00 – 17:00 hàng ngày.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Giá vé tàu hỏa:</strong> Đã được tính trong vé tham quan Sun World Ba Na Hills.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. Giờ mở cửa khu du lịch Sun World Bà Nà Hills</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thời gian hoạt động:</strong> Từ 7:00 – 22:00 mỗi ngày.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chương trình "Bà Nà By Night":</strong> Một sự kiện thú vị vào buổi tối với ánh sáng lộng lẫy và các màn trình diễn nghệ thuật độc đáo.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>8. Giá vé Sun World Bà Nà Hills</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">Dựa theo thông tin từ ảnh, giá vé được cập nhật như sau:</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>Các loại vé và giá tham khảo</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vé Bà Nà Hills + Xe Bus Đưa đón từ Đà Nẵng:</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Người lớn: Từ&nbsp;<strong>1,075,625 đồng.</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em: Từ&nbsp;<strong>890,000 đồng.</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vé Bà Nà Hills + Buffet Trưa + Xe Bus:</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Người lớn: Từ&nbsp;<strong>1,414,000 đồng.</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em: Từ&nbsp;<strong>1,116,225 đồng.</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vé Bà Nà Hills + Buffet Trưa</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Người lớn: Từ&nbsp;<strong>1,247,000 đồng.</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em: Từ&nbsp;<strong>950,000 đồng.</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vé Bà Nà Buổi Tối (15:00 - 22:00) + Buffet Tối:</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Người lớn: Từ&nbsp;<strong>840,000 đồng.</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em: Từ<strong> 640,000 đồng.</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chính sách ưu đãi</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">Trẻ em cao dưới 1m được miễn phí vào cổng.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">Giá vé đã bao gồm cáp treo khứ hồi và quyền tham quan hầu hết các điểm trong công viên.</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>9. Trải Nghiệm Độc Đáo Tại Bà Nà Hills</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.1. Bà Nà By Night – Hành Trình Khám Phá Đầy Hấp Dẫn</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bà Nà By Night mang đến cho du khách một góc nhìn mới lạ, huyền ảo về Bà Nà Hills khi màn đêm buông xuống. Dưới ánh sáng lung linh của đèn điện, cả khu du lịch khoác lên mình vẻ đẹp rực rỡ, lộng lẫy và đầy mê hoặc.</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Lịch trình và dịch vụ của tour "Bà Nà By Night"</strong>: Chuyến tham quan bắt đầu vào buổi chiều muộn, khi hoàng hôn dần buông xuống, tạo nên khung cảnh thơ mộng. Du khách sẽ có cơ hội chiêm ngưỡng những địa điểm nổi bật như Làng Pháp, Cầu Vàng rực sáng trong ánh đèn, cũng như tận hưởng những màn trình diễn ánh sáng đặc sắc.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bữa tiệc buffet tối và không khí lễ hội</strong>: Một trong những trải nghiệm đáng nhớ nhất tại Bà Nà By Night chính là bữa tiệc buffet đa dạng với các món ngon từ Á đến Âu. Không gian ẩm thực kết hợp với không khí lễ hội náo nhiệt, âm nhạc sôi động cùng những màn trình diễn nghệ thuật đầy cuốn hút sẽ mang đến cho du khách những giây phút tuyệt vời.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.2. Bản Đồ Khu Du Lịch Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Bà Nà Hills được chia thành nhiều khu vực với những nét đặc trưng riêng biệt:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Chân núi</strong>: Đây là khu vực đón tiếp du khách, nơi tập trung các nhà hàng ẩm thực, quầy lưu niệm và nhà ga để chuẩn bị cho hành trình cáp treo lên đỉnh núi.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ga Bà Nà</strong>: Tại đây, du khách có thể tham quan các địa điểm nổi bật như&nbsp;<strong>Chùa Linh Ứng</strong>, nơi linh thiêng cầu bình an;&nbsp;<strong>Vườn Tịnh Tâm</strong>, không gian thư giãn thanh tịnh; và&nbsp;<strong>Hầm rượu Debay</strong>, di tích lịch sử của người Pháp với những nét kiến trúc độc đáo.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Ga Morin</strong>: Khu vực này thu hút du khách với&nbsp;<strong>Làng Pháp</strong>, công trình mang đậm dấu ấn châu Âu cổ điển, cùng với&nbsp;<strong>Fantasy Park</strong>, công viên giải trí trong nhà đầy sôi động và hấp dẫn.</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đỉnh Bà Nà Hills</strong>: Đây là điểm cao nhất của khu du lịch, nơi tọa lạc&nbsp;<strong>Đền Linh Chúa Linh Từ</strong> – địa điểm lý tưởng để ngắm toàn cảnh núi rừng hùng vĩ. Ngoài ra, du khách có thể ghé thăm&nbsp;<strong>Tháp Chuông</strong>, mang đến không gian linh thiêng và tĩnh lặng.</span>
+</li>
+</ul>
+<h2>&nbsp;</h2>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.3. Các Điểm Tham Quan Nổi Bật</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Làng Pháp – Châu Âu Thu Nhỏ</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Làng Pháp là công trình kiến trúc độc đáo, tái hiện hình ảnh một ngôi làng cổ kính châu Âu với những con phố lát đá, các tòa lâu đài nguy nga và nhà thờ cổ kính. Đây là địa điểm lý tưởng để du khách chụp ảnh và tận hưởng không gian lãng mạn giữa thiên nhiên Bà Nà Hills.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Cầu Vàng – Biểu Tượng Độc Đáo</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Cầu Vàng với thiết kế ấn tượng, hai bàn tay khổng lồ nâng đỡ cây cầu giữa không trung, tạo nên một biểu tượng đặc trưng của Bà Nà Hills. Từ đây, du khách có thể phóng tầm mắt ngắm nhìn núi rừng xanh mướt và tận hưởng không gian thiên nhiên tuyệt đẹp.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Hầm Rượu Debay – Di Tích Kiến Trúc Pháp</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Được xây dựng từ thập niên 1920, Hầm Rượu Debay là nơi lưu trữ những thùng rượu vang chất lượng. Du khách không chỉ có cơ hội tham quan công trình kiến trúc độc đáo mà còn có thể thưởng thức các loại rượu vang đặc biệt tại đây.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vườn Hoa Le Jardin D'Amour – Vườn Tình Yêu</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Khu vườn được chia thành 9 khu vực với các chủ đề thiết kế khác nhau, tạo nên một không gian rực rỡ sắc hoa. Đây là điểm dừng chân lý tưởng cho những ai yêu thích thiên nhiên và muốn tận hưởng bầu không khí thơ mộng, lãng mạn.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Bảo Tàng Tượng Sáp – Gặp Gỡ Người Nổi Tiếng</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Đây là nơi trưng bày các bức tượng sáp mô phỏng chân thực những nhân vật nổi tiếng trên thế giới, từ diễn viên, ca sĩ cho đến các nhà khoa học. Du khách có thể chụp ảnh kỷ niệm bên những bức tượng sống động này.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Lâu Đài Mặt Trăng – Công Trình Huyền Bí</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Lâu Đài Mặt Trăng gây ấn tượng với lối kiến trúc đồ sộ và thiết kế huyền bí, tạo nên không gian như bước vào một câu chuyện cổ tích đầy mê hoặc.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thác Thần Mặt Trời – Nghệ Thuật Hy Lạp</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Thác nước kết hợp cùng những bức tượng điêu khắc phong cách Hy Lạp tạo nên một công trình nghệ thuật độc đáo, hòa quyện giữa thiên nhiên và sự sáng tạo kiến trúc.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.4. Hoạt Động Vui Chơi Giải Trí</strong>
+</span>
+</h3>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Fantasy Park – Công Viên Giải Trí Trong Nhà</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Với hàng loạt trò chơi từ nhẹ nhàng đến mạo hiểm, Fantasy Park là điểm đến giải trí hàng đầu dành cho mọi lứa tuổi, mang đến những trải nghiệm đa dạng và hấp dẫn.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Đường Trượt Đôi Tốc Độ Cao</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Trải nghiệm cảm giác mạnh khi lao xuống dốc với đường trượt đôi đầy thử thách và phấn khích.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Thác Rơi Tự Do – Cảm Giác Mạnh</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Một trong những trò chơi táo bạo nhất tại Fantasy Park, mang lại cảm giác phấn khích tột đỉnh với độ cao ấn tượng.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Du Bay Diệu Kỳ – Phiêu Lưu Vòng Quanh Thế Giới</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Trò chơi thú vị này cho phép du khách như được "bay lượn" khám phá các vùng đất nổi tiếng trên thế giới qua công nghệ hiện đại.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Vòng Quay Thiên Mã – Trò Chơi Hồi Ức</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Một trò chơi cổ điển nhưng không kém phần lãng mạn, phù hợp cho cả trẻ em và người lớn muốn tìm lại những ký ức tuổi thơ.</span>
+<br>
+<br>&nbsp;</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>Rạp Chiếu Phim Airship "Mắt Bay" – Trải Nghiệm Kỳ Ảo</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">Rạp phim 4D hiện đại với hiệu ứng sống động, mang đến những trải nghiệm thị giác và cảm giác khó quên.</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.5. Các Lễ Hội &amp; Sự Kiện Sôi Động Ở Sun World Bà Nà Hills</strong>
+</span>
+</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Các Lễ Hội Hoa Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Mỗi mùa xuân, Sun World Bà Nà Hills như khoác lên mình một tấm áo đầy sắc màu rực rỡ của muôn loài hoa. Lễ hội hoa không chỉ là sự kiện nhằm tôn vinh vẻ đẹp tự nhiên, mà còn là cơ hội để du khách chiêm ngưỡng nghệ thuật sắp đặt hoa độc đáo. Từ những con đường trải dài sắc đỏ của hoa hồng, đến những khu vườn tràn ngập màu tím biếc của hoa oải hương, tất cả đều gợi lên một bức tranh thiên nhiên lãng mạn. Lễ hội hoa không chỉ là dịp để ngắm nhìn vẻ đẹp thiên nhiên mà còn giúp gắn kết mọi người qua các hoạt động như thi cắm hoa, chụp ảnh nghệ thuật và các buổi triển lãm hoa quy mô lớn.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Lễ Hội Carnival Mùa Hè Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Lễ hội Carnival mùa hè là "đặc sản" không thể bỏ qua khi đến Bà Nà Hills vào mùa hè. Đây là một chương trình biểu diễn nghệ thuật đường phố đặc sắc, nơi bạn sẽ bắt gặp những nghệ sĩ trong trang phục sặc sỡ trình diễn xiếc, nhảy múa và ảo thuật ngay trên các con phố châu Âu cổ kính của Làng Pháp. Không khí lễ hội rộn ràng bởi những giai điệu sôi động cùng ánh sáng rực rỡ, tạo nên trải nghiệm đầy vui tươi và hứng khởi. Đây cũng là dịp để du khách tham gia các trò chơi giao lưu, chụp ảnh và tận hưởng không gian mùa hè tràn đầy năng lượng.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Lễ Hội Bia B'estival Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn là người yêu bia, lễ hội B'estival tại Sun World Bà Nà Hills chắc chắn sẽ là một trải nghiệm khó quên. Diễn ra trong không gian rộng lớn của Beer Plaza, sự kiện này giới thiệu những loại bia ngon nhất từ các quốc gia trên thế giới như Đức, Bỉ và Czech. Du khách sẽ được thưởng thức bia tươi mát lạnh kết hợp cùng các món ăn đậm chất châu Âu như xúc xích nướng, gà quay và thịt nguội. Không khí lễ hội càng thêm sôi động với các buổi biểu diễn âm nhạc và các cuộc thi uống bia hài hước.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Lễ Hội Halloween Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Halloween tại Bà Nà Hills là sự kiện đặc biệt, nơi cả khu du lịch trở thành một không gian kỳ bí, ma mị. Các tòa lâu đài và góc phố ở Làng Pháp được trang trí với hình ảnh bí ngô, phù thủy, và các nhân vật kinh dị. Du khách sẽ được tham gia các hoạt động như khám phá nhà ma, thưởng thức các món ăn Halloween đặc trưng, và tham gia hóa trang cùng bạn bè. Đây là một trong những lễ hội được yêu thích nhất tại Bà Nà Hills bởi sự sáng tạo và không khí đầy kịch tính.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Lễ Hội Rượu Vang Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Lễ hội rượu vang là sự kiện mang đậm phong cách châu Âu, với những buổi thưởng thức rượu vang hảo hạng tại hầm rượu Debay. Không chỉ dừng lại ở việc thưởng thức rượu, du khách còn được tìm hiểu về quy trình sản xuất và lịch sử của các loại rượu nổi tiếng. Bên cạnh đó, không gian lễ hội với các buổi hòa nhạc cổ điển và các màn trình diễn ánh sáng nghệ thuật càng làm tăng sự sang trọng và quyến rũ.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Lễ Hội Mùa Đông Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Mùa đông tại Bà Nà Hills là thời điểm đẹp nhất để cảm nhận không khí lễ hội Giáng Sinh và chào đón năm mới. Từ những cây thông Noel rực rỡ, đến các khu chợ Giáng Sinh nhỏ xinh, mọi góc ở Bà Nà Hills đều mang vẻ đẹp ấm áp và lung linh. Du khách có thể tham gia các buổi hòa nhạc Giáng Sinh, thưởng thức các món ăn đặc trưng của mùa đông và chụp ảnh cùng ông già Noel.</span>
+</p>
+<h2>&nbsp;</h2>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>10. Các Công Trình Tâm Linh Tại Sun World Bà Nà Hills Đà Nẵng</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Chùa Linh Ứng Ở Công Viên Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Chùa Linh Ứng nằm ở độ cao lý tưởng trên đỉnh Bà Nà, nơi mang lại sự thanh tịnh và yên bình trong khung cảnh thiên nhiên hùng vĩ. Ngôi chùa nổi bật với tượng Phật Thích Ca trắng muốt, cao lớn, đứng uy nghi giữa trời đất. Đây là nơi không chỉ để chiêm bái mà còn là điểm đến tâm linh giúp bạn tìm thấy sự bình an giữa bộn bề cuộc sống.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Trú Vũ Trà Quán Ở Công Viên Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Trú Vũ Trà Quán là một địa điểm đặc biệt với không gian kiến trúc truyền thống kết hợp hiện đại. Nơi đây lý tưởng cho du khách muốn tận hưởng bầu không khí tĩnh lặng bên tách trà thơm lừng và phóng tầm mắt nhìn ra những dãy núi xa xăm. Trà quán còn tổ chức các buổi trà đạo để du khách khám phá văn hóa uống trà độc đáo.</span>
+</p>
+<h2>&nbsp;</h2>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>11. Các Địa Chỉ Ăn Uống Xịn Sò Ở Công Viên Bà Nà Hills - Đà Nẵng</strong>
+</span>
+</h2>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Beer Plaza Ở Bà Nà Hills</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Beer Plaza không chỉ là một nhà hàng mà còn là điểm đến trải nghiệm văn hóa ẩm thực và bia đầy sôi động. Với không gian rộng rãi, thiết kế theo phong cách lễ hội châu Âu, đây là nơi bạn có thể vừa thưởng thức những món nướng hấp dẫn vừa hòa mình vào không khí vui nhộn.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Nhà Hàng Aparang</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Aparang mang đến những món ăn Á Đông tinh tế, từ hương vị đậm đà của các món Trung Hoa đến sự tỉ mỉ trong từng món Nhật Bản. Đây là lựa chọn tuyệt vời cho những ai yêu thích sự đa dạng trong ẩm thực.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Nhà Hàng Rosa Fried Chicken</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Nếu bạn đang tìm kiếm một bữa ăn nhanh gọn nhưng vẫn ngon miệng, Rosa Fried Chicken là điểm đến lý tưởng với những món gà rán giòn tan và khoai tây chiên hấp dẫn.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Nhà Hàng Taiga</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Đắm chìm trong không gian Nhật Bản tại Taiga, nơi bạn có thể thưởng thức sushi, sashimi, và các món mì ramen đậm đà. Không gian trang nhã cùng chất lượng món ăn là điểm cộng lớn của nhà hàng này.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Nhà Hàng Little Tokyo</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Little Tokyo mang đến trải nghiệm tinh tế với các món ăn Nhật như sushi, tempura và lẩu shabu-shabu. Đây là nơi lý tưởng để thưởng thức ẩm thực Nhật Bản trong không gian đậm chất nghệ thuật.</span>
+</p>
+<h3>&nbsp;</h3>
+<h3>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>Nhà Hàng Le Petrin</strong>
+</span>
+</h3>
+<p>
+<span style="background-color:transparent;color:#000000;">Với thiết kế ấm cúng và lãng mạn, Le Petrin là điểm đến lý tưởng để thưởng thức các loại bánh ngọt, cà phê và trà. Mỗi món ăn đều được chế biến tinh tế, mang lại trải nghiệm đáng nhớ cho du khách.</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">Bà Nà Hills không chỉ là một điểm đến du lịch mà còn là một thế giới kỳ diệu, nơi du khách có thể hòa mình vào cảnh sắc thiên nhiên tuyệt đẹp, tận hưởng không khí trong lành và khám phá vô số trải nghiệm hấp dẫn. Từ những công trình kiến trúc độc đáo, các lễ hội văn hóa đặc sắc đến những điểm vui chơi giải trí hiện đại và nền ẩm thực phong phú, Bà Nà Hills xứng đáng là một trong những điểm du lịch hàng đầu của Việt Nam. Chuyến đi đến nơi đây sẽ mang đến cho bạn một góc nhìn khác về Đà Nẵng – không chỉ hiện đại, năng động mà còn thơ mộng và giàu giá trị truyền thống. Còn chờ gì nữa? Hãy cùng hội bạn thân lên kế hoạch để tận hưởng một hành trình đáng nhớ tại “thành phố đáng sống nhất Việt Nam”!</span>
+</p>`,
+    detail_describe2: `<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>1. バーナーヒルズはどこにあるのか？</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">バーナーヒルズは、ダナン市の中心部から南西に約25kmの位置にあるホアニン村、ホアヴァン区にあります。海抜1,487mの高さに位置し、ここは一年を通して爽やかな空気に包まれ、ダナン市や美しい中部沿岸地域の絶景を見渡すことができます。便利な場所でありながらも、喧騒から離れた静かな場所でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>2. サンワールド・バーナーヒルズ観光地紹介</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">サンワールド・バーナーヒルズは、ベトナムのトップ観光地であり、自然の未開の美しさと創造的な現代建築が交差する場所です。「山中の奇跡」と称されるこの観光地は、訪れる人々に驚きと発見の旅を提供します。</span>
+</p>
+<p>
+<br>
+<span style="background-color:transparent;color:#000000;">バーナーヒルズに到着すると、青々とした山々、澄んだ青空、そして平穏な空間が織りなす美しさに感動することでしょう。ここでの天気は、まるで「自然の交響曲」のようで、四季を一日で体験できます：春の朝のひんやりとした空気、夏の軽やかな日差し、秋の涼しい午後、そして冬のような清々しい夜風。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>3. 主な観光地</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ゴールデンブリッジ</strong>：世界的に評価される建築のハイライトで、巨大な手が雲の間に架かる歩道を支えています。ここは、自然の美しさを高い場所から楽しみ、インスタ映えする絶好のスポットです。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ファンタジーパーク</strong>：屋内のアミューズメントパークで、リラックスしたい人から冒険を求める人まで楽しめるさまざまなアトラクションがあります。家族や若者にも最適です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>レ・ジャルダン・ダムール</strong>：ヨーロッパ風のクラシックなデザインの庭園で、色とりどりの花々が咲き誇り、各テーマごとに独自の魅力を放ち、どの角度でも素晴らしい写真を撮ることができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>デベイワインセラー</strong>：1920年代にフランス人によって建てられた歴史あるワインセラーで、素晴らしいワインが保存されており、特別な体験を提供します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>リンウン寺</strong>：静かな自然の中に佇む神聖な寺院で、心の平安を求めるための場所です。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>4. バーナーヒルズを訪れるベストシーズンはいつか？</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>季節ごとの天候分析</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>春（1月～3月）</strong>：涼しい気候、鮮やかな景色、そして清々しい空気の中で、風景を楽しみながら写真撮影をするのに最適な時期です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>夏（4月～8月）</strong>：平野部よりも涼しい気候で、アウトドア活動に最適です。観光には最も理想的な時期と言えるでしょう。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>秋（9月～11月）</strong>：木々の葉が黄金色に変わり、ロマンチックな雰囲気が漂います。自然を愛する人々にぴったりの季節です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>冬（12月）</strong>：霧に包まれた空間が神秘的で新鮮な感覚を与え、山の寒さを体験したい方に特におすすめです。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>5. サンワールド・バーナーヒルズへの行き方</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>交通手段</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バス</strong>: これは費用を抑えた交通手段で、ダナン市中心部からバーナーヒルズの麓までの多くのシャトルバスが運行されています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>専用車のレンタル</strong>: グループでの旅行の場合、専用車をレンタルすると、より便利で柔軟に移動できます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ケーブルカー</strong>: バーナーヒルズのケーブルカーシステムは、世界記録をいくつも打ち立てたもので、移動手段だけでなく、空からの素晴らしい景色を楽しむ旅でもあります。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>6. 登山鉄道の体験</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>登山鉄道の旅</strong>
+</span>
+<br>
+<span style="background-color:transparent;color:#000000;">登山鉄道は、レ・ジャルダン・ダムール庭園やデベイワインセラー、その他の美しい名所を通過するユニークな体験です。これはバーナーヒルズの新しい角度からの景色を楽しむ面白い方法です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">
+<strong>運行時間とチケット料金</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>運行時間:</strong> 毎日 7:00～17:00</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>登山鉄道のチケット料金:&nbsp;</strong>サンワールド・バーナーヒルズの入場券に含まれています。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>7. サンワールド・バーナーヒルズの営業時間</strong>
+</span>
+</h2>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>営業時間</strong>: 毎日 7:00～22:00</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>「バーナー・バイ・ナイト」プログラム</strong>: 夜間のイベントで、輝く光と独自の芸術的なパフォーマンスを楽しめます。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>8. サンワールド・バーナーヒルズの入場料</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:#000000;">下記は写真に基づく、更新されたチケット料金です:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">&nbsp;<strong>入場券と参考料金</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バーナーヒルズ + ダナンからのシャトルバス</strong>:</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人:&nbsp;<strong>1,075,625ドンから</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子供:<strong> 890,000ドンから</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バーナーヒルズ + ランチビュッフェ + シャトルバス</strong>:</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人:&nbsp;<strong>1,414,000ドンから</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子供:&nbsp;<strong>1,116,225ドンから</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バーナーヒルズ + ランチビュッフェ</strong>:</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人:&nbsp;<strong>1,247,000ドンから</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子供:&nbsp;<strong>950,000ドンから</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バーナー夜間チケット（15:00 - 22:00）+ ディナービュッフェ</strong>:</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">大人:&nbsp;<strong>840,000ドンから</strong>
+</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">子供:&nbsp;<strong>640,000ドンから</strong>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>特典ポリシー</strong>
+</span>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">身長1メートル未満の子供は入場無料。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">チケット料金には、往復ケーブルカーと公園内ほとんどの観光地の入場が含まれています。</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>9. バーナーヒルズでのユニークな体験</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.1 バーナー・バイ・ナイト – 魅力的な探求の旅</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">バーナー・バイ・ナイトは、夜が訪れるとともにバーナーヒルズに新しい幻想的で神秘的な一面を提供します。煌びやかな電灯の下で、観光地は輝く美しさを纏い、豪華で魅力的な雰囲気が広がります。</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>「バーナー・バイ・ナイト」ツアーのスケジュールとサービス</strong>: 夕方遅くにツアーが始まり、夕日が沈む中、夢のような景色が広がります。観光客は、ライトアップされたフランス村やゴールデンブリッジなどの見どころを楽しみ、素晴らしい光のショーも堪能できます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ビュッフェディナーとフェスティバルの雰囲気:&nbsp;バーナー・バイ・ナイトで最も思い出に残る体験の一つは、アジアからヨーロッパまでの多彩な料理が楽しめるビュッフェです。美味しい料理とともに、賑やかな音楽と芸術的なパフォーマンスが展開され、観光客に素晴らしい時間を提供します。</strong>
+</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.2 バーナーヒルズ観光マップ</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">バーナーヒルズは、特徴的なエリアに分かれており、それぞれが独自の魅力を持っています:</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>麓のエリア</strong>: 観光客を迎える場所で、レストラン、土産物店、ケーブルカー乗り場などがあります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バーナー駅</strong>: ここでは、リンウン寺院（平和を祈る神聖な場所）やチンタン庭園（静かな癒しの空間）、デベイワインセラー（フランス時代の建築と貴重なワイン）など、いくつかの重要な観光地を訪れることができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>モラン駅</strong>: このエリアは、古典的なヨーロッパの風情を感じるフランス村や、活気に満ちた室内遊園地のファンタジーパークがあります。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>バーナーヒルズ頂上</strong>: 観光地の中で最も高い場所で、リンチャウリン寺（壮大な山々を見渡せる理想的な場所）があります。その他にも鐘楼を訪れて、静かな空間を楽しむことができます。</span>
+<br>&nbsp;</li>
+</ul>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.3 注目の観光地</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>フランス村 – 小さなヨーロッパ</strong>: フランス村は、石畳の街並み、壮大な城、古びた教会など、ヨーロッパの古い村を再現した独特の建築物です。ここは、バーナーヒルズの美しい自然の中でロマンチックな空間を楽しみながら、素晴らしい写真を撮るのに最適な場所です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ゴールデンブリッジ – 独特な象徴</strong>: 巨大な手が空中で橋を支える印象的なデザインを持つゴールデンブリッジは、バーナーヒルズの象徴です。ここからは、緑豊かな山々を一望し、自然の美しさを堪能できます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>デベイワインセラー – フランス建築の遺産</strong>: 1920年代に建てられたデベイワインセラーは、上質なワインを保管する場所であり、独特の建築を楽しみながら、特別なワインを味わうことができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>レ・ジャルダン・ダムール庭園 – 愛の庭園</strong>: この庭園は9つの異なるテーマに分かれており、色とりどりの花々が咲き誇り、ロマンチックで夢幻的な空間を提供します。自然の美しさを愛する人々にとって、理想的な場所です。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>蝋人形館 – 世界の有名人に出会う</strong>: ここでは、俳優や歌手、科学者など、世界的に有名な人物を模したリアルな蝋人形が展示されています。観光客は、これらの生き生きとした像と一緒に記念撮影ができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>月の城 – 神秘的な建築</strong>: 月の城は壮大な建築と神秘的なデザインで、まるで魅惑的なおとぎ話の世界に足を踏み入れたかのような空間を作り出しています。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>太陽神の滝 – ギリシャ芸術</strong>: 滝とギリシャ風の彫刻が組み合わさり、自然と建築の創造的な融合を生み出した独自の芸術作品です。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>9.4 バーナーヒルズでの遊びとエンターテイメント</strong>
+</span>
+</p>
+<ul>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ファンタジーパーク – 室内遊園地</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">軽いものから冒険的なものまで、ファンタジーパークはあらゆる年齢層に適したエンターテイメントの目的地であり、さまざまな体験を提供します。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>ダブルスライド・ハイスピードコース</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">急な坂を滑り降りる刺激的なダブルスライドで、スリル満点の体験をお楽しみください。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>フリーフォール滝 – スリル満点の体験</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">ファンタジーパークで最も大胆なアトラクションの一つで、圧倒的な高さから落下し、興奮の極みを体験できます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>魔法の飛行 – 世界を巡る冒険</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">この興味深いアトラクションでは、現代の技術を駆使して、世界の名所を「空を飛ぶ」ように探訪することができます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>天馬の回転 – 懐かしい遊び</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">クラシックな遊具でありながら、ロマンチックな魅力を持つこのアトラクションは、子供から大人まで楽しめます。</span>
+</li>
+<li>
+<span style="background-color:transparent;color:#000000;">
+<strong>エアシップシアター「空飛ぶ目」 – 幻想的な体験</strong>:</span>
+<br>
+<span style="background-color:transparent;color:#000000;">4D映画館で、リアルな視覚効果と感覚で忘れられない体験を提供します。</span>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>10. バーナーヒルズでの活気あふれる祭りとイベント</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1. バーナーヒルズの花祭り</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">春になると、バーナーヒルズは色とりどりの花々で彩られます。この花祭りは自然の美しさを讃えるだけでなく、ユニークな花のディスプレイを楽しむ機会でもあります。真っ赤なバラの花道から、ラベンダーの紫色で満ちた庭園まで、すべてがロマンチックな自然の絵画のようです。花祭りは、花のアレンジメントコンテスト、アート写真撮影、大規模な花の展示会などを通じて、訪れる人々が共に楽しむ機会も提供します。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>2. バーナーヒルズの夏のカーニバル</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">バーナーヒルズの夏のカーニバルは、夏に訪れるべき「名物」として、ストリートパフォーマンスを披露する芸術家たちが、色とりどりの衣装でサーカス、ダンス、マジックを披露します。ヨーロッパの古風な街並みの中で、活気に満ちた音楽と鮮やかな光で盛り上がる祭りの雰囲気が、訪れる人々に元気と楽しさをもたらします。また、観光客は交流ゲームに参加したり、写真を撮ったり、エネルギーに満ちた夏の空間を楽しむことができます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>3. バーナーヒルズのビール祭り「ベスティバル」</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ビール好きの方にとって、バーナーヒルズでのビール祭り「ベスティバル」は忘れられない体験となることでしょう。広大なビアプラザで行われるこのイベントでは、ドイツ、ベルギー、チェコなどから最高のビールが集まります。冷たいビールと共に、ヨーロッパらしいソーセージやローストチキン、ハムなどの料理を楽しむことができます。音楽パフォーマンスや面白いビール飲み競争で、祭りの雰囲気はますます盛り上がります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>4. バーナーヒルズのハロウィン祭り</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">バーナーヒルズでのハロウィン祭りは、特別なイベントで、観光地全体が神秘的で不気味な雰囲気に包まれます。フランス村の城や街角には、カボチャや魔女、恐ろしいキャラクターの装飾が施されます。訪れる人々は、お化け屋敷の探索や、ハロウィン特有の料理を楽しんだり、友達と仮装したりすることができます。クリエイティブでドラマティックな雰囲気が、この祭りをバーナーヒルズで最も人気のあるイベントの一つにしています。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5. バーナーヒルズのワイン祭り</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ワイン祭りは、ヨーロッパのスタイルを色濃く反映したイベントで、デベイワインセラーで最高級のワインを楽しむことができます。ワインの試飲だけでなく、名高いワインの生産過程や歴史を学ぶこともできます。また、クラシック音楽のコンサートや、芸術的な光のショーがこの祭りをさらに華やかにし、洗練された魅力を増します。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>6. バーナーヒルズの冬の祭り</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">冬のバーナーヒルズは、クリスマスと新年を迎える最も美しい時期です。煌びやかなクリスマスツリーや、可愛らしいクリスマスマーケットが、バーナーヒルズの隅々に温かさと輝きを与えます。観光客は、クリスマスコンサートに参加したり、冬の季節特有の料理を楽しんだり、サンタクロースと一緒に写真を撮ったりできます。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>11. バーナーヒルズでの精神的な建築物</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1. バーナーヒルズ公園内のリンウン寺</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">リンウン寺は、バーナーヒルズの頂上に位置する理想的な高さにあり、壮大な自然の景色の中で静けさと平穏をもたらしてくれます。寺院は、真っ白な大きな仏像が天と地の間に堂々と立つ姿が特徴です。ここは、単に参拝する場所であるだけでなく、日常の喧騒から解放されて心の平和を見つけることができる精神的な目的地でもあります。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>2. バーナーヒルズ公園内のチュヴ・トラカン</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">チュヴ・トラカンは、伝統的な建築と現代的な要素を融合させた特別な場所です。ここは、静かな雰囲気の中で香り豊かなお茶を楽しみながら、遠くに広がる山々の景色を眺めるのに最適な場所です。茶館では、お茶の文化を深く理解できる茶道のセッションも開催されており、訪れる人々に独自の体験を提供します。</span>
+</p>
+<p>&nbsp;</p>
+<h2>
+<span style="background-color:transparent;color:#990000;">
+<strong>12. バーナーヒルズでの高級レストランと飲食スポット</strong>
+</span>
+</h2>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>1. バーナーヒルズのビアプラザ</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">ビアプラザは、単なるレストランではなく、活気あふれる食文化とビール体験の目的地でもあります。広々とした空間とヨーロッパの祭り風のデザインで、ここでは美味しいグリル料理を楽しみながら、賑やかな雰囲気に浸ることができます。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>2. アパランレストラン</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">アパランでは、東洋の繊細な料理を提供します。中国料理の豊かな風味から、日本料理の細やかな技まで、様々なアジアの味を楽しむことができます。多様な食文化を愛する人々に最適な選択肢です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>3. ローザフライドチキン</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">もし手早くおいしい食事を求めているなら、ローザフライドチキンは、カリッとしたフライドチキンと魅力的なフライドポテトが楽しめる理想的な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>4. タイガレストラン</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">タイガで日本の空間に浸り、寿司、刺身、ラーメンなどの豊かな味わいを楽しんでください。エレガントな空間と高い料理の質が、このレストランの大きな魅力です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>5. リトルトーキョー</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">リトルトーキョーでは、寿司、天ぷら、しゃぶしゃぶなどの日本料理を繊細に提供します。芸術的な雰囲気の中で本格的な日本食を楽しむには最適な場所です。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:hsl(0, 0%, 0%);">
+<strong>6. ル・ペトラン</strong>
+</span>
+</p>
+<p>
+<span style="background-color:transparent;color:#000000;">温かみのあるロマンチックなデザインのル・ペトランは、甘いペストリー、コーヒー、紅茶を楽しむのに理想的な場所です。どの料理も繊細に作られており、訪れる人々に忘れられない体験を提供します。</span>
+</p>
+<p>&nbsp;</p>
+<p>
+<span style="background-color:transparent;color:#000000;">バーナーヒルズは、ただの観光地ではなく、自然の美しさに包まれ、清々しい空気を享受し、数々の魅力的な体験を探求できる不思議な世界です。独特の建築物、個性的な文化的祭り、最新の遊び場、そして豊かな食文化のすべてが、バーナーヒルズをベトナムの最も魅力的な観光地の一つにしています。ここへの旅行は、ダナンの新たな一面を見せてくれるでしょう。現代的で活気に満ちたダナンだけでなく、ロマンチックで伝統的な価値を感じることができます。さあ、何を待っていますか？友達と一緒に、ベトナムで最も住みやすい都市である「ダナン」での素晴らしい旅を計画しましょう！</span>
+</p>`,
   },
   {
     id_location: 21,
