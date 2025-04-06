@@ -195,8 +195,8 @@ const SubItemCarou = ({
     }
 
     if (toastShow !== "") {
-      if (newArray.length !== 0) toastShow(newArray.length + " results found");
-      else toastShow("No result found");
+      if (newArray.length !== 0) toastShow(newArray.length + t("result.yes"));
+      else toastShow(t("result.no"));
     }
   }, [data, districtName, search, t, toastShow, topic, topicName]);
 
@@ -235,6 +235,7 @@ const SubItemCarou = ({
           : dataTopic.length
         : dataTopic.length,
     };
+    console.log(topicName);
     if (dataTopic.length === 0) {
       return <div className="no-result">{t("no_result")}</div>;
     }

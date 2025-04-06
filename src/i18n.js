@@ -11,6 +11,10 @@ i18n.use(initReactI18next).init({
         location: {
           title: "Địa chỉ",
         },
+        result: {
+          yes: " địa điểm được tìm thấy!",
+          no: "Không tìm thấy địa điểm tương ứng!",
+        },
         home: "Trang Chủ",
         page: {
           title: "CÁC TRANG",
@@ -31,7 +35,7 @@ i18n.use(initReactI18next).init({
         },
         footer2: "TRANG WEB DU LỊCH TỐT NHẤT CHO VIỆC KHÁM PHÁ ĐÀ NẴNG",
         footer:
-          "DanaTravel là một trang web du lịch thông minh, ứng dụng công nghệ AI tiên tiến để giúp người dùng dễ dàng khám phá các địa điểm thông qua hình ảnh. Hiện tại, trang web chỉ tập trung tại thành phố Đà Nẵng, Việt Nam. Dự án này được thực hiện bởi ba sinh viên đại học. Hy vọng bạn sẽ có những trải nghiệm đáng nhớ với DanaTravel! ❤️",
+          "DanaTravel là một trang web tìm kiếm du lịch giúp người dùng dễ dàng khám phá các địa điểm nổi tiếng trên phạm vi thành phố Đà Nẵng. Dự án này là một sản phẩm đề tài Nghiên cứu khoa học được thực hiện bởi sự kết hợp của ba sinh viên đại học đến từ hai trường Đại học Ngoại ngữ Đà Nẵng và trường Đại học Bách khoa Đà Nẵng. Hy vọng bạn sẽ có những trải nghiệm đáng nhớ với DanaTravel! ❤️",
         placeholder2: "Bạn muốn đi đâu?",
         destination: "Tìm kiếm điểm đến của bạn:",
         placeholder: "Nhập tên tại đây...",
@@ -231,10 +235,14 @@ i18n.use(initReactI18next).init({
         location: {
           title: "住所",
         },
+        result: {
+          yes: "件の場所が見つかりました！",
+          no: "該当する場所が見つかりませんでした！",
+        },
         home: "ホーム",
         loca: "観光地",
         footer:
-          "DanaTravel は、AI技術を活用したスマートな旅行ウェブサイトで、ユーザーが画像を通じて簡単に観光地を発見できるようサポートします。現在、このウェブサイトはベトナムのダナン市に特化しています。このプロジェクトは大学生3人によって実現されました。DanaTravelで素晴らしい体験をお楽しみください！❤️",
+          "DanaTravel は、ユーザーがダナン市内の有名な観光地を簡単に探索できる旅行検索サイトです。このプロジェクトは、ダナン外国語大学とダナン工科大学の学生 3名による共同研究として実施された科学研究の成果です。DanaTravel で素晴らしい体験をお楽しみください！❤️",
         footer2: "ダナン旅行に最適な旅行ウェブサイト",
         page: {
           title: "ページ",
