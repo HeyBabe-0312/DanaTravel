@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { TiStarHalfOutline } from "react-icons/ti";
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaMapMarkedAlt, FaYoutube } from "react-icons/fa";
 import "./location.css";
 import ImageList from "./ImageList/ImageList";
 import Map from "./Map/Map";
@@ -15,6 +15,7 @@ import { useTranslation } from "react-i18next";
 const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const { t, i18n } = useTranslation();
   const [mapShow, setMapShow] = useState("mapShow");
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -29,6 +30,14 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const handleCopyTextFromParagraph = (paragraph) => {
     const cb = navigator.clipboard;
     cb.writeText(paragraph).then(() => alert(t("copy")));
+  };
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   let { id } = useParams();
@@ -193,7 +202,34 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                         {showStars(dataLocation[0].stars)} [
                         {Math.round(dataLocation[0].stars * 100) / 100}]
                       </div>
+                      <div className="youtube-icon" onClick={openModal}>
+                        <FaYoutube
+                          style={{
+                            cursor: "pointer",
+                            fontSize: "24px",
+                            color: "red",
+                          }}
+                        />
+                      </div>
                     </div>
+                    {isModalOpen && (
+                      <div className="modal-overlay">
+                        <div className="modal-content">
+                          <button onClick={closeModal}>X</button>
+                          <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/3bPTUAFX1XI?si=f8KXNBf_oP1yAt0C"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                            style={{ width: "100%", height: "315px" }}
+                          ></iframe>
+                        </div>
+                      </div>
+                    )}
                     <div className="title1">{t(dataLocation[0].title1)}</div>
                     <div className="descrip">
                       {t(dataLocation[0].describes)}
