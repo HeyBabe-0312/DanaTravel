@@ -129,6 +129,11 @@
   font-weight: 600;
   margin: 10px 0;
 }
+.detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .infoLct .info .title1 .youtube-icon {
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
 .detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .infoLct .info .descrip {
   text-align: justify;
   overflow: hidden;
@@ -265,20 +270,79 @@
   padding: 20px;
   border-radius: 8px;
   position: relative;
-  width: 600px;
+  width: 1000px;
   max-width: 90%;
 }
-
-.modal-content button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  font-size: 18px;
+.modal-content .topMap {
+  padding: 0 1rem 1rem 1rem;
+  height: 45px;
+}
+.modal-content .topMap .titleMapLct {
+  font-size: 22px;
+  float: left;
+  max-width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.modal-content .topMap .close-btn {
+  position: relative;
+  display: inline;
+  top: -4px;
+  width: 30%;
+  float: right;
+}
+.modal-content .topMap .close-btn .cls-mapShow {
+  float: right;
+  color: var(--PrimaryColor);
+  top: 1rem;
+  right: 1rem;
+}
+.modal-content .topMap .close-btn .cls-mapShow:hover {
+  color: #e61818;
   cursor: pointer;
 }
+.modal-content .youtube-iframe {
+  height: 550px;
+  width: 100%;
+  opacity: 1;
+}
+.modal-content .vid-loading {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
 
+.iframe-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.iframe-loading .loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid var(--PrimaryColor);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (max-width: 1500px) {
   .detailLct .bg-detailLct .detailMain .grid-container {
     grid-template-columns: 60% auto;
@@ -349,6 +413,9 @@
     width: 100%;
     padding: 20px;
   }
+  .modal-content .youtube-iframe {
+    height: 450px;
+  }
 }
 @media screen and (max-width: 880px) {
   .detailLct .bg-detailLct .detailMain .grid-container {
@@ -389,6 +456,9 @@
   .detailLct .bg-detailLct .detailMain .grid-container .comment {
     margin-bottom: 10px;
   }
+  .modal-content .youtube-iframe {
+    height: 400px;
+  }
 }
 @media screen and (max-width: 768px) {
   .detailLct .bg-detailLct {
@@ -424,6 +494,19 @@
   .detailLct .bg-detailLct .detailMain .grid-container .comment {
     margin-bottom: 10px;
   }
+  .modal-content {
+    padding: 15px;
+  }
+  .modal-content .topMap {
+    padding: 0 5px 5px 5px;
+    height: 30px;
+  }
+  .modal-content .topMap .titleMapLct {
+    font-size: 18px;
+  }
+  .modal-content .youtube-iframe {
+    height: 350px;
+  }
 }
 @media screen and (max-width: 500px) {
   .detailLct .bg-detailLct .titleLink {
@@ -441,7 +524,7 @@
   }
   .detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .infoLct .info .fees {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .infoLct .info .fees .topic {
     margin-bottom: 10px;
@@ -452,13 +535,13 @@
     overflow: hidden;
   }
   .detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .infoLct .info .title1 {
-    font-size: 16px;
+    font-size: 17px;
   }
   .detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .infoLct .info .descrip {
-    font-size: 12px;
+    font-size: 13px;
   }
   .detailLct .bg-detailLct .detailMain .detailInfo .grid-detail .mapLct .mapInfo .addressInfo .addressTxt {
-    font-size: 10px;
+    font-size: 12px;
   }
   .detailLct .bg-detailLct .detailMain .grid-container .comment .top-comment {
     grid-template-columns: 63% auto;

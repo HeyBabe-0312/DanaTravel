@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { MdOutlineNavigateNext } from "react-icons/md";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineStar, AiFillCloseCircle } from "react-icons/ai";
 import { TiStarHalfOutline } from "react-icons/ti";
 import { FaMapMarkedAlt, FaYoutube } from "react-icons/fa";
 import "./location.css";
@@ -16,6 +16,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const { t, i18n } = useTranslation();
   const [mapShow, setMapShow] = useState("mapShow");
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isIframeLoading, setIsIframeLoading] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -38,6 +39,10 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+
+  const handleIframeLoad = () => {
+    setIsIframeLoading(false);
   };
 
   let { id } = useParams();
@@ -202,7 +207,45 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                         {showStars(dataLocation[0].stars)} [
                         {Math.round(dataLocation[0].stars * 100) / 100}]
                       </div>
-                      <div className="youtube-icon" onClick={openModal}>
+                    </div>
+                    {isModalOpen && (
+                      <div className="modal-overlay">
+                        <div className="modal-content">
+                          <div className="topMap">
+                            <div className="titleMapLct">
+                              {t(dataLocation[0].name)}
+                            </div>
+                            <div className="close-btn">
+                              <AiFillCloseCircle
+                                className="cls-mapShow icon"
+                                onClick={closeModal}
+                              />
+                            </div>
+                          </div>
+                          {isIframeLoading && (
+                            <div className="iframe-loading">
+                              <div className="loading-spinner"></div>
+                            </div>
+                          )}
+                          <iframe
+                            src="https://www.youtube.com/embed/3bPTUAFX1XI?si=f8KXNBf_oP1yAt0C"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                            className={
+                              isIframeLoading
+                                ? "youtube-iframe vid-loading"
+                                : "youtube-iframe"
+                            }
+                            onLoad={handleIframeLoad}
+                          ></iframe>
+                        </div>
+                      </div>
+                    )}
+                    <div className="title1">
+                      <span className="youtube-icon" onClick={openModal}>
                         <FaYoutube
                           style={{
                             cursor: "pointer",
@@ -210,27 +253,9 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                             color: "red",
                           }}
                         />
-                      </div>
+                      </span>
+                      {t(dataLocation[0].title1)}
                     </div>
-                    {isModalOpen && (
-                      <div className="modal-overlay">
-                        <div className="modal-content">
-                          <button onClick={closeModal}>X</button>
-                          <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/3bPTUAFX1XI?si=f8KXNBf_oP1yAt0C"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                            style={{ width: "100%", height: "315px" }}
-                          ></iframe>
-                        </div>
-                      </div>
-                    )}
-                    <div className="title1">{t(dataLocation[0].title1)}</div>
                     <div className="descrip">
                       {t(dataLocation[0].describes)}
                     </div>
