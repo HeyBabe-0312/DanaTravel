@@ -51,18 +51,29 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="navItem">
+                <a href="/bookings" className="navLink">
+                  {t("book")}
+                </a>
+              </li>
+              <li className="navItem">
+                <a href="#" className="navLink">
+                  {t("signIn")}
+                </a>
+              </li>
+              <button className="btn">
+                <a>{t("signUp")}</a>
+              </button>
+              <li className="navItem">
                 {i18n.language === "vi" ? (
                   <JP
                     onClick={() => changeLang("ja")}
                     width={40}
-                    style={{ marginLeft: "10px" }}
                     cursor="pointer"
                   />
                 ) : (
                   <VN
                     onClick={() => changeLang("vi")}
                     width={40}
-                    style={{ marginLeft: "10px" }}
                     cursor="pointer"
                   />
                 )}

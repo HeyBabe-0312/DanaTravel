@@ -122,6 +122,11 @@
                 font-size: 20px;
                 font-weight: 600;
                 margin: 10px 0;
+                .youtube-icon {
+                  position: relative;
+                  top: 4px;
+                  margin-right: 5px;
+                }
               }
               .descrip {
                 text-align: justify;
@@ -250,6 +255,101 @@
   }
 }
 
+// Add styles for the modal overlay and content
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 1000px;
+  max-width: 90%;
+  .topMap {
+    padding: 0 1rem 1rem 1rem;
+    height: 45px;
+    .titleMapLct {
+      font-size: 22px;
+      float: left;
+      max-width: 70%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+    }
+    .close-btn {
+      position: relative;
+      display: inline;
+      top: -4px;
+      width: 30%;
+      float: right;
+      .cls-mapShow {
+        float: right;
+        color: var(--PrimaryColor);
+        top: 1rem;
+        right: 1rem;
+        &:hover {
+          color: #e61818;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .youtube-iframe {
+    height: 550px;
+    width: 100%;
+    opacity: 1;
+  }
+  .vid-loading {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+}
+
+// Added styles for iframe loading indicator
+.iframe-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid var(--PrimaryColor);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 //MEDIA QUERIES =============================>
 @media screen and (max-width: 1500px) {
   .detailLct {
@@ -360,6 +460,11 @@
       }
     }
   }
+  .modal-content {
+    .youtube-iframe {
+      height: 450px;
+    }
+  }
 }
 @media screen and (max-width: 880px) {
   .detailLct {
@@ -410,6 +515,11 @@
       }
     }
   }
+  .modal-content {
+    .youtube-iframe {
+      height: 400px;
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   .detailLct {
@@ -455,6 +565,19 @@
       }
     }
   }
+  .modal-content {
+    padding: 15px;
+    .topMap {
+      padding: 0 5px 5px 5px;
+      height: 30px;
+      .titleMapLct {
+        font-size: 18px;
+      }
+    }
+    .youtube-iframe {
+      height: 350px;
+    }
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -480,7 +603,7 @@
                 }
                 .fees {
                   display: inline-block;
-                  margin-bottom: 10px;
+                  margin-bottom: 5px;
                   .topic {
                     margin-bottom: 10px;
                     font-size: 13px;
@@ -491,10 +614,10 @@
                   }
                 }
                 .title1 {
-                  font-size: 16px;
+                  font-size: 17px;
                 }
                 .descrip {
-                  font-size: 12px;
+                  font-size: 13px;
                 }
               }
             }
@@ -502,7 +625,7 @@
               .mapInfo {
                 .addressInfo {
                   .addressTxt {
-                    font-size: 10px;
+                    font-size: 12px;
                   }
                 }
               }

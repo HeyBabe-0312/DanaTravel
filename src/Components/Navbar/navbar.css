@@ -76,25 +76,6 @@
   display: flex;
   padding: 0 15px 0 0;
 }
-.header .infoUser .btn .avatarUser {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 38px;
-  margin-right: 10px;
-  height: 38px;
-  border-radius: 50%;
-}
-.header .infoUser .btn a {
-  max-width: 8em;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  margin: auto;
-}
-.header .infoUser .btn:hover {
-  background: var(--PrimaryColor);
-  border-radius: 15px 15px 0 0;
-}
 .header .mbInfoUser {
   display: none;
 }
@@ -167,7 +148,7 @@
     margin-top: 5px;
   }
   .header .navBar .navLists .btn {
-    margin-top: 1rem;
+    margin: 5px 0;
   }
   .header .navBar .navLists .btn a {
     font-weight: 600;
@@ -218,7 +199,7 @@
     color: var(--PrimaryColor);
   }
   .header .navBar .navLists .btn {
-    margin-left: 1rem;
+    margin: 5px 10px 5px 0;
   }
   .header .navBar .navLists .btn a {
     color: var(--whiteColor);

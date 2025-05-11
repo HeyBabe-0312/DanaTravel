@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { MdOutlineNavigateNext } from "react-icons/md";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineStar, AiFillCloseCircle } from "react-icons/ai";
 import { TiStarHalfOutline } from "react-icons/ti";
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaMapMarkedAlt, FaYoutube } from "react-icons/fa";
 import "./location.css";
 import ImageList from "./ImageList/ImageList";
 import Map from "./Map/Map";
@@ -15,6 +15,8 @@ import { useTranslation } from "react-i18next";
 const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const { t, i18n } = useTranslation();
   const [mapShow, setMapShow] = useState("mapShow");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isIframeLoading, setIsIframeLoading] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -29,6 +31,18 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const handleCopyTextFromParagraph = (paragraph) => {
     const cb = navigator.clipboard;
     cb.writeText(paragraph).then(() => alert(t("copy")));
+  };
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleIframeLoad = () => {
+    setIsIframeLoading(false);
   };
 
   let { id } = useParams();
@@ -194,7 +208,54 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                         {Math.round(dataLocation[0].stars * 100) / 100}]
                       </div>
                     </div>
-                    <div className="title1">{t(dataLocation[0].title1)}</div>
+                    {isModalOpen && (
+                      <div className="modal-overlay">
+                        <div className="modal-content">
+                          <div className="topMap">
+                            <div className="titleMapLct">
+                              {t(dataLocation[0].title1)}
+                            </div>
+                            <div className="close-btn">
+                              <AiFillCloseCircle
+                                className="cls-mapShow icon"
+                                onClick={closeModal}
+                              />
+                            </div>
+                          </div>
+                          {isIframeLoading && (
+                            <div className="iframe-loading">
+                              <div className="loading-spinner"></div>
+                            </div>
+                          )}
+                          <iframe
+                            src={dataLocation[0].ytbLink}
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                            className={
+                              isIframeLoading
+                                ? "youtube-iframe vid-loading"
+                                : "youtube-iframe"
+                            }
+                            onLoad={handleIframeLoad}
+                          ></iframe>
+                        </div>
+                      </div>
+                    )}
+                    <div className="title1">
+                      <span className="youtube-icon" onClick={openModal}>
+                        <FaYoutube
+                          style={{
+                            cursor: "pointer",
+                            fontSize: "24px",
+                            color: "red",
+                          }}
+                        />
+                      </span>
+                      {t(dataLocation[0].title1)}
+                    </div>
                     <div className="descrip">
                       {t(dataLocation[0].describes)}
                     </div>
