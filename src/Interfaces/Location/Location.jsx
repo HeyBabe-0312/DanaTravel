@@ -213,7 +213,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                         <div className="modal-content">
                           <div className="topMap">
                             <div className="titleMapLct">
-                              {t(dataLocation[0].name)}
+                              {t(dataLocation[0].title1)}
                             </div>
                             <div className="close-btn">
                               <AiFillCloseCircle
@@ -228,7 +228,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                             </div>
                           )}
                           <iframe
-                            src="https://www.youtube.com/embed/3bPTUAFX1XI?si=f8KXNBf_oP1yAt0C"
+                            src={dataLocation[0].ytbLink}
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

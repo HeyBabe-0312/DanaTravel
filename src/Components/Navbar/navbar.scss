@@ -80,24 +80,6 @@
       width: 159px;
       display: flex;
       padding: 0 15px 0 0;
-      .avatarUser {
-        object-fit: cover;
-        width: 38px;
-        margin-right: 10px;
-        height: 38px;
-        border-radius: 50%;
-      }
-      a {
-        max-width: 8em;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        margin: auto;
-      }
-      &:hover {
-        background: var(--PrimaryColor);
-        border-radius: 15px 15px 0 0;
-      }
     }
   }
   .mbInfoUser {
@@ -175,7 +157,7 @@
           }
         }
         .btn {
-          margin-top: 1rem;
+          margin: 5px 0;
           a {
             font-weight: 600;
             color: var(--whiteColor);
@@ -242,7 +224,7 @@
         }
 
         .btn {
-          margin-left: 1rem;
+          margin: 5px 10px 5px 0;
           a {
             color: var(--whiteColor);
             font-weight: 500;
