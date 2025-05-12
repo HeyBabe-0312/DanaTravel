@@ -18,7 +18,12 @@ const ImageList = ({ data }) => {
         {React.Children.toArray(
           data.map((d) => (
             <div className="bgLocation">
-              <img src={d} className="avaLocation" alt="avaLocation" />
+              <img
+                src={d}
+                className="avaLocation"
+                alt="avaLocation"
+                loading="lazy"
+              />
             </div>
           ))
         )}

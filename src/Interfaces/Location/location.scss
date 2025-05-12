@@ -239,7 +239,7 @@
           }
         }
         .relativeLct {
-          height: auto;
+          height: max-content;
           background: #d9d9d9;
           width: 100%;
           border-radius: 10px;
@@ -541,9 +541,6 @@
                 }
               }
             }
-            .review {
-              font-size: 15px;
-            }
           }
           .relativeLct {
             width: 100%;
@@ -587,7 +584,7 @@
   .detailLct {
     .bg-detailLct {
       .titleLink {
-        font-size: 0.8rem;
+        font-size: 1rem;
         .icon-next {
           position: relative;
           top: 3.5px;
@@ -649,9 +646,6 @@
                   font-size: 12px;
                 }
               }
-            }
-            .review {
-              font-size: 13px;
             }
           }
           .relativeLct {

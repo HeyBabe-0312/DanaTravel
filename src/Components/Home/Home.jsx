@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./home.css";
 import vid1 from "../../assets/videos/vid_header.mp4";
+import thumb from "../../assets/images/thumb_header.webp";
 import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
@@ -98,7 +99,15 @@ const Home = () => {
   return (
     <section className="home">
       <div className="overlay"></div>
-      <video src={vid1} muted autoPlay loop type="video/mp4"></video>
+      <video
+        src={vid1}
+        preload="metadata"
+        muted
+        autoPlay
+        loop
+        type="video/mp4"
+        poster={thumb}
+      ></video>
 
       <div className="homeContent container">
         <div className="textDiv">

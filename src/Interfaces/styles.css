@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 .bg-locations .searchLocation .text-box {
   position: relative;
@@ -114,7 +115,7 @@
 
 @media screen and (max-width: 1240px) {
   .bg-locations .searchLocation {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .bg-locations .searchLocation .text-box {
     width: 50%;
