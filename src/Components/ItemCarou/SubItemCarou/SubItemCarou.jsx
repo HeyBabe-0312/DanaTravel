@@ -251,6 +251,7 @@ const SubItemCarou = ({
                       src={d.center_img ? d.center_img : defaultImg}
                       className="avaLocation"
                       alt="avaLocation"
+                      loading="lazy"
                     />
                   </div>
                   <div className="itemInfo">

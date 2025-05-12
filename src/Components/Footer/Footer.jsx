@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./footer.css";
 import vid2 from "../../assets/videos/vid_footer.mp4";
+import thumb from "../../assets/images/thumb_footer.webp";
 import { FiChevronRight } from "react-icons/fi";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import {
@@ -21,7 +22,15 @@ const Footer = () => {
   return (
     <section className="footer" id="footer">
       <div className="videoDiv">
-        <video src={vid2} loop autoPlay muted type="video/mp4"></video>
+        <video
+          src={vid2}
+          preload="metadata"
+          loop
+          autoPlay
+          muted
+          type="video/mp4"
+          poster={thumb}
+        ></video>
       </div>
 
       <div className="secContent container">

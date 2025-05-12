@@ -7,6 +7,7 @@ import MainPage from "./Interfaces/Main";
 import Locations from "./Interfaces/Locations";
 import Location from "./Interfaces/Location/Location";
 import NotFound from "./Interfaces/NotFound";
+import Bookings from "./Components/Bookings/Bookings";
 import "react-toastify/dist/ReactToastify.css";
 import { data, topicData, reviewData } from "./constants/data";
 import "./i18n";
@@ -81,6 +82,7 @@ const App = () => {
                 />
               }
             />
+            <Route path="/bookings" element={<Bookings />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
