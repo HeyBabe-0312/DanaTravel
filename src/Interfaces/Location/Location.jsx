@@ -254,7 +254,9 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                           }}
                         />
                       </span>
-                      {t(dataLocation[0].title1)}
+                      <span onClick={openModal} style={{ cursor: "pointer" }}>
+                        {t(dataLocation[0].title1)}
+                      </span>
                     </div>
                     <div className="descrip">
                       {t(dataLocation[0].describes)}
