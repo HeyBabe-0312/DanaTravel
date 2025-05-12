@@ -477,6 +477,9 @@
     position: relative;
     top: -14px;
   }
+  .detailLct .bg-detailLct .detailMain .grid-container .comment .review {
+    font-size: 15px;
+  }
   .detailLct .bg-detailLct .detailMain .grid-container .relativeLct {
     width: 100%;
     padding: 30px;
@@ -553,6 +556,9 @@
   }
   .detailLct .bg-detailLct .detailMain .grid-container .comment .top-comment .title-reviews .btn-add {
     font-size: 12px;
+  }
+  .detailLct .bg-detailLct .detailMain .grid-container .comment .review {
+    font-size: 13px;
   }
   .detailLct .bg-detailLct .detailMain .grid-container .relativeLct {
     padding: 20px;
