@@ -1,7 +1,11 @@
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
-  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
@@ -80,7 +84,7 @@
   color: #666;
   display: block;
   width: 80%;
-  background: #EDEDED;
+  background: #ededed;
   height: 50px;
   border-radius: 25px;
   padding: 0 30px 0 62px;

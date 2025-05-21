@@ -1,14 +1,55 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
 import { VN, JP } from "country-flag-icons/react/3x2";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import "./navbar.css";
 import { useTranslation } from "react-i18next";
+import Signin from "../Signin/Signin";
+import Signup from "../Signup/Signup";
+import axios from "axios";
+import { toast, ToastContainer } from "react-toastify";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [active, setActive] = useState("navBar");
+  const [showSignin, setShowSignin] = useState("signin");
+  const [showSignup, setShowSignup] = useState("signup");
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [user, setUser] = useState(null);
+
+  // Check authentication on component mount
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      fetchUserData(token);
+    }
+  }, []);
+
+  const fetchUserData = async (token) => {
+    try {
+      // Configure axios with the auth token
+      const config = {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      };
+
+      // Get current user data
+      const response = await axios.get("/api/auth/me", config);
+
+      if (response.status === 200) {
+        setUser(response.data.data);
+        setIsAuthenticated(true);
+      }
+    } catch (error) {
+      console.error("Error fetching user data:", error);
+      // If token is invalid, clear localStorage
+      localStorage.removeItem("token");
+      setIsAuthenticated(false);
+      setUser(null);
+    }
+  };
 
   const showNav = () => {
     setActive("navBar activeNavbar");
@@ -16,6 +57,34 @@ const Navbar = () => {
 
   const removeNav = () => {
     setActive("navBar");
+  };
+
+  const toggleSignin = () => {
+    setShowSignin(
+      showSignin === "signin activeSignin" ? "signin" : "signin activeSignin"
+    );
+    if (showSignup) {
+      setShowSignup("signup");
+    }
+  };
+
+  const toggleSignup = () => {
+    setShowSignup(
+      showSignup === "signup activeSignup" ? "signup" : "signup activeSignup"
+    );
+    if (showSignin) {
+      setShowSignin("signin");
+    }
+  };
+
+  const handleLogout = () => {
+    // Clear token from localStorage
+    localStorage.removeItem("token");
+    setIsAuthenticated(false);
+    setUser(null);
+    toast.success("Logged out successfully!");
+    // Refresh the page
+    window.location.reload();
   };
 
   const changeLang = (lang) => {
@@ -55,14 +124,33 @@ const Navbar = () => {
                   {t("book")}
                 </a>
               </li>
-              <li className="navItem">
-                <a href="#" className="navLink">
-                  {t("signIn")}
-                </a>
-              </li>
-              <button className="btn">
-                <a>{t("signUp")}</a>
-              </button>
+
+              {isAuthenticated ? (
+                <>
+                  <li className="navItem">
+                    <a href="/profile" className="navLink">
+                      {user?.displayName || "Profile"}
+                    </a>
+                  </li>
+                  <li className="navItem">
+                    <a href="#" className="navLink" onClick={handleLogout}>
+                      {t("logout")}
+                    </a>
+                  </li>
+                </>
+              ) : (
+                <>
+                  <li className="navItem">
+                    <a href="#" className="navLink" onClick={toggleSignin}>
+                      {t("signIn")}
+                    </a>
+                  </li>
+                  <button className="btn" onClick={toggleSignup}>
+                    <a>{t("signUp")}</a>
+                  </button>
+                </>
+              )}
+
               <li className="navItem">
                 {i18n.language === "vi" ? (
                   <JP
@@ -89,6 +177,15 @@ const Navbar = () => {
           </div>
         </header>
       </session>
+
+      {/* Sign in and Sign up modals */}
+      <Signin signin={showSignin} removeSignin={toggleSignin} />
+      <Signup signup={showSignup} removeSignup={toggleSignup} />
+      <ToastContainer
+        autoClose={1000}
+        theme="colored"
+        position="bottom-right"
+      />
     </>
   );
 };
