@@ -29,3 +29,15 @@ export const updateProfile = (profileData) => {
 export const updatePassword = (passwordData) => {
   return axios.put("/profile/password", passwordData, getAuthHeader());
 };
+
+export const uploadProfileImage = (imageFile) => {
+  const formData = new FormData();
+  formData.append("profileImage", imageFile);
+
+  return axios.put("/profile/upload-image", formData, {
+    headers: {
+      ...getAuthHeader().headers,
+      "Content-Type": "multipart/form-data",
+    },
+  });
+};

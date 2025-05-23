@@ -190,7 +190,6 @@
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
   }
   .signup .modal-signup .text-box .symbol-input100 {
     display: none;
@@ -199,6 +198,7 @@
 @media screen and (max-width: 500px) {
   .signup .modal-signup .text-box .input100 {
     padding: 0 20px;
+    width: 90%;
   }
   .signup .modal-signup .text-box .symbol-input100 {
     display: none;

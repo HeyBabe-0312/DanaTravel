@@ -12,6 +12,7 @@ import Settings from "./Components/Settings/Settings";
 import "react-toastify/dist/ReactToastify.css";
 import { data, topicData, reviewData } from "./constants/data";
 import "./i18n";
+import { UserProvider } from "./contexts/UserContext";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -56,39 +57,41 @@ const App = () => {
   return (
     !loading && (
       <>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route
-              path="/"
-              element={<MainPage allDataLct={allDataLct} topic={topic} />}
-            />
-            <Route
-              path="/locations"
-              element={
-                <Locations
-                  dataAllLct={allDataLct}
-                  dataTopic={topic}
-                  dataReview={review}
-                />
-              }
-            />
-            <Route
-              path="/location/:id"
-              element={
-                <Location
-                  dataReview={review}
-                  dataAllLct={allDataLct}
-                  dataTopic={topic}
-                />
-              }
-            />
-            <Route path="/bookings" element={<Bookings />} />
-            <Route path="/profile" element={<Settings />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          <Footer />
-        </Router>
+        <UserProvider>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route
+                path="/"
+                element={<MainPage allDataLct={allDataLct} topic={topic} />}
+              />
+              <Route
+                path="/locations"
+                element={
+                  <Locations
+                    dataAllLct={allDataLct}
+                    dataTopic={topic}
+                    dataReview={review}
+                  />
+                }
+              />
+              <Route
+                path="/location/:id"
+                element={
+                  <Location
+                    dataReview={review}
+                    dataAllLct={allDataLct}
+                    dataTopic={topic}
+                  />
+                }
+              />
+              <Route path="/bookings" element={<Bookings />} />
+              <Route path="/profile" element={<Settings />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+          </Router>
+        </UserProvider>
       </>
     )
   );

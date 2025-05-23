@@ -6,8 +6,12 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 import "./signin.css";
 import { loginUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
+import { useUser } from "../../contexts/UserContext";
 
 const Signin = ({ signin, removeSignin }) => {
+  // Get the fetchUserData function from the user context
+  const { fetchUserData } = useUser();
+
   const validateEmail = (email) => {
     return String(email)
       .toLowerCase()
@@ -47,6 +51,9 @@ const Signin = ({ signin, removeSignin }) => {
         // Store the JWT token from the response
         localStorage.setItem("token", response.data.token);
         toast.success("Sign in successfully!");
+
+        // Fetch the latest user data to update the UI
+        fetchUserData();
 
         removeSignin();
       }
@@ -99,9 +106,8 @@ const Signin = ({ signin, removeSignin }) => {
         </div>
         <div className="signin-text">
           <p className="text">
-            This is a travel website integrates AI technology for easier search
-            of places through images. Sign in to participate in reviews,
-            interact with everyone.
+            Đây là trang web du lịch để khám phá thành phố Đà Nẵng. Sign in to
+            participate in reviews, interact with everyone.
           </p>
         </div>
         <form>

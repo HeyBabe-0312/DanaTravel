@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
 import { VN, JP } from "country-flag-icons/react/3x2";
@@ -9,54 +9,24 @@ import "./avatar.css"; // Import the avatar styles
 import { useTranslation } from "react-i18next";
 import Signin from "../Signin/Signin";
 import Signup from "../Signup/Signup";
-import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
+import { useUser } from "../../contexts/UserContext";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [active, setActive] = useState("navBar");
   const [showSignin, setShowSignin] = useState("signin");
   const [showSignup, setShowSignup] = useState("signup");
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [user, setUser] = useState(null);
-  const [isLoading, setIsLoading] = useState(false); // Add loading state
   const [showLogoutModal, setShowLogoutModal] = useState(false); // Add state for logout modal
-  const token = localStorage.getItem("token");
 
-  // Check authentication on component mount
-  useEffect(() => {
-    if (token) {
-      fetchUserData(token);
-    }
-  }, [token]);
-
-  const fetchUserData = async (token) => {
-    try {
-      setIsLoading(true); // Set loading to true when starting the request
-      // Configure axios with the auth token
-      const config = {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      };
-
-      // Get current user data
-      const response = await axios.get("/auth/me", config);
-
-      if (response.status === 200) {
-        setUser(response.data.data);
-        setIsAuthenticated(true);
-      }
-      setIsLoading(false); // Set loading to false after successful response
-    } catch (error) {
-      console.error("Error fetching user data:", error);
-      // If token is invalid, clear localStorage
-      localStorage.removeItem("token");
-      setIsAuthenticated(false);
-      setUser(null);
-      setIsLoading(false); // Set loading to false after error
-    }
-  };
+  // Use the global user context instead of local state
+  const {
+    user,
+    isAuthenticated,
+    loading: isLoading,
+    fetchUserData,
+    logout,
+  } = useUser();
 
   const showNav = () => {
     setActive("navBar activeNavbar");
@@ -90,12 +60,17 @@ const Navbar = () => {
   };
 
   const confirmLogout = () => {
-    // Clear token from localStorage
-    localStorage.removeItem("token");
-    setIsAuthenticated(false);
-    setUser(null);
+    // Use the context's logout function
+    logout();
+
+    // Update the UI by fetching user data (will recognize there's no token)
+    fetchUserData();
+
+    // Show success message
     toast.success("Logged out successfully!");
-    setShowLogoutModal(false); // Hide the modal
+
+    // Hide the logout confirmation modal
+    setShowLogoutModal(false);
   };
 
   const cancelLogout = () => {

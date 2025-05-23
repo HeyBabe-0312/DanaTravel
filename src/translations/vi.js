@@ -34,6 +34,7 @@ const viTranslations = {
       imageTypeError: "Chỉ chấp nhận tập tin hình ảnh.",
       imageSizeError: "Kích thước ảnh không được vượt quá 5MB.",
       imageUploadError: "Có lỗi xảy ra khi tải lên ảnh đại diện.",
+      imageUploadSuccess: "Tải lên ảnh đại diện thành công!",
     },
     copy: "Địa chỉ đã được sao chép!",
     location: {

@@ -35,6 +35,7 @@ const jaTranslations = {
       imageSizeError: "画像サイズは5MB以下にしてください。",
       imageUploadError:
         "プロフィール画像のアップロード中にエラーが発生しました。",
+      imageUploadSuccess: "プロフィール画像を正常にアップロードしました！",
     },
     copy: "住所がコピーされました！",
     location: {

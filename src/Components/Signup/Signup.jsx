@@ -6,8 +6,12 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 import "./signup.css";
 import { registerUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
+import { useUser } from "../../contexts/UserContext";
 
 const Signup = ({ signup, removeSignup }) => {
+  // Get the fetchUserData function from the user context
+  const { fetchUserData } = useUser();
+
   const validateEmail = (email) => {
     return String(email)
       .toLowerCase()
@@ -62,6 +66,9 @@ const Signup = ({ signup, removeSignup }) => {
         // Store the JWT token from the response
         localStorage.setItem("token", response.data.token);
         toast.success("Sign in successfully!");
+
+        // Fetch the latest user data to update the UI
+        fetchUserData();
 
         removeData();
         removeSignup();
@@ -121,8 +128,8 @@ const Signup = ({ signup, removeSignup }) => {
         </div>
         <div className="signup-text">
           <p className="text">
-            This is a travel website integrates AI technology for easier search
-            of places through images. Sign up to unlock the best of DanaTravel.{" "}
+            Đây là trang web du lịch để khám phá thành phố Đà Nẵng. Sign up to
+            unlock the best of DanaTravel.{" "}
           </p>
         </div>
         <form>

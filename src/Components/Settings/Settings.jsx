@@ -12,14 +12,24 @@ import { MdLock, MdSecurity } from "react-icons/md";
 import { RiLockPasswordFill, RiShieldUserFill } from "react-icons/ri";
 import { toast, ToastContainer } from "react-toastify";
 import "./settings.css";
-import axios from "axios";
-import { updateProfile, updatePassword } from "../../services/api";
+import {
+  updateProfile,
+  updatePassword,
+  uploadProfileImage,
+} from "../../services/api";
 import defaultAvatar from "../../assets/images/avaDefault.jpg";
+import { useUser } from "../../contexts/UserContext";
 
 const Settings = () => {
   const { t } = useTranslation();
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
+  // Use the global user context
+  const {
+    user,
+    loading: userLoading,
+    fetchUserData,
+    updateUserData,
+  } = useUser();
+  const [loading, setLoading] = useState(false);
   const [imgFile, setImgFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
   const [activeTab, setActiveTab] = useState("profile");
@@ -30,44 +40,17 @@ const Settings = () => {
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  // Fetch user data on component mount
+  // Set initial form values when user data is loaded
   useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (token) {
-      fetchUserData(token);
-    } else {
-      // Redirect to login if no token
+    if (user) {
+      setDisplayName(user.displayName || "");
+      setPreviewUrl(user.avatarUrl);
+    }
+
+    if (!localStorage.getItem("token")) {
       window.location.href = "/";
     }
-  }, []);
-
-  const fetchUserData = async (token) => {
-    try {
-      setLoading(true);
-      const config = {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      };
-
-      const response = await axios.get("/auth/me", config);
-
-      if (response.status === 200) {
-        setUser(response.data.data);
-        setDisplayName(response.data.data.displayName || "");
-        setPreviewUrl(response.data.data.avatarUrl);
-      }
-    } catch (error) {
-      console.error("Error fetching user data:", error);
-      toast.error(t("settings.errorFetchingUser"));
-
-      // If token is invalid, redirect to home
-      localStorage.removeItem("token");
-      window.location.href = "/";
-    } finally {
-      setLoading(false);
-    }
-  };
+  }, [user]);
 
   // Handle profile image change
   const handleImageChange = (e) => {
@@ -102,24 +85,25 @@ const Settings = () => {
     try {
       setLoading(true);
 
-      // Prepare form data with profile image if changed
-      let avatarUrl = user?.avatarUrl;
-
+      // Handle image upload first if there's a new image
       if (imgFile) {
-        // Upload image first
-        const formData = new FormData();
-        formData.append("file", imgFile);
-
         try {
-          const uploadResponse = await axios.post("/upload", formData, {
-            headers: {
-              "Content-Type": "multipart/form-data",
-              Authorization: `Bearer ${localStorage.getItem("token")}`,
-            },
-          });
+          // Use our new uploadProfileImage API function
+          const uploadResponse = await uploadProfileImage(imgFile);
 
-          if (uploadResponse.data && uploadResponse.data.url) {
-            avatarUrl = uploadResponse.data.url;
+          if (
+            uploadResponse.status === 200 &&
+            uploadResponse.data.data.avatarUrl
+          ) {
+            // Update local state with the new avatar URL
+            setPreviewUrl(uploadResponse.data.data.avatarUrl);
+
+            // Update the user context with the new avatar URL
+            updateUserData({
+              avatarUrl: uploadResponse.data.data.avatarUrl,
+            });
+
+            toast.success(t("settings.imageUploadSuccess"));
           }
         } catch (error) {
           console.error("Image upload error:", error);
@@ -129,27 +113,35 @@ const Settings = () => {
         }
       }
 
-      // Update profile with new info
-      const profileData = {
-        displayName,
-        avatarUrl,
-      };
-
-      const response = await updateProfile(profileData);
-
-      if (response.status === 200) {
-        toast.success(t("settings.profileUpdateSuccess"));
-        setUser({
-          ...user,
+      // Update profile with display name
+      if (displayName && displayName !== user?.displayName) {
+        const profileData = {
           displayName,
-          avatarUrl,
-        });
+        };
+
+        const response = await updateProfile(profileData);
+
+        if (response.status === 200) {
+          toast.success(t("settings.profileUpdateSuccess"));
+
+          // Update the user context with the new display name
+          updateUserData({
+            displayName,
+          });
+        }
+      } else if (imgFile && !displayName) {
+        // If only the image was changed, still show a success message
+        toast.success(t("settings.profileUpdateSuccess"));
       }
+
+      // Refresh user data from the server to ensure everything is in sync
+      fetchUserData();
     } catch (error) {
       console.error("Profile update error:", error);
       toast.error(t("settings.profileUpdateError"));
     } finally {
       setLoading(false);
+      setImgFile(null); // Clear the selected file after upload
     }
   };
 
@@ -203,7 +195,7 @@ const Settings = () => {
     }
   };
 
-  if (loading && !user) {
+  if ((loading || userLoading) && !user) {
     return (
       <div className="settings-container loading">
         <div className="spinner"></div>
