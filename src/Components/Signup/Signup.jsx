@@ -7,10 +7,13 @@ import "./signup.css";
 import { registerUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
 import { useUser } from "../../contexts/UserContext";
+import { useTranslation } from "react-i18next";
 
 const Signup = ({ signup, removeSignup }) => {
   // Get the fetchUserData function from the user context
   const { fetchUserData } = useUser();
+  // Get translations
+  const { t } = useTranslation();
 
   const validateEmail = (email) => {
     return String(email)
@@ -32,22 +35,22 @@ const Signup = ({ signup, removeSignup }) => {
       password === "" ||
       repass === ""
     ) {
-      toast.info("Please fill all inputs!");
+      toast.info(t("auth.fillAllFields"));
       return;
     }
 
     if (!validateEmail(email)) {
-      toast.error(email + " is not a valid email");
+      toast.error(email + " " + t("auth.invalidEmail"));
       return;
     }
 
     if (password.length < 6) {
-      toast.info("Password too short (at least 6 characters)!");
+      toast.info(t("auth.passwordTooShort"));
       return;
     }
 
     if (password !== repass) {
-      toast.error("Passwords do not match!");
+      toast.error(t("auth.passwordsDoNotMatch"));
       return;
     }
 
@@ -61,11 +64,11 @@ const Signup = ({ signup, removeSignup }) => {
       });
 
       if (response.status === 201) {
-        toast.success("Register successfully!");
+        toast.success(t("auth.registerSuccess"));
 
         // Store the JWT token from the response
         localStorage.setItem("token", response.data.token);
-        toast.success("Sign in successfully!");
+        toast.success(t("auth.loginSuccess"));
 
         // Fetch the latest user data to update the UI
         fetchUserData();
@@ -78,10 +81,10 @@ const Signup = ({ signup, removeSignup }) => {
         toast.error(
           err.response.data.error ||
             err.response.data.errors?.[0]?.msg ||
-            "Registration failed"
+            t("auth.registerFailed")
         );
       } else {
-        toast.error("Registration failed. Please try again later.");
+        toast.error(t("auth.registerFailed"));
       }
     }
   };
@@ -119,18 +122,15 @@ const Signup = ({ signup, removeSignup }) => {
           />
         </div>
         <div className="logoDiv">
-          <a className="logo-signup flex">
+          <div className="logo-signup flex">
             <h1>
               <MdOutlineTravelExplore className="icon-signup" />
               DanaTravel.
             </h1>
-          </a>
+          </div>
         </div>
         <div className="signup-text">
-          <p className="text">
-            Đây là trang web du lịch để khám phá thành phố Đà Nẵng. Sign up to
-            unlock the best of DanaTravel.{" "}
-          </p>
+          <p className="text">{t("auth.signupWelcomeText")}</p>
         </div>
         <form>
           <div className="text-box">
@@ -139,7 +139,7 @@ const Signup = ({ signup, removeSignup }) => {
               type="text"
               autoComplete="off"
               maxLength={50}
-              placeholder="Display Name"
+              placeholder={t("auth.displayName")}
               id="displayNameInp"
               onKeyDown={handleKeyDown}
             ></input>
@@ -154,7 +154,7 @@ const Signup = ({ signup, removeSignup }) => {
               type="email"
               autoComplete="off"
               maxLength={100}
-              placeholder="Email"
+              placeholder={t("auth.email")}
               id="emailInfo"
               onKeyDown={handleKeyDown}
             ></input>
@@ -168,7 +168,7 @@ const Signup = ({ signup, removeSignup }) => {
               className="input100"
               autoComplete="off"
               type="password"
-              placeholder="Password"
+              placeholder={t("auth.password")}
               maxLength={20}
               id="upasswordInp"
               onKeyDown={handleKeyDown}
@@ -183,7 +183,7 @@ const Signup = ({ signup, removeSignup }) => {
               className="input100"
               autoComplete="off"
               type="password"
-              placeholder="Confirm password"
+              placeholder={t("auth.confirmPassword")}
               maxLength={20}
               id="repasswordInp"
               onKeyDown={handleKeyDown}
@@ -196,7 +196,7 @@ const Signup = ({ signup, removeSignup }) => {
         </form>
         <div className="container-login100">
           <button className="login100-form-btn" onClick={checkSignup}>
-            Sign Up
+            {t("auth.signUp")}
           </button>
         </div>
       </div>

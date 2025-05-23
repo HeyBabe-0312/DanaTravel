@@ -7,10 +7,13 @@ import "./signin.css";
 import { loginUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
 import { useUser } from "../../contexts/UserContext";
+import { useTranslation } from "react-i18next";
 
 const Signin = ({ signin, removeSignin }) => {
   // Get the fetchUserData function from the user context
   const { fetchUserData } = useUser();
+  // Get translations
+  const { t } = useTranslation();
 
   const validateEmail = (email) => {
     return String(email)
@@ -25,17 +28,17 @@ const Signin = ({ signin, removeSignin }) => {
     let password = document.getElementById("passwordInp").value;
 
     if (email === "" || password === "") {
-      toast.info("Please fill all inputs");
+      toast.info(t("auth.fillAllFields"));
       return;
     }
 
     if (!validateEmail(email)) {
-      toast.error(email + " is not a valid email");
+      toast.error(email + " " + t("auth.invalidEmail"));
       return;
     }
 
     if (password.length < 6) {
-      toast.info("Password too short (at least 6 characters)!");
+      toast.info(t("auth.passwordTooShort"));
       return;
     }
 
@@ -50,7 +53,7 @@ const Signin = ({ signin, removeSignin }) => {
       if (response.status === 200) {
         // Store the JWT token from the response
         localStorage.setItem("token", response.data.token);
-        toast.success("Sign in successfully!");
+        toast.success(t("auth.loginSuccess"));
 
         // Fetch the latest user data to update the UI
         fetchUserData();
@@ -59,9 +62,9 @@ const Signin = ({ signin, removeSignin }) => {
       }
     } catch (err) {
       if (err.response) {
-        toast.error(err.response.data.error || "Login failed");
+        toast.error(err.response.data.error || t("auth.loginFailed"));
       } else {
-        toast.error("Login failed. Please try again later.");
+        toast.error(t("auth.loginFailed"));
       }
     }
   };
@@ -105,10 +108,7 @@ const Signin = ({ signin, removeSignin }) => {
           </div>
         </div>
         <div className="signin-text">
-          <p className="text">
-            Đây là trang web du lịch để khám phá thành phố Đà Nẵng. Sign in to
-            participate in reviews, interact with everyone.
-          </p>
+          <p className="text">{t("auth.signinWelcomeText")}</p>
         </div>
         <form>
           <div className="text-box">
@@ -117,7 +117,7 @@ const Signin = ({ signin, removeSignin }) => {
               type="email"
               autoComplete="off"
               maxLength={100}
-              placeholder="Email"
+              placeholder={t("auth.email")}
               id="emailInp"
               onKeyDown={handleKeyDown}
             ></input>
@@ -132,7 +132,7 @@ const Signin = ({ signin, removeSignin }) => {
               type="password"
               autoComplete="off"
               maxLength={20}
-              placeholder="Password"
+              placeholder={t("auth.password")}
               id="passwordInp"
               onKeyDown={handleKeyDown}
             ></input>
@@ -144,7 +144,7 @@ const Signin = ({ signin, removeSignin }) => {
         </form>
         <div className="container-login100">
           <button className="login100-form-btn" onClick={checkLogin}>
-            Sign In
+            {t("auth.signIn")}
           </button>
         </div>
       </div>

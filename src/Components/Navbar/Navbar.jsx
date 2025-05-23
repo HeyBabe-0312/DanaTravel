@@ -240,14 +240,14 @@ const Navbar = () => {
       {showLogoutModal && (
         <div className="modal-overlay">
           <div className="logout-modal">
-            <h3>{t("logoutConfirmation.title")}</h3>
-            <p>{t("logoutConfirmation.message")}</p>
+            <h3>{t("auth.logoutConfirmation.title")}</h3>
+            <p>{t("auth.logoutConfirmation.message")}</p>
             <div className="logout-modal-buttons">
               <button className="cancel-btn" onClick={cancelLogout}>
-                {t("logoutConfirmation.cancel")}
+                {t("auth.logoutConfirmation.cancel")}
               </button>
               <button className="confirm-btn" onClick={confirmLogout}>
-                {t("logoutConfirmation.confirm")}
+                {t("auth.logoutConfirmation.confirm")}
               </button>
             </div>
           </div>
