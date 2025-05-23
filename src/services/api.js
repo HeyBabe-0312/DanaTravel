@@ -41,3 +41,34 @@ export const uploadProfileImage = (imageFile) => {
     },
   });
 };
+
+// Comment/Review API functions
+export const getCommentsBySpot = (spotId, page = 1, limit = 10) => {
+  return axios.get(`/comments/${spotId}?page=${page}&limit=${limit}`, {
+    headers: {
+      Authorization: localStorage.getItem("token")
+        ? `Bearer ${localStorage.getItem("token")}`
+        : undefined,
+    },
+  });
+};
+
+export const createComment = (commentData) => {
+  return axios.post("/comments", commentData, getAuthHeader());
+};
+
+export const likeComment = (commentId) => {
+  return axios.post(`/comments/${commentId}/like`, {}, getAuthHeader());
+};
+
+export const dislikeComment = (commentId) => {
+  return axios.post(`/comments/${commentId}/dislike`, {}, getAuthHeader());
+};
+
+export const unlikeComment = (commentId) => {
+  return axios.delete(`/comments/${commentId}/like`, getAuthHeader());
+};
+
+export const removeDislikeComment = (commentId) => {
+  return axios.delete(`/comments/${commentId}/dislike`, getAuthHeader());
+};

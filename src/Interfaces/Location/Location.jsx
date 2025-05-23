@@ -8,6 +8,7 @@ import "./location.css";
 import ImageList from "./ImageList/ImageList";
 import Map from "./Map/Map";
 import RelativeLct from "./RelativeLct/RelativeLct";
+import LocationReviews from "../../Components/Reviews/LocationReviews";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
@@ -310,6 +311,11 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                 <div className="titleRelative">{t("suggest_title")}</div>
                 <RelativeLct data={dataRelative} />
               </div>
+            </div>
+
+            {/* Location Reviews Section */}
+            <div className="reviews-section" data-aos="fade-up">
+              <LocationReviews id={dataLocation[0].id_location} />
             </div>
           </div>
         </div>
