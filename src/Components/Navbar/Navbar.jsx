@@ -149,16 +149,19 @@ const Navbar = () => {
               ) : isAuthenticated ? (
                 <>
                   <li className="navItem user-profile">
-                    <a href="/profile" className="navLink profile-link">
+                    <a href="/profile" className="navLink profile-link" title={t("settings.title")}>
                       {user?.avatarUrl && (
                         <img
                           src={user.avatarUrl}
-                          alt="Avatar"
+                          alt={t("settings.profilePicture")}
                           className="avatar-img"
                         />
                       )}
+                      {!user?.avatarUrl && (
+                        <div className="avatar-placeholder">{user?.displayName?.charAt(0) || "U"}</div>
+                      )}
                       <span className="displayName">
-                        {user?.displayName || "Profile"}
+                        {user?.displayName || t("settings.profileTab")}
                       </span>
                     </a>
                   </li>

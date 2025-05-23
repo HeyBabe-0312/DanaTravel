@@ -21,6 +21,21 @@
   border: 2px solid var(--whiteColor);
 }
 
+.avatar-placeholder {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gradientColor);
+  color: var(--whiteColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--whiteColor);
+}
+
 .displayName {
   font-weight: 600;
   font-size: 1rem;

@@ -1,0 +1,391 @@
+/* Settings page styles */
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+/* Main Container */
+.settings-container {
+  padding: 120px 20px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: var(--bodyColor);
+}
+
+.settings-container.loading {
+  align-items: center;
+}
+
+/* Settings Card */
+.settings-card {
+  width: 100%;
+  max-width: 800px;
+  background-color: var(--whiteColor);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+/* Settings Header */
+.settings-header {
+  padding: 30px;
+  background: var(--gradientColor);
+  color: var(--whiteColor);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.settings-header h2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.settings-header p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+/* Tabs */
+.settings-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--inputColor);
+}
+
+.tab-button {
+  flex: 1;
+  padding: 16px;
+  background: none;
+  border: none;
+  color: var(--textColor);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-button:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.tab-button.active {
+  color: var(--PrimaryColor);
+  border-bottom: 2px solid var(--PrimaryColor);
+}
+
+/* Settings Content */
+.settings-content {
+  padding: 30px;
+}
+
+/* Form Styles */
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--PrimaryColor);
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding: 14px 16px 14px 45px;
+  border: 1px solid var(--inputColor);
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s;
+  background-color: var(--whiteColor);
+  color: var(--textColor);
+}
+
+.input-with-icon input:focus {
+  outline: none;
+  border-color: var(--PrimaryColor);
+}
+
+.input-with-icon input:disabled {
+  background-color: var(--inputColor);
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Avatar Upload */
+.avatar-upload {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.avatar-preview {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border: 3px solid var(--whiteColor);
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-edit {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.avatar-edit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--gradientColor);
+  color: var(--whiteColor);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-edit-button:hover {
+  transform: scale(1.1);
+}
+
+/* Button Styles */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.primary-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--gradientColor);
+  color: var(--whiteColor);
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.primary-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Password Requirements */
+.password-requirements {
+  background-color: var(--inputColor);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.password-requirements p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.password-requirements ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.password-requirements li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 6px;
+  color: var(--greyText);
+}
+
+.password-requirements li:before {
+  content: "●";
+  position: absolute;
+  left: 0;
+}
+
+.password-requirements li.valid {
+  color: var(--PrimaryColor);
+}
+
+/* Loading Spinner */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--PrimaryColor);
+  animation: spin 1s ease-in-out infinite;
+}
+
+.button-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--whiteColor);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .settings-container {
+    padding: 100px 15px 40px;
+  }
+
+  .settings-header {
+    padding: 20px;
+  }
+
+  .settings-header h2 {
+    font-size: 24px;
+  }
+
+  .settings-content {
+    padding: 20px;
+  }
+
+  .tab-button {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .form-group label {
+    font-size: 13px;
+  }
+  
+  .input-with-icon input {
+    padding: 12px 16px 12px 40px;
+    font-size: 15px;
+  }
+  
+  .password-requirements {
+    padding: 12px;
+  }
+  
+  .password-requirements p {
+    font-size: 14px;
+  }
+  
+  .password-requirements li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .settings-container {
+    padding: 80px 10px 30px;
+  }
+  
+  .settings-card {
+    border-radius: 12px;
+  }
+  
+  .settings-header h2 {
+    font-size: 22px;
+  }
+
+  .settings-header p {
+    font-size: 14px;
+  }
+  
+  .settings-content {
+    padding: 15px;
+  }
+  
+  .avatar-preview {
+    width: 100px;
+    height: 100px;
+  }
+
+  .avatar-edit-button {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .form-group {
+    gap: 6px;
+  }
+  
+  .input-with-icon .icon {
+    left: 12px;
+    font-size: 14px;
+  }
+  
+  .input-with-icon input {
+    padding: 10px 12px 10px 35px;
+    font-size: 14px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .primary-button {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
