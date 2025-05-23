@@ -4,7 +4,7 @@ import { MdLock } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import "./signin.css";
-import axios from "axios";
+import { loginUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
 
 const Signin = ({ signin, removeSignin }) => {
@@ -37,7 +37,8 @@ const Signin = ({ signin, removeSignin }) => {
 
     try {
       // Using the API endpoint based on user.model.js
-      const response = await axios.post("/api/auth/login", {
+      const response = await loginUser({
+        // Use the imported API function
         email: email,
         password: password,
       });
@@ -47,9 +48,7 @@ const Signin = ({ signin, removeSignin }) => {
         localStorage.setItem("token", response.data.token);
         toast.success("Sign in successfully!");
 
-        // Wait for the toast to show before refreshing
-        await new Promise((resolve) => setTimeout(resolve, 1500));
-        window.location.reload();
+        removeSignin();
       }
     } catch (err) {
       if (err.response) {

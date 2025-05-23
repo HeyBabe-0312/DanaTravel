@@ -4,7 +4,7 @@ import { MdLock } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import "./signup.css";
-import axios from "axios";
+import { registerUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
 
 const Signup = ({ signup, removeSignup }) => {
@@ -49,7 +49,8 @@ const Signup = ({ signup, removeSignup }) => {
 
     try {
       // Using the API endpoint based on user.model.js
-      const response = await axios.post("/api/auth/register", {
+      const response = await registerUser({
+        // Use the imported API function
         email: email,
         password: password,
         displayName: displayName,
@@ -58,8 +59,10 @@ const Signup = ({ signup, removeSignup }) => {
       if (response.status === 201) {
         toast.success("Register successfully!");
 
-        // Wait for the toast to show before closing the modal
-        await new Promise((resolve) => setTimeout(resolve, 1500));
+        // Store the JWT token from the response
+        localStorage.setItem("token", response.data.token);
+        toast.success("Sign in successfully!");
+
         removeData();
         removeSignup();
       }

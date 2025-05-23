@@ -1,0 +1,292 @@
+/* Avatar and profile styles for navbar */
+.user-profile .profile-link {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.user-profile .profile-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.avatar-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--whiteColor);
+}
+
+.displayName {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 5px;
+  transition: color 0.2s;
+  max-width: 111px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Logout button styles */
+.logout-container {
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  background: var(--gradientColor);
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  color: var(--whiteColor);
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Logout icon styles */
+.logout-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.logout-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.logout-icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-icon {
+  font-size: 1.2rem;
+}
+
+.logout-icon:hover {
+  color: var(--PrimaryColor);
+}
+
+/* Logout modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.logout-modal {
+  background-color: var(--whiteColor);
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s ease;
+}
+
+.logout-modal h3 {
+  margin: 0 0 10px 0;
+  color: var(--blackColor);
+  font-weight: 600;
+}
+
+.logout-modal p {
+  margin: 0 0 20px 0;
+  color: var(--greyText);
+}
+
+.logout-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancel-btn {
+  padding: 8px 15px;
+  border: 1px solid var(--greyText);
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.cancel-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.confirm-btn {
+  padding: 8px 15px;
+  border: none;
+  background: var(--gradientColor);
+  color: var(--whiteColor);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.confirm-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Sign in button styles */
+.signin-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.signin-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Ensures the signup button looks the same as before */
+.signup-btn {
+  color: var(--whiteColor);
+  font-weight: 500;
+}
+
+/* Loading spinner styles */
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--gradientColor);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mobile bottom icons - hidden by default on desktop */
+.mobile-bottom-icons {
+  display: none; /* Hide on desktop by default */
+}
+
+/* Language switcher desktop style */
+.navItem.language-switcher {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Mobile responsiveness for logout icon */
+@media screen and (max-width: 768px) {
+  .navLists {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Hide the regular logout icon when in authenticated state */
+  .navItem.user-profile + .navItem.logout-icon-container {
+    display: none;
+  }
+
+  /* Hide desktop language switcher on mobile */
+  .desktop-language-switcher {
+    display: none;
+  }
+
+  /* Show mobile icons at bottom only on mobile */
+  .mobile-bottom-icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add space between icons */
+    order: 999; /* Ensure it's at the bottom of the flex container */
+  }
+
+  .mobile-bottom-icons .navItem {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-bottom-icons .logout-icon {
+    font-size: 1.5rem;
+  }
+
+  /* Ensure logout icon is on the left of the language flag */
+  .mobile-bottom-icons .logout-icon-container {
+    order: 1; /* First item */
+  }
+
+  .mobile-bottom-icons .language-switcher {
+    order: 2; /* Second item */
+  }
+}
+
+/* Desktop logout icon */
+@media screen and (min-width: 769px) {
+  /* Hide mobile-specific components */
+  .mobile-bottom-icons {
+    display: none !important;
+  }
+
+  .language-switcher {
+    margin-left: 5px;
+  }
+}

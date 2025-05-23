@@ -1,11 +1,10 @@
-import React from "react"; 
+import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import axios from 'axios'
+import axios from "axios";
 
-axios.defaults.baseURL = "https://be-pbl-6.vercel.app/";
 // axios.defaults.baseURL = "https://danatravel-be.vercel.app/";
-// axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "http://localhost:5001/api";
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<App />)
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
