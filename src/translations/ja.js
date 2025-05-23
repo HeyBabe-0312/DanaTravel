@@ -33,7 +33,8 @@ const jaTranslations = {
       errorFetchingUser: "ユーザー情報の取得中にエラーが発生しました。",
       imageTypeError: "画像ファイルのみ許可されています。",
       imageSizeError: "画像サイズは5MB以下にしてください。",
-      imageUploadError: "プロフィール画像のアップロード中にエラーが発生しました。",
+      imageUploadError:
+        "プロフィール画像のアップロード中にエラーが発生しました。",
     },
     copy: "住所がコピーされました！",
     location: {

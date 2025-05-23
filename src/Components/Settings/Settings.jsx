@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { FaUser, FaEnvelope, FaCamera, FaSave } from "react-icons/fa";
-import { MdLock, MdEdit } from "react-icons/md";
+import {
+  FaUser,
+  FaEnvelope,
+  FaCamera,
+  FaSave,
+  FaUserEdit,
+  FaShieldAlt,
+} from "react-icons/fa";
+import { MdLock, MdSecurity } from "react-icons/md";
+import { RiLockPasswordFill, RiShieldUserFill } from "react-icons/ri";
 import { toast, ToastContainer } from "react-toastify";
 import "./settings.css";
 import axios from "axios";
@@ -15,13 +23,13 @@ const Settings = () => {
   const [imgFile, setImgFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
   const [activeTab, setActiveTab] = useState("profile");
-  
+
   // Form states
   const [displayName, setDisplayName] = useState("");
   const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  
+
   // Fetch user data on component mount
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -52,7 +60,7 @@ const Settings = () => {
     } catch (error) {
       console.error("Error fetching user data:", error);
       toast.error(t("settings.errorFetchingUser"));
-      
+
       // If token is invalid, redirect to home
       localStorage.removeItem("token");
       window.location.href = "/";
@@ -90,26 +98,26 @@ const Settings = () => {
   // Handle profile update
   const handleProfileUpdate = async (e) => {
     e.preventDefault();
-    
+
     try {
       setLoading(true);
-      
+
       // Prepare form data with profile image if changed
       let avatarUrl = user?.avatarUrl;
-      
+
       if (imgFile) {
         // Upload image first
         const formData = new FormData();
         formData.append("file", imgFile);
-        
+
         try {
           const uploadResponse = await axios.post("/upload", formData, {
             headers: {
               "Content-Type": "multipart/form-data",
-              Authorization: `Bearer ${localStorage.getItem("token")}`
-            }
+              Authorization: `Bearer ${localStorage.getItem("token")}`,
+            },
           });
-          
+
           if (uploadResponse.data && uploadResponse.data.url) {
             avatarUrl = uploadResponse.data.url;
           }
@@ -120,21 +128,21 @@ const Settings = () => {
           return;
         }
       }
-      
+
       // Update profile with new info
       const profileData = {
         displayName,
-        avatarUrl
+        avatarUrl,
       };
-      
+
       const response = await updateProfile(profileData);
-      
+
       if (response.status === 200) {
         toast.success(t("settings.profileUpdateSuccess"));
         setUser({
           ...user,
           displayName,
-          avatarUrl
+          avatarUrl,
         });
       }
     } catch (error) {
@@ -148,33 +156,33 @@ const Settings = () => {
   // Handle password update
   const handlePasswordUpdate = async (e) => {
     e.preventDefault();
-    
+
     // Validate passwords
     if (!currentPassword || !newPassword || !confirmPassword) {
       toast.warn(t("settings.fillAllFields"));
       return;
     }
-    
+
     if (newPassword.length < 8) {
       toast.warn(t("settings.passwordTooShort"));
       return;
     }
-    
+
     if (newPassword !== confirmPassword) {
       toast.error(t("settings.passwordsDoNotMatch"));
       return;
     }
-    
+
     try {
       setLoading(true);
-      
+
       const passwordData = {
         currentPassword,
-        newPassword
+        newPassword,
       };
-      
+
       const response = await updatePassword(passwordData);
-      
+
       if (response.status === 200) {
         toast.success(t("settings.passwordUpdateSuccess"));
         // Clear password fields
@@ -184,7 +192,7 @@ const Settings = () => {
       }
     } catch (error) {
       console.error("Password update error:", error);
-      
+
       if (error.response && error.response.status === 401) {
         toast.error(t("settings.currentPasswordIncorrect"));
       } else {
@@ -205,37 +213,47 @@ const Settings = () => {
 
   return (
     <div className="settings-container">
-      <ToastContainer autoClose={3000} theme="colored" position="bottom-right" />
-      
+      <ToastContainer
+        autoClose={3000}
+        theme="colored"
+        position="bottom-right"
+      />
+
       <div className="settings-card">
         <div className="settings-header">
           <h2>{t("settings.title")}</h2>
           <p>{t("settings.subtitle")}</p>
         </div>
-        
+
         <div className="settings-tabs">
-          <button 
-            className={`tab-button ${activeTab === 'profile' ? 'active' : ''}`}
-            onClick={() => setActiveTab('profile')}
+          <button
+            className={`tab-button ${activeTab === "profile" ? "active" : ""}`}
+            onClick={() => setActiveTab("profile")}
           >
-            {t("settings.profileTab")}
+            <div className="tab-icon-wrapper">
+              <FaUser className="tab-icon" />
+              <span>{t("settings.profileTab")}</span>
+            </div>
           </button>
-          <button 
-            className={`tab-button ${activeTab === 'security' ? 'active' : ''}`}
-            onClick={() => setActiveTab('security')}
+          <button
+            className={`tab-button ${activeTab === "security" ? "active" : ""}`}
+            onClick={() => setActiveTab("security")}
           >
-            {t("settings.securityTab")}
+            <div className="tab-icon-wrapper">
+              <MdSecurity className="tab-icon" />
+              <span>{t("settings.securityTab")}</span>
+            </div>
           </button>
         </div>
-        
+
         <div className="settings-content">
-          {activeTab === 'profile' && (
+          {activeTab === "profile" && (
             <form className="settings-form" onSubmit={handleProfileUpdate}>
               <div className="avatar-upload">
                 <div className="avatar-preview">
-                  <img 
-                    src={previewUrl || defaultAvatar} 
-                    alt={t("settings.profilePicture")} 
+                  <img
+                    src={previewUrl || defaultAvatar}
+                    alt={t("settings.profilePicture")}
                     className="avatar-image"
                   />
                   <div className="avatar-edit">
@@ -252,24 +270,23 @@ const Settings = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="email">{t("settings.email")}</label>
                 <div className="input-with-icon">
-                  <FaEnvelope className="icon" />
                   <input
                     type="email"
                     id="email"
                     value={user?.email || ""}
                     disabled
                   />
+                  <FaEnvelope className="icon" />
                 </div>
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="displayName">{t("settings.displayName")}</label>
                 <div className="input-with-icon">
-                  <FaUser className="icon" />
                   <input
                     type="text"
                     id="displayName"
@@ -277,12 +294,13 @@ const Settings = () => {
                     onChange={(e) => setDisplayName(e.target.value)}
                     placeholder={t("settings.enterDisplayName")}
                   />
+                  <FaUserEdit className="icon" />
                 </div>
               </div>
-              
+
               <div className="form-actions">
-                <button 
-                  type="submit" 
+                <button
+                  type="submit"
                   className="primary-button"
                   disabled={loading}
                 >
@@ -290,20 +308,24 @@ const Settings = () => {
                     <span className="button-spinner"></span>
                   ) : (
                     <>
-                      <FaSave /> {t("settings.saveChanges")}
+                      <div className="button-icon-wrapper">
+                        <FaSave />
+                      </div>
+                      {t("settings.saveChanges")}
                     </>
                   )}
                 </button>
               </div>
             </form>
           )}
-          
-          {activeTab === 'security' && (
+
+          {activeTab === "security" && (
             <form className="settings-form" onSubmit={handlePasswordUpdate}>
               <div className="form-group">
-                <label htmlFor="currentPassword">{t("settings.currentPassword")}</label>
+                <label htmlFor="currentPassword">
+                  {t("settings.currentPassword")}
+                </label>
                 <div className="input-with-icon">
-                  <MdLock className="icon" />
                   <input
                     type="password"
                     id="currentPassword"
@@ -311,13 +333,13 @@ const Settings = () => {
                     onChange={(e) => setCurrentPassword(e.target.value)}
                     placeholder={t("settings.enterCurrentPassword")}
                   />
+                  <MdLock className="icon" />
                 </div>
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="newPassword">{t("settings.newPassword")}</label>
                 <div className="input-with-icon">
-                  <MdLock className="icon" />
                   <input
                     type="password"
                     id="newPassword"
@@ -325,13 +347,15 @@ const Settings = () => {
                     onChange={(e) => setNewPassword(e.target.value)}
                     placeholder={t("settings.enterNewPassword")}
                   />
+                  <RiLockPasswordFill className="icon" />
                 </div>
               </div>
-              
+
               <div className="form-group">
-                <label htmlFor="confirmPassword">{t("settings.confirmPassword")}</label>
+                <label htmlFor="confirmPassword">
+                  {t("settings.confirmPassword")}
+                </label>
                 <div className="input-with-icon">
-                  <MdLock className="icon" />
                   <input
                     type="password"
                     id="confirmPassword"
@@ -339,21 +363,28 @@ const Settings = () => {
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     placeholder={t("settings.confirmNewPassword")}
                   />
+                  <RiShieldUserFill className="icon" />
                 </div>
               </div>
-              
+
               <div className="password-requirements">
                 <p>{t("settings.passwordRequirements")}</p>
                 <ul>
-                  <li className={newPassword.length >= 8 ? "valid" : ""}>{t("settings.minChars")}</li>
-                  <li className={/[A-Z]/.test(newPassword) ? "valid" : ""}>{t("settings.upperCase")}</li>
-                  <li className={/[0-9]/.test(newPassword) ? "valid" : ""}>{t("settings.number")}</li>
+                  <li className={newPassword.length >= 8 ? "valid" : ""}>
+                    {t("settings.minChars")}
+                  </li>
+                  <li className={/[A-Z]/.test(newPassword) ? "valid" : ""}>
+                    {t("settings.upperCase")}
+                  </li>
+                  <li className={/[0-9]/.test(newPassword) ? "valid" : ""}>
+                    {t("settings.number")}
+                  </li>
                 </ul>
               </div>
-              
+
               <div className="form-actions">
-                <button 
-                  type="submit" 
+                <button
+                  type="submit"
                   className="primary-button"
                   disabled={loading}
                 >
@@ -361,7 +392,10 @@ const Settings = () => {
                     <span className="button-spinner"></span>
                   ) : (
                     <>
-                      <FaSave /> {t("settings.updatePassword")}
+                      <div className="button-icon-wrapper">
+                        <FaShieldAlt />
+                      </div>
+                      {t("settings.updatePassword")}
                     </>
                   )}
                 </button>

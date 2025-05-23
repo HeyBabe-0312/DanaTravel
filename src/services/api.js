@@ -23,9 +23,9 @@ export const getMe = () => {
 };
 
 export const updateProfile = (profileData) => {
-  return axios.put("/api/profile", profileData, getAuthHeader());
+  return axios.put("/profile", profileData, getAuthHeader());
 };
 
 export const updatePassword = (passwordData) => {
-  return axios.put("/api/profile/password", passwordData, getAuthHeader());
+  return axios.put("/profile/password", passwordData, getAuthHeader());
 };
