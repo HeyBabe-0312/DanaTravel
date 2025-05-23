@@ -1,6 +1,8 @@
 // Vietnamese translations
 const viTranslations = {
   translation: {
+    showMore: "Xem thêm",
+    hide: "Ẩn bớt",
     settings: {
       title: "Cài đặt tài khoản",
       subtitle: "Quản lý thông tin và bảo mật tài khoản của bạn",

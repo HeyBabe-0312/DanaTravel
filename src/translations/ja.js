@@ -1,6 +1,8 @@
 // Japanese translations
 const jaTranslations = {
   translation: {
+    showMore: "もっと見る",
+    hide: "隠す",
     settings: {
       title: "アカウント設定",
       subtitle: "アカウント情報とセキュリティを管理する",

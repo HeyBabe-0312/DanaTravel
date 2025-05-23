@@ -17,6 +17,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
   const [mapShow, setMapShow] = useState("mapShow");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isIframeLoading, setIsIframeLoading] = useState(true);
+  const [isContentCollapsed, setIsContentCollapsed] = useState(true);
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -290,7 +291,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
               <div className="comment" data-aos="fade-up">
                 <div className="guide">{t("guide")}</div>
                 <div
-                  className="review"
+                  className={`review ${isContentCollapsed ? "collapsed" : ""}`}
                   dangerouslySetInnerHTML={{
                     __html:
                       i18n.language === "vi"
@@ -298,6 +299,12 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                         : dataLocation[0].detail_describe2,
                   }}
                 />
+                <button
+                  className="toggle-button"
+                  onClick={() => setIsContentCollapsed(!isContentCollapsed)}
+                >
+                  {isContentCollapsed ? t("showMore") : t("hide")}
+                </button>
               </div>
               <div className="relativeLct" data-aos="fade-up">
                 <div className="titleRelative">{t("suggest_title")}</div>
