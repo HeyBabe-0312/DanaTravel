@@ -1,12 +1,19 @@
 /* LocationReviews.css */
 .location-reviews {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+  margin: 0;
+  padding: 1rem 1rem;
   background: #f8f9fa;
   border-radius: 16px;
-  margin-top: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e3f2fd;
+}
+
+/* Desktop styles */
+@media screen and (min-width: 769px) {
+  .location-reviews {
+    padding: 2rem 2rem;
+  }
 }
 
 .reviews-header {
@@ -285,7 +292,6 @@
 @media (max-width: 768px) {
   .location-reviews {
     padding: 1.5rem 1rem;
-    margin-top: 1.5rem;
   }
 
   .reviews-header {

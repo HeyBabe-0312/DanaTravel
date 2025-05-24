@@ -1,7 +1,11 @@
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
-  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
@@ -22,15 +26,18 @@
   width: 100%;
   height: 100%;
   display: grid;
-  border-radius: 25px;
-  background: var(--cardBG);
-  box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  border: 1px solid #e3f2fd;
+  transition: all 0.3s ease;
 }
 .bgRelative .itemRelative:hover {
-  background: var(--whiteColorDeam);
-  box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
-  transition: 0.3s ease;
+  background: #f8f9fa;
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.15);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
 }
 .bgRelative .itemRelative .imgRelative {
   height: 150px;
@@ -41,7 +48,7 @@
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 2s ease;
 }
 .bgRelative .itemRelative .imgRelative:hover img {
@@ -54,16 +61,16 @@
 }
 .bgRelative .itemRelative .itemInfo .titleInfo {
   max-width: 83%;
-  color: var(--blackColor);
+  color: #2c3e50;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 600;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .bgRelative .itemRelative .itemInfo .stars .star-rv {
   position: relative;
-  color: #10B5CB;
+  color: #2196f3;
   top: 2px;
 }
 
@@ -71,4 +78,4 @@
   .bgRelative .itemRelative .itemInfo {
     display: block;
   }
-}/*# sourceMappingURL=relativeLct.css.map */
+} /*# sourceMappingURL=relativeLct.css.map */

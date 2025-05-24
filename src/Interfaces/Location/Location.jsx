@@ -288,8 +288,9 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                 </div>
               </div>
             </div>
-            <div className="grid-container">
-              <div className="comment" data-aos="fade-up">
+            {/* Preview Section - Full Width */}
+            <div className="preview-section" data-aos="fade-up">
+              <div className="comment">
                 <div className="guide">{t("guide")}</div>
                 <div
                   className={`review ${isContentCollapsed ? "collapsed" : ""}`}
@@ -307,15 +308,22 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                   {isContentCollapsed ? t("showMore") : t("hide")}
                 </button>
               </div>
-              <div className="relativeLct" data-aos="fade-up">
-                <div className="titleRelative">{t("suggest_title")}</div>
-                <RelativeLct data={dataRelative} />
-              </div>
             </div>
 
-            {/* Location Reviews Section */}
-            <div className="reviews-section" data-aos="fade-up">
-              <LocationReviews id={dataLocation[0].id_location} />
+            {/* Reviews and Suggested Locations Container */}
+            <div className="reviews-suggested-container">
+              {/* Location Reviews Section */}
+              <div className="reviews-section" data-aos="fade-up">
+                <LocationReviews id={dataLocation[0].id_location} />
+              </div>
+
+              {/* Suggested Locations Section */}
+              <div className="suggested-section">
+                <div className="relativeLct">
+                  <div className="titleRelative">{t("suggest_title")}</div>
+                  <RelativeLct data={dataRelative} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
