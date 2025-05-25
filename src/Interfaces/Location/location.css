@@ -1246,6 +1246,11 @@
   margin-top: 1rem;
   transition: background-color 0.3s ease;
   font-size: 0.9rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  text-align: center;
 }
 
 /* Desktop styles for button */

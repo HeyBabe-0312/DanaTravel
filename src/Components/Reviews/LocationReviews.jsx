@@ -11,6 +11,8 @@ import {
   dislikeComment,
   removeDislikeComment,
   getRatingSummary,
+  updateComment,
+  deleteComment,
 } from "../../services/api";
 import ReviewForm from "./ReviewForm";
 import ReviewList from "./ReviewList";
@@ -207,6 +209,72 @@ const LocationReviews = ({ id }) => {
     }
   };
 
+  const handleEditReview = async (reviewId, reviewData) => {
+    try {
+      const response = await updateComment(reviewId, reviewData);
+
+      if (response.data.success) {
+        // Update the review in state
+        setReviews((prev) =>
+          prev.map((review) => {
+            if (review._id === reviewId) {
+              return {
+                ...review,
+                title: reviewData.title,
+                description: reviewData.description,
+                rating: reviewData.rating,
+                updatedAt: new Date().toISOString(),
+              };
+            }
+            return review;
+          })
+        );
+
+        // Refresh rating summary
+        await fetchRatingSummary();
+      } else {
+        throw new Error(
+          response.data.message || t("reviews.errors.updatingReview")
+        );
+      }
+    } catch (error) {
+      console.error("Error editing review:", error);
+      throw error;
+    }
+  };
+
+  const handleDeleteReview = async (reviewId) => {
+    try {
+      const response = await deleteComment(reviewId);
+
+      if (response.data.success) {
+        // Remove the review from state
+        setReviews((prev) => prev.filter((review) => review._id !== reviewId));
+
+        // Update pagination if needed
+        if (reviews.length === 1 && pagination.currentPage > 1) {
+          // If this was the last review on a page and we're not on page 1
+          const newPage = pagination.currentPage - 1;
+          setPagination((prev) => ({ ...prev, currentPage: newPage }));
+          await fetchReviews(newPage);
+        } else {
+          // Just refresh the current page
+          await fetchReviews(pagination.currentPage);
+        }
+
+        // Refresh rating summary
+        await fetchRatingSummary();
+      } else {
+        throw new Error(
+          response.data.message || t("reviews.errors.deletingReview")
+        );
+      }
+    } catch (error) {
+      console.error("Error deleting review:", error);
+      throw error;
+    }
+  };
+
   const handlePageChange = (page) => {
     setPagination((prev) => ({ ...prev, currentPage: page }));
     // Scroll to top of reviews section
@@ -342,6 +410,8 @@ const LocationReviews = ({ id }) => {
           reviews={reviews}
           onLikeToggle={handleLikeToggle}
           onDislikeToggle={handleDislikeToggle}
+          onEditReview={handleEditReview}
+          onDeleteReview={handleDeleteReview}
           isLoading={isLoading}
           currentUser={user}
         />

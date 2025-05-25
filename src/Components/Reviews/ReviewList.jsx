@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   AiFillStar,
   AiOutlineStar,
@@ -7,20 +7,49 @@ import {
   AiOutlineDislike,
   AiFillDislike,
 } from "react-icons/ai";
-import { FaUser } from "react-icons/fa";
+import { FaUser, FaEdit, FaTrash, FaEllipsisV } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n";
+import EditReviewModal from "./EditReviewModal";
+import ConfirmDeleteModal from "./ConfirmDeleteModal";
 import "./ReviewList.css";
 
 const ReviewList = ({
   reviews,
   onLikeToggle,
   onDislikeToggle,
+  onEditReview,
+  onDeleteReview,
   isLoading,
   currentUser,
 }) => {
   const { t } = useTranslation();
   const [actionLoading, setActionLoading] = useState({});
+  const [editModalOpen, setEditModalOpen] = useState(false);
+  const [deleteModalOpen, setDeleteModalOpen] = useState(false);
+  const [selectedReview, setSelectedReview] = useState(null);
+  const [dropdownOpen, setDropdownOpen] = useState(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Check if the clicked element is part of a dropdown menu or options button
+      const isDropdownClick =
+        event.target.closest(".dropdown-menu") ||
+        event.target.closest(".options-button");
+
+      if (!isDropdownClick) {
+        setDropdownOpen(null);
+      }
+    };
+
+    if (dropdownOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }
+  }, [dropdownOpen]);
 
   const renderStars = (rating) => {
     return [...Array(5)].map((_, index) => {
@@ -74,6 +103,52 @@ const ReviewList = ({
     } finally {
       setActionLoading((prev) => ({ ...prev, [`dislike-${reviewId}`]: false }));
     }
+  };
+
+  const handleEditClick = (review) => {
+    console.log("Edit clicked for review:", review._id);
+    setSelectedReview(review);
+    setEditModalOpen(true);
+    setDropdownOpen(null);
+  };
+
+  const handleDeleteClick = (review) => {
+    console.log("Delete clicked for review:", review._id);
+    setSelectedReview(review);
+    setDeleteModalOpen(true);
+    setDropdownOpen(null);
+  };
+
+  const handleEditSubmit = async (reviewData) => {
+    try {
+      await onEditReview(selectedReview._id, reviewData);
+      setEditModalOpen(false);
+      setSelectedReview(null);
+    } catch (error) {
+      console.error("Error editing review:", error);
+      throw error;
+    }
+  };
+
+  const handleDeleteConfirm = async () => {
+    try {
+      await onDeleteReview(selectedReview._id);
+      setDeleteModalOpen(false);
+      setSelectedReview(null);
+    } catch (error) {
+      console.error("Error deleting review:", error);
+      throw error;
+    }
+  };
+
+  const toggleDropdown = (reviewId) => {
+    setDropdownOpen(dropdownOpen === reviewId ? null : reviewId);
+  };
+
+  const canEditOrDelete = (review) => {
+    return (
+      currentUser && review.userId && review.userId._id === currentUser._id
+    );
   };
 
   if (isLoading) {
@@ -130,6 +205,41 @@ const ReviewList = ({
                 </div>
               </div>
             </div>
+            {canEditOrDelete(review) && (
+              <div className="review-options">
+                <button
+                  className="options-button"
+                  onClick={() => toggleDropdown(review._id)}
+                  title={t("reviews.list.options")}
+                >
+                  <FaEllipsisV />
+                </button>
+                {dropdownOpen === review._id && (
+                  <div className="dropdown-menu">
+                    <button
+                      className="dropdown-item edit-item"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleEditClick(review);
+                      }}
+                    >
+                      <FaEdit />
+                      {t("reviews.list.edit")}
+                    </button>
+                    <button
+                      className="dropdown-item delete-item"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleDeleteClick(review);
+                      }}
+                    >
+                      <FaTrash />
+                      {t("reviews.list.delete")}
+                    </button>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
           <div className="review-content">
@@ -188,6 +298,32 @@ const ReviewList = ({
           </div>
         </div>
       ))}
+
+      {/* Edit Review Modal */}
+      {editModalOpen && selectedReview && (
+        <EditReviewModal
+          isOpen={editModalOpen}
+          onClose={() => {
+            setEditModalOpen(false);
+            setSelectedReview(null);
+          }}
+          onSubmit={handleEditSubmit}
+          review={selectedReview}
+        />
+      )}
+
+      {/* Delete Confirmation Modal */}
+      {deleteModalOpen && selectedReview && (
+        <ConfirmDeleteModal
+          isOpen={deleteModalOpen}
+          onClose={() => {
+            setDeleteModalOpen(false);
+            setSelectedReview(null);
+          }}
+          onConfirm={handleDeleteConfirm}
+          reviewTitle={selectedReview.title}
+        />
+      )}
     </div>
   );
 };

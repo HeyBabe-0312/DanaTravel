@@ -77,3 +77,11 @@ export const unlikeComment = (commentId) => {
 export const removeDislikeComment = (commentId) => {
   return axios.delete(`/comments/${commentId}/dislike`, getAuthHeader());
 };
+
+export const updateComment = (commentId, commentData) => {
+  return axios.put(`/comments/${commentId}`, commentData, getAuthHeader());
+};
+
+export const deleteComment = (commentId) => {
+  return axios.delete(`/comments/${commentId}`, getAuthHeader());
+};
