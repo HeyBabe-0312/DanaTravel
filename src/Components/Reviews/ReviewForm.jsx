@@ -3,7 +3,7 @@ import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 import "./ReviewForm.css";
 
-const ReviewForm = ({ onSubmitReview, isLoading }) => {
+const ReviewForm = ({ onSubmit, isLoading }) => {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
     rating: 0,
@@ -40,7 +40,7 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
     }
 
     try {
-      await onSubmitReview(formData);
+      await onSubmit(formData);
       // Reset form on successful submission
       setFormData({
         rating: 0,
@@ -97,7 +97,10 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
       <form onSubmit={handleSubmit} className="review-form">
         {/* Star Rating */}
         <div className="form-group">
-          <label className="form-label">{t("reviews.form.rating")} *</label>
+          <label className="form-label">
+            {t("reviews.form.rating")}
+            <span style={{ color: "red" }}> *</span>
+          </label>
           <div className="stars-container">
             {renderStars()}
             <span className="rating-text">
@@ -114,7 +117,8 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
         {/* Title */}
         <div className="form-group">
           <label className="form-label" htmlFor="review-title">
-            {t("reviews.form.reviewTitle")} *
+            {t("reviews.form.reviewTitle")}
+            <span style={{ color: "red" }}> *</span>
           </label>
           <input
             id="review-title"
@@ -134,7 +138,8 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
         {/* Description */}
         <div className="form-group">
           <label className="form-label" htmlFor="review-description">
-            {t("reviews.form.yourReview")} *
+            {t("reviews.form.yourReview")}
+            <span style={{ color: "red" }}> *</span>
           </label>
           <textarea
             id="review-description"
