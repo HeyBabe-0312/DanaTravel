@@ -152,6 +152,7 @@
   margin: auto;
   padding: 10px 20px;
   border-radius: 15px;
+  text-align: center;
 }
 .main .btn-more:hover {
   background: var(--SecondaryColor);
