@@ -67,7 +67,7 @@
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 2s ease;
 }
 .main .secContent .singleDestination .imageDiv:hover img {
@@ -133,6 +133,7 @@
   font-weight: 500;
   max-height: 102px;
   min-width: 0;
+  line-height: 1.4;
 }
 .main .secContent .singleDestination .cardInfo .btn {
   margin-top: 1rem;
@@ -218,4 +219,4 @@
     width: 25px;
     height: 25px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
