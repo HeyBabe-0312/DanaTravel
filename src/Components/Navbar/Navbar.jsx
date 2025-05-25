@@ -67,7 +67,7 @@ const Navbar = () => {
     fetchUserData();
 
     // Show success message
-    toast.success("Logged out successfully!");
+    toast.success(t("auth.logoutSuccess"));
 
     // Hide the logout confirmation modal
     setShowLogoutModal(false);

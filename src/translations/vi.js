@@ -68,6 +68,7 @@ const viTranslations = {
         cancel: "Hủy",
         confirm: "Đăng xuất",
       },
+      logoutSuccess: "Đăng xuất thành công!",
     },
     copy: "Địa chỉ đã được sao chép!",
     location: {
@@ -397,6 +398,16 @@ const viTranslations = {
         somethingWentWrong: "Đã có lỗi xảy ra",
         tryAgainLater: "Vui lòng thử lại sau",
       },
+    },
+    profile: {
+      updateSuccess: "Cập nhật thông tin thành công!",
+    },
+    changePass: {
+      fillAllFields: "Vui lòng điền đầy đủ tất cả các trường!",
+      passwordTooShort: "Mật khẩu quá ngắn (ít nhất 8 ký tự)!",
+      passwordSame: "Mật khẩu mới không được trùng với mật khẩu hiện tại!",
+      passwordNotMatch: "Mật khẩu mới và xác nhận mật khẩu không khớp!",
+      updateSuccess: "Cập nhật mật khẩu thành công!",
     },
   },
 };

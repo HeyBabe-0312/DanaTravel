@@ -69,6 +69,7 @@ const jaTranslations = {
         cancel: "キャンセル",
         confirm: "ログアウト",
       },
+      logoutSuccess: "ログアウトに成功しました！",
     },
     copy: "住所がコピーされました！",
     location: {
@@ -390,6 +391,16 @@ const jaTranslations = {
         somethingWentWrong: "問題が発生しました",
         tryAgainLater: "後でもう一度お試しください",
       },
+    },
+    profile: {
+      updateSuccess: "情報が正常に更新されました！",
+    },
+    changePass: {
+      fillAllFields: "すべての項目を入力してください！",
+      passwordTooShort: "パスワードが短すぎます（8文字以上必要です）！",
+      passwordSame: "新しいパスワードは現在のパスワードと同じにできません！",
+      passwordNotMatch: "新しいパスワードと確認用パスワードが一致しません！",
+      updateSuccess: "パスワードが正常に更新されました！",
     },
   },
 };
