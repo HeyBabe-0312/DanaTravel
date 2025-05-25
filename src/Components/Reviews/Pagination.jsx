@@ -58,8 +58,9 @@ const Pagination = ({
     <div className="pagination-container">
       <div className="pagination-info">
         <span className="pagination-text">
-          {t("Showing")} {startItem}-{endItem} {t("of")} {totalItems}{" "}
-          {t("reviews")}
+          {t("reviews.pagination.showing")} {startItem}-{endItem}{" "}
+          {t("reviews.pagination.of")} {totalItems}{" "}
+          {t("reviews.pagination.results")}
         </span>
       </div>
 
@@ -68,10 +69,12 @@ const Pagination = ({
           className="pagination-button prev-button"
           onClick={() => handlePageClick(currentPage - 1)}
           disabled={currentPage === 1 || isLoading}
-          title={t("Previous page")}
+          title={t("reviews.pagination.previousPage")}
         >
           <MdNavigateBefore className="pagination-icon" />
-          <span className="pagination-label">{t("Previous")}</span>
+          <span className="pagination-label">
+            {t("reviews.pagination.previous")}
+          </span>
         </button>
 
         <div className="pagination-numbers">
@@ -93,9 +96,11 @@ const Pagination = ({
           className="pagination-button next-button"
           onClick={() => handlePageClick(currentPage + 1)}
           disabled={currentPage === totalPages || isLoading}
-          title={t("Next page")}
+          title={t("reviews.pagination.nextPage")}
         >
-          <span className="pagination-label">{t("Next")}</span>
+          <span className="pagination-label">
+            {t("reviews.pagination.next")}
+          </span>
           <MdNavigateNext className="pagination-icon" />
         </button>
       </div>

@@ -399,7 +399,7 @@
 .detailLct .bg-detailLct .detailMain .reviews-suggested-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 /* Desktop: Side-by-side layout with 7:3 split */
@@ -407,14 +407,12 @@
   .detailLct .bg-detailLct .detailMain .reviews-suggested-container {
     display: grid;
     grid-template-columns: 60% auto;
-    gap: 2rem;
   }
 }
 @media screen and (min-width: 1200px) {
   .detailLct .bg-detailLct .detailMain .reviews-suggested-container {
     display: grid;
     grid-template-columns: 68% auto;
-    gap: 2rem;
   }
 }
 .detailLct .bg-detailLct .detailMain .grid-container .comment .top-comment {

@@ -318,7 +318,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
               </div>
 
               {/* Suggested Locations Section */}
-              <div className="suggested-section">
+              <div className="suggested-section" data-aos="fade-up">
                 <div className="relativeLct">
                   <div className="titleRelative">{t("suggest_title")}</div>
                   <RelativeLct data={dataRelative} />

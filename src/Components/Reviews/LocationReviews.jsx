@@ -63,17 +63,19 @@ const LocationReviews = ({ id }) => {
           // Calculate review statistics
           calculateReviewStats(response.data.data.comments || []);
         } else {
-          throw new Error(response.data.message || "Failed to fetch reviews");
+          throw new Error(
+            response.data.message || t("reviews.errors.loadingReviews")
+          );
         }
       } catch (error) {
         console.error("Error fetching reviews:", error);
-        setError(error.message || "Failed to load reviews");
+        setError(error.message || t("reviews.errors.loadingReviews"));
         setReviews([]);
       } finally {
         setIsLoading(false);
       }
     },
-    [id, pagination.itemsPerPage]
+    [id, pagination.itemsPerPage, t]
   );
 
   useEffect(() => {
@@ -124,11 +126,13 @@ const LocationReviews = ({ id }) => {
         await fetchReviews(1);
         setPagination((prev) => ({ ...prev, currentPage: 1 }));
       } else {
-        throw new Error(response.data.message || "Failed to submit review");
+        throw new Error(
+          response.data.message || t("reviews.errors.submittingReview")
+        );
       }
     } catch (error) {
       console.error("Error submitting review:", error);
-      setError(error.message || "Failed to submit review");
+      setError(error.message || t("reviews.errors.submittingReview"));
       throw error; // Re-throw to let form handle it
     } finally {
       setIsSubmitting(false);
@@ -229,7 +233,7 @@ const LocationReviews = ({ id }) => {
       <div className="rating-distribution">
         <h4 className="distribution-title">
           <FaChartBar className="chart-icon" />
-          {t("Rating Distribution")}
+          {t("reviews.locationReviews.ratingDistribution")}
         </h4>
         <div className="distribution-bars">
           {[5, 4, 3, 2, 1].map((rating) => {
@@ -261,7 +265,7 @@ const LocationReviews = ({ id }) => {
         <div className="header-content">
           <div className="reviews-title">
             <FaComments className="reviews-icon" />
-            <h2>{t("Reviews & Ratings")}</h2>
+            <h2>{t("reviews.locationReviews.reviewsRatings")}</h2>
           </div>
 
           <div className="reviews-summary">
@@ -274,7 +278,8 @@ const LocationReviews = ({ id }) => {
                   {renderStars(reviewStats.averageRating, "large")}
                 </div>
                 <span className="total-reviews">
-                  {reviewStats.totalReviews} {t("reviews")}
+                  {reviewStats.totalReviews}{" "}
+                  {t("reviews.locationReviews.reviews")}
                 </span>
               </div>
 
@@ -290,11 +295,13 @@ const LocationReviews = ({ id }) => {
               onClick={() => setShowForm(!showForm)}
               disabled={isSubmitting}
             >
-              {showForm ? t("Cancel") : t("Write a Review")}
+              {showForm
+                ? t("reviews.locationReviews.cancel")
+                : t("reviews.form.writeReview")}
             </button>
           ) : (
             <div className="login-prompt">
-              <span>{t("Please login to write a review")}</span>
+              <span>{t("reviews.locationReviews.pleaseLoginToWrite")}</span>
             </div>
           )}
         </div>
@@ -304,7 +311,7 @@ const LocationReviews = ({ id }) => {
         <div className="error-message">
           <p>{error}</p>
           <button onClick={() => fetchReviews(pagination.currentPage)}>
-            {t("Try Again")}
+            {t("reviews.locationReviews.tryAgain")}
           </button>
         </div>
       )}

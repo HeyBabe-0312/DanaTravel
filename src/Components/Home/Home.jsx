@@ -151,8 +151,9 @@ const Home = () => {
                 <option value="NguHanhSon">{t("districts.nguHanhSon")}</option>
                 <option value="LienChieu">{t("districts.lienChieu")}</option>
                 <option value="CamLe">{t("districts.camLe")}</option>
-                <option value="HoaVang">{t("districts.hoaVang")}</option>
                 <option value="ThanhKhe">{t("districts.thanhKhe")}</option>
+                <option value="HoaVang">{t("districts.hoaVang")}</option>
+                <option value="HoangSa">{t("districts.hoangSa")}</option>
               </select>
             </div>
           </div>

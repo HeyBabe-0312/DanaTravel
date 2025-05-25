@@ -17,15 +17,15 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
     const newErrors = {};
 
     if (formData.rating === 0) {
-      newErrors.rating = t("Please select a rating");
+      newErrors.rating = t("reviews.form.pleaseSelectRating");
     }
 
     if (!formData.title.trim()) {
-      newErrors.title = t("Title is required");
+      newErrors.title = t("reviews.form.titleRequired");
     }
 
     if (!formData.description.trim()) {
-      newErrors.description = t("Description is required");
+      newErrors.description = t("reviews.form.descriptionRequired");
     }
 
     setErrors(newErrors);
@@ -90,20 +90,20 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
   return (
     <div className="review-form-container">
       <div className="review-form-header">
-        <h3>{t("Write a Review")}</h3>
-        <p>{t("Share your experience with other travelers")}</p>
+        <h3>{t("reviews.form.writeReview")}</h3>
+        <p>{t("reviews.form.shareExperience")}</p>
       </div>
 
       <form onSubmit={handleSubmit} className="review-form">
         {/* Star Rating */}
         <div className="form-group">
-          <label className="form-label">{t("Rating")} *</label>
+          <label className="form-label">{t("reviews.form.rating")} *</label>
           <div className="stars-container">
             {renderStars()}
             <span className="rating-text">
               {formData.rating > 0 && (
                 <span>
-                  {formData.rating}/5 {t("stars")}
+                  {formData.rating}/5 {t("reviews.form.stars")}
                 </span>
               )}
             </span>
@@ -114,13 +114,13 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
         {/* Title */}
         <div className="form-group">
           <label className="form-label" htmlFor="review-title">
-            {t("Review Title")} *
+            {t("reviews.form.reviewTitle")} *
           </label>
           <input
             id="review-title"
             type="text"
             className={`form-input ${errors.title ? "error" : ""}`}
-            placeholder={t("Summarize your experience")}
+            placeholder={t("reviews.form.summarizeExperience")}
             value={formData.title}
             onChange={(e) => handleInputChange("title", e.target.value)}
             maxLength={100}
@@ -134,12 +134,12 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
         {/* Description */}
         <div className="form-group">
           <label className="form-label" htmlFor="review-description">
-            {t("Your Review")} *
+            {t("reviews.form.yourReview")} *
           </label>
           <textarea
             id="review-description"
             className={`form-textarea ${errors.description ? "error" : ""}`}
-            placeholder={t("Tell us about your experience...")}
+            placeholder={t("reviews.form.tellUsExperience")}
             value={formData.description}
             onChange={(e) => handleInputChange("description", e.target.value)}
             maxLength={500}
@@ -165,10 +165,10 @@ const ReviewForm = ({ onSubmitReview, isLoading }) => {
             {isLoading ? (
               <>
                 <div className="loading-spinner"></div>
-                {t("Submitting...")}
+                {t("reviews.form.submitting")}
               </>
             ) : (
-              t("Submit Review")
+              t("reviews.form.submitReview")
             )}
           </button>
         </div>

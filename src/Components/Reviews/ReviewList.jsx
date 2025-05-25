@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import i18n from "../../i18n";
 import "./ReviewList.css";
 
 const ReviewList = ({
@@ -34,7 +35,9 @@ const ReviewList = ({
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
+    // Use browser's locale or current language from i18n
+    const locale = i18n.language === "ja" ? "ja-JP" : "vi-VN";
+    return date.toLocaleDateString(locale, {
       year: "numeric",
       month: "long",
       day: "numeric",
@@ -43,7 +46,7 @@ const ReviewList = ({
 
   const handleLikeClick = async (reviewId, userHasLiked) => {
     if (!currentUser) {
-      alert(t("Please login to like reviews"));
+      alert(t("reviews.list.pleaseLoginToLike"));
       return;
     }
 
@@ -59,7 +62,7 @@ const ReviewList = ({
 
   const handleDislikeClick = async (reviewId, userHasDisliked) => {
     if (!currentUser) {
-      alert(t("Please login to dislike reviews"));
+      alert(t("reviews.list.pleaseLoginToDislike"));
       return;
     }
 
@@ -77,7 +80,7 @@ const ReviewList = ({
     return (
       <div className="reviews-loading">
         <div className="loading-spinner large"></div>
-        <p>{t("Loading reviews...")}</p>
+        <p>{t("reviews.list.loadingReviews")}</p>
       </div>
     );
   }
@@ -88,8 +91,8 @@ const ReviewList = ({
         <div className="no-reviews-icon">
           <AiOutlineStar />
         </div>
-        <h3>{t("No reviews yet")}</h3>
-        <p>{t("Be the first to share your experience!")}</p>
+        <h3>{t("reviews.list.noReviewsYet")}</h3>
+        <p>{t("reviews.list.beFirstToShare")}</p>
       </div>
     );
   }
@@ -113,7 +116,8 @@ const ReviewList = ({
               </div>
               <div className="reviewer-details">
                 <h4 className="reviewer-name">
-                  {review.userId?.displayName || t("Anonymous User")}
+                  {review.userId?.displayName ||
+                    t("reviews.list.anonymousUser")}
                 </h4>
                 <div className="review-meta">
                   <div className="review-rating">
@@ -141,7 +145,11 @@ const ReviewList = ({
                 }`}
                 onClick={() => handleLikeClick(review._id, review.userHasLiked)}
                 disabled={actionLoading[`like-${review._id}`]}
-                title={review.userHasLiked ? t("Unlike") : t("Like")}
+                title={
+                  review.userHasLiked
+                    ? t("reviews.list.unlike")
+                    : t("reviews.list.like")
+                }
               >
                 {actionLoading[`like-${review._id}`] ? (
                   <div className="loading-spinner small"></div>
@@ -162,7 +170,9 @@ const ReviewList = ({
                 }
                 disabled={actionLoading[`dislike-${review._id}`]}
                 title={
-                  review.userHasDisliked ? t("Remove dislike") : t("Dislike")
+                  review.userHasDisliked
+                    ? t("reviews.list.removeDislike")
+                    : t("reviews.list.dislike")
                 }
               >
                 {actionLoading[`dislike-${review._id}`] ? (
