@@ -226,7 +226,7 @@ const Location = ({ dataAllLct, dataTopic, dataReview }) => {
                           </div>
                           {isIframeLoading && (
                             <div className="iframe-loading">
-                              <div className="loading-spinner"></div>
+                              <div className="loading-spinner2"></div>
                             </div>
                           )}
                           <iframe

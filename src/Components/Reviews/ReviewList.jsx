@@ -26,9 +26,9 @@ const ReviewList = ({
     return [...Array(5)].map((_, index) => {
       const starNumber = index + 1;
       return starNumber <= rating ? (
-        <AiFillStar key={starNumber} className="star-icon filled" />
+        <AiFillStar key={starNumber} className="starIcon filled" />
       ) : (
-        <AiOutlineStar key={starNumber} className="star-icon" />
+        <AiOutlineStar key={starNumber} className="starIcon" />
       );
     });
   };
@@ -108,7 +108,7 @@ const ReviewList = ({
                   <img
                     src={review.userId.avatarUrl}
                     alt={review.userId.displayName}
-                    className="avatar-img"
+                    className="avatarImg"
                   />
                 ) : (
                   <FaUser className="avatar-icon" />
@@ -122,7 +122,7 @@ const ReviewList = ({
                 <div className="review-meta">
                   <div className="review-rating">
                     {renderStars(review.rating)}
-                    <span className="rating-number">({review.rating}/5)</span>
+                    <span className="ratingNumber">({review.rating}/5)</span>
                   </div>
                   <span className="review-date">
                     {formatDate(review.createdAt)}

@@ -117,8 +117,8 @@ const Navbar = () => {
 
               {isLoading ? (
                 <li className="navItem">
-                  <div className="loading-spinner">
-                    <div className="spinner"></div>
+                  <div className="loading-spinner1">
+                    <div className="spinner1"></div>
                   </div>
                 </li>
               ) : isAuthenticated ? (

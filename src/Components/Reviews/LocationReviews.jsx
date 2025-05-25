@@ -10,6 +10,7 @@ import {
   unlikeComment,
   dislikeComment,
   removeDislikeComment,
+  getRatingSummary,
 } from "../../services/api";
 import ReviewForm from "./ReviewForm";
 import ReviewList from "./ReviewList";
@@ -31,12 +32,29 @@ const LocationReviews = ({ id }) => {
     currentPage: 1,
     totalPages: 1,
     totalItems: 0,
-    itemsPerPage: 10,
+    itemsPerPage: 5,
   });
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [error, setError] = useState(null);
+
+  // Fetch rating summary
+  const fetchRatingSummary = useCallback(async () => {
+    try {
+      const response = await getRatingSummary(id);
+      if (response.data.success) {
+        const { averageRating, totalReviews } = response.data.data;
+        setReviewStats((prev) => ({
+          ...prev,
+          totalReviews,
+          averageRating: parseFloat(averageRating),
+        }));
+      }
+    } catch (error) {
+      console.error("Error fetching rating summary:", error);
+    }
+  }, [id]);
 
   // Fetch reviews when component mounts or page changes
   const fetchReviews = useCallback(
@@ -60,8 +78,8 @@ const LocationReviews = ({ id }) => {
             totalItems: response.data.data.pagination.totalComments || 0,
           }));
 
-          // Calculate review statistics
-          calculateReviewStats(response.data.data.comments || []);
+          // Calculate rating distribution from current page reviews
+          calculateRatingDistribution(response.data.data.comments || []);
         } else {
           throw new Error(
             response.data.message || t("reviews.errors.loadingReviews")
@@ -80,24 +98,17 @@ const LocationReviews = ({ id }) => {
 
   useEffect(() => {
     fetchReviews(pagination.currentPage);
-  }, [fetchReviews, pagination.currentPage]);
+    fetchRatingSummary();
+  }, [fetchReviews, fetchRatingSummary, pagination.currentPage]);
 
-  const calculateReviewStats = (reviewsData) => {
+  const calculateRatingDistribution = (reviewsData) => {
     if (!reviewsData || reviewsData.length === 0) {
-      setReviewStats({
-        totalReviews: 0,
-        averageRating: 0,
+      setReviewStats((prev) => ({
+        ...prev,
         ratingDistribution: [0, 0, 0, 0, 0],
-      });
+      }));
       return;
     }
-
-    const totalReviews = reviewsData.length;
-    const totalRating = reviewsData.reduce(
-      (sum, review) => sum + review.rating,
-      0
-    );
-    const averageRating = totalRating / totalReviews;
 
     const distribution = [0, 0, 0, 0, 0];
     reviewsData.forEach((review) => {
@@ -106,11 +117,10 @@ const LocationReviews = ({ id }) => {
       }
     });
 
-    setReviewStats({
-      totalReviews,
-      averageRating: Math.round(averageRating * 10) / 10,
+    setReviewStats((prev) => ({
+      ...prev,
       ratingDistribution: distribution,
-    });
+    }));
   };
 
   const handleReviewSubmit = async (reviewData) => {
@@ -207,15 +217,16 @@ const LocationReviews = ({ id }) => {
   };
 
   const renderStars = (rating, size = "medium") => {
+    const roundRating = Math.round(rating * 2) / 2; // Round to nearest half
     const sizeClass = size === "large" ? "star-large" : "star-medium";
     return [...Array(5)].map((_, index) => {
       const starNumber = index + 1;
-      return starNumber <= Math.floor(rating) ? (
+      return starNumber <= Math.floor(roundRating) ? (
         <AiFillStar
           key={starNumber}
           className={`star-icon filled ${sizeClass}`}
         />
-      ) : starNumber === Math.ceil(rating) && rating % 1 >= 0.5 ? (
+      ) : starNumber === Math.ceil(roundRating) && roundRating % 1 >= 0.5 ? (
         <AiFillStar
           key={starNumber}
           className={`star-icon half-filled ${sizeClass}`}

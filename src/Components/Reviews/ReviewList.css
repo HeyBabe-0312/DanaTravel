@@ -42,9 +42,9 @@
   justify-content: center;
 }
 
-.avatar-img {
-  width: 30px;
-  height: 30px;
+.avatarImg {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -78,7 +78,7 @@
   gap: 0.25rem;
 }
 
-.star-icon {
+.starIcon {
   color: #ddd;
   font-size: 20px;
   width: 20px;
@@ -86,15 +86,16 @@
   transition: color 0.2s ease;
 }
 
-.star-icon.filled {
+.starIcon.filled {
   color: #ffd700;
 }
 
-.rating-number {
+.ratingNumber {
   margin-left: 0.2rem;
   font-size: 0.9rem;
   color: #6c757d;
   font-weight: 500;
+  font-weight: bold;
 }
 
 .review-date {
@@ -301,11 +302,11 @@
     gap: 0.5rem;
   }
 
-  .star-icon {
+  .starIcon {
     font-size: 1rem;
   }
 
-  .rating-number {
+  .ratingNumber {
     font-size: 0.85rem;
   }
 

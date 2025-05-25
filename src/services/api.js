@@ -53,6 +53,11 @@ export const getCommentsBySpot = (spotId, page = 1, limit = 10) => {
   });
 };
 
+// Get rating summary for a spot
+export const getRatingSummary = (spotId) => {
+  return axios.get(`/ratings/${spotId}`);
+};
+
 export const createComment = (commentData) => {
   return axios.post("/comments", commentData, getAuthHeader());
 };
