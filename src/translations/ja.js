@@ -42,6 +42,8 @@ const jaTranslations = {
     auth: {
       signIn: "ログイン",
       signUp: "登録",
+      signingIn: "ログイン中...",
+      signingUp: "登録中...",
       email: "メールアドレス",
       password: "パスワード",
       displayName: "表示名",

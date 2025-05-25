@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaEnvelope, FaUser } from "react-icons/fa";
 import { MdLock } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdOutlineTravelExplore } from "react-icons/md";
-import "./signup.css";
+import "./signup.scss";
 import { registerUser } from "../../services/api"; // Import the API function
 import { toast, ToastContainer } from "react-toastify";
 import { useUser } from "../../contexts/UserContext";
@@ -14,6 +14,8 @@ const Signup = ({ signup, removeSignup }) => {
   const { fetchUserData } = useUser();
   // Get translations
   const { t } = useTranslation();
+  // Loading state
+  const [isLoading, setIsLoading] = useState(false);
 
   const validateEmail = (email) => {
     return String(email)
@@ -54,6 +56,8 @@ const Signup = ({ signup, removeSignup }) => {
       return;
     }
 
+    setIsLoading(true);
+
     try {
       // Using the API endpoint based on user.model.js
       const response = await registerUser({
@@ -86,6 +90,8 @@ const Signup = ({ signup, removeSignup }) => {
       } else {
         toast.error(t("auth.registerFailed"));
       }
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -195,8 +201,19 @@ const Signup = ({ signup, removeSignup }) => {
           </div>
         </form>
         <div className="container-login100">
-          <button className="login100-form-btn" onClick={checkSignup}>
-            {t("auth.signUp")}
+          <button
+            className="login100-form-btn"
+            onClick={checkSignup}
+            disabled={isLoading}
+          >
+            {isLoading ? (
+              <div className="loading-spinner6">
+                <div className="spinner6"></div>
+                <span>{t("auth.signingUp") || "Signing up..."}</span>
+              </div>
+            ) : (
+              t("auth.signUp")
+            )}
           </button>
         </div>
       </div>

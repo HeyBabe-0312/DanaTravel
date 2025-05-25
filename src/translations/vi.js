@@ -41,6 +41,8 @@ const viTranslations = {
     auth: {
       signIn: "Đăng nhập",
       signUp: "Đăng ký",
+      signingIn: "Đang đăng nhập...",
+      signingUp: "Đang đăng ký...",
       email: "Email",
       password: "Mật khẩu",
       displayName: "Tên hiển thị",
