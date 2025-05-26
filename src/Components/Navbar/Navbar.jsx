@@ -191,8 +191,9 @@ const Navbar = () => {
               </li>
 
               {/* Mobile-only icons for bottom of menu */}
-              {isAuthenticated && (
-                <div className="mobile-bottom-icons">
+
+              <div className="mobile-bottom-icons">
+                {isAuthenticated && (
                   <li className="navItem logout-icon-container">
                     <button
                       className="logout-icon-btn"
@@ -203,23 +204,23 @@ const Navbar = () => {
                       <FiLogOut className="logout-icon" />
                     </button>
                   </li>
-                  <li className="navItem language-switcher">
-                    {i18n.language === "vi" ? (
-                      <JP
-                        onClick={() => changeLang("ja")}
-                        width={40}
-                        cursor="pointer"
-                      />
-                    ) : (
-                      <VN
-                        onClick={() => changeLang("vi")}
-                        width={40}
-                        cursor="pointer"
-                      />
-                    )}
-                  </li>
-                </div>
-              )}
+                )}
+                <li className="navItem language-switcher">
+                  {i18n.language === "vi" ? (
+                    <JP
+                      onClick={() => changeLang("ja")}
+                      width={40}
+                      cursor="pointer"
+                    />
+                  ) : (
+                    <VN
+                      onClick={() => changeLang("vi")}
+                      width={40}
+                      cursor="pointer"
+                    />
+                  )}
+                </li>
+              </div>
             </ul>
 
             <div onClick={removeNav} className="closeNavbar">
